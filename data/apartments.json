@@ -339,6 +339,23 @@
       "added_by": "craigslist",
       "added_at": "2026-05-26T17:01:04.124Z",
       "laundry": null
+    },
+    {
+      "id": "cl_7936104096",
+      "url": "https://sfbay.craigslist.org/sfc/apa/d/san-francisco-available-now-at-baker/7936104096.html",
+      "address": "Available now at Baker Beach - 4 bedroom apartment home!",
+      "neighborhood": "Laurel Heights",
+      "price": 6100,
+      "bedrooms": 4,
+      "bathrooms": null,
+      "sqft": 1475,
+      "available": null,
+      "status": "to_see",
+      "laundry": null,
+      "notes": "From Craigslist · posted May 22, 4:22 PM · 37.792,-122.479",
+      "seen_by": [],
+      "added_by": "craigslist",
+      "added_at": "2026-05-26T17:16:19.804Z"
     }
   ]
 }
