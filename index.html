@@ -155,15 +155,9 @@
           <div class="row">
             <label>
               Category
-              <select id="pCategory">
-                <option value="friends">Friends</option>
-                <option value="gym">Climbing gym</option>
-                <option value="restaurant">Restaurant</option>
-                <option value="coffee">Coffee</option>
-                <option value="grocery">Grocery</option>
-                <option value="park">Park</option>
-                <option value="transit">Transit</option>
-              </select>
+              <input id="pCategory" type="text" required list="categoryOptions" placeholder="friends, gym, coffee..." autocomplete="off" />
+              <datalist id="categoryOptions"></datalist>
+              <small>Pick from the dropdown or type a new category.</small>
             </label>
             <label>
               Name

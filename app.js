@@ -464,6 +464,11 @@
 
   function openPlaceModal(idx) {
     const editing = idx != null && state.places[idx];
+    // Build datalist from built-in styles + any custom categories already in use
+    const cats = new Set(Object.keys(PLACE_STYLE));
+    for (const p of state.places) if (p.category) cats.add(p.category);
+    $('categoryOptions').innerHTML = [...cats].sort()
+      .map(c => `<option value="${escapeHtml(c)}"></option>`).join('');
     $('placeTitle').textContent = editing ? 'Edit place' : 'Add place';
     $('pIndex').value = editing ? String(idx) : '';
     $('pCategory').value = editing?.category || 'friends';
@@ -484,7 +489,7 @@
     const existing = idx >= 0 ? state.places[idx] : null;
 
     const place = {
-      category: $('pCategory').value,
+      category: $('pCategory').value.trim().toLowerCase(),
       name: $('pName').value.trim(),
       address: $('pAddress').value.trim(),
       type: $('pType').value.trim(),
