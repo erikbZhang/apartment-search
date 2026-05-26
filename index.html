@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>SF Apartments</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600;9..144,700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="topbar">
+    <div class="topbar-inner">
+      <div class="brand">
+        <span class="brand-mark" aria-hidden="true">
+          <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M3 11.5 12 4l9 7.5" />
+            <path d="M5 10v10h14V10" />
+            <path d="M10 20v-5h4v5" />
+          </svg>
+        </span>
+        <div>
+          <h1>SF Apartments</h1>
+          <p class="brand-sub">A shared list for the hunt</p>
+        </div>
+      </div>
+      <div class="topbar-actions">
+        <span id="syncStatus" class="sync-status"></span>
+        <button id="refreshBtn" class="btn btn-ghost" title="Refresh from GitHub" aria-label="Refresh">
+          <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12a9 9 0 1 1-3-6.7"/><path d="M21 4v5h-5"/></svg>
+        </button>
+        <button id="settingsBtn" class="btn btn-ghost" title="Settings" aria-label="Settings">
+          <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="3"/><path d="M19.4 15a1.7 1.7 0 0 0 .3 1.8l.1.1a2 2 0 1 1-2.8 2.8l-.1-.1a1.7 1.7 0 0 0-1.8-.3 1.7 1.7 0 0 0-1 1.5V21a2 2 0 1 1-4 0v-.1A1.7 1.7 0 0 0 9 19.4a1.7 1.7 0 0 0-1.8.3l-.1.1a2 2 0 1 1-2.8-2.8l.1-.1a1.7 1.7 0 0 0 .3-1.8 1.7 1.7 0 0 0-1.5-1H3a2 2 0 1 1 0-4h.1A1.7 1.7 0 0 0 4.6 9a1.7 1.7 0 0 0-.3-1.8l-.1-.1a2 2 0 1 1 2.8-2.8l.1.1a1.7 1.7 0 0 0 1.8.3H9a1.7 1.7 0 0 0 1-1.5V3a2 2 0 1 1 4 0v.1a1.7 1.7 0 0 0 1 1.5 1.7 1.7 0 0 0 1.8-.3l.1-.1a2 2 0 1 1 2.8 2.8l-.1.1a1.7 1.7 0 0 0-.3 1.8V9a1.7 1.7 0 0 0 1.5 1H21a2 2 0 1 1 0 4h-.1a1.7 1.7 0 0 0-1.5 1z"/></svg>
+        </button>
+        <button id="addBtn" class="btn btn-primary">
+          <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><path d="M12 5v14M5 12h14"/></svg>
+          Add apartment
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <section class="toolbar">
+    <div class="toolbar-inner">
+      <label class="search-field">
+        <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg>
+        <input id="search" type="search" placeholder="Search address, notes, link..." />
+      </label>
+      <select id="filterNeighborhood">
+        <option value="">All neighborhoods</option>
+      </select>
+      <select id="filterStatus">
+        <option value="">All statuses</option>
+        <option value="to_see">To see</option>
+        <option value="saw_it">Saw it</option>
+        <option value="liked">Liked</option>
+        <option value="applied">Applied</option>
+        <option value="rejected">Rejected</option>
+      </select>
+      <select id="sortBy">
+        <option value="added_desc">Newest first</option>
+        <option value="added_asc">Oldest first</option>
+        <option value="price_asc">Price: low to high</option>
+        <option value="price_desc">Price: high to low</option>
+      </select>
+      <span id="count" class="count"></span>
+    </div>
+  </section>
+
+  <div id="readonlyBanner" class="readonly-banner hidden">
+    <span>Preview from local file — configure <strong>Settings</strong> with your GitHub token to edit and share with your friend.</span>
+    <button class="btn btn-primary" onclick="document.getElementById('settingsBtn').click()">Open Settings</button>
+  </div>
+
+  <main id="grid" class="grid"></main>
+
+  <div id="empty" class="empty hidden">
+    <div class="empty-art" aria-hidden="true">
+      <svg viewBox="0 0 64 64" width="56" height="56" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M8 30 32 10l24 20" />
+        <path d="M12 28v26h40V28" />
+        <path d="M26 54V38h12v16" />
+        <path d="M16 36h4M44 36h4" />
+      </svg>
+    </div>
+    <h2>No apartments yet</h2>
+    <p>Drop your first listing and start the hunt.</p>
+    <button class="btn btn-primary" onclick="document.getElementById('addBtn').click()">
+      <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><path d="M12 5v14M5 12h14"/></svg>
+      Add apartment
+    </button>
+  </div>
+
+  <div id="needsSetup" class="empty hidden">
+    <div class="empty-art" aria-hidden="true">
+      <svg viewBox="0 0 64 64" width="56" height="56" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+        <circle cx="32" cy="32" r="20"/>
+        <path d="M32 22v12M32 42v.01"/>
+      </svg>
+    </div>
+    <h2>One quick setup</h2>
+    <p>Add your name, GitHub repo, and a personal access token so the app can sync apartments.</p>
+    <button class="btn btn-primary" onclick="document.getElementById('settingsBtn').click()">Open settings</button>
+  </div>
+
+  <!-- Settings modal -->
+  <div id="settingsModal" class="modal hidden">
+    <div class="modal-card">
+      <div class="modal-header">
+        <h2>Settings</h2>
+        <button class="btn-close" data-close="settingsModal" aria-label="Close">&times;</button>
+      </div>
+      <div class="modal-body">
+        <label>
+          Your name
+          <input id="settingName" type="text" placeholder="e.g. tony" />
+          <small>Used to track who added an apartment and who has seen it.</small>
+        </label>
+        <label>
+          GitHub repo
+          <input id="settingRepo" type="text" placeholder="owner/repo (e.g. tony/apartment-search)" />
+          <small>You and your friend should both point at the same repo.</small>
+        </label>
+        <label>
+          Branch
+          <input id="settingBranch" type="text" placeholder="main" value="main" />
+        </label>
+        <label>
+          GitHub Personal Access Token
+          <input id="settingToken" type="password" placeholder="github_pat_..." />
+          <small>
+            Create one at <a href="https://github.com/settings/tokens?type=beta" target="_blank" rel="noreferrer">github.com/settings/tokens</a>.
+            Fine-grained token with <strong>Contents: Read and write</strong> on this repo. Stored only in your browser.
+          </small>
+        </label>
+        <div class="modal-footer">
+          <button id="testConnection" class="btn btn-ghost">Test connection</button>
+          <span class="spacer"></span>
+          <button class="btn btn-ghost" data-close="settingsModal">Cancel</button>
+          <button id="saveSettings" class="btn btn-primary">Save</button>
+        </div>
+        <p id="settingsMsg" class="msg"></p>
+      </div>
+    </div>
+  </div>
+
+  <!-- Add/Edit modal -->
+  <div id="editModal" class="modal hidden">
+    <div class="modal-card">
+      <div class="modal-header">
+        <h2 id="editTitle">Add apartment</h2>
+        <button class="btn-close" data-close="editModal" aria-label="Close">&times;</button>
+      </div>
+      <div class="modal-body">
+        <form id="editForm">
+          <input type="hidden" id="fId" />
+          <label>
+            Listing URL
+            <input id="fUrl" type="url" placeholder="https://www.zillow.com/..." />
+          </label>
+          <label>
+            Address / nickname
+            <input id="fAddress" type="text" placeholder="123 Valencia St" required />
+          </label>
+          <div class="row">
+            <label>
+              Neighborhood
+              <input id="fNeighborhood" type="text" placeholder="Mission" list="neighborhoods" />
+              <datalist id="neighborhoods">
+                <option>Mission</option>
+                <option>Hayes Valley</option>
+                <option>NOPA</option>
+                <option>Castro</option>
+                <option>SoMa</option>
+                <option>Lower Haight</option>
+                <option>Upper Haight</option>
+                <option>Cole Valley</option>
+                <option>Inner Sunset</option>
+                <option>Outer Sunset</option>
+                <option>Inner Richmond</option>
+                <option>Outer Richmond</option>
+                <option>Nob Hill</option>
+                <option>Russian Hill</option>
+                <option>Pacific Heights</option>
+                <option>Marina</option>
+                <option>North Beach</option>
+                <option>Potrero Hill</option>
+                <option>Dogpatch</option>
+                <option>Bernal Heights</option>
+                <option>Noe Valley</option>
+                <option>Glen Park</option>
+                <option>Mission Bay</option>
+                <option>Polk Gulch</option>
+                <option>Tenderloin</option>
+                <option>Financial District</option>
+                <option>Duboce Triangle</option>
+              </datalist>
+            </label>
+            <label>
+              Price ($/mo)
+              <input id="fPrice" type="number" min="0" step="50" placeholder="3500" />
+            </label>
+          </div>
+          <div class="row">
+            <label>
+              Bedrooms
+              <input id="fBeds" type="number" min="0" step="1" placeholder="1" />
+            </label>
+            <label>
+              Bathrooms
+              <input id="fBaths" type="number" min="0" step="0.5" placeholder="1" />
+            </label>
+            <label>
+              Sqft
+              <input id="fSqft" type="number" min="0" step="50" placeholder="700" />
+            </label>
+          </div>
+          <div class="row">
+            <label>
+              Available
+              <input id="fAvailable" type="date" />
+            </label>
+            <label>
+              Status
+              <select id="fStatus">
+                <option value="to_see">To see</option>
+                <option value="saw_it">Saw it</option>
+                <option value="liked">Liked</option>
+                <option value="applied">Applied</option>
+                <option value="rejected">Rejected</option>
+              </select>
+            </label>
+          </div>
+          <label>
+            Notes
+            <textarea id="fNotes" rows="3" placeholder="Anything worth remembering..."></textarea>
+          </label>
+          <div class="modal-footer">
+            <button type="button" id="deleteBtn" class="btn btn-danger hidden">Delete</button>
+            <span class="spacer"></span>
+            <button type="button" class="btn btn-ghost" data-close="editModal">Cancel</button>
+            <button type="submit" class="btn btn-primary">Save</button>
+          </div>
+        </form>
+        <p id="editMsg" class="msg"></p>
+      </div>
+    </div>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
