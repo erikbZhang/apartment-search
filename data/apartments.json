@@ -95,6 +95,22 @@
       "seen_by": [],
       "added_by": "craigslist",
       "added_at": "2026-05-26T16:35:13.805Z"
+    },
+    {
+      "id": "cl_7936684457",
+      "url": "https://sfbay.craigslist.org/sfc/apa/d/san-francisco-open-tue-740pm-800pm/7936684457.html",
+      "address": "OPEN TUE 7:40pm-8:00pm Spacious 3-2BR,Elev,Laundry(660 Bush #308)",
+      "neighborhood": "Nob Hill",
+      "price": 4200,
+      "bedrooms": 3,
+      "bathrooms": null,
+      "sqft": null,
+      "available": null,
+      "status": "to_see",
+      "notes": "From Craigslist · posted May 25, 4:02 PM · 37.7902,-122.4083",
+      "seen_by": [],
+      "added_by": "craigslist",
+      "added_at": "2026-05-26T16:43:17.884Z"
     }
   ]
 }
