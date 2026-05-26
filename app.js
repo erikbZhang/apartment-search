@@ -4,8 +4,9 @@
 
   // Hardcoded friend addresses. Add more by appending to this list.
   const FRIENDS = [
-    { name: 'Hyper SF',    address: '959 Jackson St',  lat: 37.7954288, lon: -122.4107228 },
-    { name: 'Oak Bloaks',  address: '774 Oak St',      lat: 37.7741145, lon: -122.4321324 },
+    { name: 'Hyper SF',              address: '959 Jackson St', lat: 37.7954288, lon: -122.4107228 },
+    { name: 'Oak Bloaks',            address: '774 Oak St',     lat: 37.7741145, lon: -122.4321324 },
+    { name: 'Vivek, Amos & Matthew', address: '881 Kansas St',  lat: 37.7585695, lon: -122.4028433 },
   ];
 
   const LS_VIEW_KEY = 'apartment-search-view';
