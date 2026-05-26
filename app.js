@@ -551,6 +551,8 @@
     $('fAvailable').value = apt?.available || '';
     $('fStatus').value = apt?.status || 'to_see';
     $('fLaundry').value = apt?.laundry || '';
+    $('fLat').value = apt?.lat ?? '';
+    $('fLon').value = apt?.lon ?? '';
     $('fNotes').value = apt?.notes || '';
     $('editMsg').textContent = '';
     $('editMsg').className = 'msg';
@@ -580,6 +582,8 @@
       available: $('fAvailable').value || '',
       status: $('fStatus').value,
       laundry: $('fLaundry').value || null,
+      lat: numOrNull($('fLat').value),
+      lon: numOrNull($('fLon').value),
       notes: $('fNotes').value,
       seen_by: existing?.seen_by || [],
       added_by: existing?.added_by || state.settings.name,
@@ -589,6 +593,16 @@
     if (!data.address) {
       msg('editMsg', 'Address/nickname is required.', 'error');
       return;
+    }
+
+    // Auto-geocode if no coords given but address looks geocodable
+    if (data.lat == null && data.lon == null && data.address) {
+      msg('editMsg', 'Geocoding address...', '');
+      const geo = await geocodeAddress(data.address, data.neighborhood);
+      if (geo) {
+        data.lat = geo.lat;
+        data.lon = geo.lon;
+      }
     }
 
     const wasNew = !existing;
@@ -658,6 +672,26 @@
     if (v === '' || v == null) return null;
     const n = Number(v);
     return Number.isFinite(n) ? n : null;
+  }
+
+  async function geocodeAddress(address, neighborhood) {
+    try {
+      const parts = [address];
+      if (neighborhood) parts.push(neighborhood);
+      parts.push('San Francisco, CA');
+      const q = parts.join(', ');
+      // SF bounding box: roughly lon -122.55 to -122.35, lat 37.70 to 37.83
+      const url = `https://nominatim.openstreetmap.org/search?q=${encodeURIComponent(q)}&format=json&limit=1&countrycodes=us&viewbox=-122.55,37.83,-122.35,37.70&bounded=1`;
+      const res = await fetch(url, { headers: { 'Accept': 'application/json' } });
+      if (!res.ok) return null;
+      const arr = await res.json();
+      if (!arr.length) return null;
+      const lat = Number(arr[0].lat), lon = Number(arr[0].lon);
+      if (!Number.isFinite(lat) || !Number.isFinite(lon)) return null;
+      return { lat, lon };
+    } catch {
+      return null;
+    }
   }
 
   function msg(id, text, kind) {

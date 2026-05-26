@@ -48,13 +48,13 @@ a:hover { text-decoration: underline; text-underline-offset: 2px; }
 /* ---------- Topbar ---------- */
 
 .topbar {
-  background: rgba(250, 248, 244, 0.85);
+  background: rgba(250, 248, 244, 0.92);
   backdrop-filter: saturate(180%) blur(12px);
   -webkit-backdrop-filter: saturate(180%) blur(12px);
   border-bottom: 1px solid var(--border);
   position: sticky;
   top: 0;
-  z-index: 30;
+  z-index: 1050;
 }
 
 .topbar-inner {
@@ -891,14 +891,14 @@ label small {
 .modal {
   position: fixed;
   inset: 0;
-  background: rgba(28, 25, 23, 0.5);
-  backdrop-filter: blur(4px);
-  -webkit-backdrop-filter: blur(4px);
+  background: rgba(28, 25, 23, 0.65);
+  backdrop-filter: blur(6px);
+  -webkit-backdrop-filter: blur(6px);
   display: flex;
   align-items: flex-start;
   justify-content: center;
   padding: 60px 16px;
-  z-index: 100;
+  z-index: 2000;
   overflow-y: auto;
   animation: fadeIn 0.15s ease;
 }
