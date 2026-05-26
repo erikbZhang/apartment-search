@@ -448,8 +448,8 @@
 
   function styleForHood(name, occupied) {
     const norm = (name || '').toLowerCase().trim();
-    const hit = occupied.has(norm)
-      || [...occupied].some(o => o === norm || norm.includes(o) || o.includes(norm));
+    // Strict match only — alias map handles cross-naming.
+    const hit = occupied.has(norm);
     if (hit) {
       return { fillColor: '#c2410c', fillOpacity: 0.18, color: '#c2410c', weight: 1.8, opacity: 0.9 };
     }
