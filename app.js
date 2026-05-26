@@ -551,8 +551,6 @@
     $('fAvailable').value = apt?.available || '';
     $('fStatus').value = apt?.status || 'to_see';
     $('fLaundry').value = apt?.laundry || '';
-    $('fLat').value = apt?.lat ?? '';
-    $('fLon').value = apt?.lon ?? '';
     $('fNotes').value = apt?.notes || '';
     $('editMsg').textContent = '';
     $('editMsg').className = 'msg';
@@ -582,8 +580,8 @@
       available: $('fAvailable').value || '',
       status: $('fStatus').value,
       laundry: $('fLaundry').value || null,
-      lat: numOrNull($('fLat').value),
-      lon: numOrNull($('fLon').value),
+      lat: existing?.lat ?? null,
+      lon: existing?.lon ?? null,
       notes: $('fNotes').value,
       seen_by: existing?.seen_by || [],
       added_by: existing?.added_by || state.settings.name,
@@ -595,9 +593,9 @@
       return;
     }
 
-    // Auto-geocode if no coords given but address looks geocodable
-    if (data.lat == null && data.lon == null && data.address) {
-      msg('editMsg', 'Geocoding address...', '');
+    // If we don't have coords yet (new apartment, or address was previously ungeocodable), try to geocode now.
+    if (data.lat == null && data.address) {
+      msg('editMsg', 'Locating address on map...', '');
       const geo = await geocodeAddress(data.address, data.neighborhood);
       if (geo) {
         data.lat = geo.lat;
