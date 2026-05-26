@@ -177,6 +177,25 @@
     }[s] || s;
   }
 
+  function laundryLabel(l) {
+    return ({ in_unit: 'In unit', shared: 'Shared', none: 'None' })[l] || '—';
+  }
+  function laundryClass(l) {
+    if (l === 'in_unit') return 'laundry-good';
+    if (l === 'shared') return 'laundry-ok';
+    if (l === 'none') return 'laundry-bad';
+    return 'laundry-unknown';
+  }
+
+  function detectLaundry(text) {
+    if (!text) return null;
+    const t = text.toLowerCase();
+    if (/\b(in[- ]?unit|w\/?d in[- ]?unit|in[- ]?unit w\/?d|laundry in unit|in apartment)\b/.test(t)) return 'in_unit';
+    if (/\b(no laundry|no on[- ]?site laundry)\b/.test(t)) return 'none';
+    if (/\b(on[- ]?site laundry|laundry on[- ]?site|shared laundry|building laundry|laundry room|coin[- ]?op|on site|laundry)\b/.test(t)) return 'shared';
+    return null;
+  }
+
   function fmtPrice(n) {
     if (n == null || n === '') return '';
     return '$' + Number(n).toLocaleString();
@@ -194,6 +213,7 @@
     const q = $('search').value.trim().toLowerCase();
     const nb = $('filterNeighborhood').value;
     const st = $('filterStatus').value;
+    const ld = $('filterLaundry').value;
 
     let list = state.apartments.slice();
     if (q) {
@@ -204,6 +224,9 @@
     }
     if (nb) list = list.filter(a => a.neighborhood === nb);
     if (st) list = list.filter(a => a.status === st);
+    if (ld) {
+      list = list.filter(a => ld === 'unknown' ? !a.laundry : a.laundry === ld);
+    }
 
     if (state.filterBeds !== '') {
       list = list.filter(a => {
@@ -236,6 +259,10 @@
       case 'beds': return a.bedrooms ?? null;
       case 'sqft': return a.sqft ?? null;
       case 'ppsf': return (a.price && a.sqft) ? Math.round(a.price / a.sqft) : null;
+      case 'laundry': {
+        // Rank: in_unit (3) > shared (2) > none (1) > unknown (0)
+        return ({ in_unit: 3, shared: 2, none: 1 })[a.laundry] || 0;
+      }
       case 'status': return a.status || '';
       case 'address': return (a.address || '').toLowerCase();
       case 'posted':
@@ -317,7 +344,7 @@
     } else {
       $('listBody').innerHTML = list.length
         ? list.map(renderRow).join('')
-        : '<tr class="list-empty-row"><td colspan="8">No apartments match the current filters.</td></tr>';
+        : '<tr class="list-empty-row"><td colspan="9">No apartments match the current filters.</td></tr>';
     }
   }
 
@@ -347,6 +374,7 @@
         <td class="num">${beds}</td>
         <td class="num">${sqft}</td>
         <td class="num">${ppsf}</td>
+        <td><span class="pill ${laundryClass(a.laundry)}">${escapeHtml(laundryLabel(a.laundry))}</span></td>
         <td>
           <span class="pill pill-${escapeHtml(a.status)}">${escapeHtml(statusLabel(a.status))}</span>
           ${seenText ? `<div class="seen-by" style="margin-top:3px">${seenText}</div>` : ''}
@@ -392,6 +420,7 @@
       bedLabel,
       a.bathrooms != null && a.bathrooms !== '' ? `${a.bathrooms} ba` : null,
       a.sqft ? `${a.sqft} sqft` : null,
+      a.laundry ? `Laundry: ${laundryLabel(a.laundry)}` : null,
       a.available ? `Avail ${fmtDate(a.available)}` : null,
     ].filter(Boolean);
 
@@ -449,6 +478,7 @@
     $('fSqft').value = apt?.sqft ?? '';
     $('fAvailable').value = apt?.available || '';
     $('fStatus').value = apt?.status || 'to_see';
+    $('fLaundry').value = apt?.laundry || '';
     $('fNotes').value = apt?.notes || '';
     $('editMsg').textContent = '';
     $('editMsg').className = 'msg';
@@ -477,6 +507,7 @@
       sqft: numOrNull($('fSqft').value),
       available: $('fAvailable').value || '',
       status: $('fStatus').value,
+      laundry: $('fLaundry').value || null,
       notes: $('fNotes').value,
       seen_by: existing?.seen_by || [],
       added_by: existing?.added_by || state.settings.name,
@@ -636,7 +667,7 @@
       });
     });
 
-    ['search', 'filterNeighborhood', 'filterStatus'].forEach(id => {
+    ['search', 'filterNeighborhood', 'filterStatus', 'filterLaundry'].forEach(id => {
       $(id).addEventListener('input', render);
       $(id).addEventListener('change', render);
     });

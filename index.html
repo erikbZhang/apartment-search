@@ -58,6 +58,13 @@
         <option value="applied">Applied</option>
         <option value="rejected">Rejected</option>
       </select>
+      <select id="filterLaundry">
+        <option value="">Any laundry</option>
+        <option value="in_unit">In unit</option>
+        <option value="shared">Shared / on-site</option>
+        <option value="none">None</option>
+        <option value="unknown">Unknown</option>
+      </select>
       <div class="view-toggle" role="tablist" aria-label="View">
         <button id="viewList" class="view-btn active" data-view="list" title="List view">
           <svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M3 6h18M3 12h18M3 18h18"/></svg>
@@ -102,6 +109,7 @@
           <th class="sortable num" data-sort="beds">Beds <span class="sort-icon"></span></th>
           <th class="sortable num" data-sort="sqft">Sqft <span class="sort-icon"></span></th>
           <th class="sortable num" data-sort="ppsf">$/sf <span class="sort-icon"></span></th>
+          <th class="sortable" data-sort="laundry">Laundry <span class="sort-icon"></span></th>
           <th class="sortable" data-sort="status">Status <span class="sort-icon"></span></th>
           <th class="sortable num" data-sort="posted">Posted <span class="sort-icon"></span></th>
           <th>Actions</th>
@@ -266,6 +274,15 @@
                 <option value="liked">Liked</option>
                 <option value="applied">Applied</option>
                 <option value="rejected">Rejected</option>
+              </select>
+            </label>
+            <label>
+              Laundry
+              <select id="fLaundry">
+                <option value="">Unknown</option>
+                <option value="in_unit">In unit</option>
+                <option value="shared">Shared / on-site</option>
+                <option value="none">None</option>
               </select>
             </label>
           </div>

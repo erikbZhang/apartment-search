@@ -14,7 +14,8 @@
       "notes": "From Craigslist · posted May 20, 8:15 PM · 37.788,-122.4183",
       "seen_by": [],
       "added_by": "craigslist",
-      "added_at": "2026-05-26T16:35:13.805Z"
+      "added_at": "2026-05-26T16:35:13.805Z",
+      "laundry": "in_unit"
     },
     {
       "id": "cl_7934131194",
@@ -30,7 +31,8 @@
       "notes": "From Craigslist · posted May 13, 6:29 PM · 37.7935,-122.4193",
       "seen_by": [],
       "added_by": "craigslist",
-      "added_at": "2026-05-26T16:35:13.805Z"
+      "added_at": "2026-05-26T16:35:13.805Z",
+      "laundry": null
     },
     {
       "id": "cl_7934580448",
@@ -46,7 +48,8 @@
       "notes": "From Craigslist · posted May 15, 5:39 PM · 37.7837,-122.4241",
       "seen_by": [],
       "added_by": "craigslist",
-      "added_at": "2026-05-26T16:35:13.805Z"
+      "added_at": "2026-05-26T16:35:13.805Z",
+      "laundry": null
     },
     {
       "id": "cl_7933893508",
@@ -62,7 +65,8 @@
       "notes": "From Craigslist · posted May 12, 4:22 PM · 37.7837,-122.4241",
       "seen_by": [],
       "added_by": "craigslist",
-      "added_at": "2026-05-26T16:35:13.805Z"
+      "added_at": "2026-05-26T16:35:13.805Z",
+      "laundry": null
     },
     {
       "id": "cl_7936684015",
@@ -78,7 +82,8 @@
       "notes": "From Craigslist · posted May 25, 4:00 PM · 37.7712,-122.4413",
       "seen_by": [],
       "added_by": "craigslist",
-      "added_at": "2026-05-26T16:35:13.805Z"
+      "added_at": "2026-05-26T16:35:13.805Z",
+      "laundry": "shared"
     },
     {
       "id": "cl_7930251983",
@@ -94,7 +99,8 @@
       "notes": "From Craigslist · posted May 3, 4:38 PM · 37.7813,-122.4167",
       "seen_by": [],
       "added_by": "craigslist",
-      "added_at": "2026-05-26T16:35:13.805Z"
+      "added_at": "2026-05-26T16:35:13.805Z",
+      "laundry": null
     },
     {
       "id": "cl_7936684457",
@@ -110,7 +116,8 @@
       "notes": "From Craigslist · posted May 25, 4:02 PM · 37.7902,-122.4083",
       "seen_by": [],
       "added_by": "craigslist",
-      "added_at": "2026-05-26T16:43:17.884Z"
+      "added_at": "2026-05-26T16:43:17.884Z",
+      "laundry": "shared"
     },
     {
       "id": "cl_7933687744",
@@ -126,7 +133,8 @@
       "notes": "From Craigslist · posted May 25, 4:29 PM · 37.709,-122.44",
       "seen_by": [],
       "added_by": "craigslist",
-      "added_at": "2026-05-26T17:01:04.124Z"
+      "added_at": "2026-05-26T17:01:04.124Z",
+      "laundry": null
     },
     {
       "id": "cl_7934290920",
@@ -142,7 +150,8 @@
       "notes": "From Craigslist · posted May 14, 1:34 PM · 37.7621,-122.4169",
       "seen_by": [],
       "added_by": "craigslist",
-      "added_at": "2026-05-26T17:01:04.124Z"
+      "added_at": "2026-05-26T17:01:04.124Z",
+      "laundry": null
     },
     {
       "id": "cl_7936103953",
@@ -158,7 +167,8 @@
       "notes": "From Craigslist · posted May 22, 4:21 PM · 37.7921,-122.4768",
       "seen_by": [],
       "added_by": "craigslist",
-      "added_at": "2026-05-26T17:01:04.124Z"
+      "added_at": "2026-05-26T17:01:04.124Z",
+      "laundry": null
     },
     {
       "id": "cl_7935251860",
@@ -174,7 +184,8 @@
       "notes": "From Craigslist · posted May 18, 8:47 PM · 37.7236,-122.4388",
       "seen_by": [],
       "added_by": "craigslist",
-      "added_at": "2026-05-26T17:01:04.124Z"
+      "added_at": "2026-05-26T17:01:04.124Z",
+      "laundry": null
     },
     {
       "id": "cl_7936521943",
@@ -190,7 +201,8 @@
       "notes": "From Craigslist · posted May 24, 6:56 PM · 37.7593,-122.4836",
       "seen_by": [],
       "added_by": "craigslist",
-      "added_at": "2026-05-26T17:01:04.124Z"
+      "added_at": "2026-05-26T17:01:04.124Z",
+      "laundry": null
     },
     {
       "id": "cl_7934284138",
@@ -206,7 +218,8 @@
       "notes": "From Craigslist · posted May 21, 1:01 PM · 37.7316,-122.4397",
       "seen_by": [],
       "added_by": "craigslist",
-      "added_at": "2026-05-26T17:01:04.124Z"
+      "added_at": "2026-05-26T17:01:04.124Z",
+      "laundry": null
     },
     {
       "id": "cl_7931204782",
@@ -222,7 +235,8 @@
       "notes": "From Craigslist · posted May 21, 12:18 PM · 37.7354,-122.4571",
       "seen_by": [],
       "added_by": "craigslist",
-      "added_at": "2026-05-26T17:01:04.124Z"
+      "added_at": "2026-05-26T17:01:04.124Z",
+      "laundry": null
     },
     {
       "id": "cl_7931468681",
@@ -238,7 +252,8 @@
       "notes": "From Craigslist · posted May 1, 2:04 PM · 37.7807,-122.4048",
       "seen_by": [],
       "added_by": "craigslist",
-      "added_at": "2026-05-26T17:01:04.124Z"
+      "added_at": "2026-05-26T17:01:04.124Z",
+      "laundry": null
     },
     {
       "id": "cl_7930594084",
@@ -254,7 +269,8 @@
       "notes": "From Craigslist · posted Apr 27, 5:55 PM · 37.7807,-122.4048",
       "seen_by": [],
       "added_by": "craigslist",
-      "added_at": "2026-05-26T17:01:04.124Z"
+      "added_at": "2026-05-26T17:01:04.124Z",
+      "laundry": "shared"
     },
     {
       "id": "cl_7933689430",
@@ -270,7 +286,8 @@
       "notes": "From Craigslist · posted May 11, 6:40 PM · 37.7807,-122.4048",
       "seen_by": [],
       "added_by": "craigslist",
-      "added_at": "2026-05-26T17:01:04.124Z"
+      "added_at": "2026-05-26T17:01:04.124Z",
+      "laundry": "shared"
     },
     {
       "id": "cl_7930531568",
@@ -286,7 +303,8 @@
       "notes": "From Craigslist · posted Apr 27, 2:23 PM · 37.7807,-122.4048",
       "seen_by": [],
       "added_by": "craigslist",
-      "added_at": "2026-05-26T17:01:04.124Z"
+      "added_at": "2026-05-26T17:01:04.124Z",
+      "laundry": "shared"
     },
     {
       "id": "cl_7935959421",
@@ -302,7 +320,8 @@
       "notes": "From Craigslist · posted May 24, 1:44 AM · 37.711,-122.441",
       "seen_by": [],
       "added_by": "craigslist",
-      "added_at": "2026-05-26T17:01:04.124Z"
+      "added_at": "2026-05-26T17:01:04.124Z",
+      "laundry": "shared"
     },
     {
       "id": "cl_7931816932",
@@ -318,7 +337,8 @@
       "notes": "From Craigslist · posted May 3, 7:53 AM · 37.7585,-122.4638",
       "seen_by": [],
       "added_by": "craigslist",
-      "added_at": "2026-05-26T17:01:04.124Z"
+      "added_at": "2026-05-26T17:01:04.124Z",
+      "laundry": null
     }
   ]
 }

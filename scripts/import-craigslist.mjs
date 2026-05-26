@@ -173,6 +173,7 @@ for (const l of listings) {
     sqft: l.sqft,
     available: null,
     status: 'to_see',
+    laundry: detectLaundry(l.title),
     notes: `From Craigslist · posted ${formatPosted(l.posted_at)}${l.lat ? ` · ${l.lat},${l.lon}` : ''}`,
     seen_by: [],
     added_by: 'craigslist',
@@ -204,6 +205,15 @@ if (dryRun) {
 function titleCase(s) {
   if (!s) return '';
   return s.replace(/\b([a-z])/g, c => c.toUpperCase());
+}
+
+function detectLaundry(text) {
+  if (!text) return null;
+  const t = text.toLowerCase();
+  if (/\b(in[- ]?unit|w\/?d in[- ]?unit|in[- ]?unit w\/?d|laundry in unit|in apartment)\b/.test(t)) return 'in_unit';
+  if (/\b(no laundry|no on[- ]?site laundry)\b/.test(t)) return 'none';
+  if (/\b(on[- ]?site laundry|laundry on[- ]?site|shared laundry|building laundry|laundry room|coin[- ]?op|on site|laundry)\b/.test(t)) return 'shared';
+  return null;
 }
 
 function formatPosted(iso) {

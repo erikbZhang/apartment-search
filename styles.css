@@ -679,6 +679,12 @@ label small {
 .pill-applied { background: #dbeafe; color: #1e40af; }
 .pill-rejected { background: #fee2e2; color: #991b1b; }
 
+.laundry-good { background: #dcfce7; color: #166534; }
+.laundry-ok { background: #e0f2fe; color: #075985; }
+.laundry-bad { background: #fee2e2; color: #991b1b; }
+.laundry-unknown { background: transparent; color: var(--text-muted); font-weight: 400; }
+.laundry-unknown::before { display: none; }
+
 .seen-by {
   font-size: 11px;
   color: var(--text-muted);
