@@ -411,6 +411,7 @@ a:hover { text-decoration: underline; text-underline-offset: 2px; }
   border: 1px solid var(--border);
   overflow: hidden;
   box-shadow: var(--shadow-sm);
+  position: relative;
 }
 
 .price-marker {
@@ -515,6 +516,80 @@ a:hover { text-decoration: underline; text-underline-offset: 2px; }
 }
 
 .popup-actions .btn { padding: 5px 12px; font-size: 12px; }
+
+.leaflet-tooltip.hood-tooltip {
+  background: rgba(28, 25, 23, 0.88);
+  color: white;
+  border: none;
+  padding: 4px 10px;
+  border-radius: 6px;
+  font-family: var(--sans);
+  font-size: 11px;
+  font-weight: 600;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+}
+
+.leaflet-tooltip.hood-tooltip::before { display: none; }
+
+.leaflet-container {
+  font-family: var(--sans);
+}
+
+/* Custom zoom control styling */
+.leaflet-bar a {
+  background: var(--surface);
+  color: var(--text);
+  border: 1px solid var(--border-strong) !important;
+}
+.leaflet-bar a:hover { background: var(--bg-soft); }
+
+.leaflet-control-attribution {
+  background: rgba(255,255,255,0.85) !important;
+  font-size: 10px !important;
+  padding: 2px 6px !important;
+}
+
+/* Map legend */
+.map-legend {
+  position: absolute;
+  bottom: 16px;
+  left: 16px;
+  background: rgba(255,255,255,0.95);
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  padding: 10px 14px;
+  font-size: 11px;
+  box-shadow: var(--shadow-md);
+  z-index: 500;
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+}
+
+.map-legend-title {
+  font-weight: 600;
+  color: var(--text);
+  margin-bottom: 6px;
+  text-transform: uppercase;
+  font-size: 10px;
+  letter-spacing: 0.05em;
+}
+
+.map-legend-row {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  color: var(--text-soft);
+  margin-top: 3px;
+}
+
+.map-legend-swatch {
+  width: 14px;
+  height: 8px;
+  border-radius: 4px;
+  flex-shrink: 0;
+}
 
 /* ---------- Form controls ---------- */
 

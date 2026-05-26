@@ -13,6 +13,8 @@
     view: 'list',              // 'list' | 'grid' | 'map'
     map: null,
     markerLayer: null,
+    neighborhoodLayer: null,
+    neighborhoodsLoaded: false,
     sortKey: 'posted',          // 'address' | 'price' | 'beds' | 'sqft' | 'ppsf' | 'status' | 'posted'
     sortDir: 'desc',            // 'asc' | 'desc'
     filterBeds: '',             // '' | '0' | '1' | '2' | '3+'
@@ -355,12 +357,75 @@
       center: [37.7749, -122.4194],
       zoom: 13,
       scrollWheelZoom: true,
+      zoomControl: true,
     });
-    L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-      attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>',
+    // Carto Positron — clean light basemap (free, no API key)
+    L.tileLayer('https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png', {
+      attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors &copy; <a href="https://carto.com/attributions">CARTO</a>',
+      subdomains: 'abcd',
       maxZoom: 19,
     }).addTo(state.map);
+
+    // Neighborhood overlay (loaded once, lazy)
+    state.neighborhoodLayer = L.layerGroup().addTo(state.map);
+    loadNeighborhoods();
+
+    // Markers on top
     state.markerLayer = L.layerGroup().addTo(state.map);
+  }
+
+  async function loadNeighborhoods() {
+    if (state.neighborhoodsLoaded) return;
+    state.neighborhoodsLoaded = true; // mark eagerly to avoid double-fetch
+    try {
+      const res = await fetch('data/sf-neighborhoods.geojson', { cache: 'force-cache' });
+      if (!res.ok) return;
+      const geo = await res.json();
+      const occupied = neighborhoodsWithListings();
+      const layer = L.geoJSON(geo, {
+        style: (feature) => styleForHood(feature.properties.name, occupied),
+        onEachFeature: (feature, lyr) => {
+          const name = feature.properties.name;
+          lyr.bindTooltip(name, {
+            sticky: true,
+            direction: 'top',
+            className: 'hood-tooltip',
+          });
+          lyr.on('mouseover', () => {
+            lyr.setStyle({ fillOpacity: 0.28, weight: 2 });
+            lyr.bringToFront();
+          });
+          lyr.on('mouseout', () => {
+            lyr.setStyle(styleForHood(name, neighborhoodsWithListings()));
+          });
+        },
+      });
+      layer.addTo(state.neighborhoodLayer);
+      state.neighborhoodLayer.bringToBack(); // sit beneath markers
+    } catch (err) {
+      console.warn('neighborhoods overlay failed', err);
+    }
+  }
+
+  function neighborhoodsWithListings() {
+    const set = new Set();
+    for (const a of state.apartments) {
+      if (!a.neighborhood) continue;
+      set.add(a.neighborhood.toLowerCase().trim());
+    }
+    return set;
+  }
+
+  function styleForHood(name, occupied) {
+    const norm = (name || '').toLowerCase().trim();
+    // Match either exact or contains (catches "SoMa" → "South of Market" etc.)
+    const hit = [...occupied].some(o =>
+      o === norm || norm.includes(o) || o.includes(norm)
+    );
+    if (hit) {
+      return { fillColor: '#c2410c', fillOpacity: 0.13, color: '#c2410c', weight: 1.5, opacity: 0.85 };
+    }
+    return { fillColor: '#1c1917', fillOpacity: 0.03, color: '#94918a', weight: 0.8, opacity: 0.55, dashArray: '2,3' };
   }
 
   function renderMap(list) {
@@ -417,6 +482,19 @@
       state.map.fitBounds(pts, { padding: [40, 40], maxZoom: 15 });
     } else if (pts.length === 1) {
       state.map.setView(pts[0], 15);
+    }
+
+    // Refresh neighborhood styling to reflect current apartment set
+    if (state.neighborhoodLayer) {
+      const occupied = neighborhoodsWithListings();
+      state.neighborhoodLayer.eachLayer(group => {
+        if (typeof group.eachLayer === 'function') {
+          group.eachLayer(f => {
+            const name = f.feature?.properties?.name;
+            if (name) f.setStyle(styleForHood(name, occupied));
+          });
+        }
+      });
     }
   }
 
