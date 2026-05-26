@@ -79,6 +79,30 @@ Then click **Refresh** in the web app.
 
 The script uses Craigslist's JSON API — no auth, no rate limit issues at normal use, no Browserbase needed.
 
+## Adding friends, gyms, and other places
+
+The map shows additional points of interest from `data/places.json`. Add anything you want — friends, gyms, coffee shops, anything. Schema:
+
+```json
+{
+  "category": "friends" | "gym" | "restaurant" | "coffee" | "grocery" | "park" | "transit" | "<your own>",
+  "name": "Display name on the map",
+  "address": "Street address",
+  "type": "Optional: short type label (e.g. 'Bouldering + top rope')",
+  "vibe": "Optional: longer description / vibe notes",
+  "lat": 37.xxxx,
+  "lon": -122.xxxx
+}
+```
+
+Built-in categories have preset colors. `lat` / `lon` are optional — if missing, the app auto-geocodes the address via Nominatim on load (rate-limited to 1 req/sec). For best UX (instant render, no extra network call), prefer baking in the coords. Easiest way to get them:
+
+```bash
+curl -s "https://nominatim.openstreetmap.org/search?q=$(echo '959 Jackson St, San Francisco, CA' | sed 's/ /+/g')&format=json&limit=1" -H "User-Agent: my-app" | jq '.[0] | {lat, lon}'
+```
+
+After editing, commit and push — every collaborator will see the change.
+
 ## Local development
 
 Just open `index.html` in a browser, or:

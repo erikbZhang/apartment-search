@@ -1,0 +1,58 @@
+{
+  "places": [
+    {
+      "category": "friends",
+      "name": "Hyper SF",
+      "address": "959 Jackson St",
+      "type": "",
+      "vibe": "",
+      "lat": 37.7954288,
+      "lon": -122.4107228
+    },
+    {
+      "category": "friends",
+      "name": "Oak Bloaks",
+      "address": "774 Oak St",
+      "type": "",
+      "vibe": "",
+      "lat": 37.7741145,
+      "lon": -122.4321324
+    },
+    {
+      "category": "friends",
+      "name": "The Verm Household",
+      "address": "881 Kansas St",
+      "type": "",
+      "vibe": "",
+      "lat": 37.7585695,
+      "lon": -122.4028433
+    },
+    {
+      "category": "gym",
+      "name": "Dogpatch Boulders",
+      "address": "2573 3rd St",
+      "type": "Bouldering",
+      "vibe": "Largest bouldering gym in SF, brewery onsite",
+      "lat": 37.7566416,
+      "lon": -122.3879743
+    },
+    {
+      "category": "gym",
+      "name": "Benchmark Climbing",
+      "address": "1414 Van Ness Ave",
+      "type": "Bouldering + top rope",
+      "vibe": "Newer, central, climbs all levels",
+      "lat": 37.7888632,
+      "lon": -122.4216035
+    },
+    {
+      "category": "gym",
+      "name": "Mission Cliffs",
+      "address": "2295 Harrison St",
+      "type": "Top rope, lead, bouldering",
+      "vibe": "OG SF climbing gym, tall walls",
+      "lat": 37.7606654,
+      "lon": -122.4124129
+    }
+  ]
+}

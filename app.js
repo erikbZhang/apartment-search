@@ -2,12 +2,21 @@
   const DATA_PATH = 'data/apartments.json';
   const LS_KEY = 'apartment-search-settings';
 
-  // Hardcoded friend addresses. Add more by appending to this list.
-  const FRIENDS = [
-    { name: 'Hyper SF',              address: '959 Jackson St', lat: 37.7954288, lon: -122.4107228 },
-    { name: 'Oak Bloaks',            address: '774 Oak St',     lat: 37.7741145, lon: -122.4321324 },
-    { name: 'The Verm Household',    address: '881 Kansas St',  lat: 37.7585695, lon: -122.4028433 },
-  ];
+  // Places (friends, gyms, etc.) are loaded from data/places.json.
+  // Schema per entry: { category, name, address, type, vibe, lat, lon }
+  // Categories drive marker color via PLACE_STYLE below.
+  const PLACE_STYLE = {
+    friends: { color: '#7c3aed', label: 'Friends' },
+    gym:     { color: '#16a34a', label: 'Climbing gym' },
+    restaurant: { color: '#dc2626', label: 'Restaurant' },
+    coffee:  { color: '#92400e', label: 'Coffee' },
+    grocery: { color: '#0369a1', label: 'Grocery' },
+    park:    { color: '#65a30d', label: 'Park' },
+    transit: { color: '#525252', label: 'Transit' },
+  };
+  function styleForPlace(cat) {
+    return PLACE_STYLE[cat] || { color: '#525252', label: cat || 'Place' };
+  }
 
   const LS_VIEW_KEY = 'apartment-search-view';
 
@@ -23,6 +32,9 @@
     neighborhoodLayer: null,
     neighborhoodsLoaded: false,
     neighborhoodFeatures: null,
+    placeLayer: null,
+    places: [],
+    placesLoaded: false,
     sortKey: 'posted',          // 'address' | 'price' | 'beds' | 'sqft' | 'ppsf' | 'status' | 'posted'
     sortDir: 'desc',            // 'asc' | 'desc'
     filterBeds: '',             // '' | '0' | '1' | '2' | '3+'
@@ -378,39 +390,70 @@
     state.neighborhoodLayer = L.layerGroup().addTo(state.map);
     loadNeighborhoods();
 
-    // Friend markers (above polygons, below price markers)
-    state.friendLayer = L.layerGroup().addTo(state.map);
-    renderFriends();
+    // Place markers (friends, gyms, etc.) — above polygons, below apartment pins
+    state.placeLayer = L.layerGroup().addTo(state.map);
+    loadPlaces();
 
     // Apartment price markers on top
     state.markerLayer = L.layerGroup().addTo(state.map);
   }
 
-  function renderFriends() {
-    if (!state.friendLayer) return;
-    state.friendLayer.clearLayers();
-    for (const f of FRIENDS) {
+  async function loadPlaces() {
+    if (state.placesLoaded) { renderPlaces(); return; }
+    state.placesLoaded = true;
+    try {
+      const res = await fetch('data/places.json', { cache: 'no-store' });
+      if (!res.ok) return;
+      const parsed = await res.json();
+      state.places = Array.isArray(parsed.places) ? parsed.places : [];
+      // Auto-geocode any entries missing coords (rate-limited at ~1/sec)
+      for (const p of state.places) {
+        if ((p.lat == null || p.lon == null) && p.address) {
+          const geo = await geocodeAddress(p.address);
+          if (geo) { p.lat = geo.lat; p.lon = geo.lon; }
+          await new Promise(r => setTimeout(r, 1100));
+        }
+      }
+      renderPlaces();
+    } catch (err) {
+      console.warn('places.json failed to load', err);
+    }
+  }
+
+  function renderPlaces() {
+    if (!state.placeLayer) return;
+    state.placeLayer.clearLayers();
+    for (const p of state.places) {
+      if (p.lat == null || p.lon == null) continue;
+      const style = styleForPlace(p.category);
       const icon = L.divIcon({
         className: '',
-        html: `<div class="friend-marker">
-                 <svg viewBox="0 0 24 24" width="11" height="11" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M20 21a8 8 0 1 0-16 0"/><circle cx="12" cy="7" r="4"/></svg>
-                 <span>${escapeHtml(f.name)}</span>
+        html: `<div class="place-marker" style="background:${style.color}">
+                 <span class="place-cat-dot"></span>
+                 <span>${escapeHtml(p.name)}</span>
                </div>`,
         iconSize: null,
         iconAnchor: [40, 14],
       });
-      const marker = L.marker([f.lat, f.lon], { icon });
+      const marker = L.marker([p.lat, p.lon], { icon });
+      const tipMeta = [p.type, p.vibe].filter(Boolean).join(' · ');
       marker.bindTooltip(
-        `<div class="apt-tooltip-title">${escapeHtml(f.name)} lives here</div>
-         <div class="apt-tooltip-meta"><strong>${escapeHtml(f.address)}</strong></div>`,
+        `<div class="apt-tooltip-title">${escapeHtml(p.name)}</div>
+         <div class="apt-tooltip-meta">
+           <strong>${escapeHtml(style.label)}</strong>
+           ${tipMeta ? `<span>${escapeHtml(tipMeta)}</span>` : ''}
+           <span>${escapeHtml(p.address || '')}</span>
+         </div>`,
         { className: 'apt-tooltip', direction: 'top', offset: [0, -10] }
       );
       marker.bindPopup(`
-        <div class="popup-title">${escapeHtml(f.name)}</div>
-        <div class="popup-nb">Friend</div>
-        <div class="popup-meta">${escapeHtml(f.address)}, San Francisco</div>
+        <div class="popup-title">${escapeHtml(p.name)}</div>
+        <div class="popup-nb">${escapeHtml(style.label)}</div>
+        ${p.type ? `<div class="popup-meta"><strong>${escapeHtml(p.type)}</strong></div>` : ''}
+        ${p.vibe ? `<div class="popup-meta">${escapeHtml(p.vibe)}</div>` : ''}
+        <div class="popup-meta">${escapeHtml(p.address || '')}, San Francisco</div>
       `);
-      marker.addTo(state.friendLayer);
+      marker.addTo(state.placeLayer);
     }
   }
 
