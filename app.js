@@ -2,6 +2,12 @@
   const DATA_PATH = 'data/apartments.json';
   const LS_KEY = 'apartment-search-settings';
 
+  // Hardcoded friend addresses. Add more by appending to this list.
+  const FRIENDS = [
+    { name: 'Hyper SF',    address: '959 Jackson St',  lat: 37.7954288, lon: -122.4107228 },
+    { name: 'Oak Bloaks',  address: '774 Oak St',      lat: 37.7741145, lon: -122.4321324 },
+  ];
+
   const LS_VIEW_KEY = 'apartment-search-view';
 
   const state = {
@@ -371,8 +377,40 @@
     state.neighborhoodLayer = L.layerGroup().addTo(state.map);
     loadNeighborhoods();
 
-    // Markers on top
+    // Friend markers (above polygons, below price markers)
+    state.friendLayer = L.layerGroup().addTo(state.map);
+    renderFriends();
+
+    // Apartment price markers on top
     state.markerLayer = L.layerGroup().addTo(state.map);
+  }
+
+  function renderFriends() {
+    if (!state.friendLayer) return;
+    state.friendLayer.clearLayers();
+    for (const f of FRIENDS) {
+      const icon = L.divIcon({
+        className: '',
+        html: `<div class="friend-marker">
+                 <svg viewBox="0 0 24 24" width="11" height="11" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M20 21a8 8 0 1 0-16 0"/><circle cx="12" cy="7" r="4"/></svg>
+                 <span>${escapeHtml(f.name)}</span>
+               </div>`,
+        iconSize: null,
+        iconAnchor: [40, 14],
+      });
+      const marker = L.marker([f.lat, f.lon], { icon });
+      marker.bindTooltip(
+        `<div class="apt-tooltip-title">${escapeHtml(f.name)} lives here</div>
+         <div class="apt-tooltip-meta"><strong>${escapeHtml(f.address)}</strong></div>`,
+        { className: 'apt-tooltip', direction: 'top', offset: [0, -10] }
+      );
+      marker.bindPopup(`
+        <div class="popup-title">${escapeHtml(f.name)}</div>
+        <div class="popup-nb">Friend</div>
+        <div class="popup-meta">${escapeHtml(f.address)}, San Francisco</div>
+      `);
+      marker.addTo(state.friendLayer);
+    }
   }
 
   async function loadNeighborhoods() {
