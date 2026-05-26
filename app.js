@@ -423,8 +423,8 @@
   function renderPlaces() {
     if (!state.placeLayer) return;
     state.placeLayer.clearLayers();
-    for (const p of state.places) {
-      if (p.lat == null || p.lon == null) continue;
+    state.places.forEach((p, idx) => {
+      if (p.lat == null || p.lon == null) return;
       const style = styleForPlace(p.category);
       const icon = L.divIcon({
         className: '',
@@ -452,8 +452,130 @@
         ${p.type ? `<div class="popup-meta"><strong>${escapeHtml(p.type)}</strong></div>` : ''}
         ${p.vibe ? `<div class="popup-meta">${escapeHtml(p.vibe)}</div>` : ''}
         <div class="popup-meta">${escapeHtml(p.address || '')}, San Francisco</div>
+        ${state.readOnly ? '' : `<div class="popup-actions">
+          <button class="btn btn-ghost" onclick="document.dispatchEvent(new CustomEvent('place-edit',{detail:${idx}}))">Edit</button>
+        </div>`}
       `);
       marker.addTo(state.placeLayer);
+    });
+  }
+
+  // -------- Place CRUD --------
+
+  function openPlaceModal(idx) {
+    const editing = idx != null && state.places[idx];
+    $('placeTitle').textContent = editing ? 'Edit place' : 'Add place';
+    $('pIndex').value = editing ? String(idx) : '';
+    $('pCategory').value = editing?.category || 'friends';
+    $('pName').value = editing?.name || '';
+    $('pAddress').value = editing?.address || '';
+    $('pType').value = editing?.type || '';
+    $('pVibe').value = editing?.vibe || '';
+    $('deletePlaceBtn').classList.toggle('hidden', !editing);
+    msg('placeMsg', '', '');
+    $('placeModal').classList.remove('hidden');
+    setTimeout(() => $('pName').focus(), 50);
+  }
+
+  async function submitPlace(e) {
+    e.preventDefault();
+    const idxStr = $('pIndex').value;
+    const idx = idxStr === '' ? -1 : Number(idxStr);
+    const existing = idx >= 0 ? state.places[idx] : null;
+
+    const place = {
+      category: $('pCategory').value,
+      name: $('pName').value.trim(),
+      address: $('pAddress').value.trim(),
+      type: $('pType').value.trim(),
+      vibe: $('pVibe').value.trim(),
+      lat: existing?.lat ?? null,
+      lon: existing?.lon ?? null,
+    };
+
+    if (!place.name || !place.address) {
+      msg('placeMsg', 'Name and address are required.', 'error');
+      return;
+    }
+    if (!hasSettings()) {
+      msg('placeMsg', 'Configure GitHub Settings to save places.', 'error');
+      return;
+    }
+
+    // Geocode if missing or if address changed
+    if (place.lat == null || (existing && existing.address !== place.address)) {
+      msg('placeMsg', 'Locating address...', '');
+      const geo = await geocodeAddress(place.address);
+      if (geo) { place.lat = geo.lat; place.lon = geo.lon; }
+    }
+
+    const backup = state.places.slice();
+    if (existing) state.places[idx] = place;
+    else state.places.push(place);
+
+    try {
+      msg('placeMsg', 'Saving...', '');
+      await persistPlaces(existing ? `Update place: ${place.name}` : `Add place: ${place.name}`);
+      closeModal('placeModal');
+      renderPlaces();
+    } catch (err) {
+      state.places = backup;
+      msg('placeMsg', err.message || 'Save failed', 'error');
+    }
+  }
+
+  async function deletePlace() {
+    const idx = Number($('pIndex').value);
+    if (!Number.isInteger(idx) || idx < 0) return;
+    const p = state.places[idx];
+    if (!p) return;
+    if (!confirm(`Remove "${p.name}" from the map?`)) return;
+    const backup = state.places.slice();
+    state.places.splice(idx, 1);
+    try {
+      await persistPlaces(`Remove place: ${p.name}`);
+      closeModal('placeModal');
+      renderPlaces();
+    } catch (err) {
+      state.places = backup;
+      msg('placeMsg', err.message || 'Delete failed', 'error');
+    }
+  }
+
+  async function persistPlaces(commitMessage) {
+    if (!hasSettings()) throw new Error('Missing settings');
+    const { repo, branch } = state.settings;
+    const path = 'data/places.json';
+    // Get latest sha (may have been updated by collaborator)
+    let currentSha = null;
+    const getRes = await fetch(
+      `https://api.github.com/repos/${repo}/contents/${path}?ref=${encodeURIComponent(branch || 'main')}`,
+      { headers: ghHeaders() }
+    );
+    if (getRes.ok) {
+      const j = await getRes.json();
+      currentSha = j.sha;
+    } else if (getRes.status !== 404) {
+      throw new Error(`GitHub ${getRes.status}: ${await getRes.text()}`);
+    }
+    const content = JSON.stringify({ places: state.places }, null, 2) + '\n';
+    const body = {
+      message: commitMessage,
+      content: b64encode(content),
+      branch: branch || 'main',
+    };
+    if (currentSha) body.sha = currentSha;
+
+    const putRes = await fetch(
+      `https://api.github.com/repos/${repo}/contents/${path}`,
+      {
+        method: 'PUT',
+        headers: { ...ghHeaders(), 'Content-Type': 'application/json' },
+        body: JSON.stringify(body),
+      }
+    );
+    if (!putRes.ok) {
+      throw new Error(`GitHub ${putRes.status}: ${await putRes.text()}`);
     }
   }
 
@@ -975,6 +1097,13 @@
       if (!hasSettings()) { openSettings(); return; }
       openEdit(null);
     });
+    $('addPlaceBtn').addEventListener('click', () => {
+      if (!hasSettings()) { openSettings(); return; }
+      openPlaceModal(null);
+    });
+    $('placeForm').addEventListener('submit', submitPlace);
+    $('deletePlaceBtn').addEventListener('click', deletePlace);
+    document.addEventListener('place-edit', (e) => openPlaceModal(e.detail));
     $('settingsBtn').addEventListener('click', openSettings);
     $('refreshBtn').addEventListener('click', fetchData);
     $('saveSettings').addEventListener('click', saveSettingsFromForm);
