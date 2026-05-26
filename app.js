@@ -407,23 +407,51 @@
     }
   }
 
+  // Maps the neighborhood names we use in apartment records to the polygon
+  // names in data/sf-neighborhoods.geojson. Both sides are lowercased.
+  const HOOD_ALIASES = {
+    'hayes valley': 'western addition',
+    'soma': 'south of market',
+    'soma / south beach': 'south of market',
+    'south beach': 'south of market',
+    'laurel heights': 'presidio heights',
+    'tenderloin': 'downtown/civic center',
+    'mid-market': 'downtown/civic center',
+    'civic center': 'downtown/civic center',
+    'castro': 'castro/upper market',
+    'upper market': 'castro/upper market',
+    'haight': 'haight ashbury',
+    'lower haight': 'haight ashbury',
+    'upper haight': 'haight ashbury',
+    'cole valley': 'haight ashbury',
+    'duboce triangle': 'castro/upper market',
+    'polk gulch': 'russian hill',
+    'telegraph hill': 'north beach',
+    'nopa': 'western addition',
+    'fillmore': 'western addition',
+    'alamo square': 'western addition',
+    'dogpatch': 'potrero hill',
+    'mission bay': 'south of market',
+    'fidi': 'financial district',
+    'embarcadero': 'financial district',
+  };
+
   function neighborhoodsWithListings() {
     const set = new Set();
     for (const a of state.apartments) {
       if (!a.neighborhood) continue;
-      set.add(a.neighborhood.toLowerCase().trim());
+      const k = a.neighborhood.toLowerCase().trim();
+      set.add(HOOD_ALIASES[k] || k);
     }
     return set;
   }
 
   function styleForHood(name, occupied) {
     const norm = (name || '').toLowerCase().trim();
-    // Match either exact or contains (catches "SoMa" → "South of Market" etc.)
-    const hit = [...occupied].some(o =>
-      o === norm || norm.includes(o) || o.includes(norm)
-    );
+    const hit = occupied.has(norm)
+      || [...occupied].some(o => o === norm || norm.includes(o) || o.includes(norm));
     if (hit) {
-      return { fillColor: '#c2410c', fillOpacity: 0.13, color: '#c2410c', weight: 1.5, opacity: 0.85 };
+      return { fillColor: '#c2410c', fillOpacity: 0.18, color: '#c2410c', weight: 1.8, opacity: 0.9 };
     }
     return { fillColor: '#1c1917', fillOpacity: 0.03, color: '#94918a', weight: 0.8, opacity: 0.55, dashArray: '2,3' };
   }
