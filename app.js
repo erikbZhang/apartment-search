@@ -2,13 +2,35 @@
   const DATA_PATH = 'data/apartments.json';
   const LS_KEY = 'apartment-search-settings';
 
+  const LS_VIEW_KEY = 'apartment-search-view';
+
   const state = {
     settings: { name: '', repo: '', branch: 'main', token: '' },
     apartments: [],
     sha: null,
     loading: false,
     readOnly: false,
+    view: 'list',              // 'list' | 'grid'
+    sortKey: 'posted',          // 'address' | 'price' | 'beds' | 'sqft' | 'ppsf' | 'status' | 'posted'
+    sortDir: 'desc',            // 'asc' | 'desc'
+    filterBeds: '',             // '' | '0' | '1' | '2' | '3+'
+    priceMin: null,
+    priceMax: null,
   };
+
+  function loadView() {
+    try {
+      const raw = JSON.parse(localStorage.getItem(LS_VIEW_KEY) || '{}');
+      if (raw.view === 'grid' || raw.view === 'list') state.view = raw.view;
+      if (raw.sortKey) state.sortKey = raw.sortKey;
+      if (raw.sortDir === 'asc' || raw.sortDir === 'desc') state.sortDir = raw.sortDir;
+    } catch {}
+  }
+  function saveView() {
+    localStorage.setItem(LS_VIEW_KEY, JSON.stringify({
+      view: state.view, sortKey: state.sortKey, sortDir: state.sortDir,
+    }));
+  }
 
   const $ = (id) => document.getElementById(id);
 
@@ -172,7 +194,6 @@
     const q = $('search').value.trim().toLowerCase();
     const nb = $('filterNeighborhood').value;
     const st = $('filterStatus').value;
-    const sort = $('sortBy').value;
 
     let list = state.apartments.slice();
     if (q) {
@@ -184,14 +205,42 @@
     if (nb) list = list.filter(a => a.neighborhood === nb);
     if (st) list = list.filter(a => a.status === st);
 
+    if (state.filterBeds !== '') {
+      list = list.filter(a => {
+        if (a.bedrooms == null) return false;
+        if (state.filterBeds === '3+') return Number(a.bedrooms) >= 3;
+        return Number(a.bedrooms) === Number(state.filterBeds);
+      });
+    }
+    if (state.priceMin != null) list = list.filter(a => a.price != null && a.price >= state.priceMin);
+    if (state.priceMax != null) list = list.filter(a => a.price != null && a.price <= state.priceMax);
+
     list.sort((a, b) => {
-      if (sort === 'price_asc') return (a.price || 0) - (b.price || 0);
-      if (sort === 'price_desc') return (b.price || 0) - (a.price || 0);
-      if (sort === 'added_asc') return new Date(a.added_at) - new Date(b.added_at);
-      return new Date(b.added_at) - new Date(a.added_at);
+      const dir = state.sortDir === 'asc' ? 1 : -1;
+      const av = sortValue(a, state.sortKey);
+      const bv = sortValue(b, state.sortKey);
+      if (av == null && bv == null) return 0;
+      if (av == null) return 1;
+      if (bv == null) return -1;
+      if (av < bv) return -1 * dir;
+      if (av > bv) return 1 * dir;
+      return 0;
     });
 
     return list;
+  }
+
+  function sortValue(a, key) {
+    switch (key) {
+      case 'price': return a.price ?? null;
+      case 'beds': return a.bedrooms ?? null;
+      case 'sqft': return a.sqft ?? null;
+      case 'ppsf': return (a.price && a.sqft) ? Math.round(a.price / a.sqft) : null;
+      case 'status': return a.status || '';
+      case 'address': return (a.address || '').toLowerCase();
+      case 'posted':
+      default: return new Date(a.added_at || 0).getTime();
+    }
   }
 
   function refreshNeighborhoodFilter() {
@@ -213,12 +262,15 @@
   function render() {
     refreshNeighborhoodFilter();
     const grid = $('grid');
+    const listWrap = $('listWrap');
     const empty = $('empty');
     const setup = $('needsSetup');
 
-    // Show setup prompt only when no settings AND no local preview loaded
     if (!hasSettings() && state.apartments.length === 0) {
       grid.innerHTML = '';
+      $('listBody').innerHTML = '';
+      listWrap.classList.add('hidden');
+      grid.classList.add('hidden');
       empty.classList.add('hidden');
       setup.classList.remove('hidden');
       $('count').textContent = '';
@@ -227,6 +279,26 @@
     setup.classList.add('hidden');
     $('readonlyBanner').classList.toggle('hidden', !state.readOnly);
 
+    // Sort indicators
+    document.querySelectorAll('#listHeader th.sortable').forEach(th => {
+      const k = th.dataset.sort;
+      const active = k === state.sortKey;
+      th.classList.toggle('sorted', active);
+      th.querySelector('.sort-icon').textContent = active ? (state.sortDir === 'asc' ? '↑' : '↓') : '';
+    });
+
+    // View visibility
+    if (state.view === 'list') {
+      listWrap.classList.remove('hidden');
+      grid.classList.add('hidden');
+    } else {
+      listWrap.classList.add('hidden');
+      grid.classList.remove('hidden');
+    }
+    document.querySelectorAll('.view-btn').forEach(b => {
+      b.classList.toggle('active', b.dataset.view === state.view);
+    });
+
     const list = getFiltered();
     $('count').textContent = list.length === state.apartments.length
       ? `${list.length} apartment${list.length === 1 ? '' : 's'}`
@@ -234,12 +306,79 @@
 
     if (state.apartments.length === 0) {
       grid.innerHTML = '';
+      $('listBody').innerHTML = '';
       empty.classList.remove('hidden');
       return;
     }
     empty.classList.add('hidden');
 
-    grid.innerHTML = list.map(renderCard).join('');
+    if (state.view === 'grid') {
+      grid.innerHTML = list.map(renderCard).join('');
+    } else {
+      $('listBody').innerHTML = list.length
+        ? list.map(renderRow).join('')
+        : '<tr class="list-empty-row"><td colspan="8">No apartments match the current filters.</td></tr>';
+    }
+  }
+
+  function renderRow(a) {
+    const me = state.settings.name;
+    const seen = Array.isArray(a.seen_by) ? a.seen_by : [];
+    const haveSeen = seen.includes(me);
+    const beds = a.bedrooms == null ? '—' : (Number(a.bedrooms) === 0 ? 'Studio' : a.bedrooms);
+    const sqft = a.sqft ? a.sqft.toLocaleString() : '—';
+    const ppsf = (a.price && a.sqft) ? '$' + Math.round(a.price / a.sqft) : '—';
+    const price = a.price ? fmtPrice(a.price) : '—';
+    const posted = a.added_at ? fmtRelative(a.added_at) : '—';
+    const seenText = seen.length ? ` · seen by ${seen.map(escapeHtml).join(', ')}` : '';
+
+    return `
+      <tr data-id="${escapeHtml(a.id)}">
+        <td>
+          <div class="list-address">
+            <div class="list-address-title" title="${escapeHtml(a.address || '')}">${escapeHtml(a.address || 'Untitled')}</div>
+            <div class="list-address-meta">
+              ${a.neighborhood ? `<span class="nb">${escapeHtml(a.neighborhood)}</span>` : ''}
+              ${a.notes ? `<span title="${escapeHtml(a.notes)}">${escapeHtml(truncate(a.notes, 60))}</span>` : ''}
+            </div>
+          </div>
+        </td>
+        <td class="num list-price">${price}</td>
+        <td class="num">${beds}</td>
+        <td class="num">${sqft}</td>
+        <td class="num">${ppsf}</td>
+        <td>
+          <span class="pill pill-${escapeHtml(a.status)}">${escapeHtml(statusLabel(a.status))}</span>
+          ${seenText ? `<div class="seen-by" style="margin-top:3px">${seenText}</div>` : ''}
+        </td>
+        <td class="num muted">${escapeHtml(posted)}</td>
+        <td>
+          <div class="list-actions">
+            ${a.url ? `<a class="btn btn-ghost" href="${escapeHtml(a.url)}" target="_blank" rel="noreferrer">Open</a>` : ''}
+            ${state.readOnly ? '' : `
+              <button class="btn btn-ghost" data-action="toggle-seen" data-id="${escapeHtml(a.id)}">${haveSeen ? 'Unseen' : 'Seen'}</button>
+              <button class="btn btn-ghost" data-action="edit" data-id="${escapeHtml(a.id)}">Edit</button>
+            `}
+          </div>
+        </td>
+      </tr>
+    `;
+  }
+
+  function truncate(s, n) {
+    if (!s) return '';
+    return s.length > n ? s.slice(0, n - 1) + '…' : s;
+  }
+
+  function fmtRelative(iso) {
+    const t = new Date(iso).getTime();
+    if (!t) return '';
+    const diff = (Date.now() - t) / 1000;
+    if (diff < 60) return 'just now';
+    if (diff < 3600) return Math.floor(diff / 60) + 'm ago';
+    if (diff < 86400) return Math.floor(diff / 3600) + 'h ago';
+    if (diff < 7 * 86400) return Math.floor(diff / 86400) + 'd ago';
+    return new Date(iso).toLocaleDateString(undefined, { month: 'short', day: 'numeric' });
   }
 
   function renderCard(a) {
@@ -497,9 +636,49 @@
       });
     });
 
-    ['search', 'filterNeighborhood', 'filterStatus', 'sortBy'].forEach(id => {
+    ['search', 'filterNeighborhood', 'filterStatus'].forEach(id => {
       $(id).addEventListener('input', render);
       $(id).addEventListener('change', render);
+    });
+
+    $('priceMin').addEventListener('input', (e) => {
+      state.priceMin = e.target.value === '' ? null : Number(e.target.value);
+      render();
+    });
+    $('priceMax').addEventListener('input', (e) => {
+      state.priceMax = e.target.value === '' ? null : Number(e.target.value);
+      render();
+    });
+
+    document.querySelectorAll('.chip[data-beds]').forEach(chip => {
+      chip.addEventListener('click', () => {
+        state.filterBeds = chip.dataset.beds;
+        document.querySelectorAll('.chip[data-beds]').forEach(c => c.classList.toggle('active', c === chip));
+        render();
+      });
+    });
+
+    document.querySelectorAll('.view-btn').forEach(b => {
+      b.addEventListener('click', () => {
+        state.view = b.dataset.view;
+        saveView();
+        render();
+      });
+    });
+
+    document.querySelectorAll('#listHeader th.sortable').forEach(th => {
+      th.addEventListener('click', () => {
+        const k = th.dataset.sort;
+        if (state.sortKey === k) {
+          state.sortDir = state.sortDir === 'asc' ? 'desc' : 'asc';
+        } else {
+          state.sortKey = k;
+          // Sensible default direction by column type
+          state.sortDir = (k === 'address' || k === 'status') ? 'asc' : 'desc';
+        }
+        saveView();
+        render();
+      });
     });
 
     document.addEventListener('click', (e) => {
@@ -525,6 +704,7 @@
   // -------- Init --------
 
   loadSettings();
+  loadView();
   wire();
   if (hasSettings()) {
     fetchData();
