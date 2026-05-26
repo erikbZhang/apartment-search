@@ -15,6 +15,7 @@
     markerLayer: null,
     neighborhoodLayer: null,
     neighborhoodsLoaded: false,
+    neighborhoodFeatures: null,
     sortKey: 'posted',          // 'address' | 'price' | 'beds' | 'sqft' | 'ppsf' | 'status' | 'posted'
     sortDir: 'desc',            // 'asc' | 'desc'
     filterBeds: '',             // '' | '0' | '1' | '2' | '3+'
@@ -381,7 +382,8 @@
       const res = await fetch('data/sf-neighborhoods.geojson', { cache: 'force-cache' });
       if (!res.ok) return;
       const geo = await res.json();
-      const occupied = neighborhoodsWithListings();
+      state.neighborhoodFeatures = geo.features;
+      const occupied = occupiedHoodNames(geo.features);
       const layer = L.geoJSON(geo, {
         style: (feature) => styleForHood(feature.properties.name, occupied),
         onEachFeature: (feature, lyr) => {
@@ -396,12 +398,13 @@
             lyr.bringToFront();
           });
           lyr.on('mouseout', () => {
-            lyr.setStyle(styleForHood(name, neighborhoodsWithListings()));
+            const occ = occupiedHoodNames(state.neighborhoodFeatures || []);
+            lyr.setStyle(styleForHood(name, occ));
           });
         },
       });
       layer.addTo(state.neighborhoodLayer);
-      state.neighborhoodLayer.bringToBack(); // sit beneath markers
+      state.neighborhoodLayer.bringToBack();
     } catch (err) {
       console.warn('neighborhoods overlay failed', err);
     }
@@ -436,21 +439,51 @@
     'embarcadero': 'financial district',
   };
 
-  function neighborhoodsWithListings() {
-    const set = new Set();
-    for (const a of state.apartments) {
-      if (!a.neighborhood) continue;
-      const k = a.neighborhood.toLowerCase().trim();
-      set.add(HOOD_ALIASES[k] || k);
+  // Point-in-polygon (ray-casting). Coords are [lon, lat].
+  function pointInRing([x, y], ring) {
+    let inside = false;
+    for (let i = 0, j = ring.length - 1; i < ring.length; j = i++) {
+      const [xi, yi] = ring[i];
+      const [xj, yj] = ring[j];
+      if (((yi > y) !== (yj > y)) && (x < (xj - xi) * (y - yi) / (yj - yi) + xi)) {
+        inside = !inside;
+      }
     }
-    return set;
+    return inside;
+  }
+  function pointInPolyCoords(point, polyCoords) {
+    // polyCoords: [outerRing, ...holeRings]
+    if (!pointInRing(point, polyCoords[0])) return false;
+    for (let i = 1; i < polyCoords.length; i++) {
+      if (pointInRing(point, polyCoords[i])) return false; // inside a hole
+    }
+    return true;
+  }
+  function pointInGeometry(point, geom) {
+    if (!geom) return false;
+    if (geom.type === 'Polygon') return pointInPolyCoords(point, geom.coordinates);
+    if (geom.type === 'MultiPolygon') return geom.coordinates.some(c => pointInPolyCoords(point, c));
+    return false;
+  }
+
+  function occupiedHoodNames(features) {
+    const occupied = new Set();
+    const apts = state.apartments.filter(a => a.lat != null && a.lon != null);
+    for (const feat of features) {
+      const name = feat.properties?.name;
+      if (!name) continue;
+      for (const a of apts) {
+        if (pointInGeometry([a.lon, a.lat], feat.geometry)) {
+          occupied.add(name);
+          break;
+        }
+      }
+    }
+    return occupied;
   }
 
   function styleForHood(name, occupied) {
-    const norm = (name || '').toLowerCase().trim();
-    // Strict match only — alias map handles cross-naming.
-    const hit = occupied.has(norm);
-    if (hit) {
+    if (occupied.has(name)) {
       return { fillColor: '#c2410c', fillOpacity: 0.18, color: '#c2410c', weight: 1.8, opacity: 0.9 };
     }
     return { fillColor: '#1c1917', fillOpacity: 0.03, color: '#94918a', weight: 0.8, opacity: 0.55, dashArray: '2,3' };
@@ -512,9 +545,9 @@
       state.map.setView(pts[0], 15);
     }
 
-    // Refresh neighborhood styling to reflect current apartment set
-    if (state.neighborhoodLayer) {
-      const occupied = neighborhoodsWithListings();
+    // Refresh neighborhood styling using geometric containment
+    if (state.neighborhoodLayer && state.neighborhoodFeatures) {
+      const occupied = occupiedHoodNames(state.neighborhoodFeatures);
       state.neighborhoodLayer.eachLayer(group => {
         if (typeof group.eachLayer === 'function') {
           group.eachLayer(f => {
