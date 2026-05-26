@@ -10,7 +10,9 @@
     sha: null,
     loading: false,
     readOnly: false,
-    view: 'list',              // 'list' | 'grid'
+    view: 'list',              // 'list' | 'grid' | 'map'
+    map: null,
+    markerLayer: null,
     sortKey: 'posted',          // 'address' | 'price' | 'beds' | 'sqft' | 'ppsf' | 'status' | 'posted'
     sortDir: 'desc',            // 'asc' | 'desc'
     filterBeds: '',             // '' | '0' | '1' | '2' | '3+'
@@ -21,7 +23,7 @@
   function loadView() {
     try {
       const raw = JSON.parse(localStorage.getItem(LS_VIEW_KEY) || '{}');
-      if (raw.view === 'grid' || raw.view === 'list') state.view = raw.view;
+      if (['grid','list','map'].includes(raw.view)) state.view = raw.view;
       if (raw.sortKey) state.sortKey = raw.sortKey;
       if (raw.sortDir === 'asc' || raw.sortDir === 'desc') state.sortDir = raw.sortDir;
     } catch {}
@@ -315,13 +317,10 @@
     });
 
     // View visibility
-    if (state.view === 'list') {
-      listWrap.classList.remove('hidden');
-      grid.classList.add('hidden');
-    } else {
-      listWrap.classList.add('hidden');
-      grid.classList.remove('hidden');
-    }
+    const mapWrap = $('mapWrap');
+    listWrap.classList.toggle('hidden', state.view !== 'list');
+    grid.classList.toggle('hidden', state.view !== 'grid');
+    mapWrap.classList.toggle('hidden', state.view !== 'map');
     document.querySelectorAll('.view-btn').forEach(b => {
       b.classList.toggle('active', b.dataset.view === state.view);
     });
@@ -341,10 +340,83 @@
 
     if (state.view === 'grid') {
       grid.innerHTML = list.map(renderCard).join('');
+    } else if (state.view === 'map') {
+      renderMap(list);
     } else {
       $('listBody').innerHTML = list.length
         ? list.map(renderRow).join('')
         : '<tr class="list-empty-row"><td colspan="9">No apartments match the current filters.</td></tr>';
+    }
+  }
+
+  function initMap() {
+    if (state.map) return;
+    state.map = L.map('map', {
+      center: [37.7749, -122.4194],
+      zoom: 13,
+      scrollWheelZoom: true,
+    });
+    L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+      attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>',
+      maxZoom: 19,
+    }).addTo(state.map);
+    state.markerLayer = L.layerGroup().addTo(state.map);
+  }
+
+  function renderMap(list) {
+    if (typeof L === 'undefined') return;
+    initMap();
+    setTimeout(() => state.map.invalidateSize(), 50);
+    state.markerLayer.clearLayers();
+
+    const pts = [];
+    list.forEach(a => {
+      if (!a.lat || !a.lon) return;
+      const beds = a.bedrooms == null ? null : Number(a.bedrooms);
+      const bedsClass = beds == null ? '' : `beds-${beds >= 4 ? 4 : beds}`;
+      const statusClass = ['liked','applied','rejected'].includes(a.status) ? `status-${a.status}` : '';
+      const labelPrice = a.price ? '$' + (a.price >= 1000 ? (a.price/1000).toFixed(a.price >= 10000 ? 0 : 1).replace(/\.0$/,'') + 'k' : a.price) : '?';
+      const icon = L.divIcon({
+        className: '',
+        html: `<div class="price-marker ${bedsClass} ${statusClass}">${escapeHtml(labelPrice)}</div>`,
+        iconSize: null,
+        iconAnchor: [22, 12],
+      });
+      const marker = L.marker([a.lat, a.lon], { icon });
+      const tipMeta = [
+        beds == null ? null : (beds === 0 ? 'Studio' : `${beds} bd`),
+        a.sqft ? `${a.sqft.toLocaleString()} sqft` : null,
+        a.laundry ? `Laundry: ${laundryLabel(a.laundry)}` : null,
+        a.neighborhood || null,
+      ].filter(Boolean);
+      marker.bindTooltip(
+        `<div class="apt-tooltip-title">${escapeHtml(a.address || 'Untitled')}</div>
+         <div class="apt-tooltip-meta">
+           <strong>${a.price ? '$' + a.price.toLocaleString() : '—'}</strong>
+           <span>${escapeHtml(tipMeta.join(' · '))}</span>
+         </div>`,
+        { className: 'apt-tooltip', direction: 'top', offset: [0, -8] }
+      );
+      marker.bindPopup(`
+        <div class="popup-title">${escapeHtml(a.address || 'Untitled')}</div>
+        ${a.neighborhood ? `<div class="popup-nb">${escapeHtml(a.neighborhood)}</div>` : ''}
+        <div class="popup-meta">
+          <strong>${a.price ? '$' + a.price.toLocaleString() : '—'}</strong>${tipMeta.length ? ' · ' + escapeHtml(tipMeta.join(' · ')) : ''}
+        </div>
+        <div><span class="pill pill-${escapeHtml(a.status)}">${escapeHtml(statusLabel(a.status))}</span></div>
+        <div class="popup-actions">
+          ${a.url ? `<a class="btn btn-ghost" href="${escapeHtml(a.url)}" target="_blank" rel="noreferrer">Open listing</a>` : ''}
+          ${state.readOnly ? '' : `<button class="btn btn-primary" onclick="document.dispatchEvent(new CustomEvent('apt-edit',{detail:'${escapeHtml(a.id)}'}))">Edit</button>`}
+        </div>
+      `);
+      marker.addTo(state.markerLayer);
+      pts.push([a.lat, a.lon]);
+    });
+
+    if (pts.length > 1) {
+      state.map.fitBounds(pts, { padding: [40, 40], maxZoom: 15 });
+    } else if (pts.length === 1) {
+      state.map.setView(pts[0], 15);
     }
   }
 
@@ -723,6 +795,11 @@
       } else if (action === 'toggle-seen') {
         toggleSeen(id);
       }
+    });
+
+    document.addEventListener('apt-edit', (e) => {
+      const apt = state.apartments.find(a => a.id === e.detail);
+      if (apt) openEdit(apt);
     });
 
     document.addEventListener('keydown', (e) => {

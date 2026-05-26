@@ -15,7 +15,9 @@
       "seen_by": [],
       "added_by": "craigslist",
       "added_at": "2026-05-26T16:35:13.805Z",
-      "laundry": "in_unit"
+      "laundry": "in_unit",
+      "lat": 37.788,
+      "lon": -122.4183
     },
     {
       "id": "cl_7934131194",
@@ -32,7 +34,9 @@
       "seen_by": [],
       "added_by": "craigslist",
       "added_at": "2026-05-26T16:35:13.805Z",
-      "laundry": null
+      "laundry": null,
+      "lat": 37.7935,
+      "lon": -122.4193
     },
     {
       "id": "cl_7934580448",
@@ -49,7 +53,9 @@
       "seen_by": [],
       "added_by": "craigslist",
       "added_at": "2026-05-26T16:35:13.805Z",
-      "laundry": null
+      "laundry": null,
+      "lat": 37.7837,
+      "lon": -122.4241
     },
     {
       "id": "cl_7933893508",
@@ -66,7 +72,9 @@
       "seen_by": [],
       "added_by": "craigslist",
       "added_at": "2026-05-26T16:35:13.805Z",
-      "laundry": null
+      "laundry": null,
+      "lat": 37.7837,
+      "lon": -122.4241
     },
     {
       "id": "cl_7936684015",
@@ -83,7 +91,9 @@
       "seen_by": [],
       "added_by": "craigslist",
       "added_at": "2026-05-26T16:35:13.805Z",
-      "laundry": "shared"
+      "laundry": "shared",
+      "lat": 37.7712,
+      "lon": -122.4413
     },
     {
       "id": "cl_7930251983",
@@ -100,7 +110,9 @@
       "seen_by": [],
       "added_by": "craigslist",
       "added_at": "2026-05-26T16:35:13.805Z",
-      "laundry": null
+      "laundry": null,
+      "lat": 37.7813,
+      "lon": -122.4167
     },
     {
       "id": "cl_7936684457",
@@ -117,7 +129,9 @@
       "seen_by": [],
       "added_by": "craigslist",
       "added_at": "2026-05-26T16:43:17.884Z",
-      "laundry": "shared"
+      "laundry": "shared",
+      "lat": 37.7902,
+      "lon": -122.4083
     },
     {
       "id": "cl_7933687744",
@@ -134,7 +148,9 @@
       "seen_by": [],
       "added_by": "craigslist",
       "added_at": "2026-05-26T17:01:04.124Z",
-      "laundry": null
+      "laundry": null,
+      "lat": 37.709,
+      "lon": -122.44
     },
     {
       "id": "cl_7934290920",
@@ -151,7 +167,9 @@
       "seen_by": [],
       "added_by": "craigslist",
       "added_at": "2026-05-26T17:01:04.124Z",
-      "laundry": null
+      "laundry": null,
+      "lat": 37.7621,
+      "lon": -122.4169
     },
     {
       "id": "cl_7936103953",
@@ -168,7 +186,9 @@
       "seen_by": [],
       "added_by": "craigslist",
       "added_at": "2026-05-26T17:01:04.124Z",
-      "laundry": null
+      "laundry": null,
+      "lat": 37.7921,
+      "lon": -122.4768
     },
     {
       "id": "cl_7935251860",
@@ -185,7 +205,9 @@
       "seen_by": [],
       "added_by": "craigslist",
       "added_at": "2026-05-26T17:01:04.124Z",
-      "laundry": null
+      "laundry": null,
+      "lat": 37.7236,
+      "lon": -122.4388
     },
     {
       "id": "cl_7936521943",
@@ -202,7 +224,9 @@
       "seen_by": [],
       "added_by": "craigslist",
       "added_at": "2026-05-26T17:01:04.124Z",
-      "laundry": null
+      "laundry": null,
+      "lat": 37.7593,
+      "lon": -122.4836
     },
     {
       "id": "cl_7934284138",
@@ -219,7 +243,9 @@
       "seen_by": [],
       "added_by": "craigslist",
       "added_at": "2026-05-26T17:01:04.124Z",
-      "laundry": null
+      "laundry": null,
+      "lat": 37.7316,
+      "lon": -122.4397
     },
     {
       "id": "cl_7931204782",
@@ -236,7 +262,9 @@
       "seen_by": [],
       "added_by": "craigslist",
       "added_at": "2026-05-26T17:01:04.124Z",
-      "laundry": null
+      "laundry": null,
+      "lat": 37.7354,
+      "lon": -122.4571
     },
     {
       "id": "cl_7931468681",
@@ -253,7 +281,9 @@
       "seen_by": [],
       "added_by": "craigslist",
       "added_at": "2026-05-26T17:01:04.124Z",
-      "laundry": null
+      "laundry": null,
+      "lat": 37.7807,
+      "lon": -122.4048
     },
     {
       "id": "cl_7930594084",
@@ -270,7 +300,9 @@
       "seen_by": [],
       "added_by": "craigslist",
       "added_at": "2026-05-26T17:01:04.124Z",
-      "laundry": "shared"
+      "laundry": "shared",
+      "lat": 37.7807,
+      "lon": -122.4048
     },
     {
       "id": "cl_7933689430",
@@ -287,7 +319,9 @@
       "seen_by": [],
       "added_by": "craigslist",
       "added_at": "2026-05-26T17:01:04.124Z",
-      "laundry": "shared"
+      "laundry": "shared",
+      "lat": 37.7807,
+      "lon": -122.4048
     },
     {
       "id": "cl_7930531568",
@@ -304,7 +338,9 @@
       "seen_by": [],
       "added_by": "craigslist",
       "added_at": "2026-05-26T17:01:04.124Z",
-      "laundry": "shared"
+      "laundry": "shared",
+      "lat": 37.7807,
+      "lon": -122.4048
     },
     {
       "id": "cl_7935959421",
@@ -321,7 +357,9 @@
       "seen_by": [],
       "added_by": "craigslist",
       "added_at": "2026-05-26T17:01:04.124Z",
-      "laundry": "shared"
+      "laundry": "shared",
+      "lat": 37.711,
+      "lon": -122.441
     },
     {
       "id": "cl_7931816932",
@@ -338,7 +376,9 @@
       "seen_by": [],
       "added_by": "craigslist",
       "added_at": "2026-05-26T17:01:04.124Z",
-      "laundry": null
+      "laundry": null,
+      "lat": 37.7585,
+      "lon": -122.4638
     },
     {
       "id": "cl_7936104096",
@@ -355,7 +395,9 @@
       "notes": "From Craigslist · posted May 22, 4:22 PM · 37.792,-122.479",
       "seen_by": [],
       "added_by": "craigslist",
-      "added_at": "2026-05-26T17:16:19.804Z"
+      "added_at": "2026-05-26T17:16:19.804Z",
+      "lat": 37.792,
+      "lon": -122.479
     },
     {
       "id": "cl_7936276119",
@@ -372,7 +414,9 @@
       "notes": "From Craigslist · posted May 26, 11:33 AM · 37.7822,-122.4806",
       "seen_by": [],
       "added_by": "craigslist",
-      "added_at": "2026-05-26T17:17:27.999Z"
+      "added_at": "2026-05-26T17:17:27.999Z",
+      "lat": 37.7822,
+      "lon": -122.4806
     },
     {
       "id": "cl_7936509691",
@@ -389,7 +433,9 @@
       "notes": "From Craigslist · posted May 24, 5:38 PM · 37.7786,-122.4892",
       "seen_by": [],
       "added_by": "craigslist",
-      "added_at": "2026-05-26T17:17:27.999Z"
+      "added_at": "2026-05-26T17:17:27.999Z",
+      "lat": 37.7786,
+      "lon": -122.4892
     },
     {
       "id": "cl_7935871038",
@@ -406,7 +452,9 @@
       "notes": "From Craigslist · posted May 21, 3:48 PM · 37.7455,-122.4125",
       "seen_by": [],
       "added_by": "craigslist",
-      "added_at": "2026-05-26T17:17:27.999Z"
+      "added_at": "2026-05-26T17:17:27.999Z",
+      "lat": 37.7455,
+      "lon": -122.4125
     },
     {
       "id": "cl_7932694793",
@@ -423,7 +471,9 @@
       "notes": "From Craigslist · posted May 7, 8:19 AM · 37.7712,-122.4413",
       "seen_by": [],
       "added_by": "craigslist",
-      "added_at": "2026-05-26T17:17:27.999Z"
+      "added_at": "2026-05-26T17:17:27.999Z",
+      "lat": 37.7712,
+      "lon": -122.4413
     },
     {
       "id": "cl_7931574210",
@@ -440,7 +490,9 @@
       "notes": "From Craigslist · posted May 1, 10:10 PM · 37.7304,-122.3913",
       "seen_by": [],
       "added_by": "craigslist",
-      "added_at": "2026-05-26T17:17:27.999Z"
+      "added_at": "2026-05-26T17:17:27.999Z",
+      "lat": 37.7304,
+      "lon": -122.3913
     }
   ]
 }
