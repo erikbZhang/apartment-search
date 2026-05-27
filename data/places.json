@@ -53,6 +53,15 @@
       "vibe": "OG SF climbing gym, tall walls",
       "lat": 37.7606654,
       "lon": -122.4124129
+    },
+    {
+      "category": "work",
+      "name": "Kikoff",
+      "address": "633 Folsom St",
+      "type": "Office",
+      "vibe": "",
+      "lat": 37.7845376,
+      "lon": -122.3972187
     }
   ]
 }

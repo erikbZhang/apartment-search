@@ -13,6 +13,7 @@
     grocery: { color: '#0369a1', label: 'Grocery' },
     park:    { color: '#65a30d', label: 'Park' },
     transit: { color: '#525252', label: 'Transit' },
+    work:    { color: '#0d9488', label: 'Work' },
   };
   function styleForPlace(cat) {
     return PLACE_STYLE[cat] || { color: '#525252', label: cat || 'Place' };
