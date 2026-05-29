@@ -2010,14 +2010,16 @@
       "bathrooms": null,
       "sqft": 0,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.7089,
       "lon": -122.4476,
       "notes": "From Craigslist · posted May 26, 5:53 AM",
       "seen_by": [],
       "added_by": "craigslist",
-      "added_at": "2026-05-29T22:02:02.234Z"
+      "added_at": "2026-05-29T22:02:02.234Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-05-29T22:39:14.973Z"
     },
     {
       "id": "cl_7937385161",
@@ -2588,6 +2590,44 @@
       "seen_by": [],
       "added_by": "craigslist",
       "added_at": "2026-05-29T22:02:02.234Z"
+    },
+    {
+      "id": "cl_7937550027",
+      "url": "https://sfbay.craigslist.org/sfc/apa/d/san-francisco-charming-2x1-mission/7937550027.html",
+      "address": "Charming 2x1 Mission District apartment 900-SF unit*Coming Soon",
+      "neighborhood": "Mission District",
+      "price": 2000,
+      "bedrooms": 2,
+      "bathrooms": null,
+      "sqft": 900,
+      "available": null,
+      "status": "to_see",
+      "laundry": null,
+      "lat": 37.7625,
+      "lon": -122.423,
+      "notes": "From Craigslist · posted May 29, 10:15 PM",
+      "seen_by": [],
+      "added_by": "craigslist",
+      "added_at": "2026-05-29T22:39:14.973Z"
+    },
+    {
+      "id": "cl_7937555661",
+      "url": "https://sfbay.craigslist.org/sfc/apa/d/bedroom-bath-light-filled-apt-month/7937555661.html",
+      "address": "3 Bedroom 1 Bath light filled apt. $5,000.00/month",
+      "neighborhood": "USF / Panhandle",
+      "price": 5000,
+      "bedrooms": 3,
+      "bathrooms": null,
+      "sqft": 0,
+      "available": null,
+      "status": "to_see",
+      "laundry": null,
+      "lat": 37.7712,
+      "lon": -122.4413,
+      "notes": "From Craigslist · posted May 29, 10:03 PM",
+      "seen_by": [],
+      "added_by": "craigslist",
+      "added_at": "2026-05-29T22:39:14.973Z"
     }
   ]
 }
