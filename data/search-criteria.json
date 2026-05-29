@@ -1,9 +1,12 @@
 {
-  "max_price": 4500,
+  "price_by_beds": {
+    "2": 4500,
+    "3": 7000,
+    "4": 8500
+  },
   "min_price": null,
-  "min_beds": 1,
-  "max_beds": 2,
   "query": null,
   "neighborhoods": null,
-  "limit": 50
+  "bbox": { "min_lat": 37.70, "max_lat": 37.84, "min_lon": -122.52, "max_lon": -122.35 },
+  "limit": 200
 }

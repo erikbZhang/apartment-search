@@ -10,7 +10,7 @@ const UA =
 // Fetch + filter + rank listings matching the given criteria.
 // criteria: { maxPrice, minPrice, minBeds, maxBeds, query, neighborhoods, limit }
 export async function fetchListings(criteria = {}) {
-  const {
+  let {
     maxPrice = null,
     minPrice = null,
     minBeds = null,
@@ -18,7 +18,23 @@ export async function fetchListings(criteria = {}) {
     query = null,
     neighborhoods = null,
     limit = 50,
+    priceByBeds = null,
+    bbox = null,
   } = criteria;
+
+  // Tiered mode: a per-bedroom price cap, e.g. { "2": 4500, "3": 7000, "4": 8500 }.
+  // We derive the bedroom range and overall price ceiling from it for the API
+  // query, then enforce the exact per-bedroom caps in the local filter below.
+  let capByBeds = null;
+  if (priceByBeds && typeof priceByBeds === 'object') {
+    capByBeds = new Map(
+      Object.entries(priceByBeds).map(([k, v]) => [Number(k), Number(v)])
+    );
+    const beds = [...capByBeds.keys()];
+    if (minBeds == null) minBeds = Math.min(...beds);
+    if (maxBeds == null) maxBeds = Math.max(...beds);
+    if (maxPrice == null) maxPrice = Math.max(...capByBeds.values());
+  }
 
   const params = new URLSearchParams({
     searchPath: 'sfc/apa',
@@ -48,10 +64,35 @@ export async function fetchListings(criteria = {}) {
     .map(item => parseItem(item, decode))
     .filter(l => l.title && l.subareaAbbr === 'sfc');
 
-  if (maxPrice) listings = listings.filter(l => l.price != null && l.price <= maxPrice);
+  // Geographic gate: Craigslist tags many out-of-city posts (Fremont, Oakland,
+  // etc.) as "sfc", but their real coordinates give them away. Keep only
+  // listings whose coordinates fall inside the SF bounding box.
+  if (bbox) {
+    const { minLat, maxLat, minLon, maxLon } = bbox;
+    listings = listings.filter(
+      l =>
+        l.lat != null && l.lon != null &&
+        l.lat >= minLat && l.lat <= maxLat &&
+        l.lon >= minLon && l.lon <= maxLon
+    );
+  }
+
   if (minPrice) listings = listings.filter(l => l.price != null && l.price >= minPrice);
-  if (minBeds) listings = listings.filter(l => l.beds == null || l.beds >= minBeds);
-  if (maxBeds) listings = listings.filter(l => l.beds == null || l.beds <= maxBeds);
+
+  if (capByBeds) {
+    // Keep only listings whose bedroom count has a cap and whose price is within it.
+    // Listings with no price or no parsed bedroom count are dropped — we can't
+    // apply a per-bedroom cap to them.
+    listings = listings.filter(l => {
+      if (l.price == null || l.beds == null) return false;
+      const cap = capByBeds.get(l.beds);
+      return cap != null && l.price <= cap;
+    });
+  } else {
+    if (maxPrice) listings = listings.filter(l => l.price != null && l.price <= maxPrice);
+    if (minBeds) listings = listings.filter(l => l.beds == null || l.beds >= minBeds);
+    if (maxBeds) listings = listings.filter(l => l.beds == null || l.beds <= maxBeds);
+  }
 
   if (neighborhoods && neighborhoods.length) {
     listings = listings.filter(l => {
@@ -62,8 +103,9 @@ export async function fetchListings(criteria = {}) {
     });
   }
 
-  // Rank: prefer 1-2 bedrooms, then bigger sqft, then newer postings, then lower price.
-  listings.sort((a, b) => score(b) - score(a));
+  // Rank: bigger sqft, newer postings, and better price. In tiered mode we reward
+  // listings furthest under their bedroom's cap rather than a fixed bedroom count.
+  listings.sort((a, b) => score(b, capByBeds) - score(a, capByBeds));
   listings = listings.slice(0, limit);
 
   return { listings, totalAvailable: data.totalResultCount };
@@ -125,13 +167,19 @@ function parseItem(item, decode) {
   };
 }
 
-function score(l) {
+function score(l, capByBeds = null) {
   let s = 0;
-  if (l.beds === 1 || l.beds === 2) s += 5;
-  else if (l.beds === 0) s -= 2;
-  else if (l.beds == null) s -= 1;
+  if (capByBeds) {
+    // Reward listings comfortably under their bedroom's cap; don't bias bed count.
+    const cap = capByBeds.get(l.beds);
+    if (cap && l.price) s += Math.max(0, (cap - l.price) / cap) * 5;
+  } else {
+    if (l.beds === 1 || l.beds === 2) s += 5;
+    else if (l.beds === 0) s -= 2;
+    else if (l.beds == null) s -= 1;
+    if (l.price) s += Math.max(0, (4500 - l.price) / 1000);
+  }
   if (l.sqft) s += Math.min(l.sqft / 200, 5);
-  if (l.price) s += Math.max(0, (4500 - l.price) / 1000);
   const ageDays = (Date.now() - new Date(l.posted_at).getTime()) / 86400000;
   if (ageDays < 1) s += 2;
   else if (ageDays < 3) s += 1;

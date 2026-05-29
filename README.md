@@ -94,15 +94,28 @@ It then commits the updated `data/apartments.json` back to `main`, so the live s
 
 ```json
 {
-  "max_price": 4500,
+  "price_by_beds": {
+    "2": 4500,
+    "3": 7000,
+    "4": 8500
+  },
   "min_price": null,
-  "min_beds": 1,
-  "max_beds": 2,
   "query": null,
   "neighborhoods": null,
-  "limit": 50
+  "bbox": { "min_lat": 37.70, "max_lat": 37.84, "min_lon": -122.52, "max_lon": -122.35 },
+  "limit": 200
 }
 ```
+
+`price_by_beds` is a **per-bedroom price ceiling** — in the example above, 2BR ≤ $4,500,
+3BR ≤ $7,000, 4BR ≤ $8,500. The bedroom range and the overall price ceiling for the search
+are derived from these keys, so only listings whose bedroom count appears here (and whose
+price is within that tier) are added. Listings with no price or an unrecognized bedroom count
+are skipped.
+
+`bbox` is a **geographic gate**. Craigslist tags lots of out-of-city posts (Fremont, Oakland,
+etc.) as San Francisco; the box keeps only listings whose coordinates fall inside SF, which is
+far more reliable than filtering on title text. Remove the `bbox` key to disable it.
 
 **Requirements / notes:**
 
