@@ -41,7 +41,19 @@ try {
   console.log(`No ${path.basename(CRITERIA_PATH)} found, using defaults.`);
 }
 const num = (v, fallback) => (v != null ? Number(v) : fallback);
+
+// SF bounding box (config uses snake_case; the lib wants camelCase) — drops
+// out-of-city posts that Craigslist mis-tags as "sfc".
+const b = fileCriteria.bbox || null;
+const bbox = b
+  ? { minLat: b.min_lat, maxLat: b.max_lat, minLon: b.min_lon, maxLon: b.max_lon }
+  : null;
+
 const criteria = {
+  // Per-bedroom price caps, e.g. { "2": 4500, "3": 7000, "4": 8500 }. When set,
+  // the bedroom range + overall price ceiling are derived from it (see craigslist.mjs).
+  priceByBeds: fileCriteria.price_by_beds || null,
+  bbox,
   maxPrice: num(args['max-price'], fileCriteria.max_price ?? null),
   minPrice: num(args['min-price'], fileCriteria.min_price ?? null),
   minBeds: num(args['min-beds'], fileCriteria.min_beds ?? null),
