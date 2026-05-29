@@ -445,6 +445,7 @@ a:hover { text-decoration: underline; text-underline-offset: 2px; }
 .price-marker.status-liked { background: #15803d; }
 .price-marker.status-applied { background: #1e40af; }
 .price-marker.status-rejected { background: #991b1b; opacity: 0.7; }
+.price-marker.status-off_market { background: #78716c; opacity: 0.55; text-decoration: line-through; }
 
 .place-marker {
   color: white;
@@ -796,6 +797,7 @@ label small {
 .card-banner.s-liked { background: linear-gradient(90deg, #16a34a, #4ade80); }
 .card-banner.s-applied { background: linear-gradient(90deg, #2563eb, #60a5fa); }
 .card-banner.s-rejected { background: linear-gradient(90deg, #b91c1c, #f87171); }
+.card-banner.s-off_market { background: linear-gradient(90deg, #78716c, #a8a29e); }
 
 .card-body {
   padding: 18px 20px 16px;
@@ -906,6 +908,7 @@ label small {
 .pill-liked { background: #dcfce7; color: #166534; }
 .pill-applied { background: #dbeafe; color: #1e40af; }
 .pill-rejected { background: #fee2e2; color: #991b1b; }
+.pill-off_market { background: #e7e5e4; color: #44403c; }
 
 .laundry-good { background: #dcfce7; color: #166534; }
 .laundry-ok { background: #e0f2fe; color: #075985; }

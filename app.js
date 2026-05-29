@@ -199,6 +199,7 @@
       liked: 'Liked',
       applied: 'Applied',
       rejected: 'Rejected',
+      off_market: 'Off market',
     }[s] || s;
   }
 
@@ -710,7 +711,7 @@
       if (!a.lat || !a.lon) return;
       const beds = a.bedrooms == null ? null : Number(a.bedrooms);
       const bedsClass = beds == null ? '' : `beds-${beds >= 4 ? 4 : beds}`;
-      const statusClass = ['liked','applied','rejected'].includes(a.status) ? `status-${a.status}` : '';
+      const statusClass = ['liked','applied','rejected','off_market'].includes(a.status) ? `status-${a.status}` : '';
       const labelPrice = a.price ? '$' + (a.price >= 1000 ? (a.price/1000).toFixed(a.price >= 10000 ? 0 : 1).replace(/\.0$/,'') + 'k' : a.price) : '?';
       const icon = L.divIcon({
         className: '',
