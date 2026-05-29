@@ -79,6 +79,43 @@ Then click **Refresh** in the web app.
 
 The script uses Craigslist's JSON API — no auth, no rate limit issues at normal use, no Browserbase needed.
 
+## Automatic hourly sync (GitHub Action)
+
+`.github/workflows/sync-listings.yml` runs every hour and:
+
+1. **Adds** new Craigslist listings matching `data/search-criteria.json`.
+2. **Marks listings off-market** — it re-checks every Craigslist listing's URL and, if the
+   posting has been deleted/expired/removed, flips its `status` to `off_market` (keeping the
+   prior status in `prev_status`). Nothing is ever deleted from the file.
+
+It then commits the updated `data/apartments.json` back to `main`, so the live site picks it up.
+
+**Change the search criteria** by editing `data/search-criteria.json`:
+
+```json
+{
+  "max_price": 4500,
+  "min_price": null,
+  "min_beds": 1,
+  "max_beds": 2,
+  "query": null,
+  "neighborhoods": null,
+  "limit": 50
+}
+```
+
+**Requirements / notes:**
+
+- Scheduled workflows only run from the **default branch**, so this file must be on `main`.
+- In the repo: **Settings → Actions → General → Workflow permissions → Read and write permissions**
+  (the workflow also declares `permissions: contents: write`).
+- Trigger a run manually anytime from the **Actions** tab (**Run workflow**).
+- Run the same logic locally:
+  ```bash
+  node scripts/sync-listings.mjs --dry-run   # preview, write nothing
+  node scripts/sync-listings.mjs             # add new + off-market sweep
+  ```
+
 ## Adding friends, gyms, and other places
 
 The map shows additional points of interest from `data/places.json`. Add anything you want — friends, gyms, coffee shops, anything. Schema:

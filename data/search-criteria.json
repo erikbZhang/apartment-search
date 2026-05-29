@@ -1,0 +1,9 @@
+{
+  "max_price": 4500,
+  "min_price": null,
+  "min_beds": 1,
+  "max_beds": 2,
+  "query": null,
+  "neighborhoods": null,
+  "limit": 50
+}
