@@ -2761,14 +2761,16 @@
       "bathrooms": null,
       "sqft": 0,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.7625,
       "lon": -122.423,
       "notes": "From Craigslist · posted May 30, 4:34 AM",
       "seen_by": [],
       "added_by": "craigslist",
-      "added_at": "2026-05-30T04:54:51.712Z"
+      "added_at": "2026-05-30T04:54:51.712Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-05-30T07:42:59.692Z"
     },
     {
       "id": "cl_7937605462",
@@ -2807,6 +2809,25 @@
       "seen_by": [],
       "added_by": "craigslist",
       "added_at": "2026-05-30T04:54:51.712Z"
+    },
+    {
+      "id": "cl_7935961120",
+      "url": "https://sfbay.craigslist.org/sfc/apa/d/san-francisco-private-entry-and-free/7935961120.html",
+      "address": "Private Entry And Free Super Fast Free Wifi Sunset 2 Bed/1Bath Unit",
+      "neighborhood": "Sunset / Parkside",
+      "price": 2200,
+      "bedrooms": 2,
+      "bathrooms": null,
+      "sqft": 0,
+      "available": null,
+      "status": "to_see",
+      "laundry": null,
+      "lat": 37.7486,
+      "lon": -122.476,
+      "notes": "From Craigslist · posted May 29, 5:23 AM",
+      "seen_by": [],
+      "added_by": "craigslist",
+      "added_at": "2026-05-30T07:42:59.692Z"
     }
   ]
 }
