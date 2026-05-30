@@ -2889,6 +2889,25 @@
       "seen_by": [],
       "added_by": "craigslist",
       "added_at": "2026-05-30T12:06:06.474Z"
+    },
+    {
+      "id": "cl_7937661488",
+      "url": "https://sfbay.craigslist.org/sfc/apa/d/san-francisco-2br-1ba-san-francisco-mo/7937661488.html",
+      "address": "2BR/1BA San Francisco 94112– $3000/mo – Pets OK – Section 8 OK",
+      "neighborhood": "Excelsior / Outer Mission",
+      "price": 2500,
+      "bedrooms": 2,
+      "bathrooms": null,
+      "sqft": 600,
+      "available": null,
+      "status": "to_see",
+      "laundry": null,
+      "lat": 37.7195,
+      "lon": -122.4411,
+      "notes": "From Craigslist · posted May 30, 3:46 PM",
+      "seen_by": [],
+      "added_by": "craigslist",
+      "added_at": "2026-05-30T16:07:23.174Z"
     }
   ]
 }
