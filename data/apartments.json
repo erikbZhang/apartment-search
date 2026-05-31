@@ -3319,14 +3319,16 @@
       "bathrooms": null,
       "sqft": 696,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.7753,
       "lon": -122.4159,
       "notes": "From Craigslist · posted May 31, 3:59 AM",
       "seen_by": [],
       "added_by": "craigslist",
-      "added_at": "2026-05-31T05:21:46.706Z"
+      "added_at": "2026-05-31T05:21:46.706Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-05-31T21:04:41.285Z"
     },
     {
       "id": "cl_7937780730",
@@ -3479,14 +3481,16 @@
       "bathrooms": null,
       "sqft": 0,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.7871,
       "lon": -122.4406,
       "notes": "From Craigslist · posted May 31, 6:31 AM",
       "seen_by": [],
       "added_by": "craigslist",
-      "added_at": "2026-05-31T08:52:46.427Z"
+      "added_at": "2026-05-31T08:52:46.427Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-05-31T21:04:41.285Z"
     },
     {
       "id": "cl_7937822763",
@@ -3660,14 +3664,16 @@
       "bathrooms": null,
       "sqft": 1648,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.7721,
       "lon": -122.5046,
       "notes": "From Craigslist · posted May 31, 5:04 PM",
       "seen_by": [],
       "added_by": "craigslist",
-      "added_at": "2026-05-31T17:12:35.144Z"
+      "added_at": "2026-05-31T17:12:35.144Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-05-31T21:04:41.285Z"
     },
     {
       "id": "cl_7937870646",
@@ -3824,6 +3830,44 @@
       "seen_by": [],
       "added_by": "craigslist",
       "added_at": "2026-05-31T19:23:25.907Z"
+    },
+    {
+      "id": "cl_7937914141",
+      "url": "https://sfbay.craigslist.org/sfc/apa/d/san-francisco-tmlp-14-mo-live-in-the/7937914141.html",
+      "address": "TMLP 14-mo. | Live In The Center Of It All! Trinity Towers, Downtown San Francis",
+      "neighborhood": "Tenderloin",
+      "price": 3885,
+      "bedrooms": 2,
+      "bathrooms": null,
+      "sqft": 741,
+      "available": null,
+      "status": "to_see",
+      "laundry": null,
+      "lat": 37.7917,
+      "lon": -122.4186,
+      "notes": "From Craigslist · posted May 31, 8:15 PM",
+      "seen_by": [],
+      "added_by": "craigslist",
+      "added_at": "2026-05-31T21:04:41.285Z"
+    },
+    {
+      "id": "cl_7937909125",
+      "url": "https://sfbay.craigslist.org/sfc/apa/d/san-francisco-900-mo-2br-1ba-san/7937909125.html",
+      "address": "$900/mo – 2BR/1BA San Francisco 94134 – Spacious Floor Plan – Pets OK",
+      "neighborhood": "For More Information Kindly Send Your Number",
+      "price": 900,
+      "bedrooms": 2,
+      "bathrooms": null,
+      "sqft": 0,
+      "available": null,
+      "status": "to_see",
+      "laundry": null,
+      "lat": 37.7246,
+      "lon": -122.4202,
+      "notes": "From Craigslist · posted May 31, 8:08 PM",
+      "seen_by": [],
+      "added_by": "craigslist",
+      "added_at": "2026-05-31T21:04:41.285Z"
     }
   ]
 }
