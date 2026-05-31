@@ -977,14 +977,16 @@
       "bathrooms": null,
       "sqft": 741,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.7917,
       "lon": -122.4186,
       "notes": "From Craigslist · posted May 29, 5:25 PM",
       "seen_by": [],
       "added_by": "craigslist",
-      "added_at": "2026-05-29T22:02:02.234Z"
+      "added_at": "2026-05-29T22:02:02.234Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-05-31T19:23:25.907Z"
     },
     {
       "id": "cl_7937296946",
@@ -3258,14 +3260,16 @@
       "bathrooms": null,
       "sqft": 1210,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.7517,
       "lon": -122.486,
       "notes": "From Craigslist · posted May 31, 2:30 AM",
       "seen_by": [],
       "added_by": "craigslist",
-      "added_at": "2026-05-31T05:21:46.706Z"
+      "added_at": "2026-05-31T05:21:46.706Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-05-31T19:23:25.907Z"
     },
     {
       "id": "cl_7937778284",
@@ -3433,14 +3437,16 @@
       "bathrooms": null,
       "sqft": 1100,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.7981,
       "lon": -122.4121,
       "notes": "From Craigslist · posted May 31, 7:57 AM",
       "seen_by": [],
       "added_by": "craigslist",
-      "added_at": "2026-05-31T08:52:46.427Z"
+      "added_at": "2026-05-31T08:52:46.427Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-05-31T19:23:25.907Z"
     },
     {
       "id": "cl_7937815810",
@@ -3633,14 +3639,16 @@
       "bathrooms": null,
       "sqft": 1950,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.7361,
       "lon": -122.4935,
       "notes": "From Craigslist · posted May 31, 5:04 PM",
       "seen_by": [],
       "added_by": "craigslist",
-      "added_at": "2026-05-31T17:12:35.144Z"
+      "added_at": "2026-05-31T17:12:35.144Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-05-31T19:23:25.907Z"
     },
     {
       "id": "cl_7937872941",
@@ -3671,14 +3679,16 @@
       "bathrooms": null,
       "sqft": 0,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.7349,
       "lon": -122.4832,
       "notes": "From Craigslist · posted May 31, 4:53 PM",
       "seen_by": [],
       "added_by": "craigslist",
-      "added_at": "2026-05-31T17:12:35.144Z"
+      "added_at": "2026-05-31T17:12:35.144Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-05-31T19:23:25.907Z"
     },
     {
       "id": "cl_7937853431",
@@ -3690,14 +3700,16 @@
       "bathrooms": null,
       "sqft": 0,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.7507,
       "lon": -122.4299,
       "notes": "From Craigslist · posted May 31, 3:28 PM",
       "seen_by": [],
       "added_by": "craigslist",
-      "added_at": "2026-05-31T17:12:35.144Z"
+      "added_at": "2026-05-31T17:12:35.144Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-05-31T19:23:25.907Z"
     },
     {
       "id": "cl_7937851786",
@@ -3793,6 +3805,25 @@
       "seen_by": [],
       "added_by": "craigslist",
       "added_at": "2026-05-31T17:12:35.144Z"
+    },
+    {
+      "id": "cl_7937896375",
+      "url": "https://sfbay.craigslist.org/sfc/apa/d/san-francisco-bedrooms-sunny-clean/7937896375.html",
+      "address": "2 Bedrooms, Sunny, Clean, Great location 1256-17th Ave, 94122",
+      "neighborhood": "Sunset / Parkside",
+      "price": 2950,
+      "bedrooms": 2,
+      "bathrooms": null,
+      "sqft": 0,
+      "available": null,
+      "status": "to_see",
+      "laundry": null,
+      "lat": 37.7637,
+      "lon": -122.475,
+      "notes": "From Craigslist · posted May 31, 6:52 PM",
+      "seen_by": [],
+      "added_by": "craigslist",
+      "added_at": "2026-05-31T19:23:25.907Z"
     }
   ]
 }
