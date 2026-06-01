@@ -1,12 +1,21 @@
 {
   "price_by_beds": {
-    "2": 4500,
-    "3": 7000,
-    "4": 8500
+    "3": 8400,
+    "4": 11200
   },
   "min_price": null,
   "query": null,
-  "neighborhoods": null,
+  "neighborhoods": [
+    "north beach",
+    "russian hill",
+    "marina",
+    "hayes valley",
+    "pacific heights",
+    "pac heights",
+    "union square",
+    "japantown",
+    "japan town"
+  ],
   "bbox": { "min_lat": 37.70, "max_lat": 37.84, "min_lon": -122.52, "max_lon": -122.35 },
   "limit": 200
 }
