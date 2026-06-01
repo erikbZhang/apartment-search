@@ -1,3 +1,42 @@
 {
-  "apartments": []
+  "apartments": [
+    {
+      "id": "cl_7937581116",
+      "url": "https://sfbay.craigslist.org/sfc/apa/d/san-francisco-charming-victorian-1st/7937581116.html",
+      "address": "Charming Victorian 1st floor flat, located In Russian Hill",
+      "neighborhood": "Russian Hill",
+      "price": 6000,
+      "bedrooms": 3,
+      "bathrooms": null,
+      "sqft": 1350,
+      "available": null,
+      "status": "to_see",
+      "laundry": null,
+      "lat": 37.8002,
+      "lon": -122.4091,
+      "notes": "From Craigslist · posted May 29, 5:17 PM",
+      "seen_by": [],
+      "added_by": "craigslist",
+      "added_at": "2026-06-01T18:02:29.276Z"
+    },
+    {
+      "id": "cl_7931602586",
+      "url": "https://sfbay.craigslist.org/sfc/apa/d/san-francisco-bed-bath-for-rent/7931602586.html",
+      "address": "3 Bed 3 Bath for rent",
+      "neighborhood": "Marina",
+      "price": 7000,
+      "bedrooms": 3,
+      "bathrooms": null,
+      "sqft": 2500,
+      "available": null,
+      "status": "to_see",
+      "laundry": null,
+      "lat": 37.7999,
+      "lon": -122.4342,
+      "notes": "From Craigslist · posted May 2, 2:38 AM",
+      "seen_by": [],
+      "added_by": "craigslist",
+      "added_at": "2026-06-01T18:02:29.276Z"
+    }
+  ]
 }
