@@ -38,7 +38,7 @@
     placesLoaded: false,
     sortKey: 'posted',          // 'address' | 'price' | 'beds' | 'sqft' | 'ppsf' | 'status' | 'posted'
     sortDir: 'desc',            // 'asc' | 'desc'
-    filterBeds: '',             // '' | '0' | '1' | '2' | '3+'
+    filterBeds: '',             // '' (any) | '3' | '4'
     priceMin: null,
     priceMax: null,
   };
