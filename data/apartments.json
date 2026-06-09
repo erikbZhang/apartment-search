@@ -575,7 +575,7 @@
     },
     {
       "id": "rc_1914-Golden-Gate-Ave-Flt,-Unit-Middle,-San-Francisco,-CA-94115",
-      "url": "https://www.google.com/maps/search/?api=1&query=1914%20Golden%20Gate%20Ave%20Flt%2C%20Unit%20Middle%2C%20San%20Francisco%2C%20CA%2094115%2C%20San%20Francisco%2C%20CA",
+      "url": "https://www.google.com/search?q=1914%20Golden%20Gate%20Ave%20Flt%2C%20Unit%20Middle%2C%20San%20Francisco%2C%20CA%2094115%20for%20rent",
       "address": "1914 Golden Gate Ave Flt, Unit Middle, San Francisco, CA 94115",
       "neighborhood": "Western Addition",
       "price": 11000,
@@ -594,7 +594,7 @@
     },
     {
       "id": "rc_1888-Green-St,-San-Francisco,-CA-94123",
-      "url": "https://www.google.com/maps/search/?api=1&query=1888%20Green%20St%2C%20San%20Francisco%2C%20CA%2094123%2C%20San%20Francisco%2C%20CA",
+      "url": "https://www.google.com/search?q=1888%20Green%20St%2C%20San%20Francisco%2C%20CA%2094123%20for%20rent",
       "address": "1888 Green St, San Francisco, CA 94123",
       "neighborhood": "Marina",
       "price": 9875,

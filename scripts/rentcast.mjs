@@ -77,11 +77,15 @@ async function fetchSFRentals(limit = 500) {
   return Array.isArray(json) ? json : json.listings || [];
 }
 
-// RentCast responses don't include a public listing URL, so synthesize a stable,
-// human-useful one (a maps search for the address) that doubles as the dedup key.
+// RentCast responses don't include a public listing URL (it aggregates from
+// MLS/public records, not a single site), so synthesize a stable, human-useful
+// one: a web search for the address that lands on wherever the listing actually
+// lives (Zillow/Apartments.com/etc.). This also doubles as the dedup/off-market
+// key, so it must stay deterministic for a given address — see the migration
+// note if you ever change its shape.
 function listingUrl(l) {
   const addr = l.formattedAddress || l.addressLine1 || '';
-  return `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(addr + ', San Francisco, CA')}`;
+  return `https://www.google.com/search?q=${encodeURIComponent(addr + ' for rent')}`;
 }
 
 export const source = {
