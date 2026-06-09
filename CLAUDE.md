@@ -43,7 +43,7 @@ There are no tests, linter, or package.json — the scripts are plain Node ESM (
 - `craigslist.mjs` — the original Craigslist library (see below); wrapped as a source. Uses `recheck` because its search is capped/date-sorted.
 - `redfin.mjs` — Redfin's internal "stingray" rentals API (SF region 17151). Supplement only; coverage is partial and the endpoint may be 403'd from CI datacenter IPs.
 - `dahlia.mjs` — SF's DAHLIA affordable-housing API (BMR/lottery units only). Geocodes addresses via Nominatim since listings lack coordinates.
-- `rentcast.mjs` — RentCast developer API; **off unless `RENTCAST_API_KEY` is set**, and quota-limited so meant for a daily (not hourly) run.
+- `rentcast.mjs` — RentCast developer API; **off unless `RENTCAST_API_KEY` is set**. Free tier is 50 req/month, so it runs once daily via its own `sync-rentcast.yml` workflow and enforces a hard monthly cap (40) persisted in `data/rentcast-usage.json` — one request per run, never add pagination. Never put `rentcast` in the hourly `sources` list.
 - `geo.mjs` — point-in-polygon neighborhood assignment for the lat/lon sources (shares `data/sf-neighborhoods.geojson` with the map); includes aliases for targets the 37-neighborhood set folds into a parent (Hayes Valley/Japantown → Western Addition, etc.).
 
 **Craigslist library (`craigslist.mjs`)** — `import-craigslist.mjs` (manual) and the Craigslist source both call into it.

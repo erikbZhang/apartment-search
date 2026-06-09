@@ -572,6 +572,44 @@
       "seen_by": [],
       "added_by": "dahlia",
       "added_at": "2026-06-09T22:26:43.084Z"
+    },
+    {
+      "id": "rc_1914-Golden-Gate-Ave-Flt,-Unit-Middle,-San-Francisco,-CA-94115",
+      "url": "https://www.google.com/maps/search/?api=1&query=1914%20Golden%20Gate%20Ave%20Flt%2C%20Unit%20Middle%2C%20San%20Francisco%2C%20CA%2094115%2C%20San%20Francisco%2C%20CA",
+      "address": "1914 Golden Gate Ave Flt, Unit Middle, San Francisco, CA 94115",
+      "neighborhood": "Western Addition",
+      "price": 11000,
+      "bedrooms": 3,
+      "bathrooms": 2.5,
+      "sqft": null,
+      "available": "2026-06-09",
+      "status": "to_see",
+      "laundry": null,
+      "lat": 37.778419,
+      "lon": -122.44265,
+      "notes": "From RentCast · $11000 · 1d on market",
+      "seen_by": [],
+      "added_by": "rentcast",
+      "added_at": "2026-06-09T22:55:03.275Z"
+    },
+    {
+      "id": "rc_1888-Green-St,-San-Francisco,-CA-94123",
+      "url": "https://www.google.com/maps/search/?api=1&query=1888%20Green%20St%2C%20San%20Francisco%2C%20CA%2094123%2C%20San%20Francisco%2C%20CA",
+      "address": "1888 Green St, San Francisco, CA 94123",
+      "neighborhood": "Marina",
+      "price": 9875,
+      "bedrooms": 3,
+      "bathrooms": 2,
+      "sqft": 1455,
+      "available": "2025-10-25",
+      "status": "to_see",
+      "laundry": null,
+      "lat": 37.797043,
+      "lon": -122.430171,
+      "notes": "From RentCast · $9875 · 228d on market",
+      "seen_by": [],
+      "added_by": "rentcast",
+      "added_at": "2026-06-09T22:55:03.275Z"
     }
   ]
 }

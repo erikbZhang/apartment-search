@@ -1,0 +1,45 @@
+name: Sync RentCast listings (daily)
+
+# RentCast's free tier is 50 requests/month, so this runs ONCE per day (<=31/mo)
+# and the rentcast.mjs source enforces a hard monthly cap (data/rentcast-usage.json)
+# as a backstop. Do NOT increase the frequency or this can incur charges.
+# Each run makes exactly one RentCast API request (add new + off-market sweep).
+
+on:
+  schedule:
+    - cron: '17 9 * * *' # once daily at 09:17 UTC
+  workflow_dispatch: {} # manual run — note: also consumes one request
+
+permissions:
+  contents: write
+
+concurrency:
+  group: sync-rentcast
+  cancel-in-progress: false
+
+jobs:
+  rentcast:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Sync RentCast listings
+        env:
+          RENTCAST_API_KEY: ${{ secrets.RENTCAST_API_KEY }}
+        run: node scripts/sync-listings.mjs --sources=rentcast
+
+      - name: Commit & push changes
+        run: |
+          if [[ -n "$(git status --porcelain data/)" ]]; then
+            git config user.name "github-actions[bot]"
+            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+            git add data/apartments.json data/rentcast-usage.json
+            git commit -m "Auto-sync RentCast listings (daily)"
+            git push
+          else
+            echo "No changes to commit."
+          fi

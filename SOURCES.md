@@ -15,7 +15,7 @@ because it's the rare site that doesn't run that gauntlet on its JSON API.
 | **Craigslist** | ✅ Live (primary) | Undocumented `sapi.craigslist.org` JSON API. Best free market-rate feed; nothing else matches it. |
 | **Redfin** | ✅ Live (supplement) | Internal "stingray" rentals API (`/stingray/api/v1/search/rentals`, SF region 17151). No heavy anti-bot vendor — plain `fetch` works. **Coverage caveat:** since Feb 2025 its apartment-building listings are Zillow passthrough; Redfin's own inventory is mostly sub-5-unit + SFR. **Datacenter-IP caveat:** the CDN 403s *some* endpoints from datacenter IPs; the rentals endpoint worked in local testing but may be blocked from CI — see "Operational notes". |
 | **DAHLIA** (housing.sfgov.org) | ✅ Live (affordable) | SF gov public JSON API, no key. **Below-market-rate / affordable lottery units only** — income-restricted, with application deadlines. Complements market-rate sources. Listings lack coordinates, so we geocode via Nominatim. |
-| **RentCast** | ⚙️ Scaffolded, off by default | Real listings via developer API, cleanest ToS (public-records sourced, not Zillow-scraped). Free tier is **50 calls/month** → daily, not hourly. Needs `RENTCAST_API_KEY`. See "Enabling RentCast". |
+| **RentCast** | ✅ Live (daily) | Real listings via developer API, cleanest ToS (public-records sourced, not Zillow-scraped). Free tier is **50 calls/month**, so it runs once daily via its own workflow and a hard monthly budget guard. See "RentCast budget". |
 | **Zillow / Trulia / HotPads** | ❌ Not viable free | PerimeterX + Cloudflare block datacenter IPs immediately. Bridge API is MLS-partner-only and not a rentals feed. |
 | **Apartments.com (CoStar)** | ❌ Avoid | Most aggressive anti-bot *and* most litigious in the space. Highest legal risk. |
 | **Realtor.com** | ❌ Not viable free | Akamai Bot Manager + TLS fingerprinting; rentals are secondary coverage anyway. |
@@ -69,10 +69,21 @@ Which sources run: `--sources=a,b` (CLI) > `"sources"` in
   more accurate than Craigslist's title-text matching — but depends on the
   geojson's 37-neighborhood granularity (hence the aliases above).
 
-## Enabling RentCast
+## RentCast budget (free tier = 50 requests/month — going over charges money)
 
-1. Sign up at rentcast.io and get an API key (free tier = 50 req/month).
-2. Add it as a repo secret `RENTCAST_API_KEY` and expose it to the sync step.
-3. Because of the quota, run RentCast on a **daily** schedule, not hourly:
-   `node scripts/sync-listings.mjs --sources=rentcast` (one call pulls a full SF
-   page, filtered locally). Don't add `rentcast` to the hourly `sources` list.
+This is wired so it **cannot** exceed the free tier without a deliberate change:
+
+- **One request per run.** `collect()` makes exactly one API call (one page,
+  filtered locally). There is no pagination. Don't add any.
+- **Daily schedule.** `.github/workflows/sync-rentcast.yml` runs once/day
+  (≤31 req/month). The hourly `sync-listings.yml` does **not** run RentCast —
+  `rentcast` is intentionally absent from the `sources` list in
+  `search-criteria.json`, and only the daily workflow passes `--sources=rentcast`.
+- **Hard monthly cap = 40**, enforced in `rentcast.mjs` and persisted to
+  `data/rentcast-usage.json` (`{ month, count }`, auto-resets each month). The
+  count is reserved *before* the HTTP call, so the ceiling holds even across CI
+  crashes or extra manual `workflow_dispatch` runs. At the cap, RentCast is
+  skipped (no call made).
+- The key lives only in the `RENTCAST_API_KEY` GitHub Actions secret — never in
+  the repo. To run locally: `RENTCAST_API_KEY=… node scripts/sync-listings.mjs --sources=rentcast`
+  (note: a local or manual run also consumes one request).
