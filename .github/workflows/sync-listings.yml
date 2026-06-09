@@ -3,6 +3,10 @@ name: Sync apartment listings
 # Runs every hour: adds new Craigslist listings matching data/search-criteria.json
 # and marks any listings that have been taken down as off-market. Commits the
 # updated data/apartments.json back to the repo so the site picks it up.
+#
+# NOTE: GitHub only registers a scheduled workflow when a push modifies this
+# file. If the schedule ever stops firing (e.g. after a history rewrite), push
+# any edit to this file to re-register it.
 
 on:
   schedule:
