@@ -20,6 +20,7 @@ node scripts/import-craigslist.mjs --dry-run        # preview, write nothing
 node scripts/sync-listings.mjs --dry-run            # preview
 node scripts/sync-listings.mjs                      # add new + re-check for removed
 node scripts/sync-listings.mjs --no-offmarket       # only add new
+node scripts/sync-listings.mjs --sources=craigslist,redfin,dahlia   # override enabled sources
 ```
 
 There are no tests, linter, or package.json — the scripts are plain Node ESM (`.mjs`) using only the standard library and global `fetch` (Node 20+).
@@ -38,7 +39,14 @@ There are no tests, linter, or package.json — the scripts are plain Node ESM (
 - **Map** (Leaflet, loaded via CDN; Carto basemap, no API key): apartment price pins + place markers + neighborhood polygons. Neighborhoods an apartment falls inside are highlighted via in-browser point-in-polygon (`pointInGeometry`), not by name matching.
 - **Geocoding** is done client-side via Nominatim (`geocodeAddress`), bounded to an SF viewbox and rate-limited to ~1 req/sec for places missing `lat`/`lon`.
 
-**Craigslist ingestion (`scripts/`)** — `craigslist.mjs` is the shared library; `import-craigslist.mjs` (manual) and `sync-listings.mjs` (automated) both call into it.
+**Multi-source ingestion (`scripts/`)** — `sync-listings.mjs` orchestrates several listing sources behind a uniform interface registered in `sources.mjs`. Each source exposes `collect(criteria, now, ctx) -> { add, liveUrls }`, `owns(apt)`, an off-market strategy (`'recheck'` = per-URL HTTP check, or `'setdiff'` = absent-from-fresh-full-fetch means gone), and (for recheck) `isGone(url)`. Which sources run: `--sources=` CLI > `"sources"` in `search-criteria.json` > `["craigslist"]`. A source that throws is logged and skipped — existing listings are left untouched and the other sources still run. **See `SOURCES.md` for the full source-by-source feasibility analysis and caveats.**
+- `craigslist.mjs` — the original Craigslist library (see below); wrapped as a source. Uses `recheck` because its search is capped/date-sorted.
+- `redfin.mjs` — Redfin's internal "stingray" rentals API (SF region 17151). Supplement only; coverage is partial and the endpoint may be 403'd from CI datacenter IPs.
+- `dahlia.mjs` — SF's DAHLIA affordable-housing API (BMR/lottery units only). Geocodes addresses via Nominatim since listings lack coordinates.
+- `rentcast.mjs` — RentCast developer API; **off unless `RENTCAST_API_KEY` is set**, and quota-limited so meant for a daily (not hourly) run.
+- `geo.mjs` — point-in-polygon neighborhood assignment for the lat/lon sources (shares `data/sf-neighborhoods.geojson` with the map); includes aliases for targets the 37-neighborhood set folds into a parent (Hayes Valley/Japantown → Western Addition, etc.).
+
+**Craigslist library (`craigslist.mjs`)** — `import-craigslist.mjs` (manual) and the Craigslist source both call into it.
 - `fetchListings()` hits Craigslist's undocumented public JSON API (`sapi.craigslist.org/.../search/full`) and parses its compact positional-array format in `parseItem()`. **This parser is fragile** — it depends on element positions and the `decode` lookup tables; if Craigslist changes the response shape, `parseItem` is where it breaks.
 - Two filtering modes: a flat `maxPrice`/`minBeds`/`maxBeds`, or **tiered `priceByBeds`** (a per-bedroom price ceiling like `{ "2": 4500, "3": 7000 }`). In tiered mode the bedroom range and overall ceiling are derived from the keys, and only listings whose bed count appears in the map (and price ≤ that tier) survive.
 - `bbox` is a **geographic gate** (lat/lon box) that drops out-of-city posts Craigslist mis-tags as `sfc` — more reliable than title-text filtering.

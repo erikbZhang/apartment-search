@@ -1,4 +1,5 @@
 {
+  "sources": ["craigslist", "redfin", "dahlia"],
   "price_by_beds": {
     "3": 12000,
     "4": 12000

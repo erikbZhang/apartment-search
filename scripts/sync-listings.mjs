@@ -1,14 +1,18 @@
 #!/usr/bin/env node
-// Hourly sync (run by .github/workflows/sync-listings.yml):
-//   1. Fetch Craigslist listings matching data/search-criteria.json and ADD any new ones.
-//   2. Re-check every existing Craigslist listing's URL; if the posting has been
-//      deleted/expired/removed, mark it status: "off_market" (preserving the
-//      previous status in prev_status). Nothing is ever deleted from the file.
+// Multi-source hourly sync (run by .github/workflows/sync-listings.yml):
+//   1. For each enabled source, fetch matching listings and ADD any new ones.
+//   2. Re-check existing listings and mark removed ones status: "off_market"
+//      (preserving the previous status in prev_status). Nothing is ever deleted.
+//
+// Sources live in scripts/sources.mjs. Which ones run is decided by, in order:
+//   --sources=craigslist,redfin   (CLI)  >  data/search-criteria.json "sources"
+//   >  ["craigslist"] (default). RentCast is skipped unless RENTCAST_API_KEY is set.
 //
 // Usage:
-//   node scripts/sync-listings.mjs                 # add new + off-market sweep
-//   node scripts/sync-listings.mjs --dry-run       # show what would change, write nothing
-//   node scripts/sync-listings.mjs --no-offmarket  # only add new listings
+//   node scripts/sync-listings.mjs                      # add new + off-market sweep
+//   node scripts/sync-listings.mjs --dry-run            # show changes, write nothing
+//   node scripts/sync-listings.mjs --no-offmarket       # only add new listings
+//   node scripts/sync-listings.mjs --sources=craigslist,redfin,dahlia
 //   node scripts/sync-listings.mjs --max-price=4000 --min-beds=1   # override criteria
 //
 // Criteria precedence: CLI args > data/search-criteria.json > built-in defaults.
@@ -16,7 +20,8 @@
 import fs from 'node:fs';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
-import { fetchListings, toApartment, isCraigslist, isListingGone, sleep } from './craigslist.mjs';
+import { sleep } from './craigslist.mjs';
+import { resolveSources } from './sources.mjs';
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const DATA_PATH = path.resolve(__dirname, '..', 'data', 'apartments.json');
@@ -30,7 +35,7 @@ const args = Object.fromEntries(
 );
 const dryRun = !!args['dry-run'];
 const skipOffMarket = !!args['no-offmarket'];
-// Politeness delay between Craigslist page checks (ms).
+// Politeness delay between per-URL off-market checks (ms) — Craigslist only.
 const checkDelay = args['delay'] ? Number(args['delay']) : 1000;
 
 // Load criteria from config, then let CLI args override.
@@ -42,16 +47,13 @@ try {
 }
 const num = (v, fallback) => (v != null ? Number(v) : fallback);
 
-// SF bounding box (config uses snake_case; the lib wants camelCase) — drops
-// out-of-city posts that Craigslist mis-tags as "sfc".
+// SF bounding box (config uses snake_case; the lib wants camelCase).
 const b = fileCriteria.bbox || null;
 const bbox = b
   ? { minLat: b.min_lat, maxLat: b.max_lat, minLon: b.min_lon, maxLon: b.max_lon }
   : null;
 
 const criteria = {
-  // Per-bedroom price caps, e.g. { "2": 4500, "3": 7000, "4": 8500 }. When set,
-  // the bedroom range + overall price ceiling are derived from it (see craigslist.mjs).
   priceByBeds: fileCriteria.price_by_beds || null,
   bbox,
   maxPrice: num(args['max-price'], fileCriteria.max_price ?? null),
@@ -65,51 +67,80 @@ const criteria = {
   limit: num(args['limit'], fileCriteria.limit ?? 50),
 };
 
+const sourceIds = args['sources']
+  ? String(args['sources']).split(',').map(s => s.trim()).filter(Boolean)
+  : (fileCriteria.sources || ['craigslist']);
+const sources = resolveSources(sourceIds);
+
 console.log('Search criteria:', JSON.stringify(criteria));
+console.log('Sources:', sources.map(s => s.id).join(', ') || '(none)');
 
 const db = JSON.parse(fs.readFileSync(DATA_PATH, 'utf8'));
 const byUrl = new Map(db.apartments.map(a => [a.url, a]));
 const now = new Date().toISOString();
 
-// ---- 1. Add new matching listings -------------------------------------------
-const { listings, totalAvailable } = await fetchListings(criteria);
-console.log(`Craigslist: ${totalAvailable} available, ${listings.length} match after filters.`);
-
+// ---- 1. Collect + add new listings from every source ------------------------
 const added = [];
-for (const l of listings) {
-  if (byUrl.has(l.url)) continue;
-  const apt = toApartment(l, now);
-  db.apartments.push(apt);
-  byUrl.set(apt.url, apt);
-  added.push(apt);
+const collected = []; // { source, liveUrls, ok }
+for (const source of sources) {
+  try {
+    const { add, liveUrls, totalAvailable } = await source.collect(criteria, now, { existingByUrl: byUrl });
+    const before = added.length;
+    for (const apt of add) {
+      if (!apt.url || byUrl.has(apt.url)) continue;
+      db.apartments.push(apt);
+      byUrl.set(apt.url, apt);
+      added.push(apt);
+    }
+    const avail = totalAvailable != null ? `${totalAvailable} available, ` : '';
+    console.log(`[${source.label}] ${avail}${add.length} match, ${added.length - before} new.`);
+    add.slice(0, 8).forEach(a =>
+      console.log(`  + ${a.price ? '$' + a.price : 'n/a'} · ${a.bedrooms ?? '?'}bd · ${a.neighborhood || '—'} · ${a.address}`)
+    );
+    collected.push({ source, liveUrls, ok: true });
+  } catch (err) {
+    console.warn(`[${source.label}] FAILED: ${err.message} — skipping (existing listings untouched).`);
+    collected.push({ source, liveUrls: null, ok: false });
+  }
 }
-console.log(`Added ${added.length} new listing(s).`);
-added.slice(0, 10).forEach(a => console.log(`  + ${a.price ? '$' + a.price : 'n/a'} · ${a.bedrooms ?? '?'}bd · ${a.address}`));
+console.log(`Added ${added.length} new listing(s) total.`);
 
-// ---- 2. Off-market sweep ----------------------------------------------------
+// ---- 2. Off-market sweep, per source ----------------------------------------
+const addedUrls = new Set(added.map(a => a.url));
 const wentOffMarket = [];
 if (!skipOffMarket) {
-  const addedUrls = new Set(added.map(a => a.url));
-  // Skip ones we just added this run — they came straight from the live search.
-  const toCheck = db.apartments.filter(
-    a => isCraigslist(a) && a.status !== 'off_market' && !addedUrls.has(a.url)
-  );
-  console.log(`Re-checking ${toCheck.length} active Craigslist listing(s) for removal...`);
-  for (const apt of toCheck) {
-    const gone = await isListingGone(apt.url);
-    if (gone) {
-      apt.prev_status = apt.status;
-      apt.status = 'off_market';
-      apt.off_market_at = now;
-      wentOffMarket.push(apt);
-      console.log(`  - off-market: ${apt.address} (was ${apt.prev_status})`);
+  for (const { source, liveUrls, ok } of collected) {
+    if (!ok) continue; // collection failed — don't risk retiring live listings
+    if (source.offMarket === 'setdiff' && !liveUrls) continue;
+
+    const toCheck = db.apartments.filter(
+      a => source.owns(a) && a.status !== 'off_market' && !addedUrls.has(a.url)
+    );
+    if (!toCheck.length) continue;
+    console.log(`[${source.label}] re-checking ${toCheck.length} active listing(s) (${source.offMarket})...`);
+
+    for (const apt of toCheck) {
+      let gone = false;
+      if (source.offMarket === 'recheck') {
+        gone = await source.isGone(apt.url);
+        if (checkDelay) await sleep(checkDelay);
+      } else {
+        // setdiff: absent from the fresh full live set == gone.
+        gone = !liveUrls.has(apt.url);
+      }
+      if (gone) {
+        apt.prev_status = apt.status;
+        apt.status = 'off_market';
+        apt.off_market_at = now;
+        wentOffMarket.push(apt);
+        console.log(`  - off-market: ${apt.address} (was ${apt.prev_status})`);
+      }
     }
-    if (checkDelay) await sleep(checkDelay);
   }
 }
 console.log(`Marked ${wentOffMarket.length} listing(s) off-market.`);
 
-// ---- 3. Write --------------------------------------------------------------
+// ---- 3. Write ---------------------------------------------------------------
 const changed = added.length > 0 || wentOffMarket.length > 0;
 if (dryRun) {
   console.log('\n--- DRY RUN, not writing ---');
