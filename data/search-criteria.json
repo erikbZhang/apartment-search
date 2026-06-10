@@ -1,14 +1,16 @@
 {
   "sources": ["craigslist", "redfin", "dahlia"],
   "price_by_beds": {
-    "3": 12000,
-    "4": 12000
+    "3": 9600,
+    "4": 12800
   },
   "min_price": null,
   "query": null,
   "neighborhoods": [
     "north beach",
     "russian hill",
+    "nob hill",
+    "noe valley",
     "marina",
     "hayes valley",
     "pacific heights",
