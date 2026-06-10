@@ -711,6 +711,44 @@
       "seen_by": [],
       "added_by": "rentcast",
       "added_at": "2026-06-10T12:38:09.032Z"
+    },
+    {
+      "id": "rf_c67049d6-c824-4b44-9d79-f26f2cb3498a",
+      "url": "https://www.redfin.com/CA/San-Francisco/1080-Sutter-St-94109/unit-201/home/69054819",
+      "address": "1080 Sutter St #201",
+      "neighborhood": "Downtown/Civic Center",
+      "price": 6800,
+      "bedrooms": 3,
+      "bathrooms": 2,
+      "sqft": 1151,
+      "available": "2026-06-21T00:00:00Z",
+      "status": "to_see",
+      "laundry": null,
+      "lat": 37.788251,
+      "lon": -122.418101,
+      "notes": "From Redfin · $6800 · Modern, fully furnished 3-bedroom/2-bathroom condo in the boutique Blanc building (2014 construction) in Lower Nob Hill. Move-in ready -- ev",
+      "seen_by": [],
+      "added_by": "redfin",
+      "added_at": "2026-06-10T12:48:26.613Z"
+    },
+    {
+      "id": "rf_4b5ae6b9-da49-4b5e-82b4-06d455e8f8d7",
+      "url": "https://www.redfin.com/CA/San-Francisco/1674-Filbert-St-94123/unit-7/apartment/186070820",
+      "address": "1674 Filbert St Unit 7",
+      "neighborhood": "Marina",
+      "price": 5900,
+      "bedrooms": 3,
+      "bathrooms": 2,
+      "sqft": 895,
+      "available": null,
+      "status": "to_see",
+      "laundry": "in_unit",
+      "lat": 37.7992611,
+      "lon": -122.4270384,
+      "notes": "From Redfin · $5900 · Renovated 3BR/2BA Marina Apartment with Private Patio & In-Unit Laundry Video walkthrough: https://youtu.be/lrOO5h7ixPw?si=8eA3bgXSQadHX7-o ",
+      "seen_by": [],
+      "added_by": "redfin",
+      "added_at": "2026-06-10T12:48:26.613Z"
     }
   ]
 }
