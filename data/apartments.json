@@ -416,14 +416,16 @@
       "bathrooms": null,
       "sqft": 0,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": "in_unit",
       "lat": 37.7886,
       "lon": -122.4253,
       "notes": "From Craigslist · posted Jun 8, 7:41 AM",
       "seen_by": [],
       "added_by": "craigslist",
-      "added_at": "2026-06-09T20:51:54.040Z"
+      "added_at": "2026-06-09T20:51:54.040Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-06-10T16:29:12.789Z"
     },
     {
       "id": "cl_7939332655",
@@ -473,14 +475,16 @@
       "bathrooms": 2,
       "sqft": null,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.7833789,
       "lon": -122.441803,
       "notes": "From Redfin · $6000",
       "seen_by": [],
       "added_by": "redfin",
-      "added_at": "2026-06-09T22:26:43.084Z"
+      "added_at": "2026-06-09T22:26:43.084Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-06-10T16:29:12.789Z"
     },
     {
       "id": "rf_99a847e0-f98c-4d1d-af48-082f8912585d",
@@ -492,14 +496,16 @@
       "bathrooms": 1,
       "sqft": 861,
       "available": "2026-06-28T00:00:00Z",
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.8010178,
       "lon": -122.4059408,
       "notes": "From Redfin · $8300 · SCHEDULE A SHOWING ONLINE AT: showmojo.com/lrt/e8dda12059 ---- Take the virtual tour: https://real.vision/394-union-street This three-bedroo",
       "seen_by": [],
       "added_by": "redfin",
-      "added_at": "2026-06-09T22:26:43.084Z"
+      "added_at": "2026-06-09T22:26:43.084Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-06-10T16:29:12.789Z"
     },
     {
       "id": "rf_76f023dd-ba94-4a64-9b62-122840a2c234",
@@ -749,6 +755,25 @@
       "seen_by": [],
       "added_by": "redfin",
       "added_at": "2026-06-10T12:48:26.613Z"
+    },
+    {
+      "id": "cl_7940034003",
+      "url": "https://sfbay.craigslist.org/sfc/apa/d/san-francisco-spacious-updated-townhome/7940034003.html",
+      "address": "Spacious Updated Townhome Style 3BR/2BA Laundry In Unit Pets OK",
+      "neighborhood": "Pac Hts",
+      "price": 9295,
+      "bedrooms": 3,
+      "bathrooms": null,
+      "sqft": 0,
+      "available": null,
+      "status": "to_see",
+      "laundry": "in_unit",
+      "lat": 37.7886,
+      "lon": -122.4253,
+      "notes": "From Craigslist · posted Jun 10, 3:11 PM",
+      "seen_by": [],
+      "added_by": "craigslist",
+      "added_at": "2026-06-10T16:29:12.789Z"
     }
   ]
 }
