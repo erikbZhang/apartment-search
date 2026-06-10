@@ -833,6 +833,44 @@
       "seen_by": [],
       "added_by": "craigslist",
       "added_at": "2026-06-10T18:22:34.307Z"
+    },
+    {
+      "id": "cl_7940060508",
+      "url": "https://sfbay.craigslist.org/sfc/apa/d/san-francisco-open-thurs-740pm-800pm/7940060508.html",
+      "address": "OPEN THURS 7:40pm-8:00pm. Spacious 3-2BR,Elev,Laundry(660 Bush #402)",
+      "neighborhood": "Nob Hill",
+      "price": 5400,
+      "bedrooms": 3,
+      "bathrooms": null,
+      "sqft": 0,
+      "available": null,
+      "status": "to_see",
+      "laundry": "shared",
+      "lat": 37.7902,
+      "lon": -122.4083,
+      "notes": "From Craigslist · posted Jun 10, 4:43 PM",
+      "seen_by": [],
+      "added_by": "craigslist",
+      "added_at": "2026-06-10T21:49:51.967Z"
+    },
+    {
+      "id": "rf_cf3bf292-e76e-4fb3-93ef-60ac0ce81152",
+      "url": "https://www.redfin.com/CA/San-Francisco/The-Fillmore-Center/apartment/110054167",
+      "address": "1475 Fillmore St",
+      "neighborhood": "Western Addition",
+      "price": 3619,
+      "bedrooms": 3,
+      "bathrooms": 1,
+      "sqft": 510,
+      "available": null,
+      "status": "to_see",
+      "laundry": null,
+      "lat": 37.782658,
+      "lon": -122.43318,
+      "notes": "From Redfin · $3619–$7424 · You. Are. Here.  We are currently offering virtual, live video, and in-person tours of our apartment community. Call us today for more infor",
+      "seen_by": [],
+      "added_by": "redfin",
+      "added_at": "2026-06-10T21:49:51.967Z"
     }
   ]
 }
