@@ -873,6 +873,44 @@
       "seen_by": [],
       "added_by": "redfin",
       "added_at": "2026-06-10T21:49:51.967Z"
+    },
+    {
+      "id": "cl_7940217737",
+      "url": "https://sfbay.craigslist.org/sfc/apa/d/san-francisco-grand-pacific-heights/7940217737.html",
+      "address": "Grand Pacific Heights Victorian | 4BR + Office",
+      "neighborhood": "Pacific Heights",
+      "price": 2400,
+      "bedrooms": 4,
+      "bathrooms": null,
+      "sqft": 2075,
+      "available": null,
+      "status": "to_see",
+      "laundry": null,
+      "lat": 37.7906,
+      "lon": -122.4419,
+      "notes": "From Craigslist · posted Jun 11, 11:37 AM",
+      "seen_by": [],
+      "added_by": "craigslist",
+      "added_at": "2026-06-11T12:02:01.764Z"
+    },
+    {
+      "id": "rf_4f5ac54e-3819-4ce5-88a4-9bc96881e981",
+      "url": "https://www.redfin.com/CA/San-Francisco/90-Alhambra-St-94123/apartment/1235462",
+      "address": "90 Alhambra St",
+      "neighborhood": "Marina",
+      "price": 8695,
+      "bedrooms": 3,
+      "bathrooms": 2,
+      "sqft": 900,
+      "available": null,
+      "status": "to_see",
+      "laundry": "in_unit",
+      "lat": 37.8028237,
+      "lon": -122.4380333,
+      "notes": "From Redfin · $8695 · SCHEDULE A SHOWING ONLINE AT: showmojo.com/lrt/9862b5a0f7 ---- Top-Floor Remodeled 3BR/2BA - Bright & Stylish - Laundry In-Unit - Prime Mari",
+      "seen_by": [],
+      "added_by": "redfin",
+      "added_at": "2026-06-11T12:02:01.764Z"
     }
   ]
 }
