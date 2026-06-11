@@ -1001,6 +1001,44 @@
       "seen_by": [],
       "added_by": "redfin",
       "added_at": "2026-06-11T16:43:36.530Z"
+    },
+    {
+      "id": "cl_7940332959",
+      "url": "https://sfbay.craigslist.org/sfc/apa/d/san-francisco-1635-gough-street-owner/7940332959.html",
+      "address": "1635 Gough Street Owner LP - A408",
+      "neighborhood": "Pac Heights",
+      "price": 9295,
+      "bedrooms": 3,
+      "bathrooms": null,
+      "sqft": 1115,
+      "available": null,
+      "status": "to_see",
+      "laundry": null,
+      "lat": 37.7886,
+      "lon": -122.4253,
+      "notes": "From Craigslist · posted Jun 11, 7:52 PM",
+      "seen_by": [],
+      "added_by": "craigslist",
+      "added_at": "2026-06-11T21:53:09.396Z"
+    },
+    {
+      "id": "cl_7940335639",
+      "url": "https://sfbay.craigslist.org/sfc/apa/d/san-francisco-open-thu-740pm-800pm/7940335639.html",
+      "address": "OPEN THU 7:40pm-8:00pm Spacious 3-2BR,Elev,Laundry(660 Bush #402)",
+      "neighborhood": "Nob Hill",
+      "price": 5400,
+      "bedrooms": 3,
+      "bathrooms": null,
+      "sqft": 0,
+      "available": null,
+      "status": "to_see",
+      "laundry": "shared",
+      "lat": 37.7902,
+      "lon": -122.4083,
+      "notes": "From Craigslist · posted Jun 11, 8:04 PM",
+      "seen_by": [],
+      "added_by": "craigslist",
+      "added_at": "2026-06-11T21:53:09.396Z"
     }
   ]
 }
