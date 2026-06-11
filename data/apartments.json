@@ -555,14 +555,16 @@
       "bathrooms": 2,
       "sqft": 1557,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.788139,
       "lon": -122.445235,
       "notes": "From Redfin · $8500 · LOCATION: 1818 Lyon Street, Unit A, San Francisco (Pacific Heights) RENTWISE PRESENTS: Garden views, modern elegance, and classic San Franci",
       "seen_by": [],
       "added_by": "redfin",
-      "added_at": "2026-06-09T22:26:43.084Z"
+      "added_at": "2026-06-09T22:26:43.084Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-06-11T07:20:32.962Z"
     },
     {
       "id": "sf_a0W7y00000GYsG5EAL",
