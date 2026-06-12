@@ -523,14 +523,16 @@
       "bathrooms": 3,
       "sqft": 2100,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.8006907,
       "lon": -122.4436974,
       "notes": "From Redfin · $11995 · This beautifully re-imagined 2 level, 3 Bedroom, 3 Bath Duplex Condominium in the heart of The Marina District, 1 block from Chestnut Street",
       "seen_by": [],
       "added_by": "redfin",
-      "added_at": "2026-06-09T22:26:43.084Z"
+      "added_at": "2026-06-09T22:26:43.084Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-06-12T11:33:12.377Z"
     },
     {
       "id": "rf_e4e46acf-8183-4a96-8c67-f6629ca782c6",
@@ -761,14 +763,16 @@
       "bathrooms": 2,
       "sqft": 895,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": "in_unit",
       "lat": 37.7992611,
       "lon": -122.4270384,
       "notes": "From Redfin · $5900 · Renovated 3BR/2BA Marina Apartment with Private Patio & In-Unit Laundry Video walkthrough: https://youtu.be/lrOO5h7ixPw?si=8eA3bgXSQadHX7-o ",
       "seen_by": [],
       "added_by": "redfin",
-      "added_at": "2026-06-10T12:48:26.613Z"
+      "added_at": "2026-06-10T12:48:26.613Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-06-12T11:33:12.377Z"
     },
     {
       "id": "cl_7940034003",
@@ -995,14 +999,16 @@
       "bathrooms": 2,
       "sqft": null,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.7914494,
       "lon": -122.4198638,
       "notes": "From Redfin · $7995 · SCHEDULE A SHOWING ONLINE AT: showmojo.com/lrt/297748c03e ---- Experience city living at its finest in this spacious 3-bedroom, 2-bathroom a",
       "seen_by": [],
       "added_by": "redfin",
-      "added_at": "2026-06-11T16:43:36.530Z"
+      "added_at": "2026-06-11T16:43:36.530Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-06-12T11:33:12.377Z"
     },
     {
       "id": "cl_7940332959",
