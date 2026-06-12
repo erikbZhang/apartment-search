@@ -788,14 +788,16 @@
       "bathrooms": null,
       "sqft": 0,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": "in_unit",
       "lat": 37.7886,
       "lon": -122.4253,
       "notes": "From Craigslist · posted Jun 10, 3:11 PM",
       "seen_by": [],
       "added_by": "craigslist",
-      "added_at": "2026-06-10T16:29:12.789Z"
+      "added_at": "2026-06-10T16:29:12.789Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-06-12T17:29:47.934Z"
     },
     {
       "id": "cl_7939744161",
@@ -1043,14 +1045,16 @@
       "bathrooms": null,
       "sqft": 0,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": "shared",
       "lat": 37.7902,
       "lon": -122.4083,
       "notes": "From Craigslist · posted Jun 11, 8:04 PM",
       "seen_by": [],
       "added_by": "craigslist",
-      "added_at": "2026-06-11T21:53:09.396Z"
+      "added_at": "2026-06-11T21:53:09.396Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-06-12T17:29:47.934Z"
     },
     {
       "id": "cl_7940418028",
@@ -1108,6 +1112,44 @@
       "seen_by": [],
       "added_by": "redfin",
       "added_at": "2026-06-12T14:29:20.803Z"
+    },
+    {
+      "id": "cl_7940469219",
+      "url": "https://sfbay.craigslist.org/sfc/apa/d/san-francisco-bed-bath-for-rent/7940469219.html",
+      "address": "3 Bed 3 Bath for rent",
+      "neighborhood": "Marina",
+      "price": 6000,
+      "bedrooms": 3,
+      "bathrooms": null,
+      "sqft": 2500,
+      "available": null,
+      "status": "to_see",
+      "laundry": null,
+      "lat": 37.7999,
+      "lon": -122.4342,
+      "notes": "From Craigslist · posted Jun 12, 2:47 PM",
+      "seen_by": [],
+      "added_by": "craigslist",
+      "added_at": "2026-06-12T17:29:47.934Z"
+    },
+    {
+      "id": "cl_7940485232",
+      "url": "https://sfbay.craigslist.org/sfc/apa/d/san-francisco-spacious-updated-townhome/7940485232.html",
+      "address": "Spacious Updated Townhome Style 3BR/2BA Laundry In Unit Pets OK",
+      "neighborhood": "Pac Hts",
+      "price": 9295,
+      "bedrooms": 3,
+      "bathrooms": null,
+      "sqft": 0,
+      "available": null,
+      "status": "to_see",
+      "laundry": "in_unit",
+      "lat": 37.7886,
+      "lon": -122.4253,
+      "notes": "From Craigslist · posted Jun 12, 3:50 PM",
+      "seen_by": [],
+      "added_by": "craigslist",
+      "added_at": "2026-06-12T17:29:47.934Z"
     }
   ]
 }
