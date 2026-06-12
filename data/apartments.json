@@ -544,14 +544,16 @@
       "bathrooms": 1,
       "sqft": 645,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.7886343,
       "lon": -122.425635,
       "notes": "From Redfin · $3875–$9295 · Discover 1635 Gough Apartments, a thoughtfully designed apartment building in the sought-after Pacific Heights neighborhood. This pet-friend",
       "seen_by": [],
       "added_by": "redfin",
-      "added_at": "2026-06-09T22:26:43.084Z"
+      "added_at": "2026-06-09T22:26:43.084Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-06-12T14:29:20.803Z"
     },
     {
       "id": "rf_085a9b38-b706-42c1-91dd-f377a1e90650",
@@ -1087,6 +1089,25 @@
       "seen_by": [],
       "added_by": "rentcast",
       "added_at": "2026-06-12T12:33:29.925Z"
+    },
+    {
+      "id": "rf_fbb05079-a13f-4815-a6ab-cb2588739dd5",
+      "url": "https://www.redfin.com/CA/San-Francisco/1714-Castro-St-94131/home/1760525",
+      "address": "1714 Castro St",
+      "neighborhood": "Noe Valley",
+      "price": 8000,
+      "bedrooms": 3,
+      "bathrooms": 1.5,
+      "sqft": null,
+      "available": null,
+      "status": "to_see",
+      "laundry": null,
+      "lat": 37.747498,
+      "lon": -122.4339814,
+      "notes": "From Redfin · $8000 · This home is a lovely vintage family owned home that features 3 bedrooms and 1.5 bathrooms. As you enter the home you will see beautiful sta",
+      "seen_by": [],
+      "added_by": "redfin",
+      "added_at": "2026-06-12T14:29:20.803Z"
     }
   ]
 }
