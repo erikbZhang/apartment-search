@@ -1190,6 +1190,25 @@
       "seen_by": [],
       "added_by": "craigslist",
       "added_at": "2026-06-12T19:50:02.654Z"
+    },
+    {
+      "id": "rf_31d58800-bab0-4f0a-9276-e3a89f55428d",
+      "url": "https://www.redfin.com/CA/San-Francisco/1212-Pacific-Ave-94109/unit-3/apartment/202241772",
+      "address": "1212 Pacific Ave Unit 3",
+      "neighborhood": "Nob Hill",
+      "price": 5100,
+      "bedrooms": 3,
+      "bathrooms": 2,
+      "sqft": 1000,
+      "available": "2026-06-13T00:00:00Z",
+      "status": "to_see",
+      "laundry": null,
+      "lat": 37.7959869,
+      "lon": -122.4153255,
+      "notes": "From Redfin · $5100 · Recently remodeled 3-bedroom, 2-bathroom top-floor unit located in the heart of Nob Hill. This bright and spacious home features soaring vau",
+      "seen_by": [],
+      "added_by": "redfin",
+      "added_at": "2026-06-13T06:44:59.056Z"
     }
   ]
 }
