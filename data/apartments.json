@@ -1270,6 +1270,25 @@
       "seen_by": [],
       "added_by": "craigslist",
       "added_at": "2026-06-14T02:45:19.142Z"
+    },
+    {
+      "id": "rc_2241-Polk-St,-San-Francisco,-CA-94109",
+      "url": "https://www.google.com/search?q=2241%20Polk%20St%2C%20San%20Francisco%2C%20CA%2094109%20for%20rent",
+      "address": "2241 Polk St, San Francisco, CA 94109",
+      "neighborhood": "Russian Hill",
+      "price": 8000,
+      "bedrooms": 4,
+      "bathrooms": 1.5,
+      "sqft": 1600,
+      "available": "2026-06-14",
+      "status": "to_see",
+      "laundry": null,
+      "lat": 37.79755,
+      "lon": -122.422363,
+      "notes": "From RentCast · $8000 · 1d on market",
+      "seen_by": [],
+      "added_by": "rentcast",
+      "added_at": "2026-06-14T11:37:26.679Z"
     }
   ]
 }
