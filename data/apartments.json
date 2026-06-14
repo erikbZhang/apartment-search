@@ -1350,6 +1350,25 @@
       "seen_by": [],
       "added_by": "craigslist",
       "added_at": "2026-06-14T19:05:45.436Z"
+    },
+    {
+      "id": "cl_7940945768",
+      "url": "https://sfbay.craigslist.org/sfc/apa/d/san-francisco-classic-marina-style-home/7940945768.html",
+      "address": "Classic Marina-style home - 1 block from the heart of West Portal",
+      "neighborhood": "Marina",
+      "price": 7500,
+      "bedrooms": 3,
+      "bathrooms": null,
+      "sqft": 1315,
+      "available": null,
+      "status": "to_see",
+      "laundry": null,
+      "lat": 37.7379,
+      "lon": -122.4705,
+      "notes": "From Craigslist · posted Jun 14, 7:40 PM",
+      "seen_by": [],
+      "added_by": "craigslist",
+      "added_at": "2026-06-14T20:57:19.829Z"
     }
   ]
 }
