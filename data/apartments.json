@@ -1251,6 +1251,25 @@
       "added_at": "2026-06-13T21:00:01.473Z",
       "prev_status": "to_see",
       "off_market_at": "2026-06-13T23:56:13.407Z"
+    },
+    {
+      "id": "cl_7940828059",
+      "url": "https://sfbay.craigslist.org/sfc/apa/d/san-francisco-newly-renovated-spacious/7940828059.html",
+      "address": "NEWLY RENOVATED spacious 3 BR, 1.5 bath flat",
+      "neighborhood": "Nob Hill",
+      "price": 5800,
+      "bedrooms": 3,
+      "bathrooms": null,
+      "sqft": 1550,
+      "available": null,
+      "status": "to_see",
+      "laundry": null,
+      "lat": 37.7926,
+      "lon": -122.4194,
+      "notes": "From Craigslist · posted Jun 14, 2:20 AM",
+      "seen_by": [],
+      "added_by": "craigslist",
+      "added_at": "2026-06-14T02:45:19.142Z"
     }
   ]
 }
