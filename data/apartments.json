@@ -1188,14 +1188,16 @@
       "bathrooms": null,
       "sqft": 0,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": "shared",
       "lat": 37.7902,
       "lon": -122.4083,
       "notes": "From Craigslist · posted Jun 12, 6:48 PM",
       "seen_by": [],
       "added_by": "craigslist",
-      "added_at": "2026-06-12T19:50:02.654Z"
+      "added_at": "2026-06-12T19:50:02.654Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-06-15T20:20:01.958Z"
     },
     {
       "id": "rf_31d58800-bab0-4f0a-9276-e3a89f55428d",
@@ -1323,14 +1325,16 @@
       "bathrooms": null,
       "sqft": 0,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": "shared",
       "lat": 37.7902,
       "lon": -122.4083,
       "notes": "From Craigslist · posted Jun 14, 3:21 PM",
       "seen_by": [],
       "added_by": "craigslist",
-      "added_at": "2026-06-14T17:06:25.325Z"
+      "added_at": "2026-06-14T17:06:25.325Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-06-15T20:20:01.958Z"
     },
     {
       "id": "cl_7940925286",
@@ -1388,6 +1392,44 @@
       "seen_by": [],
       "added_by": "craigslist",
       "added_at": "2026-06-15T10:48:46.962Z"
+    },
+    {
+      "id": "cl_7941160962",
+      "url": "https://sfbay.craigslist.org/sfc/apa/d/san-francisco-spacious-3br-noe-valley/7941160962.html",
+      "address": "Spacious 3BR Noe Valley Flat with City Views",
+      "neighborhood": "Noe Valley",
+      "price": 3280,
+      "bedrooms": 3,
+      "bathrooms": null,
+      "sqft": 0,
+      "available": null,
+      "status": "to_see",
+      "laundry": null,
+      "lat": 37.745,
+      "lon": -122.4383,
+      "notes": "From Craigslist · posted Jun 15, 7:31 PM",
+      "seen_by": [],
+      "added_by": "craigslist",
+      "added_at": "2026-06-15T20:20:01.958Z"
+    },
+    {
+      "id": "cl_7941132561",
+      "url": "https://sfbay.craigslist.org/sfc/apa/d/san-francisco-open-tues-710pm-730pm/7941132561.html",
+      "address": "OPEN TUES 7:10pm-7:30pm. Spacious 3-2BR,Elev,Laundry (660 Bush #402)",
+      "neighborhood": "Nob Hill",
+      "price": 5400,
+      "bedrooms": 3,
+      "bathrooms": null,
+      "sqft": 0,
+      "available": null,
+      "status": "to_see",
+      "laundry": "shared",
+      "lat": 37.7902,
+      "lon": -122.4083,
+      "notes": "From Craigslist · posted Jun 15, 5:52 PM",
+      "seen_by": [],
+      "added_by": "craigslist",
+      "added_at": "2026-06-15T20:20:01.958Z"
     }
   ]
 }
