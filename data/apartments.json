@@ -1403,14 +1403,16 @@
       "bathrooms": null,
       "sqft": 0,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.745,
       "lon": -122.4383,
       "notes": "From Craigslist · posted Jun 15, 7:31 PM",
       "seen_by": [],
       "added_by": "craigslist",
-      "added_at": "2026-06-15T20:20:01.958Z"
+      "added_at": "2026-06-15T20:20:01.958Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-06-15T22:53:41.196Z"
     },
     {
       "id": "cl_7941132561",
@@ -1430,6 +1432,25 @@
       "seen_by": [],
       "added_by": "craigslist",
       "added_at": "2026-06-15T20:20:01.958Z"
+    },
+    {
+      "id": "cl_7941184867",
+      "url": "https://sfbay.craigslist.org/sfc/apa/d/san-francisco-1635-gough-street-owner/7941184867.html",
+      "address": "1635 Gough Street Owner LP - A408",
+      "neighborhood": "Pac Heights",
+      "price": 9295,
+      "bedrooms": 3,
+      "bathrooms": null,
+      "sqft": 1115,
+      "available": null,
+      "status": "to_see",
+      "laundry": null,
+      "lat": 37.7886,
+      "lon": -122.4253,
+      "notes": "From Craigslist · posted Jun 15, 9:07 PM",
+      "seen_by": [],
+      "added_by": "craigslist",
+      "added_at": "2026-06-15T22:53:41.196Z"
     }
   ]
 }
