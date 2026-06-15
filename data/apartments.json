@@ -1369,6 +1369,25 @@
       "seen_by": [],
       "added_by": "craigslist",
       "added_at": "2026-06-14T20:57:19.829Z"
+    },
+    {
+      "id": "cl_7941018105",
+      "url": "https://sfbay.craigslist.org/sfc/apa/d/san-francisco-for-rent/7941018105.html",
+      "address": "For Rent",
+      "neighborhood": "Noe Valley",
+      "price": 6500,
+      "bedrooms": 3,
+      "bathrooms": null,
+      "sqft": 0,
+      "available": null,
+      "status": "to_see",
+      "laundry": null,
+      "lat": 37.7479,
+      "lon": -122.4365,
+      "notes": "From Craigslist · posted Jun 15, 4:52 AM",
+      "seen_by": [],
+      "added_by": "craigslist",
+      "added_at": "2026-06-15T10:48:46.962Z"
     }
   ]
 }
