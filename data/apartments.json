@@ -1587,6 +1587,44 @@
       "seen_by": [],
       "added_by": "craigslist",
       "added_at": "2026-06-16T20:37:46.851Z"
+    },
+    {
+      "id": "cl_7941427461",
+      "url": "https://sfbay.craigslist.org/sfc/apa/d/san-francisco-1635-gough-street-owner/7941427461.html",
+      "address": "1635 Gough Street Owner LP - A408",
+      "neighborhood": "Pac Heights",
+      "price": 9295,
+      "bedrooms": 3,
+      "bathrooms": null,
+      "sqft": 1115,
+      "available": null,
+      "status": "to_see",
+      "laundry": null,
+      "lat": 37.7886,
+      "lon": -122.4253,
+      "notes": "From Craigslist · posted Jun 16, 10:19 PM",
+      "seen_by": [],
+      "added_by": "craigslist",
+      "added_at": "2026-06-16T22:46:24.651Z"
+    },
+    {
+      "id": "cl_7941425832",
+      "url": "https://sfbay.craigslist.org/sfc/apa/d/san-francisco-beautifully-remodeled-3br/7941425832.html",
+      "address": "Beautifully Remodeled 3BR/2BA in Prime Hayes Valley",
+      "neighborhood": "Hayes Valley",
+      "price": 8995,
+      "bedrooms": 3,
+      "bathrooms": null,
+      "sqft": 0,
+      "available": null,
+      "status": "to_see",
+      "laundry": null,
+      "lat": 37.7757,
+      "lon": -122.4319,
+      "notes": "From Craigslist · posted Jun 16, 10:34 PM",
+      "seen_by": [],
+      "added_by": "craigslist",
+      "added_at": "2026-06-16T22:46:24.651Z"
     }
   ]
 }
