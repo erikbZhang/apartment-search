@@ -1444,14 +1444,16 @@
       "bathrooms": null,
       "sqft": 0,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": "shared",
       "lat": 37.7902,
       "lon": -122.4083,
       "notes": "From Craigslist · posted Jun 15, 5:52 PM",
       "seen_by": [],
       "added_by": "craigslist",
-      "added_at": "2026-06-15T20:20:01.958Z"
+      "added_at": "2026-06-15T20:20:01.958Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-06-16T20:37:46.851Z"
     },
     {
       "id": "cl_7941184867",
@@ -1566,6 +1568,25 @@
       "seen_by": [],
       "added_by": "redfin",
       "added_at": "2026-06-16T17:53:05.052Z"
+    },
+    {
+      "id": "cl_7941390499",
+      "url": "https://sfbay.craigslist.org/sfc/apa/d/san-francisco-open-tue-710pm-730pm/7941390499.html",
+      "address": "OPEN TUE 7:10pm-7:30pm Spacious 3-2BR,Elev,Laundry(660 Bush #402)",
+      "neighborhood": "Nob Hill",
+      "price": 5400,
+      "bedrooms": 3,
+      "bathrooms": null,
+      "sqft": 0,
+      "available": null,
+      "status": "to_see",
+      "laundry": "shared",
+      "lat": 37.7902,
+      "lon": -122.4083,
+      "notes": "From Craigslist · posted Jun 16, 7:46 PM",
+      "seen_by": [],
+      "added_by": "craigslist",
+      "added_at": "2026-06-16T20:37:46.851Z"
     }
   ]
 }
