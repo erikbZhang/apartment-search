@@ -1211,14 +1211,16 @@
       "bathrooms": 2,
       "sqft": 1000,
       "available": "2026-06-13T00:00:00Z",
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.7959869,
       "lon": -122.4153255,
       "notes": "From Redfin · $5100 · Recently remodeled 3-bedroom, 2-bathroom top-floor unit located in the heart of Nob Hill. This bright and spacious home features soaring vau",
       "seen_by": [],
       "added_by": "redfin",
-      "added_at": "2026-06-13T06:44:59.056Z"
+      "added_at": "2026-06-13T06:44:59.056Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-06-16T06:21:55.828Z"
     },
     {
       "id": "cl_7940698778",
