@@ -1682,6 +1682,25 @@
       "seen_by": [],
       "added_by": "rentcast",
       "added_at": "2026-06-17T12:58:22.715Z"
+    },
+    {
+      "id": "rf_cbfcc6dd-cf96-4c94-bb9f-d326c8a12744",
+      "url": "https://www.redfin.com/CA/San-Francisco/944-Hayes-St-94117/home/200917193",
+      "address": "944 Hayes St",
+      "neighborhood": "Western Addition",
+      "price": 8995,
+      "bedrooms": 3,
+      "bathrooms": 2,
+      "sqft": null,
+      "available": null,
+      "status": "to_see",
+      "laundry": null,
+      "lat": 37.775906,
+      "lon": -122.4320975,
+      "notes": "From Redfin · $8995 · SCHEDULE A SHOWING ONLINE AT: showmojo.com/lrt/0becb48047 ---- Located on one of San Francisco's most desirable corridors, 940 Hayes St #29 ",
+      "seen_by": [],
+      "added_by": "redfin",
+      "added_at": "2026-06-17T14:25:07.132Z"
     }
   ]
 }
