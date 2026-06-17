@@ -1644,6 +1644,25 @@
       "seen_by": [],
       "added_by": "redfin",
       "added_at": "2026-06-17T05:57:10.846Z"
+    },
+    {
+      "id": "rf_0f93abde-cac6-43e0-84d0-83f84827b2ab",
+      "url": "https://www.redfin.com/CA/San-Francisco/1-Hoffman-Ave-94114/unit-1C/home/1271659",
+      "address": "1 Hoffman Ave Unit 1C",
+      "neighborhood": "Noe Valley",
+      "price": 7995,
+      "bedrooms": 3,
+      "bathrooms": 2.5,
+      "sqft": 1500,
+      "available": "2026-07-01T00:00:00Z",
+      "status": "to_see",
+      "laundry": null,
+      "lat": 37.75399,
+      "lon": -122.440668,
+      "notes": "From Redfin · $7995 · Noe Valley classic 4-unit boutique building offers breathtaking panoramic views of the San Francisco skyline and Bay. Offering an Edwardian ",
+      "seen_by": [],
+      "added_by": "redfin",
+      "added_at": "2026-06-17T10:44:32.362Z"
     }
   ]
 }
