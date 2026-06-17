@@ -1663,6 +1663,25 @@
       "seen_by": [],
       "added_by": "redfin",
       "added_at": "2026-06-17T10:44:32.362Z"
+    },
+    {
+      "id": "rc_944-Hayes-St,-Unit-29,-San-Francisco,-CA-94117",
+      "url": "https://www.google.com/search?q=944%20Hayes%20St%2C%20Unit%2029%2C%20San%20Francisco%2C%20CA%2094117%20for%20rent",
+      "address": "944 Hayes St, Unit 29, San Francisco, CA 94117",
+      "neighborhood": "Western Addition",
+      "price": 8995,
+      "bedrooms": 3,
+      "bathrooms": 2,
+      "sqft": null,
+      "available": "2026-06-17",
+      "status": "to_see",
+      "laundry": null,
+      "lat": 37.7759,
+      "lon": -122.43172,
+      "notes": "From RentCast · $8995 · 1d on market",
+      "seen_by": [],
+      "added_by": "rentcast",
+      "added_at": "2026-06-17T12:58:22.715Z"
     }
   ]
 }
