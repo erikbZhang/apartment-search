@@ -1625,6 +1625,25 @@
       "seen_by": [],
       "added_by": "craigslist",
       "added_at": "2026-06-16T22:46:24.651Z"
+    },
+    {
+      "id": "rf_c9d8a7a3-a229-481d-99de-d288a51c356f",
+      "url": "https://www.redfin.com/CA/San-Francisco/1935-Jefferson-St-94123/apartment/583794",
+      "address": "1935 Jefferson St",
+      "neighborhood": "Marina",
+      "price": 9050,
+      "bedrooms": 3,
+      "bathrooms": 1,
+      "sqft": 754,
+      "available": null,
+      "status": "to_see",
+      "laundry": null,
+      "lat": 37.804429,
+      "lon": -122.4444198,
+      "notes": "From Redfin · $9050–$12700 · Welcome to 1935 Jefferson Apartments, a refined living experience in San Francisco's premier Marina District. Designed for modern convenienc",
+      "seen_by": [],
+      "added_by": "redfin",
+      "added_at": "2026-06-17T05:57:10.846Z"
     }
   ]
 }
