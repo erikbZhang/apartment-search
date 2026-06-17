@@ -1385,14 +1385,16 @@
       "bathrooms": null,
       "sqft": 1315,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.7379,
       "lon": -122.4705,
       "notes": "From Craigslist · posted Jun 14, 7:40 PM",
       "seen_by": [],
       "added_by": "craigslist",
-      "added_at": "2026-06-14T20:57:19.829Z"
+      "added_at": "2026-06-14T20:57:19.829Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-06-17T17:42:58.909Z"
     },
     {
       "id": "cl_7941018105",
@@ -1579,14 +1581,16 @@
       "bathrooms": null,
       "sqft": 0,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": "shared",
       "lat": 37.7902,
       "lon": -122.4083,
       "notes": "From Craigslist · posted Jun 16, 7:46 PM",
       "seen_by": [],
       "added_by": "craigslist",
-      "added_at": "2026-06-16T20:37:46.851Z"
+      "added_at": "2026-06-16T20:37:46.851Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-06-17T17:42:58.909Z"
     },
     {
       "id": "cl_7941427461",
@@ -1701,6 +1705,25 @@
       "seen_by": [],
       "added_by": "redfin",
       "added_at": "2026-06-17T14:25:07.132Z"
+    },
+    {
+      "id": "cl_7941535583",
+      "url": "https://sfbay.craigslist.org/sfc/apa/d/san-francisco-russian-hill-fireplace/7941535583.html",
+      "address": "Russian Hill Fireplace, Washer Dryer in garage..Lots of windows",
+      "neighborhood": "Russian Hill",
+      "price": 6850,
+      "bedrooms": 3,
+      "bathrooms": null,
+      "sqft": 1386,
+      "available": null,
+      "status": "to_see",
+      "laundry": null,
+      "lat": 37.7658,
+      "lon": -122.4175,
+      "notes": "From Craigslist · posted Jun 17, 3:12 PM",
+      "seen_by": [],
+      "added_by": "craigslist",
+      "added_at": "2026-06-17T17:42:58.909Z"
     }
   ]
 }
