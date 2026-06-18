@@ -1808,6 +1808,25 @@
       "seen_by": [],
       "added_by": "redfin",
       "added_at": "2026-06-18T14:41:02.220Z"
+    },
+    {
+      "id": "cl_7941781988",
+      "url": "https://sfbay.craigslist.org/sfc/apa/d/san-francisco-1635-gough-street-owner/7941781988.html",
+      "address": "1635 Gough Street Owner LP - A408",
+      "neighborhood": "Pac Heights",
+      "price": 9295,
+      "bedrooms": 3,
+      "bathrooms": null,
+      "sqft": 1115,
+      "available": null,
+      "status": "to_see",
+      "laundry": null,
+      "lat": 37.7886,
+      "lon": -122.4253,
+      "notes": "From Craigslist · posted Jun 18, 4:46 PM",
+      "seen_by": [],
+      "added_by": "craigslist",
+      "added_at": "2026-06-18T17:52:58.692Z"
     }
   ]
 }
