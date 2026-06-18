@@ -1109,14 +1109,16 @@
       "bathrooms": 1.5,
       "sqft": null,
       "available": "2026-06-12",
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.747487,
       "lon": -122.433989,
       "notes": "From RentCast · $8000 · 1d on market",
       "seen_by": [],
       "added_by": "rentcast",
-      "added_at": "2026-06-12T12:33:29.925Z"
+      "added_at": "2026-06-12T12:33:29.925Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-06-18T12:32:39.621Z"
     },
     {
       "id": "rf_fbb05079-a13f-4815-a6ab-cb2588739dd5",
@@ -1680,14 +1682,16 @@
       "bathrooms": 2,
       "sqft": null,
       "available": "2026-06-17",
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.7759,
       "lon": -122.43172,
       "notes": "From RentCast · $8995 · 1d on market",
       "seen_by": [],
       "added_by": "rentcast",
-      "added_at": "2026-06-17T12:58:22.715Z"
+      "added_at": "2026-06-17T12:58:22.715Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-06-18T12:32:39.621Z"
     },
     {
       "id": "rf_cbfcc6dd-cf96-4c94-bb9f-d326c8a12744",
@@ -1745,6 +1749,25 @@
       "seen_by": [],
       "added_by": "craigslist",
       "added_at": "2026-06-17T19:55:59.872Z"
+    },
+    {
+      "id": "rc_938-Hayes-St,-Unit-29,-San-Francisco,-CA-94117",
+      "url": "https://www.google.com/search?q=938%20Hayes%20St%2C%20Unit%2029%2C%20San%20Francisco%2C%20CA%2094117%20for%20rent",
+      "address": "938 Hayes St, Unit 29, San Francisco, CA 94117",
+      "neighborhood": "Western Addition",
+      "price": 8995,
+      "bedrooms": 3,
+      "bathrooms": 2,
+      "sqft": null,
+      "available": "2026-06-18",
+      "status": "to_see",
+      "laundry": null,
+      "lat": 37.77591,
+      "lon": -122.43157,
+      "notes": "From RentCast · $8995 · 1d on market",
+      "seen_by": [],
+      "added_by": "rentcast",
+      "added_at": "2026-06-18T12:32:39.621Z"
     }
   ]
 }
