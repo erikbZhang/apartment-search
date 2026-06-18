@@ -1703,14 +1703,16 @@
       "bathrooms": 2,
       "sqft": null,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.775906,
       "lon": -122.4320975,
       "notes": "From Redfin · $8995 · SCHEDULE A SHOWING ONLINE AT: showmojo.com/lrt/0becb48047 ---- Located on one of San Francisco's most desirable corridors, 940 Hayes St #29 ",
       "seen_by": [],
       "added_by": "redfin",
-      "added_at": "2026-06-17T14:25:07.132Z"
+      "added_at": "2026-06-17T14:25:07.132Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-06-18T14:41:02.220Z"
     },
     {
       "id": "cl_7941535583",
@@ -1768,6 +1770,44 @@
       "seen_by": [],
       "added_by": "rentcast",
       "added_at": "2026-06-18T12:32:39.621Z"
+    },
+    {
+      "id": "rf_65da553e-d6d3-4469-9cd5-63eb11b99dac",
+      "url": "https://www.redfin.com/CA/San-Francisco/1255-Columbus-Ave-94133/unit-402/apartment/202298472",
+      "address": "1255 Columbus Ave Unit 402",
+      "neighborhood": "Russian Hill",
+      "price": 7250,
+      "bedrooms": 3,
+      "bathrooms": 2,
+      "sqft": 1505,
+      "available": null,
+      "status": "to_see",
+      "laundry": null,
+      "lat": 37.8055437,
+      "lon": -122.41816,
+      "notes": "From Redfin · $7250",
+      "seen_by": [],
+      "added_by": "redfin",
+      "added_at": "2026-06-18T14:41:02.220Z"
+    },
+    {
+      "id": "rf_cbfcc6dd-cf96-4c94-bb9f-d326c8a12744",
+      "url": "https://www.redfin.com/CA/San-Francisco/938-Hayes-St-94117/home/201885517",
+      "address": "938 Hayes St",
+      "neighborhood": "Western Addition",
+      "price": 8995,
+      "bedrooms": 3,
+      "bathrooms": 2,
+      "sqft": null,
+      "available": null,
+      "status": "to_see",
+      "laundry": null,
+      "lat": 37.7759185,
+      "lon": -122.4319996,
+      "notes": "From Redfin · $8995 · SCHEDULE A SHOWING ONLINE AT: showmojo.com/lrt/0becb48047 ---- Located on one of San Francisco's most desirable corridors, 940 Hayes St #29 ",
+      "seen_by": [],
+      "added_by": "redfin",
+      "added_at": "2026-06-18T14:41:02.220Z"
     }
   ]
 }
