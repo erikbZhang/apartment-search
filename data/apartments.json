@@ -1090,14 +1090,16 @@
       "bathrooms": null,
       "sqft": 1115,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": "in_unit",
       "lat": 37.7886,
       "lon": -122.4253,
       "notes": "From Craigslist · posted Jun 12, 4:44 AM",
       "seen_by": [],
       "added_by": "craigslist",
-      "added_at": "2026-06-12T07:11:09.552Z"
+      "added_at": "2026-06-12T07:11:09.552Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-06-18T20:06:57.098Z"
     },
     {
       "id": "rc_1714-Castro-St,-San-Francisco,-CA-94131",
@@ -1189,14 +1191,16 @@
       "bathrooms": null,
       "sqft": 1115,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.7886,
       "lon": -122.4253,
       "notes": "From Craigslist · posted Jun 12, 5:30 PM",
       "seen_by": [],
       "added_by": "craigslist",
-      "added_at": "2026-06-12T19:50:02.654Z"
+      "added_at": "2026-06-12T19:50:02.654Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-06-18T20:06:57.098Z"
     },
     {
       "id": "cl_7940539138",
@@ -1743,14 +1747,16 @@
       "bathrooms": null,
       "sqft": 0,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": "shared",
       "lat": 37.7902,
       "lon": -122.4083,
       "notes": "From Craigslist · posted Jun 17, 6:00 PM",
       "seen_by": [],
       "added_by": "craigslist",
-      "added_at": "2026-06-17T19:55:59.872Z"
+      "added_at": "2026-06-17T19:55:59.872Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-06-18T20:06:57.098Z"
     },
     {
       "id": "rc_938-Hayes-St,-Unit-29,-San-Francisco,-CA-94117",
@@ -1827,6 +1833,44 @@
       "seen_by": [],
       "added_by": "craigslist",
       "added_at": "2026-06-18T17:52:58.692Z"
+    },
+    {
+      "id": "cl_7941823026",
+      "url": "https://sfbay.craigslist.org/sfc/apa/d/san-francisco-1635-gough-408a-stunning/7941823026.html",
+      "address": "1635 Gough #408A - Stunning 3x2 - WD in Unit - Pets OK - Private",
+      "neighborhood": "Pacific Heights",
+      "price": 9295,
+      "bedrooms": 3,
+      "bathrooms": null,
+      "sqft": 1115,
+      "available": null,
+      "status": "to_see",
+      "laundry": "in_unit",
+      "lat": 37.7886,
+      "lon": -122.4253,
+      "notes": "From Craigslist · posted Jun 18, 7:09 PM",
+      "seen_by": [],
+      "added_by": "craigslist",
+      "added_at": "2026-06-18T20:06:57.098Z"
+    },
+    {
+      "id": "cl_7941824591",
+      "url": "https://sfbay.craigslist.org/sfc/apa/d/san-francisco-open-thu-740pm-800pm/7941824591.html",
+      "address": "OPEN THU 7:40pm-8:00pm Spacious 3-2BR,Elev,Laundry (660 Bush #402)",
+      "neighborhood": "Nob Hill",
+      "price": 5400,
+      "bedrooms": 3,
+      "bathrooms": null,
+      "sqft": 0,
+      "available": null,
+      "status": "to_see",
+      "laundry": "shared",
+      "lat": 37.7902,
+      "lon": -122.4083,
+      "notes": "From Craigslist · posted Jun 18, 7:15 PM",
+      "seen_by": [],
+      "added_by": "craigslist",
+      "added_at": "2026-06-18T20:06:57.098Z"
     }
   ]
 }
