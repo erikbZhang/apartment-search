@@ -1770,14 +1770,16 @@
       "bathrooms": 2,
       "sqft": null,
       "available": "2026-06-18",
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.77591,
       "lon": -122.43157,
       "notes": "From RentCast · $8995 · 1d on market",
       "seen_by": [],
       "added_by": "rentcast",
-      "added_at": "2026-06-18T12:32:39.621Z"
+      "added_at": "2026-06-18T12:32:39.621Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-06-19T12:54:31.131Z"
     },
     {
       "id": "rf_65da553e-d6d3-4469-9cd5-63eb11b99dac",
@@ -1892,6 +1894,25 @@
       "seen_by": [],
       "added_by": "craigslist",
       "added_at": "2026-06-19T06:05:51.874Z"
+    },
+    {
+      "id": "rc_936-Hayes-St,-Unit-29,-San-Francisco,-CA-94117",
+      "url": "https://www.google.com/search?q=936%20Hayes%20St%2C%20Unit%2029%2C%20San%20Francisco%2C%20CA%2094117%20for%20rent",
+      "address": "936 Hayes St, Unit 29, San Francisco, CA 94117",
+      "neighborhood": "Western Addition",
+      "price": 8995,
+      "bedrooms": 3,
+      "bathrooms": 2,
+      "sqft": null,
+      "available": "2026-06-19",
+      "status": "to_see",
+      "laundry": null,
+      "lat": 37.77592,
+      "lon": -122.43152,
+      "notes": "From RentCast · $8995 · 1d on market",
+      "seen_by": [],
+      "added_by": "rentcast",
+      "added_at": "2026-06-19T12:54:31.131Z"
     }
   ]
 }
