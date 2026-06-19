@@ -1873,6 +1873,25 @@
       "seen_by": [],
       "added_by": "craigslist",
       "added_at": "2026-06-18T20:06:57.098Z"
+    },
+    {
+      "id": "cl_7941887892",
+      "url": "https://sfbay.craigslist.org/sfc/apa/d/san-francisco-4br-2ba-remodeled/7941887892.html",
+      "address": "3-4br/2ba ►REMODELED, VICTORIAN, FULL-FLOOR FLAT!",
+      "neighborhood": "Hayes Valley",
+      "price": 8999,
+      "bedrooms": 4,
+      "bathrooms": null,
+      "sqft": 0,
+      "available": null,
+      "status": "to_see",
+      "laundry": null,
+      "lat": 37.7749,
+      "lon": -122.4276,
+      "notes": "From Craigslist · posted Jun 19, 12:31 AM",
+      "seen_by": [],
+      "added_by": "craigslist",
+      "added_at": "2026-06-19T06:05:51.874Z"
     }
   ]
 }
