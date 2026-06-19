@@ -1532,14 +1532,16 @@
       "bathrooms": null,
       "sqft": 1115,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": "in_unit",
       "lat": 37.7886,
       "lon": -122.4253,
       "notes": "From Craigslist · posted Jun 16, 4:14 PM",
       "seen_by": [],
       "added_by": "craigslist",
-      "added_at": "2026-06-16T17:53:05.052Z"
+      "added_at": "2026-06-16T17:53:05.052Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-06-19T17:09:50.265Z"
     },
     {
       "id": "cl_7941312438",
@@ -1869,14 +1871,16 @@
       "bathrooms": null,
       "sqft": 0,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": "shared",
       "lat": 37.7902,
       "lon": -122.4083,
       "notes": "From Craigslist · posted Jun 18, 7:15 PM",
       "seen_by": [],
       "added_by": "craigslist",
-      "added_at": "2026-06-18T20:06:57.098Z"
+      "added_at": "2026-06-18T20:06:57.098Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-06-19T17:09:50.265Z"
     },
     {
       "id": "cl_7941887892",
@@ -1934,6 +1938,25 @@
       "seen_by": [],
       "added_by": "redfin",
       "added_at": "2026-06-19T14:37:52.845Z"
+    },
+    {
+      "id": "cl_7941971192",
+      "url": "https://sfbay.craigslist.org/sfc/apa/d/san-francisco-rare-3br-at-1635-gough-in/7941971192.html",
+      "address": "Rare 3BR at 1635 Gough | In-Unit Laundry! Unit A408",
+      "neighborhood": "Pac Hts",
+      "price": 9295,
+      "bedrooms": 3,
+      "bathrooms": null,
+      "sqft": 1115,
+      "available": null,
+      "status": "to_see",
+      "laundry": "in_unit",
+      "lat": 37.7886,
+      "lon": -122.4253,
+      "notes": "From Craigslist · posted Jun 19, 3:21 PM",
+      "seen_by": [],
+      "added_by": "craigslist",
+      "added_at": "2026-06-19T17:09:50.265Z"
     }
   ]
 }
