@@ -2016,6 +2016,25 @@
       "seen_by": [],
       "added_by": "craigslist",
       "added_at": "2026-06-19T23:57:43.703Z"
+    },
+    {
+      "id": "cl_7942137116",
+      "url": "https://sfbay.craigslist.org/sfc/apa/d/san-francisco-newly-renovated-light/7942137116.html",
+      "address": "Newly Renovated Light Filled Top Floor 3+Bd/2.5Ba",
+      "neighborhood": "Nob Hill",
+      "price": 10000,
+      "bedrooms": 4,
+      "bathrooms": null,
+      "sqft": 1800,
+      "available": null,
+      "status": "to_see",
+      "laundry": null,
+      "lat": 37.7956,
+      "lon": -122.4133,
+      "notes": "From Craigslist · posted Jun 20, 5:27 AM",
+      "seen_by": [],
+      "added_by": "craigslist",
+      "added_at": "2026-06-20T06:53:02.574Z"
     }
   ]
 }
