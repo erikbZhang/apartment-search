@@ -2035,6 +2035,25 @@
       "seen_by": [],
       "added_by": "craigslist",
       "added_at": "2026-06-20T06:53:02.574Z"
+    },
+    {
+      "id": "cl_7942144820",
+      "url": "https://sfbay.craigslist.org/sfc/apa/d/san-francisco-solar-panels-car-garage/7942144820.html",
+      "address": "Solar Panels, 3-car garage 3 BR Pacific Heights",
+      "neighborhood": "Pacific Heights",
+      "price": 5670,
+      "bedrooms": 3,
+      "bathrooms": null,
+      "sqft": 1782,
+      "available": null,
+      "status": "to_see",
+      "laundry": null,
+      "lat": 37.7886,
+      "lon": -122.4388,
+      "notes": "From Craigslist · posted Jun 20, 8:50 AM",
+      "seen_by": [],
+      "added_by": "craigslist",
+      "added_at": "2026-06-20T09:56:26.271Z"
     }
   ]
 }
