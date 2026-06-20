@@ -1574,14 +1574,16 @@
       "bathrooms": 2.5,
       "sqft": null,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.7781984,
       "lon": -122.4382723,
       "notes": "From Redfin · $8495",
       "seen_by": [],
       "added_by": "redfin",
-      "added_at": "2026-06-16T17:53:05.052Z"
+      "added_at": "2026-06-16T17:53:05.052Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-06-20T17:13:49.721Z"
     },
     {
       "id": "cl_7941390499",
@@ -1795,14 +1797,16 @@
       "bathrooms": 2,
       "sqft": 1505,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.8055437,
       "lon": -122.41816,
       "notes": "From Redfin · $7250",
       "seen_by": [],
       "added_by": "redfin",
-      "added_at": "2026-06-18T14:41:02.220Z"
+      "added_at": "2026-06-18T14:41:02.220Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-06-20T17:13:49.721Z"
     },
     {
       "id": "rf_cbfcc6dd-cf96-4c94-bb9f-d326c8a12744",
