@@ -2071,14 +2071,35 @@
       "bathrooms": null,
       "sqft": 1350,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.7524,
       "lon": -122.4264,
       "notes": "From Craigslist · posted Jun 20, 7:45 PM",
       "seen_by": [],
       "added_by": "craigslist",
-      "added_at": "2026-06-20T21:02:11.677Z"
+      "added_at": "2026-06-20T21:02:11.677Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-06-20T22:56:29.336Z"
+    },
+    {
+      "id": "cl_7942275832",
+      "url": "https://sfbay.craigslist.org/sfc/apa/d/san-francisco-spacious-3br-home-with/7942275832.html",
+      "address": "Spacious 3BR Home with Stunning City Views in Prime Noe Valley",
+      "neighborhood": "Noe Valley",
+      "price": 2790,
+      "bedrooms": 3,
+      "bathrooms": null,
+      "sqft": 1288,
+      "available": null,
+      "status": "to_see",
+      "laundry": null,
+      "lat": 37.7479,
+      "lon": -122.4366,
+      "notes": "From Craigslist · posted Jun 20, 9:24 PM",
+      "seen_by": [],
+      "added_by": "craigslist",
+      "added_at": "2026-06-20T22:56:29.336Z"
     }
   ]
 }
