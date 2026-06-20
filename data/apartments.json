@@ -2060,6 +2060,25 @@
       "added_at": "2026-06-20T09:56:26.271Z",
       "prev_status": "to_see",
       "off_market_at": "2026-06-20T15:27:50.236Z"
+    },
+    {
+      "id": "cl_7942255217",
+      "url": "https://sfbay.craigslist.org/sfc/apa/d/san-francisco-spacious-remodeled-3br/7942255217.html",
+      "address": "Spacious Remodeled 3BR Edwardian in Prime Noe Valley",
+      "neighborhood": "Noe Valley",
+      "price": 2590,
+      "bedrooms": 3,
+      "bathrooms": null,
+      "sqft": 1350,
+      "available": null,
+      "status": "to_see",
+      "laundry": null,
+      "lat": 37.7524,
+      "lon": -122.4264,
+      "notes": "From Craigslist · posted Jun 20, 7:45 PM",
+      "seen_by": [],
+      "added_by": "craigslist",
+      "added_at": "2026-06-20T21:02:11.677Z"
     }
   ]
 }
