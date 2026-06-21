@@ -2163,6 +2163,25 @@
       "seen_by": [],
       "added_by": "craigslist",
       "added_at": "2026-06-21T12:03:45.114Z"
+    },
+    {
+      "id": "rf_d5e36996-1d88-4109-8a21-ead51f352845",
+      "url": "https://www.redfin.com/CA/San-Francisco/46-Jasper-Pl-94133/unit-42/home/202337285",
+      "address": "46 Jasper Pl Unit 42",
+      "neighborhood": "North Beach",
+      "price": 6500,
+      "bedrooms": 3,
+      "bathrooms": 1.5,
+      "sqft": 1000,
+      "available": "2026-07-01T00:00:00Z",
+      "status": "to_see",
+      "laundry": null,
+      "lat": 37.8001956,
+      "lon": -122.4081871,
+      "notes": "From Redfin · $6500 · 42 Jasper Place, Unit A ! North Beach, San Francisco Tucked away in the heart of North Beach, this newly built lower-level apartment offers ",
+      "seen_by": [],
+      "added_by": "redfin",
+      "added_at": "2026-06-21T15:05:24.038Z"
     }
   ]
 }
