@@ -760,14 +760,16 @@
       "bathrooms": 2,
       "sqft": 1151,
       "available": "2026-06-21T00:00:00Z",
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.788251,
       "lon": -122.418101,
       "notes": "From Redfin · $6800 · Modern, fully furnished 3-bedroom/2-bathroom condo in the boutique Blanc building (2014 construction) in Lower Nob Hill. Move-in ready -- ev",
       "seen_by": [],
       "added_by": "redfin",
-      "added_at": "2026-06-10T12:48:26.613Z"
+      "added_at": "2026-06-10T12:48:26.613Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-06-22T06:18:05.053Z"
     },
     {
       "id": "rf_4b5ae6b9-da49-4b5e-82b4-06d455e8f8d7",
@@ -2035,14 +2037,16 @@
       "bathrooms": null,
       "sqft": 1800,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.7956,
       "lon": -122.4133,
       "notes": "From Craigslist · posted Jun 20, 5:27 AM",
       "seen_by": [],
       "added_by": "craigslist",
-      "added_at": "2026-06-20T06:53:02.574Z"
+      "added_at": "2026-06-20T06:53:02.574Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-06-22T06:18:05.053Z"
     },
     {
       "id": "cl_7942144820",
@@ -2182,6 +2186,25 @@
       "seen_by": [],
       "added_by": "redfin",
       "added_at": "2026-06-21T15:05:24.038Z"
+    },
+    {
+      "id": "cl_7942499287",
+      "url": "https://sfbay.craigslist.org/sfc/apa/d/san-francisco-best-location-for-huge/7942499287.html",
+      "address": "BEST LOCATION for HUGE 4Bed/2Ba w/ Shared Garden!! W/D in Apt!",
+      "neighborhood": "Hayes Valley",
+      "price": 11650,
+      "bedrooms": 4,
+      "bathrooms": null,
+      "sqft": 1200,
+      "available": null,
+      "status": "to_see",
+      "laundry": null,
+      "lat": 37.7715,
+      "lon": -122.4277,
+      "notes": "From Craigslist · posted Jun 22, 5:15 AM",
+      "seen_by": [],
+      "added_by": "craigslist",
+      "added_at": "2026-06-22T06:18:05.053Z"
     }
   ]
 }
