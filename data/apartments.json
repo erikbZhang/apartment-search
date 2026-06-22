@@ -2234,6 +2234,25 @@
       "seen_by": [],
       "added_by": "craigslist",
       "added_at": "2026-06-22T20:30:14.886Z"
+    },
+    {
+      "id": "cl_7942661338",
+      "url": "https://sfbay.craigslist.org/sfc/apa/d/san-francisco-luxury-nob-hill-bedroom/7942661338.html",
+      "address": "Luxury Nob Hill 4 Bedroom/2 Bathroom flat",
+      "neighborhood": "Nob Hill",
+      "price": 11500,
+      "bedrooms": 4,
+      "bathrooms": null,
+      "sqft": 2200,
+      "available": null,
+      "status": "to_see",
+      "laundry": null,
+      "lat": 37.7917,
+      "lon": -122.4186,
+      "notes": "From Craigslist · posted Jun 22, 10:08 PM",
+      "seen_by": [],
+      "added_by": "craigslist",
+      "added_at": "2026-06-22T22:29:41.462Z"
     }
   ]
 }
