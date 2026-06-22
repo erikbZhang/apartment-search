@@ -1300,14 +1300,16 @@
       "bathrooms": null,
       "sqft": 1550,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.7926,
       "lon": -122.4194,
       "notes": "From Craigslist · posted Jun 14, 2:20 AM",
       "seen_by": [],
       "added_by": "craigslist",
-      "added_at": "2026-06-14T02:45:19.142Z"
+      "added_at": "2026-06-14T02:45:19.142Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-06-22T17:23:47.163Z"
     },
     {
       "id": "rc_2241-Polk-St,-San-Francisco,-CA-94109",
@@ -2121,14 +2123,16 @@
       "bathrooms": null,
       "sqft": 872,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.7946,
       "lon": -122.4176,
       "notes": "From Craigslist · posted Jun 21, 2:42 AM",
       "seen_by": [],
       "added_by": "craigslist",
-      "added_at": "2026-06-21T05:51:33.049Z"
+      "added_at": "2026-06-21T05:51:33.049Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-06-22T17:23:47.163Z"
     },
     {
       "id": "cl_7942315824",
