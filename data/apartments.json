@@ -2253,6 +2253,44 @@
       "seen_by": [],
       "added_by": "craigslist",
       "added_at": "2026-06-22T22:29:41.462Z"
+    },
+    {
+      "id": "rf_66d7c02f-e674-4d24-95a8-0c25317faea5",
+      "url": "https://www.redfin.com/CA/San-Francisco/567-Waller-St-94117/home/1090163",
+      "address": "567 Waller St",
+      "neighborhood": "Western Addition",
+      "price": 12000,
+      "bedrooms": 4,
+      "bathrooms": 3,
+      "sqft": null,
+      "available": null,
+      "status": "to_see",
+      "laundry": null,
+      "lat": 37.770618,
+      "lon": -122.432892,
+      "notes": "From Redfin · $12000 · Coming soon! Stunning, top floor bi-level 4 bedroom / 3 bathroom condo plus huge attic space. Conveniently located in Duboce Triangle, withi",
+      "seen_by": [],
+      "added_by": "redfin",
+      "added_at": "2026-06-23T13:34:19.089Z"
+    },
+    {
+      "id": "rf_66c92fe1-a83a-44a4-a2b7-08d70b162690",
+      "url": "https://www.redfin.com/CA/San-Francisco/3968-24th-St-94114/home/200366377",
+      "address": "3968 24th St",
+      "neighborhood": "Noe Valley",
+      "price": 5995,
+      "bedrooms": 3,
+      "bathrooms": 1,
+      "sqft": 1150,
+      "available": null,
+      "status": "to_see",
+      "laundry": null,
+      "lat": 37.751714,
+      "lon": -122.431176,
+      "notes": "From Redfin · $5995 · Top-floor Victorian flat in the heart of Noe Valley, with everything just outside your front door. This bright and spacious 3-bedroom, 1-bat",
+      "seen_by": [],
+      "added_by": "redfin",
+      "added_at": "2026-06-23T13:34:19.089Z"
     }
   ]
 }
