@@ -2381,6 +2381,44 @@
       "seen_by": [],
       "added_by": "craigslist",
       "added_at": "2026-06-23T22:57:25.685Z"
+    },
+    {
+      "id": "cl_7942939038",
+      "url": "https://sfbay.craigslist.org/sfc/apa/d/san-francisco-renovated-spacious-3br-15/7942939038.html",
+      "address": "Renovated spacious 3BR, 1.5 bath flat",
+      "neighborhood": "Nob Hill",
+      "price": 5800,
+      "bedrooms": 3,
+      "bathrooms": null,
+      "sqft": 1550,
+      "available": null,
+      "status": "to_see",
+      "laundry": null,
+      "lat": 37.7926,
+      "lon": -122.4194,
+      "notes": "From Craigslist · posted Jun 24, 2:54 AM",
+      "seen_by": [],
+      "added_by": "craigslist",
+      "added_at": "2026-06-24T06:34:36.547Z"
+    },
+    {
+      "id": "cl_7942938144",
+      "url": "https://sfbay.craigslist.org/sfc/apa/d/san-francisco-newly-large-three/7942938144.html",
+      "address": "Newly Large Three Bedrooms- Two Bathroom Apartment In Marina District",
+      "neighborhood": "Marina",
+      "price": 1540,
+      "bedrooms": 3,
+      "bathrooms": null,
+      "sqft": 0,
+      "available": null,
+      "status": "to_see",
+      "laundry": null,
+      "lat": 37.7993,
+      "lon": -122.4341,
+      "notes": "From Craigslist · posted Jun 24, 3:03 AM",
+      "seen_by": [],
+      "added_by": "craigslist",
+      "added_at": "2026-06-24T06:34:36.547Z"
     }
   ]
 }
