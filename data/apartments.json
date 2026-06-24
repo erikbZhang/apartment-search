@@ -1567,14 +1567,16 @@
       "bathrooms": null,
       "sqft": 0,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": "in_unit",
       "lat": 37.7886,
       "lon": -122.4253,
       "notes": "From Craigslist · posted Jun 16, 3:07 PM",
       "seen_by": [],
       "added_by": "craigslist",
-      "added_at": "2026-06-16T17:53:05.052Z"
+      "added_at": "2026-06-16T17:53:05.052Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-06-24T16:06:32.071Z"
     },
     {
       "id": "rf_fd867a37-9460-4a8e-9cbd-242bc7a70586",
@@ -2442,6 +2444,44 @@
       "seen_by": [],
       "added_by": "craigslist",
       "added_at": "2026-06-24T10:11:56.109Z"
+    },
+    {
+      "id": "cl_7943009793",
+      "url": "https://sfbay.craigslist.org/sfc/apa/d/san-francisco-gorgeous-full/7943009793.html",
+      "address": "Gorgeous Full Flat,Renovated,Spacious Deck/Yard,W/D(2857 Clay)",
+      "neighborhood": "Pacific Heights",
+      "price": 9500,
+      "bedrooms": 4,
+      "bathrooms": null,
+      "sqft": 0,
+      "available": null,
+      "status": "to_see",
+      "laundry": null,
+      "lat": 37.79,
+      "lon": -122.4401,
+      "notes": "From Craigslist · posted Jun 24, 3:28 PM",
+      "seen_by": [],
+      "added_by": "craigslist",
+      "added_at": "2026-06-24T16:06:32.071Z"
+    },
+    {
+      "id": "cl_7943004314",
+      "url": "https://sfbay.craigslist.org/sfc/apa/d/san-francisco-updated-spacious-townhome/7943004314.html",
+      "address": "Updated Spacious Townhome Style 3BR/2BA Laundry In Unit",
+      "neighborhood": "Pac Hts",
+      "price": 9295,
+      "bedrooms": 3,
+      "bathrooms": null,
+      "sqft": 0,
+      "available": null,
+      "status": "to_see",
+      "laundry": "in_unit",
+      "lat": 37.7886,
+      "lon": -122.4253,
+      "notes": "From Craigslist · posted Jun 24, 3:06 PM",
+      "seen_by": [],
+      "added_by": "craigslist",
+      "added_at": "2026-06-24T16:06:32.071Z"
     }
   ]
 }
