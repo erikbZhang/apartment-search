@@ -1872,14 +1872,16 @@
       "bathrooms": null,
       "sqft": 1115,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": "in_unit",
       "lat": 37.7886,
       "lon": -122.4253,
       "notes": "From Craigslist · posted Jun 18, 7:09 PM",
       "seen_by": [],
       "added_by": "craigslist",
-      "added_at": "2026-06-18T20:06:57.098Z"
+      "added_at": "2026-06-18T20:06:57.098Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-06-24T10:11:56.109Z"
     },
     {
       "id": "cl_7941824591",
@@ -2419,6 +2421,25 @@
       "seen_by": [],
       "added_by": "craigslist",
       "added_at": "2026-06-24T06:34:36.547Z"
+    },
+    {
+      "id": "cl_7942957403",
+      "url": "https://sfbay.craigslist.org/sfc/apa/d/san-francisco-1635-gough-408a-stunning/7942957403.html",
+      "address": "1635 Gough #408A - Stunning 3x2 - WD in Unit - Pets OK - Private",
+      "neighborhood": "Pacific Heights",
+      "price": 9295,
+      "bedrooms": 3,
+      "bathrooms": null,
+      "sqft": 1115,
+      "available": null,
+      "status": "to_see",
+      "laundry": "in_unit",
+      "lat": 37.7886,
+      "lon": -122.4253,
+      "notes": "From Craigslist · posted Jun 24, 7:10 AM",
+      "seen_by": [],
+      "added_by": "craigslist",
+      "added_at": "2026-06-24T10:11:56.109Z"
     }
   ]
 }
