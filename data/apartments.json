@@ -1382,14 +1382,16 @@
       "bathrooms": null,
       "sqft": 0,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": "in_unit",
       "lat": 37.7886,
       "lon": -122.4253,
       "notes": "From Craigslist · posted Jun 14, 6:05 PM",
       "seen_by": [],
       "added_by": "craigslist",
-      "added_at": "2026-06-14T19:05:45.436Z"
+      "added_at": "2026-06-14T19:05:45.436Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-06-25T02:29:59.147Z"
     },
     {
       "id": "cl_7940945768",
@@ -2594,14 +2596,35 @@
       "bathrooms": null,
       "sqft": 3000,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.7962,
       "lon": -122.4427,
       "notes": "From Craigslist · posted Jun 24, 10:59 PM",
       "seen_by": [],
       "added_by": "craigslist",
-      "added_at": "2026-06-24T23:56:13.112Z"
+      "added_at": "2026-06-24T23:56:13.112Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-06-25T02:29:59.147Z"
+    },
+    {
+      "id": "cl_7943153973",
+      "url": "https://sfbay.craigslist.org/sfc/apa/d/san-francisco-updated-spacious-townhome/7943153973.html",
+      "address": "Updated Spacious Townhome Style 3BR/2BA Laundry In Unit",
+      "neighborhood": "Pac Hts",
+      "price": 9295,
+      "bedrooms": 3,
+      "bathrooms": null,
+      "sqft": 0,
+      "available": null,
+      "status": "to_see",
+      "laundry": "in_unit",
+      "lat": 37.7886,
+      "lon": -122.4253,
+      "notes": "From Craigslist · posted Jun 25, 2:03 AM",
+      "seen_by": [],
+      "added_by": "craigslist",
+      "added_at": "2026-06-25T02:29:59.147Z"
     }
   ]
 }
