@@ -2625,6 +2625,25 @@
       "seen_by": [],
       "added_by": "craigslist",
       "added_at": "2026-06-25T02:29:59.147Z"
+    },
+    {
+      "id": "cl_7943160613",
+      "url": "https://sfbay.craigslist.org/sfc/apa/d/san-francisco-huge-2187-sqft-bedroom/7943160613.html",
+      "address": "Huge 2,187 SqFt 3 Bedroom Layout w/ Flexible Bonus Office Spaces",
+      "neighborhood": "Pacific Heights",
+      "price": 5500,
+      "bedrooms": 3,
+      "bathrooms": null,
+      "sqft": 2187,
+      "available": null,
+      "status": "to_see",
+      "laundry": null,
+      "lat": 37.7886,
+      "lon": -122.4388,
+      "notes": "From Craigslist · posted Jun 25, 3:32 AM",
+      "seen_by": [],
+      "added_by": "craigslist",
+      "added_at": "2026-06-25T06:38:13.870Z"
     }
   ]
 }
