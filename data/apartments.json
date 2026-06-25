@@ -2368,14 +2368,16 @@
       "bathrooms": null,
       "sqft": 0,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.7749,
       "lon": -122.4276,
       "notes": "From Craigslist · posted Jun 23, 4:35 PM",
       "seen_by": [],
       "added_by": "craigslist",
-      "added_at": "2026-06-23T19:00:27.401Z"
+      "added_at": "2026-06-23T19:00:27.401Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-06-25T18:59:49.599Z"
     },
     {
       "id": "cl_7942888425",
@@ -2465,14 +2467,16 @@
       "bathrooms": null,
       "sqft": 0,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.79,
       "lon": -122.4401,
       "notes": "From Craigslist · posted Jun 24, 3:28 PM",
       "seen_by": [],
       "added_by": "craigslist",
-      "added_at": "2026-06-24T16:06:32.071Z"
+      "added_at": "2026-06-24T16:06:32.071Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-06-25T18:59:49.599Z"
     },
     {
       "id": "cl_7943004314",
@@ -2522,14 +2526,16 @@
       "bathrooms": null,
       "sqft": 0,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": "shared",
       "lat": 37.7902,
       "lon": -122.4083,
       "notes": "From Craigslist · posted Jun 24, 5:14 PM",
       "seen_by": [],
       "added_by": "craigslist",
-      "added_at": "2026-06-24T18:25:45.016Z"
+      "added_at": "2026-06-24T18:25:45.016Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-06-25T18:59:49.599Z"
     },
     {
       "id": "cl_7943046794",
@@ -2541,14 +2547,16 @@
       "bathrooms": null,
       "sqft": 0,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.7749,
       "lon": -122.4276,
       "notes": "From Craigslist · posted Jun 24, 5:34 PM",
       "seen_by": [],
       "added_by": "craigslist",
-      "added_at": "2026-06-24T18:25:45.016Z"
+      "added_at": "2026-06-24T18:25:45.016Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-06-25T18:59:49.599Z"
     },
     {
       "id": "cl_7943009793",
@@ -2560,14 +2568,16 @@
       "bathrooms": null,
       "sqft": 0,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.79,
       "lon": -122.4401,
       "notes": "From Craigslist · posted Jun 24, 3:28 PM",
       "seen_by": [],
       "added_by": "craigslist",
-      "added_at": "2026-06-24T18:25:45.016Z"
+      "added_at": "2026-06-24T18:25:45.016Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-06-25T18:59:49.599Z"
     },
     {
       "id": "cl_7943040753",
@@ -2579,14 +2589,16 @@
       "bathrooms": null,
       "sqft": 0,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": "shared",
       "lat": 37.7902,
       "lon": -122.4083,
       "notes": "From Craigslist · posted Jun 24, 5:14 PM",
       "seen_by": [],
       "added_by": "craigslist",
-      "added_at": "2026-06-24T20:25:46.416Z"
+      "added_at": "2026-06-24T20:25:46.416Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-06-25T18:59:49.599Z"
     },
     {
       "id": "cl_7943117417",
@@ -2667,6 +2679,25 @@
       "seen_by": [],
       "added_by": "craigslist",
       "added_at": "2026-06-25T16:13:00.584Z"
+    },
+    {
+      "id": "cl_7943267639",
+      "url": "https://sfbay.craigslist.org/sfc/apa/d/san-francisco-open-thu-740pm-800pm/7943267639.html",
+      "address": "OPEN THU 7:40pm-8:00pm. Spacious 3-2BR,Elev,Laundry(660 Bush #402)",
+      "neighborhood": "Nob Hill",
+      "price": 5400,
+      "bedrooms": 3,
+      "bathrooms": null,
+      "sqft": 0,
+      "available": null,
+      "status": "to_see",
+      "laundry": "shared",
+      "lat": 37.7902,
+      "lon": -122.4083,
+      "notes": "From Craigslist · posted Jun 25, 6:04 PM",
+      "seen_by": [],
+      "added_by": "craigslist",
+      "added_at": "2026-06-25T18:59:49.599Z"
     }
   ]
 }
