@@ -2721,6 +2721,25 @@
       "seen_by": [],
       "added_by": "craigslist",
       "added_at": "2026-06-26T00:02:34.453Z"
+    },
+    {
+      "id": "rc_3041-Buchanan-St,-San-Francisco,-CA-94123",
+      "url": "https://www.google.com/search?q=3041%20Buchanan%20St%2C%20San%20Francisco%2C%20CA%2094123%20for%20rent",
+      "address": "3041 Buchanan St, San Francisco, CA 94123",
+      "neighborhood": "Marina",
+      "price": 10995,
+      "bedrooms": 4,
+      "bathrooms": 2,
+      "sqft": null,
+      "available": "2026-06-26",
+      "status": "to_see",
+      "laundry": null,
+      "lat": 37.79804,
+      "lon": -122.43256,
+      "notes": "From RentCast · $10995 · 1d on market",
+      "seen_by": [],
+      "added_by": "rentcast",
+      "added_at": "2026-06-26T11:54:59.693Z"
     }
   ]
 }
