@@ -1136,14 +1136,16 @@
       "bathrooms": 1.5,
       "sqft": null,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.747498,
       "lon": -122.4339814,
       "notes": "From Redfin · $8000 · This home is a lovely vintage family owned home that features 3 bedrooms and 1.5 bathrooms. As you enter the home you will see beautiful sta",
       "seen_by": [],
       "added_by": "redfin",
-      "added_at": "2026-06-12T14:29:20.803Z"
+      "added_at": "2026-06-12T14:29:20.803Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-06-26T11:37:07.883Z"
     },
     {
       "id": "cl_7940469219",
@@ -1342,14 +1344,16 @@
       "bathrooms": 1.5,
       "sqft": null,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.7976127,
       "lon": -122.4222513,
       "notes": "From Redfin · $8000 · SCHEDULE A SHOWING ONLINE AT: showmojo.com/lrt/dc41752048 ---- 2241 Polk Street ! San Francisco Live in the center of it all at 2241 Polk St",
       "seen_by": [],
       "added_by": "redfin",
-      "added_at": "2026-06-14T12:56:18.345Z"
+      "added_at": "2026-06-14T12:56:18.345Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-06-26T11:37:07.883Z"
     },
     {
       "id": "cl_7940890396",
