@@ -2698,6 +2698,25 @@
       "seen_by": [],
       "added_by": "craigslist",
       "added_at": "2026-06-25T18:59:49.599Z"
+    },
+    {
+      "id": "cl_7943327875",
+      "url": "https://sfbay.craigslist.org/sfc/apa/d/san-francisco-spectacular-penthouse-bed/7943327875.html",
+      "address": "Spectacular Penthouse 3 bed+ 2 bath Condo with Amazing Views!",
+      "neighborhood": "Pac Hts",
+      "price": 9000,
+      "bedrooms": 3,
+      "bathrooms": null,
+      "sqft": 0,
+      "available": null,
+      "status": "to_see",
+      "laundry": null,
+      "lat": 37.784,
+      "lon": -122.4277,
+      "notes": "From Craigslist · posted Jun 25, 10:52 PM",
+      "seen_by": [],
+      "added_by": "craigslist",
+      "added_at": "2026-06-26T00:02:34.453Z"
     }
   ]
 }
