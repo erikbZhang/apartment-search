@@ -615,14 +615,16 @@
       "bathrooms": 2.5,
       "sqft": null,
       "available": "2026-06-09",
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.778419,
       "lon": -122.44265,
       "notes": "From RentCast · $11000 · 1d on market",
       "seen_by": [],
       "added_by": "rentcast",
-      "added_at": "2026-06-09T22:55:03.275Z"
+      "added_at": "2026-06-09T22:55:03.275Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-06-27T11:04:54.285Z"
     },
     {
       "id": "rc_1888-Green-St,-San-Francisco,-CA-94123",
