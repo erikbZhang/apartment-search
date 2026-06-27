@@ -2961,6 +2961,25 @@
       "seen_by": [],
       "added_by": "craigslist",
       "added_at": "2026-06-27T08:23:49.297Z"
+    },
+    {
+      "id": "cl_7943622587",
+      "url": "https://sfbay.craigslist.org/sfc/apa/d/san-francisco-spacious-3br-victorian/7943622587.html",
+      "address": "Spacious 3BR Victorian Penthouse Near Union Square",
+      "neighborhood": "Union Square",
+      "price": 1869,
+      "bedrooms": 3,
+      "bathrooms": null,
+      "sqft": 1000,
+      "available": null,
+      "status": "to_see",
+      "laundry": null,
+      "lat": 37.7946,
+      "lon": -122.4176,
+      "notes": "From Craigslist · posted Jun 27, 10:53 AM",
+      "seen_by": [],
+      "added_by": "craigslist",
+      "added_at": "2026-06-27T12:04:33.298Z"
     }
   ]
 }
