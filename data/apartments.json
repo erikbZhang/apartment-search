@@ -2980,6 +2980,25 @@
       "seen_by": [],
       "added_by": "craigslist",
       "added_at": "2026-06-27T12:04:33.298Z"
+    },
+    {
+      "id": "rf_2f21f124-bc20-4149-8e35-3d4899bd9875",
+      "url": "https://www.redfin.com/CA/San-Francisco/66-Cleary-Ct-94109/unit-1501/home/941207",
+      "address": "66 Cleary Ct #1501",
+      "neighborhood": "Western Addition",
+      "price": 9000,
+      "bedrooms": 3,
+      "bathrooms": 2,
+      "sqft": 1082,
+      "available": null,
+      "status": "to_see",
+      "laundry": null,
+      "lat": 37.7841279,
+      "lon": -122.4273921,
+      "notes": "From Redfin · $9000",
+      "seen_by": [],
+      "added_by": "redfin",
+      "added_at": "2026-06-27T14:21:54.550Z"
     }
   ]
 }
