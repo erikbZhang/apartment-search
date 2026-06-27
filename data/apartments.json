@@ -2858,6 +2858,25 @@
       "seen_by": [],
       "added_by": "craigslist",
       "added_at": "2026-06-27T01:59:00.742Z"
+    },
+    {
+      "id": "cl_7943606588",
+      "url": "https://sfbay.craigslist.org/sfc/apa/d/san-francisco-updated-bedroom-bath/7943606588.html",
+      "address": "Updated 3-bedroom, 3-bath second floor unit in  Russian Hill",
+      "neighborhood": "Russian Hill",
+      "price": 1540,
+      "bedrooms": 3,
+      "bathrooms": null,
+      "sqft": 0,
+      "available": null,
+      "status": "to_see",
+      "laundry": null,
+      "lat": 37.7997,
+      "lon": -122.4095,
+      "notes": "From Craigslist · posted Jun 27, 5:14 AM",
+      "seen_by": [],
+      "added_by": "craigslist",
+      "added_at": "2026-06-27T05:52:48.090Z"
     }
   ]
 }
