@@ -1697,14 +1697,16 @@
       "bathrooms": 2.5,
       "sqft": 1500,
       "available": "2026-07-01T00:00:00Z",
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.75399,
       "lon": -122.440668,
       "notes": "From Redfin · $7995 · Noe Valley classic 4-unit boutique building offers breathtaking panoramic views of the San Francisco skyline and Bay. Offering an Edwardian ",
       "seen_by": [],
       "added_by": "redfin",
-      "added_at": "2026-06-17T10:44:32.362Z"
+      "added_at": "2026-06-17T10:44:32.362Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-06-28T02:10:04.224Z"
     },
     {
       "id": "rc_944-Hayes-St,-Unit-29,-San-Francisco,-CA-94117",
