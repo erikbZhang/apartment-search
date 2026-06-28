@@ -2824,14 +2824,16 @@
       "bathrooms": 2,
       "sqft": null,
       "available": "2026-07-15T00:00:00Z",
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.789708,
       "lon": -122.439946,
       "notes": "From Redfin · $9500",
       "seen_by": [],
       "added_by": "redfin",
-      "added_at": "2026-06-26T16:10:31.398Z"
+      "added_at": "2026-06-26T16:10:31.398Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-06-28T09:51:16.117Z"
     },
     {
       "id": "cl_7943467614",
@@ -3053,6 +3055,44 @@
       "seen_by": [],
       "added_by": "craigslist",
       "added_at": "2026-06-27T20:46:52.108Z"
+    },
+    {
+      "id": "cl_7943821405",
+      "url": "https://sfbay.craigslist.org/sfc/apa/d/san-francisco-spacious-bedroom-condo/7943821405.html",
+      "address": "Spacious 3 Bedroom Condo with Private Patio in Russian Hill",
+      "neighborhood": "Russian Hill",
+      "price": 1900,
+      "bedrooms": 3,
+      "bathrooms": null,
+      "sqft": 1780,
+      "available": null,
+      "status": "to_see",
+      "laundry": null,
+      "lat": 37.8058,
+      "lon": -122.4197,
+      "notes": "From Craigslist · posted Jun 28, 9:49 AM",
+      "seen_by": [],
+      "added_by": "craigslist",
+      "added_at": "2026-06-28T09:51:16.117Z"
+    },
+    {
+      "id": "cl_7943819905",
+      "url": "https://sfbay.craigslist.org/sfc/apa/d/san-francisco-charming-bedroom-bath/7943819905.html",
+      "address": "Charming 3-bedroom, 2-bath unit in the desirable neighborhood",
+      "neighborhood": "Marina",
+      "price": 1570,
+      "bedrooms": 3,
+      "bathrooms": null,
+      "sqft": 0,
+      "available": null,
+      "status": "to_see",
+      "laundry": null,
+      "lat": 37.7994,
+      "lon": -122.4341,
+      "notes": "From Craigslist · posted Jun 28, 8:27 AM",
+      "seen_by": [],
+      "added_by": "craigslist",
+      "added_at": "2026-06-28T09:51:16.117Z"
     }
   ]
 }
