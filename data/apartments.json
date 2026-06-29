@@ -2847,14 +2847,16 @@
       "bathrooms": null,
       "sqft": 0,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": "shared",
       "lat": 37.7902,
       "lon": -122.4083,
       "notes": "From Craigslist · posted Jun 26, 4:56 PM",
       "seen_by": [],
       "added_by": "craigslist",
-      "added_at": "2026-06-26T18:20:53.790Z"
+      "added_at": "2026-06-26T18:20:53.790Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-06-29T18:56:38.288Z"
     },
     {
       "id": "cl_7943467614",
@@ -2866,14 +2868,16 @@
       "bathrooms": null,
       "sqft": 0,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": "shared",
       "lat": 37.7902,
       "lon": -122.4083,
       "notes": "From Craigslist · posted Jun 26, 4:56 PM",
       "seen_by": [],
       "added_by": "craigslist",
-      "added_at": "2026-06-27T01:59:00.742Z"
+      "added_at": "2026-06-27T01:59:00.742Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-06-29T18:56:38.288Z"
     },
     {
       "id": "cl_7943606588",
@@ -3137,6 +3141,25 @@
       "seen_by": [],
       "added_by": "craigslist",
       "added_at": "2026-06-29T16:31:58.973Z"
+    },
+    {
+      "id": "cl_7944073450",
+      "url": "https://sfbay.craigslist.org/sfc/apa/d/san-francisco-spacious/7944073450.html",
+      "address": "Spacious 3-2BR,Elev,Laundry(660 Bush #402)",
+      "neighborhood": "Nob Hill",
+      "price": 5400,
+      "bedrooms": 3,
+      "bathrooms": null,
+      "sqft": 0,
+      "available": null,
+      "status": "to_see",
+      "laundry": "shared",
+      "lat": 37.7902,
+      "lon": -122.4083,
+      "notes": "From Craigslist · posted Jun 29, 5:05 PM",
+      "seen_by": [],
+      "added_by": "craigslist",
+      "added_at": "2026-06-29T18:56:38.288Z"
     }
   ]
 }
