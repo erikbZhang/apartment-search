@@ -3303,6 +3303,25 @@
       "seen_by": [],
       "added_by": "craigslist",
       "added_at": "2026-07-01T11:00:04.391Z"
+    },
+    {
+      "id": "rc_1408-California-St,-Apt-305,-San-Francisco,-CA-94109",
+      "url": "https://www.google.com/search?q=1408%20California%20St%2C%20Apt%20305%2C%20San%20Francisco%2C%20CA%2094109%20for%20rent",
+      "address": "1408 California St, Apt 305, San Francisco, CA 94109",
+      "neighborhood": "Nob Hill",
+      "price": 8995,
+      "bedrooms": 3,
+      "bathrooms": 2,
+      "sqft": null,
+      "available": "2026-07-01",
+      "status": "to_see",
+      "laundry": null,
+      "lat": 37.791183,
+      "lon": -122.417702,
+      "notes": "From RentCast · $8995 · 1d on market",
+      "seen_by": [],
+      "added_by": "rentcast",
+      "added_at": "2026-07-01T12:17:45.900Z"
     }
   ]
 }
