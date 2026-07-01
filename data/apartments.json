@@ -3322,6 +3322,25 @@
       "seen_by": [],
       "added_by": "rentcast",
       "added_at": "2026-07-01T12:17:45.900Z"
+    },
+    {
+      "id": "rf_5e317fd5-6388-4ff7-b986-8dda147378c6",
+      "url": "https://www.redfin.com/CA/San-Francisco/1869-1873-Golden-Gate-Ave-94115/unit-73/apartment/195573946",
+      "address": "1869-1873 Golden Gate Ave Unit 73",
+      "neighborhood": "Western Addition",
+      "price": 6100,
+      "bedrooms": 3,
+      "bathrooms": 1.5,
+      "sqft": 1200,
+      "available": "2026-08-03T00:00:00Z",
+      "status": "to_see",
+      "laundry": null,
+      "lat": 37.778128,
+      "lon": -122.441272,
+      "notes": "From Redfin · $6100",
+      "seen_by": [],
+      "added_by": "redfin",
+      "added_at": "2026-07-01T13:34:54.690Z"
     }
   ]
 }
