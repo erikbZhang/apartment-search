@@ -3265,6 +3265,25 @@
       "seen_by": [],
       "added_by": "craigslist",
       "added_at": "2026-06-30T18:26:53.539Z"
+    },
+    {
+      "id": "cl_7944416419",
+      "url": "https://sfbay.craigslist.org/sfc/apa/d/san-francisco-huge-4bed-2ba-layout-in/7944416419.html",
+      "address": "Huge 4Bed/2Ba Layout in Hayes Valley! Near Muni, Stores & Parks! W/D!",
+      "neighborhood": "Hayes Valley",
+      "price": 11650,
+      "bedrooms": 4,
+      "bathrooms": null,
+      "sqft": 1200,
+      "available": null,
+      "status": "to_see",
+      "laundry": null,
+      "lat": 37.7715,
+      "lon": -122.4277,
+      "notes": "From Craigslist · posted Jul 1, 4:47 AM",
+      "seen_by": [],
+      "added_by": "craigslist",
+      "added_at": "2026-07-01T07:01:40.389Z"
     }
   ]
 }
