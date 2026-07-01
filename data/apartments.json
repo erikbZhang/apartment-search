@@ -3284,6 +3284,25 @@
       "seen_by": [],
       "added_by": "craigslist",
       "added_at": "2026-07-01T07:01:40.389Z"
+    },
+    {
+      "id": "cl_7944430633",
+      "url": "https://sfbay.craigslist.org/sfc/apa/d/san-francisco-spacious-3br-2ba/7944430633.html",
+      "address": "Spacious 3BR/2BA Apartment with In-Unit Laundry in Nob Hill",
+      "neighborhood": "Nob Hill",
+      "price": 8995,
+      "bedrooms": 3,
+      "bathrooms": null,
+      "sqft": 0,
+      "available": null,
+      "status": "to_see",
+      "laundry": "in_unit",
+      "lat": 37.791,
+      "lon": -122.4175,
+      "notes": "From Craigslist · posted Jul 1, 7:40 AM",
+      "seen_by": [],
+      "added_by": "craigslist",
+      "added_at": "2026-07-01T11:00:04.391Z"
     }
   ]
 }
