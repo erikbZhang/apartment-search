@@ -3406,6 +3406,44 @@
       "seen_by": [],
       "added_by": "craigslist",
       "added_at": "2026-07-01T18:54:05.128Z"
+    },
+    {
+      "id": "cl_7944581137",
+      "url": "https://sfbay.craigslist.org/sfc/apa/d/san-francisco-fully-remodeled-1909/7944581137.html",
+      "address": "Fully Remodeled 1909 Russian Hill House with 3 Decks & 2-Car Parking",
+      "neighborhood": "Russian Hill",
+      "price": 4802,
+      "bedrooms": 3,
+      "bathrooms": null,
+      "sqft": 2760,
+      "available": null,
+      "status": "to_see",
+      "laundry": null,
+      "lat": 37.7976,
+      "lon": -122.4163,
+      "notes": "From Craigslist · posted Jul 1, 9:48 PM",
+      "seen_by": [],
+      "added_by": "craigslist",
+      "added_at": "2026-07-01T22:11:25.851Z"
+    },
+    {
+      "id": "cl_7944579645",
+      "url": "https://sfbay.craigslist.org/sfc/apa/d/san-francisco-1635-gough-street-owner/7944579645.html",
+      "address": "1635 Gough Street Owner LP - A408",
+      "neighborhood": "Pac Heights",
+      "price": 9295,
+      "bedrooms": 3,
+      "bathrooms": null,
+      "sqft": 1115,
+      "available": null,
+      "status": "to_see",
+      "laundry": null,
+      "lat": 37.7886,
+      "lon": -122.4253,
+      "notes": "From Craigslist · posted Jul 1, 9:13 PM",
+      "seen_by": [],
+      "added_by": "craigslist",
+      "added_at": "2026-07-01T22:11:25.851Z"
     }
   ]
 }
