@@ -3459,14 +3459,16 @@
       "bathrooms": null,
       "sqft": 0,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": "in_unit",
       "lat": 37.7915,
       "lon": -122.4184,
       "notes": "From Craigslist · posted Jul 2, 9:56 AM",
       "seen_by": [],
       "added_by": "craigslist",
-      "added_at": "2026-07-02T10:38:39.901Z"
+      "added_at": "2026-07-02T10:38:39.901Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-07-02T12:52:20.446Z"
     },
     {
       "id": "rc_1035-Noe-St,-San-Francisco,-CA-94114",
@@ -3486,6 +3488,25 @@
       "seen_by": [],
       "added_by": "rentcast",
       "added_at": "2026-07-02T11:44:02.303Z"
+    },
+    {
+      "id": "rf_9dc7866b-554c-4fa3-aa46-2e9f512a0760",
+      "url": "https://www.redfin.com/CA/San-Francisco/1240-Sanchez-St-94114/unit-1/home/194955769",
+      "address": "1240 Sanchez St Unit 1",
+      "neighborhood": "Noe Valley",
+      "price": 7495,
+      "bedrooms": 3,
+      "bathrooms": 1,
+      "sqft": null,
+      "available": null,
+      "status": "to_see",
+      "laundry": null,
+      "lat": 37.749382,
+      "lon": -122.429721,
+      "notes": "From Redfin · $7495 · Charming & Spacious 3-Bedroom Home Located in the heart of Noe Valley, this unique gem offers the perfect blend of comfort and style. Featur",
+      "seen_by": [],
+      "added_by": "redfin",
+      "added_at": "2026-07-02T12:52:20.446Z"
     }
   ]
 }
