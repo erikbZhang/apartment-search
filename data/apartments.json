@@ -3507,6 +3507,25 @@
       "seen_by": [],
       "added_by": "redfin",
       "added_at": "2026-07-02T12:52:20.446Z"
+    },
+    {
+      "id": "rf_115d4bb2-0002-4dc1-918b-a4821aa3cf48",
+      "url": "https://www.redfin.com/CA/San-Francisco/1408-California-St-94109/apartment/195209942",
+      "address": "1408 California St",
+      "neighborhood": "Nob Hill",
+      "price": 8995,
+      "bedrooms": 3,
+      "bathrooms": 2,
+      "sqft": null,
+      "available": null,
+      "status": "to_see",
+      "laundry": null,
+      "lat": 37.7911849,
+      "lon": -122.4177921,
+      "notes": "From Redfin · $8995 · SCHEDULE A SHOWING ONLINE AT: showmojo.com/lrt/a9192e404f ---- Experience comfortable city living in this spacious 3-bedroom, 2-bathroom apa",
+      "seen_by": [],
+      "added_by": "redfin",
+      "added_at": "2026-07-02T15:03:14.321Z"
     }
   ]
 }
