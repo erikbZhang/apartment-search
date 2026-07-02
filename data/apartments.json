@@ -2758,14 +2758,16 @@
       "bathrooms": 2,
       "sqft": null,
       "available": "2026-06-26",
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.79804,
       "lon": -122.43256,
       "notes": "From RentCast · $10995 · 1d on market",
       "seen_by": [],
       "added_by": "rentcast",
-      "added_at": "2026-06-26T11:54:59.693Z"
+      "added_at": "2026-06-26T11:54:59.693Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-07-02T11:44:02.303Z"
     },
     {
       "id": "cl_7942080842",
@@ -3465,6 +3467,25 @@
       "seen_by": [],
       "added_by": "craigslist",
       "added_at": "2026-07-02T10:38:39.901Z"
+    },
+    {
+      "id": "rc_1035-Noe-St,-San-Francisco,-CA-94114",
+      "url": "https://www.google.com/search?q=1035%20Noe%20St%2C%20San%20Francisco%2C%20CA%2094114%20for%20rent",
+      "address": "1035 Noe St, San Francisco, CA 94114",
+      "neighborhood": "Noe Valley",
+      "price": 5500,
+      "bedrooms": 3,
+      "bathrooms": 1.5,
+      "sqft": 1350,
+      "available": "2023-02-11",
+      "status": "to_see",
+      "laundry": null,
+      "lat": 37.752538,
+      "lon": -122.431613,
+      "notes": "From RentCast · $5500 · 1238d on market",
+      "seen_by": [],
+      "added_by": "rentcast",
+      "added_at": "2026-07-02T11:44:02.303Z"
     }
   ]
 }
