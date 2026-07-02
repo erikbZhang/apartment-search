@@ -3446,6 +3446,25 @@
       "seen_by": [],
       "added_by": "craigslist",
       "added_at": "2026-07-01T22:11:25.851Z"
+    },
+    {
+      "id": "cl_7944656916",
+      "url": "https://sfbay.craigslist.org/sfc/apa/d/san-francisco-lovely-3x2-wd-in-unit/7944656916.html",
+      "address": "Lovely 3x2 - WD in Unit - Great Area - Pets OK",
+      "neighborhood": "Pacific Heights",
+      "price": 1540,
+      "bedrooms": 3,
+      "bathrooms": null,
+      "sqft": 0,
+      "available": null,
+      "status": "to_see",
+      "laundry": "in_unit",
+      "lat": 37.7915,
+      "lon": -122.4184,
+      "notes": "From Craigslist · posted Jul 2, 9:56 AM",
+      "seen_by": [],
+      "added_by": "craigslist",
+      "added_at": "2026-07-02T10:38:39.901Z"
     }
   ]
 }
