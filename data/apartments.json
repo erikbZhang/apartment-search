@@ -2531,14 +2531,16 @@
       "bathrooms": null,
       "sqft": 1115,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.7886,
       "lon": -122.4253,
       "notes": "From Craigslist · posted Jun 24, 4:35 PM",
       "seen_by": [],
       "added_by": "craigslist",
-      "added_at": "2026-06-24T18:25:45.016Z"
+      "added_at": "2026-06-24T18:25:45.016Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-07-03T16:26:04.323Z"
     },
     {
       "id": "cl_7943040753",
@@ -3130,14 +3132,16 @@
       "bathrooms": null,
       "sqft": 1115,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.7886,
       "lon": -122.4253,
       "notes": "From Craigslist · posted Jun 28, 4:39 PM",
       "seen_by": [],
       "added_by": "craigslist",
-      "added_at": "2026-06-28T16:55:58.307Z"
+      "added_at": "2026-06-28T16:55:58.307Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-07-03T16:26:04.323Z"
     },
     {
       "id": "cl_7944059880",
@@ -3149,14 +3153,16 @@
       "bathrooms": null,
       "sqft": 1115,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.7886,
       "lon": -122.4253,
       "notes": "From Craigslist · posted Jun 29, 4:19 PM",
       "seen_by": [],
       "added_by": "craigslist",
-      "added_at": "2026-06-29T16:31:58.973Z"
+      "added_at": "2026-06-29T16:31:58.973Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-07-03T16:26:04.323Z"
     },
     {
       "id": "cl_7944073450",
@@ -3229,14 +3235,16 @@
       "bathrooms": null,
       "sqft": 1115,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.7886,
       "lon": -122.4253,
       "notes": "From Craigslist · posted Jun 30, 4:54 PM",
       "seen_by": [],
       "added_by": "craigslist",
-      "added_at": "2026-06-30T18:26:53.539Z"
+      "added_at": "2026-06-30T18:26:53.539Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-07-03T16:26:04.323Z"
     },
     {
       "id": "cl_7944290273",
@@ -3591,6 +3599,25 @@
       "seen_by": [],
       "added_by": "craigslist",
       "added_at": "2026-07-02T20:50:13.187Z"
+    },
+    {
+      "id": "cl_7944905514",
+      "url": "https://sfbay.craigslist.org/sfc/apa/d/san-francisco-huge-4bed-2ba-layout-in/7944905514.html",
+      "address": "Huge 4Bed/2Ba Layout in Hayes Valley! Near Muni, Stores & Parks! W/D!",
+      "neighborhood": "Hayes Valley",
+      "price": 11450,
+      "bedrooms": 4,
+      "bathrooms": null,
+      "sqft": 1200,
+      "available": null,
+      "status": "to_see",
+      "laundry": null,
+      "lat": 37.7715,
+      "lon": -122.4277,
+      "notes": "From Craigslist · posted Jul 3, 3:33 PM",
+      "seen_by": [],
+      "added_by": "craigslist",
+      "added_at": "2026-07-03T16:26:04.323Z"
     }
   ]
 }
