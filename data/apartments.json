@@ -3660,6 +3660,25 @@
       "added_at": "2026-07-04T01:45:36.668Z",
       "prev_status": "to_see",
       "off_market_at": "2026-07-04T05:34:38.818Z"
+    },
+    {
+      "id": "cl_7945050267",
+      "url": "https://sfbay.craigslist.org/sfc/apa/d/san-francisco-bed-bath-for-rent/7945050267.html",
+      "address": "3 bed 3 bath for rent",
+      "neighborhood": "Marina",
+      "price": 6000,
+      "bedrooms": 3,
+      "bathrooms": null,
+      "sqft": 2205,
+      "available": null,
+      "status": "to_see",
+      "laundry": null,
+      "lat": 37.7999,
+      "lon": -122.4342,
+      "notes": "From Craigslist · posted Jul 4, 7:08 AM",
+      "seen_by": [],
+      "added_by": "craigslist",
+      "added_at": "2026-07-04T08:19:34.843Z"
     }
   ]
 }
