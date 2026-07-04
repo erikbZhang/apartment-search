@@ -3639,6 +3639,25 @@
       "seen_by": [],
       "added_by": "craigslist",
       "added_at": "2026-07-03T22:52:28.213Z"
+    },
+    {
+      "id": "cl_7945023114",
+      "url": "https://sfbay.craigslist.org/sfc/apa/d/san-francisco-one-small-pet-welcome/7945023114.html",
+      "address": "One small pet welcome Prime Hayes Valley location",
+      "neighborhood": "Hayes Valley",
+      "price": 3020,
+      "bedrooms": 3,
+      "bathrooms": null,
+      "sqft": 1452,
+      "available": null,
+      "status": "to_see",
+      "laundry": null,
+      "lat": 37.7689,
+      "lon": -122.4481,
+      "notes": "From Craigslist · posted Jul 4, 1:36 AM",
+      "seen_by": [],
+      "added_by": "craigslist",
+      "added_at": "2026-07-04T01:45:36.668Z"
     }
   ]
 }
