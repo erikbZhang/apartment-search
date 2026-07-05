@@ -3031,14 +3031,16 @@
       "bathrooms": 2,
       "sqft": 1082,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.7841279,
       "lon": -122.4273921,
       "notes": "From Redfin · $9000",
       "seen_by": [],
       "added_by": "redfin",
-      "added_at": "2026-06-27T14:21:54.550Z"
+      "added_at": "2026-06-27T14:21:54.550Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-07-05T14:23:48.661Z"
     },
     {
       "id": "cl_7943735102",
@@ -3357,14 +3359,16 @@
       "bathrooms": 1.5,
       "sqft": 1200,
       "available": "2026-08-03T00:00:00Z",
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.778128,
       "lon": -122.441272,
       "notes": "From Redfin · $6100",
       "seen_by": [],
       "added_by": "redfin",
-      "added_at": "2026-07-01T13:34:54.690Z"
+      "added_at": "2026-07-01T13:34:54.690Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-07-05T14:23:48.661Z"
     },
     {
       "id": "cl_7944483233",
@@ -3702,6 +3706,25 @@
       "added_at": "2026-07-04T21:45:04.131Z",
       "prev_status": "to_see",
       "off_market_at": "2026-07-04T22:44:28.152Z"
+    },
+    {
+      "id": "cl_7945221451",
+      "url": "https://sfbay.craigslist.org/sfc/apa/d/san-francisco-3br-2ba-pacific-heights/7945221451.html",
+      "address": "3BR/2BA Pacific Heights, CA– $5100/mo–House for Rent",
+      "neighborhood": "Pacific Heights",
+      "price": 5100,
+      "bedrooms": 3,
+      "bathrooms": null,
+      "sqft": 2187,
+      "available": null,
+      "status": "to_see",
+      "laundry": null,
+      "lat": 37.7886,
+      "lon": -122.4388,
+      "notes": "From Craigslist · posted Jul 5, 1:05 PM",
+      "seen_by": [],
+      "added_by": "craigslist",
+      "added_at": "2026-07-05T14:23:48.661Z"
     }
   ]
 }
