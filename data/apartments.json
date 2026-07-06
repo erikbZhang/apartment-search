@@ -3874,6 +3874,25 @@
       "seen_by": [],
       "added_by": "craigslist",
       "added_at": "2026-07-06T19:28:55.395Z"
+    },
+    {
+      "id": "cl_7945497408",
+      "url": "https://sfbay.craigslist.org/sfc/apa/d/san-francisco-bright-spacious-br-ba-in/7945497408.html",
+      "address": "BRIGHT SPACIOUS 2 BR /1 BA in Heart of SF!",
+      "neighborhood": "Pac Hts",
+      "price": 5395,
+      "bedrooms": 3,
+      "bathrooms": null,
+      "sqft": 811,
+      "available": null,
+      "status": "to_see",
+      "laundry": null,
+      "lat": 37.7845,
+      "lon": -122.4312,
+      "notes": "From Craigslist · posted Jul 6, 8:01 PM",
+      "seen_by": [],
+      "added_by": "craigslist",
+      "added_at": "2026-07-06T21:18:15.733Z"
     }
   ]
 }
