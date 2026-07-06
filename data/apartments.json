@@ -3521,14 +3521,16 @@
       "bathrooms": 1,
       "sqft": null,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.749382,
       "lon": -122.429721,
       "notes": "From Redfin · $7495 · Charming & Spacious 3-Bedroom Home Located in the heart of Noe Valley, this unique gem offers the perfect blend of comfort and style. Featur",
       "seen_by": [],
       "added_by": "redfin",
-      "added_at": "2026-07-02T12:52:20.446Z"
+      "added_at": "2026-07-02T12:52:20.446Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-07-06T11:20:09.954Z"
     },
     {
       "id": "rf_115d4bb2-0002-4dc1-918b-a4821aa3cf48",
@@ -3727,6 +3729,25 @@
       "added_at": "2026-07-05T14:23:48.661Z",
       "prev_status": "to_see",
       "off_market_at": "2026-07-05T15:58:54.070Z"
+    },
+    {
+      "id": "cl_7945375533",
+      "url": "https://sfbay.craigslist.org/sfc/apa/d/san-francisco-top-floor-3br-victorian/7945375533.html",
+      "address": "Top Floor 3BR Victorian in Trendy Hayes Valley",
+      "neighborhood": "Hayes Valley",
+      "price": 2855,
+      "bedrooms": 3,
+      "bathrooms": null,
+      "sqft": 0,
+      "available": null,
+      "status": "to_see",
+      "laundry": null,
+      "lat": 37.7733,
+      "lon": -122.4248,
+      "notes": "From Craigslist · posted Jul 6, 7:55 AM",
+      "seen_by": [],
+      "added_by": "craigslist",
+      "added_at": "2026-07-06T11:20:09.954Z"
     }
   ]
 }
