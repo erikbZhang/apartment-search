@@ -3407,14 +3407,16 @@
       "bathrooms": null,
       "sqft": 0,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": "in_unit",
       "lat": 37.7886,
       "lon": -122.4253,
       "notes": "From Craigslist · posted Jul 1, 4:03 PM",
       "seen_by": [],
       "added_by": "craigslist",
-      "added_at": "2026-07-01T16:14:28.120Z"
+      "added_at": "2026-07-01T16:14:28.120Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-07-06T19:28:55.395Z"
     },
     {
       "id": "cl_7944515826",
@@ -3834,6 +3836,44 @@
       "seen_by": [],
       "added_by": "craigslist",
       "added_at": "2026-07-06T17:32:55.659Z"
+    },
+    {
+      "id": "cl_7945469512",
+      "url": "https://sfbay.craigslist.org/sfc/apa/d/san-francisco-renovated-corner-2bd-den/7945469512.html",
+      "address": "Renovated Corner 2BD + Den (or 3BD) in Central SF Available Now!",
+      "neighborhood": "Nob Hill",
+      "price": 3200,
+      "bedrooms": 3,
+      "bathrooms": null,
+      "sqft": 0,
+      "available": null,
+      "status": "to_see",
+      "laundry": null,
+      "lat": 37.7869,
+      "lon": -122.4197,
+      "notes": "From Craigslist · posted Jul 6, 6:21 PM",
+      "seen_by": [],
+      "added_by": "craigslist",
+      "added_at": "2026-07-06T19:28:55.395Z"
+    },
+    {
+      "id": "cl_7945465542",
+      "url": "https://sfbay.craigslist.org/sfc/apa/d/san-francisco-updated-spacious-townhome/7945465542.html",
+      "address": "Updated Spacious Townhome Style 3BR/2BA Laundry In Unit",
+      "neighborhood": "Pac Hts",
+      "price": 9295,
+      "bedrooms": 3,
+      "bathrooms": null,
+      "sqft": 0,
+      "available": null,
+      "status": "to_see",
+      "laundry": "in_unit",
+      "lat": 37.7886,
+      "lon": -122.4253,
+      "notes": "From Craigslist · posted Jul 6, 5:44 PM",
+      "seen_by": [],
+      "added_by": "craigslist",
+      "added_at": "2026-07-06T19:28:55.395Z"
     }
   ]
 }
