@@ -3912,6 +3912,44 @@
       "seen_by": [],
       "added_by": "craigslist",
       "added_at": "2026-07-07T02:10:19.952Z"
+    },
+    {
+      "id": "cl_7945601720",
+      "url": "https://sfbay.craigslist.org/sfc/apa/d/san-francisco-renovated-br-ba-ca-house/7945601720.html",
+      "address": "Renovated 3 BR/3 BA – CA –House For Rent at 1155 Vallejo St",
+      "neighborhood": "Russian Hill",
+      "price": 4807,
+      "bedrooms": 3,
+      "bathrooms": null,
+      "sqft": 2760,
+      "available": null,
+      "status": "to_see",
+      "laundry": null,
+      "lat": 37.7976,
+      "lon": -122.4163,
+      "notes": "From Craigslist · posted Jul 7, 10:30 AM",
+      "seen_by": [],
+      "added_by": "craigslist",
+      "added_at": "2026-07-07T13:09:36.009Z"
+    },
+    {
+      "id": "cl_7945606952",
+      "url": "https://sfbay.craigslist.org/sfc/apa/d/san-francisco-3br-2ba-ca-5600-mohouse/7945606952.html",
+      "address": "3BR/2BA – CA– $5600/mo–House for Rent*!",
+      "neighborhood": "Noe Valley",
+      "price": 5600,
+      "bedrooms": 3,
+      "bathrooms": null,
+      "sqft": 1682,
+      "available": null,
+      "status": "to_see",
+      "laundry": null,
+      "lat": 37.7457,
+      "lon": -122.4326,
+      "notes": "From Craigslist · posted Jul 7, 12:03 PM",
+      "seen_by": [],
+      "added_by": "craigslist",
+      "added_at": "2026-07-07T13:09:36.009Z"
     }
   ]
 }
