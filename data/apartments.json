@@ -3992,6 +3992,25 @@
       "seen_by": [],
       "added_by": "craigslist",
       "added_at": "2026-07-07T16:15:29.535Z"
+    },
+    {
+      "id": "cl_7945738756",
+      "url": "https://sfbay.craigslist.org/sfc/apa/d/san-francisco-3br-noe-valley-bay-views/7945738756.html",
+      "address": "3br noe valley, bay views + deck",
+      "neighborhood": "Noe Valley",
+      "price": 6652,
+      "bedrooms": 3,
+      "bathrooms": null,
+      "sqft": 2085,
+      "available": null,
+      "status": "to_see",
+      "laundry": null,
+      "lat": 37.7548,
+      "lon": -122.4294,
+      "notes": "From Craigslist · posted Jul 7, 9:52 PM",
+      "seen_by": [],
+      "added_by": "craigslist",
+      "added_at": "2026-07-07T22:03:17.744Z"
     }
   ]
 }
