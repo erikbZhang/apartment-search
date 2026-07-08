@@ -1161,14 +1161,16 @@
       "bathrooms": null,
       "sqft": 2500,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.7999,
       "lon": -122.4342,
       "notes": "From Craigslist · posted Jun 12, 2:47 PM",
       "seen_by": [],
       "added_by": "craigslist",
-      "added_at": "2026-06-12T17:29:47.934Z"
+      "added_at": "2026-06-12T17:29:47.934Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-07-08T17:16:22.969Z"
     },
     {
       "id": "cl_7940485232",
@@ -3695,14 +3697,16 @@
       "bathrooms": null,
       "sqft": 2205,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.7999,
       "lon": -122.4342,
       "notes": "From Craigslist · posted Jul 4, 7:08 AM",
       "seen_by": [],
       "added_by": "craigslist",
-      "added_at": "2026-07-04T08:19:34.843Z"
+      "added_at": "2026-07-04T08:19:34.843Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-07-08T17:16:22.969Z"
     },
     {
       "id": "cl_7945144821",
@@ -3834,14 +3838,16 @@
       "bathrooms": null,
       "sqft": 0,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": "in_unit",
       "lat": 37.7886,
       "lon": -122.4253,
       "notes": "From Craigslist · posted Jul 6, 3:45 PM",
       "seen_by": [],
       "added_by": "craigslist",
-      "added_at": "2026-07-06T17:32:55.659Z"
+      "added_at": "2026-07-06T17:32:55.659Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-07-08T17:16:22.969Z"
     },
     {
       "id": "cl_7945469512",
@@ -4009,14 +4015,16 @@
       "bathrooms": null,
       "sqft": 2085,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.7548,
       "lon": -122.4294,
       "notes": "From Craigslist · posted Jul 7, 9:52 PM",
       "seen_by": [],
       "added_by": "craigslist",
-      "added_at": "2026-07-07T22:03:17.744Z"
+      "added_at": "2026-07-07T22:03:17.744Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-07-08T17:16:22.969Z"
     },
     {
       "id": "cl_7945797646",
@@ -4036,6 +4044,25 @@
       "seen_by": [],
       "added_by": "craigslist",
       "added_at": "2026-07-08T04:56:26.055Z"
+    },
+    {
+      "id": "cl_7945871442",
+      "url": "https://sfbay.craigslist.org/sfc/apa/d/san-francisco-updated-spacious-townhome/7945871442.html",
+      "address": "Updated Spacious Townhome Style 3BR/2BA Laundry In Unit",
+      "neighborhood": "Pac Hts",
+      "price": 9295,
+      "bedrooms": 3,
+      "bathrooms": null,
+      "sqft": 0,
+      "available": null,
+      "status": "to_see",
+      "laundry": "in_unit",
+      "lat": 37.7886,
+      "lon": -122.4253,
+      "notes": "From Craigslist · posted Jul 8, 4:06 PM",
+      "seen_by": [],
+      "added_by": "craigslist",
+      "added_at": "2026-07-08T17:16:22.969Z"
     }
   ]
 }
