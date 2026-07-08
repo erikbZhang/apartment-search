@@ -3331,14 +3331,16 @@
       "bathrooms": null,
       "sqft": 0,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": "in_unit",
       "lat": 37.791,
       "lon": -122.4175,
       "notes": "From Craigslist · posted Jul 1, 7:40 AM",
       "seen_by": [],
       "added_by": "craigslist",
-      "added_at": "2026-07-01T11:00:04.391Z"
+      "added_at": "2026-07-01T11:00:04.391Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-07-08T19:03:11.100Z"
     },
     {
       "id": "rc_1408-California-St,-Apt-305,-San-Francisco,-CA-94109",
