@@ -4181,6 +4181,25 @@
       "seen_by": [],
       "added_by": "craigslist",
       "added_at": "2026-07-09T08:16:51.925Z"
+    },
+    {
+      "id": "rf_ae638061-fe82-4ed0-834c-0646690d27b3",
+      "url": "https://www.redfin.com/CA/San-Francisco/1000-Chestnut-St-94109/apartment/1770001",
+      "address": "1000 Chestnut St",
+      "neighborhood": "Russian Hill",
+      "price": 8672,
+      "bedrooms": 3,
+      "bathrooms": 3,
+      "sqft": null,
+      "available": null,
+      "status": "to_see",
+      "laundry": null,
+      "lat": 37.8031019,
+      "lon": -122.4200507,
+      "notes": "From Redfin · $8672 · Your dream apartment in pretigious Russian Hill awaits. Step off the Cable Car and into the marble-floored lobby of this elegant high-rise a",
+      "seen_by": [],
+      "added_by": "redfin",
+      "added_at": "2026-07-09T11:52:57.408Z"
     }
   ]
 }
