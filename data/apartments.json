@@ -1974,14 +1974,16 @@
       "bathrooms": 2,
       "sqft": null,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.7759264,
       "lon": -122.4319375,
       "notes": "From Redfin · $8995 · SCHEDULE A SHOWING ONLINE AT: showmojo.com/lrt/0becb48047 ---- Located on one of San Francisco's most desirable corridors, 940 Hayes St #29 ",
       "seen_by": [],
       "added_by": "redfin",
-      "added_at": "2026-06-19T14:37:52.845Z"
+      "added_at": "2026-06-19T14:37:52.845Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-07-09T14:25:43.887Z"
     },
     {
       "id": "cl_7941971192",
