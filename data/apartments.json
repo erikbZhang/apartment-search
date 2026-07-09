@@ -4133,14 +4133,16 @@
       "bathrooms": null,
       "sqft": 2760,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.7976,
       "lon": -122.4163,
       "notes": "From Craigslist · posted Jul 9, 2:03 AM",
       "seen_by": [],
       "added_by": "craigslist",
-      "added_at": "2026-07-09T04:40:14.213Z"
+      "added_at": "2026-07-09T04:40:14.213Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-07-09T08:16:51.925Z"
     },
     {
       "id": "cl_7946015077",
@@ -4160,6 +4162,25 @@
       "seen_by": [],
       "added_by": "craigslist",
       "added_at": "2026-07-09T04:40:14.213Z"
+    },
+    {
+      "id": "cl_7946027034",
+      "url": "https://sfbay.craigslist.org/sfc/apa/d/san-francisco-spacious-3br-2ba-near-noe/7946027034.html",
+      "address": "Spacious 3BR/2BA Near Noe Valley & Bernal Heights",
+      "neighborhood": "Noe Valley",
+      "price": 1395,
+      "bedrooms": 3,
+      "bathrooms": null,
+      "sqft": 1200,
+      "available": null,
+      "status": "to_see",
+      "laundry": null,
+      "lat": 37.7413,
+      "lon": -122.4236,
+      "notes": "From Craigslist · posted Jul 9, 6:47 AM",
+      "seen_by": [],
+      "added_by": "craigslist",
+      "added_at": "2026-07-09T08:16:51.925Z"
     }
   ]
 }
