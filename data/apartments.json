@@ -4084,6 +4084,44 @@
       "seen_by": [],
       "added_by": "craigslist",
       "added_at": "2026-07-08T20:54:03.450Z"
+    },
+    {
+      "id": "cl_7945461337",
+      "url": "https://sfbay.craigslist.org/sfc/apa/d/san-francisco-open-thurs-740pm-800pm/7945461337.html",
+      "address": "OPEN THURS 7:40pm-8:00pm. 4th Floor 2-3BR/1BA ( 660 Bush Street, #408)",
+      "neighborhood": "Nob Hill",
+      "price": 5800,
+      "bedrooms": 3,
+      "bathrooms": null,
+      "sqft": 0,
+      "available": null,
+      "status": "to_see",
+      "laundry": null,
+      "lat": 37.7902,
+      "lon": -122.4083,
+      "notes": "From Craigslist · posted Jul 8, 8:23 PM",
+      "seen_by": [],
+      "added_by": "craigslist",
+      "added_at": "2026-07-09T00:04:09.561Z"
+    },
+    {
+      "id": "cl_7945986280",
+      "url": "https://sfbay.craigslist.org/sfc/apa/d/san-francisco-tmlp-12-mo-three-bedroom/7945986280.html",
+      "address": "TMLP 12-mo. | Three Bedroom with Amazing Views, Available Soon!",
+      "neighborhood": "Russian Hill",
+      "price": 8671,
+      "bedrooms": 3,
+      "bathrooms": null,
+      "sqft": 1,
+      "available": null,
+      "status": "to_see",
+      "laundry": null,
+      "lat": 37.8029,
+      "lon": -122.4198,
+      "notes": "From Craigslist · posted Jul 8, 11:51 PM",
+      "seen_by": [],
+      "added_by": "craigslist",
+      "added_at": "2026-07-09T00:04:09.561Z"
     }
   ]
 }
