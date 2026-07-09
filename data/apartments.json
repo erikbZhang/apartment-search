@@ -4122,6 +4122,44 @@
       "seen_by": [],
       "added_by": "craigslist",
       "added_at": "2026-07-09T00:04:09.561Z"
+    },
+    {
+      "id": "cl_7946003259",
+      "url": "https://sfbay.craigslist.org/sfc/apa/d/san-francisco-cozy-bedroom-house-for/7946003259.html",
+      "address": "Cozy 3 Bedroom House for Rent in Russian Hill",
+      "neighborhood": "Russian Hill",
+      "price": 4807,
+      "bedrooms": 3,
+      "bathrooms": null,
+      "sqft": 2760,
+      "available": null,
+      "status": "to_see",
+      "laundry": null,
+      "lat": 37.7976,
+      "lon": -122.4163,
+      "notes": "From Craigslist · posted Jul 9, 2:03 AM",
+      "seen_by": [],
+      "added_by": "craigslist",
+      "added_at": "2026-07-09T04:40:14.213Z"
+    },
+    {
+      "id": "cl_7946015077",
+      "url": "https://sfbay.craigslist.org/sfc/apa/d/san-francisco-two-story-noe-valley-3br/7946015077.html",
+      "address": "Two-Story Noe Valley 3BR With 1,935 SF Of Living Space",
+      "neighborhood": "Noe Valley",
+      "price": 5500,
+      "bedrooms": 3,
+      "bathrooms": null,
+      "sqft": 1935,
+      "available": null,
+      "status": "to_see",
+      "laundry": null,
+      "lat": 37.7503,
+      "lon": -122.4375,
+      "notes": "From Craigslist · posted Jul 9, 3:58 AM",
+      "seen_by": [],
+      "added_by": "craigslist",
+      "added_at": "2026-07-09T04:40:14.213Z"
     }
   ]
 }
