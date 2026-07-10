@@ -4399,6 +4399,25 @@
       "seen_by": [],
       "added_by": "rentcast",
       "added_at": "2026-07-10T12:09:01.460Z"
+    },
+    {
+      "id": "rf_d618c080-1794-4b1c-89ad-675ccab9baa5",
+      "url": "https://www.redfin.com/CA/San-Francisco/1112-Eddy-St-94109/unit-C/home/1991845",
+      "address": "1112 Eddy St Unit C",
+      "neighborhood": "Western Addition",
+      "price": 5695,
+      "bedrooms": 3,
+      "bathrooms": 2.5,
+      "sqft": null,
+      "available": "2026-07-15T00:00:00Z",
+      "status": "to_see",
+      "laundry": null,
+      "lat": 37.7823758,
+      "lon": -122.4261617,
+      "notes": "From Redfin · $5695 · Spacious 3-Bedroom + Den Residence ! 1,590 Sq. Ft. Experience refined city living in this beautifully appointed 1,590-square-foot condominiu",
+      "seen_by": [],
+      "added_by": "redfin",
+      "added_at": "2026-07-10T13:52:19.277Z"
     }
   ]
 }
