@@ -4439,6 +4439,25 @@
       "seen_by": [],
       "added_by": "craigslist",
       "added_at": "2026-07-10T18:15:02.758Z"
+    },
+    {
+      "id": "rf_33fe5c06-e829-4174-873b-8cc871f99664",
+      "url": "https://www.redfin.com/CA/San-Francisco/Prism/apartment/195163588",
+      "address": "1028 Market St",
+      "neighborhood": "Downtown/Civic Center",
+      "price": 3477,
+      "bedrooms": 3,
+      "bathrooms": 1,
+      "sqft": 410,
+      "available": null,
+      "status": "to_see",
+      "laundry": null,
+      "lat": 37.7818338,
+      "lon": -122.4112267,
+      "notes": "From Redfin · $3477–$6311 · Prism offers a mix of studio, one, two and three-bedroom apartments located in the desirable San Francisco's Mid-Market and described as \"a ",
+      "seen_by": [],
+      "added_by": "redfin",
+      "added_at": "2026-07-10T21:49:17.400Z"
     }
   ]
 }
