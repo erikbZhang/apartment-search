@@ -4321,6 +4321,25 @@
       "seen_by": [],
       "added_by": "craigslist",
       "added_at": "2026-07-10T05:50:58.614Z"
+    },
+    {
+      "id": "rf_2436ee71-993e-4eda-a57d-7d7571a12c26",
+      "url": "https://www.redfin.com/CA/San-Francisco/1335-Washington-St-94109/apartment/548739",
+      "address": "1335 Washington St",
+      "neighborhood": "Nob Hill",
+      "price": 7495,
+      "bedrooms": 3,
+      "bathrooms": 1,
+      "sqft": null,
+      "available": null,
+      "status": "to_see",
+      "laundry": null,
+      "lat": 37.7938199,
+      "lon": -122.415419,
+      "notes": "From Redfin · $7495 · SCHEDULE A SHOWING ONLINE AT: showmojo.com/lrt/675961b01e ---- Charming 3 BR x 1 BA in the Heart of San Francisco - 1335 Washington St #8 - ",
+      "seen_by": [],
+      "added_by": "redfin",
+      "added_at": "2026-07-10T11:45:43.893Z"
     }
   ]
 }
