@@ -4538,6 +4538,25 @@
       "seen_by": [],
       "added_by": "redfin",
       "added_at": "2026-07-11T12:48:43.340Z"
+    },
+    {
+      "id": "cl_7946524069",
+      "url": "https://sfbay.craigslist.org/sfc/apa/d/san-francisco-classic-and-sunny/7946524069.html",
+      "address": "Classic and Sunny Victorian Home for Friends or Families",
+      "neighborhood": "Noe Valley",
+      "price": 5000,
+      "bedrooms": 3,
+      "bathrooms": null,
+      "sqft": 0,
+      "available": null,
+      "status": "to_see",
+      "laundry": null,
+      "lat": 37.7587,
+      "lon": -122.433,
+      "notes": "From Craigslist · posted Jul 11, 4:11 PM",
+      "seen_by": [],
+      "added_by": "craigslist",
+      "added_at": "2026-07-11T16:40:13.164Z"
     }
   ]
 }
