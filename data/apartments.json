@@ -4355,14 +4355,16 @@
       "bathrooms": 1,
       "sqft": null,
       "available": "2026-07-10",
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.793819,
       "lon": -122.415421,
       "notes": "From RentCast · $7495 · 1d on market",
       "seen_by": [],
       "added_by": "rentcast",
-      "added_at": "2026-07-10T12:09:01.460Z"
+      "added_at": "2026-07-10T12:09:01.460Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-07-11T10:35:02.771Z"
     },
     {
       "id": "rc_3201-Octavia-St,-Apt-304,-San-Francisco,-CA-94123",
