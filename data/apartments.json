@@ -4458,6 +4458,25 @@
       "seen_by": [],
       "added_by": "redfin",
       "added_at": "2026-07-10T21:49:17.400Z"
+    },
+    {
+      "id": "cl_7946427902",
+      "url": "https://sfbay.craigslist.org/sfc/apa/d/san-francisco-prime-san-francisco-3br/7946427902.html",
+      "address": "Prime San Francisco 3BR | Close to Mission & Noe Valley",
+      "neighborhood": "Noe Valley",
+      "price": 2110,
+      "bedrooms": 3,
+      "bathrooms": null,
+      "sqft": 1200,
+      "available": null,
+      "status": "to_see",
+      "laundry": null,
+      "lat": 37.7413,
+      "lon": -122.4236,
+      "notes": "From Craigslist · posted Jul 11, 12:05 AM",
+      "seen_by": [],
+      "added_by": "craigslist",
+      "added_at": "2026-07-11T01:23:16.159Z"
     }
   ]
 }
