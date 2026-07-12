@@ -4336,14 +4336,16 @@
       "bathrooms": 1,
       "sqft": null,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.7938199,
       "lon": -122.415419,
       "notes": "From Redfin · $7495 · SCHEDULE A SHOWING ONLINE AT: showmojo.com/lrt/675961b01e ---- Charming 3 BR x 1 BA in the Heart of San Francisco - 1335 Washington St #8 - ",
       "seen_by": [],
       "added_by": "redfin",
-      "added_at": "2026-07-10T11:45:43.893Z"
+      "added_at": "2026-07-10T11:45:43.893Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-07-12T16:42:45.550Z"
     },
     {
       "id": "rc_1335-Washington-St,-Apt-8,-San-Francisco,-CA-94109",
