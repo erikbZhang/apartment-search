@@ -4376,14 +4376,16 @@
       "bathrooms": 2,
       "sqft": null,
       "available": "2026-07-10",
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.801781,
       "lon": -122.429977,
       "notes": "From RentCast · $8995 · 1d on market",
       "seen_by": [],
       "added_by": "rentcast",
-      "added_at": "2026-07-10T12:09:01.460Z"
+      "added_at": "2026-07-10T12:09:01.460Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-07-12T10:44:16.585Z"
     },
     {
       "id": "rc_2835-Van-Ness-Ave,-Apt-3,-San-Francisco,-CA-94109",
@@ -4395,14 +4397,16 @@
       "bathrooms": 2,
       "sqft": null,
       "available": "2026-07-10",
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.801812,
       "lon": -122.425009,
       "notes": "From RentCast · $8495 · 1d on market",
       "seen_by": [],
       "added_by": "rentcast",
-      "added_at": "2026-07-10T12:09:01.460Z"
+      "added_at": "2026-07-10T12:09:01.460Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-07-12T10:44:16.585Z"
     },
     {
       "id": "rf_d618c080-1794-4b1c-89ad-675ccab9baa5",
