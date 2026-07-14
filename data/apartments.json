@@ -4770,6 +4770,25 @@
       "seen_by": [],
       "added_by": "craigslist",
       "added_at": "2026-07-14T18:03:46.443Z"
+    },
+    {
+      "id": "cl_7947196106",
+      "url": "https://sfbay.craigslist.org/sfc/apa/d/san-francisco-union-street-3br-office/7947196106.html",
+      "address": "A+ Union Street 3BR + Office SF Elegant  Home",
+      "neighborhood": "Marina",
+      "price": 6100,
+      "bedrooms": 3,
+      "bathrooms": null,
+      "sqft": 2008,
+      "available": null,
+      "status": "to_see",
+      "laundry": null,
+      "lat": 37.7964,
+      "lon": -122.4354,
+      "notes": "From Craigslist · posted Jul 14, 8:17 PM",
+      "seen_by": [],
+      "added_by": "craigslist",
+      "added_at": "2026-07-14T21:44:41.029Z"
     }
   ]
 }
