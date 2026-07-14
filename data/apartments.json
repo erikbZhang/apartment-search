@@ -4531,14 +4531,16 @@
       "bathrooms": 2,
       "sqft": null,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.8017859,
       "lon": -122.4299908,
       "notes": "From Redfin · $8995 · SCHEDULE A SHOWING ONLINE AT: showmojo.com/lrt/44c94950cc ---- Located at 3201 Octavia St #304, this spacious and bright 3-bedroom, 2-bathro",
       "seen_by": [],
       "added_by": "redfin",
-      "added_at": "2026-07-11T12:48:43.340Z"
+      "added_at": "2026-07-11T12:48:43.340Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-07-14T09:43:50.426Z"
     },
     {
       "id": "rf_d292f9ab-1f48-4492-a32b-50a9bf91d5be",
@@ -4659,6 +4661,44 @@
       "seen_by": [],
       "added_by": "craigslist",
       "added_at": "2026-07-13T21:42:30.288Z"
+    },
+    {
+      "id": "cl_7947070823",
+      "url": "https://sfbay.craigslist.org/sfc/apa/d/san-francisco-featured-by-sf-chronicle/7947070823.html",
+      "address": "Featured by SF Chronicle 3BR/2B Mortazavi Design With 3 View Decks",
+      "neighborhood": "Russian Hill",
+      "price": 4809,
+      "bedrooms": 3,
+      "bathrooms": null,
+      "sqft": 2760,
+      "available": null,
+      "status": "to_see",
+      "laundry": null,
+      "lat": 37.7976,
+      "lon": -122.4163,
+      "notes": "From Craigslist · posted Jul 14, 7:47 AM",
+      "seen_by": [],
+      "added_by": "craigslist",
+      "added_at": "2026-07-14T09:43:50.426Z"
+    },
+    {
+      "id": "cl_7947070644",
+      "url": "https://sfbay.craigslist.org/sfc/apa/d/san-francisco-three-level-noe-3br/7947070644.html",
+      "address": "Three-Level Noe 3BR Valley Craftsman Magical Home with Garden & Garage",
+      "neighborhood": "Noe Valley",
+      "price": 5500,
+      "bedrooms": 3,
+      "bathrooms": null,
+      "sqft": 2110,
+      "available": null,
+      "status": "to_see",
+      "laundry": null,
+      "lat": 37.7536,
+      "lon": -122.4354,
+      "notes": "From Craigslist · posted Jul 14, 7:15 AM",
+      "seen_by": [],
+      "added_by": "craigslist",
+      "added_at": "2026-07-14T09:43:50.426Z"
     }
   ]
 }
