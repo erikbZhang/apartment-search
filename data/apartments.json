@@ -4699,6 +4699,25 @@
       "seen_by": [],
       "added_by": "craigslist",
       "added_at": "2026-07-14T09:43:50.426Z"
+    },
+    {
+      "id": "cl_7947087227",
+      "url": "https://sfbay.craigslist.org/sfc/apa/d/san-francisco-three-level-noe-valley/7947087227.html",
+      "address": "Three-Level Noe Valley Home Sprawling 4BR/3.5BA Layout",
+      "neighborhood": "Noe Valley",
+      "price": 5200,
+      "bedrooms": 4,
+      "bathrooms": null,
+      "sqft": 0,
+      "available": null,
+      "status": "to_see",
+      "laundry": null,
+      "lat": 37.7503,
+      "lon": -122.4416,
+      "notes": "From Craigslist · posted Jul 14, 12:52 PM",
+      "seen_by": [],
+      "added_by": "craigslist",
+      "added_at": "2026-07-14T13:01:45.116Z"
     }
   ]
 }
