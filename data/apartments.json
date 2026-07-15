@@ -4812,6 +4812,25 @@
       "seen_by": [],
       "added_by": "craigslist",
       "added_at": "2026-07-15T04:37:59.594Z"
+    },
+    {
+      "id": "rf_feabf43c-acbf-4267-b80a-2b0d6a91ded1",
+      "url": "https://www.redfin.com/CA/San-Francisco/1327-McAllister-St-94115/home/17304810",
+      "address": "1327 McAllister St",
+      "neighborhood": "Western Addition",
+      "price": 9500,
+      "bedrooms": 3,
+      "bathrooms": 1.5,
+      "sqft": 2000,
+      "available": "2026-08-01T00:00:00Z",
+      "status": "to_see",
+      "laundry": null,
+      "lat": 37.77808,
+      "lon": -122.43386,
+      "notes": "From Redfin · $9500",
+      "seen_by": [],
+      "added_by": "redfin",
+      "added_at": "2026-07-15T15:16:13.324Z"
     }
   ]
 }
