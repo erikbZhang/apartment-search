@@ -4909,6 +4909,25 @@
       "seen_by": [],
       "added_by": "craigslist",
       "added_at": "2026-07-16T01:21:38.913Z"
+    },
+    {
+      "id": "rf_1d747bd6-f33a-441b-9116-a8603fb7e8da",
+      "url": "https://www.redfin.com/CA/San-Francisco/967-Oak-St-94117/apartment/583091",
+      "address": "967 Oak St",
+      "neighborhood": "Western Addition",
+      "price": 10500,
+      "bedrooms": 4,
+      "bathrooms": 2,
+      "sqft": 1400,
+      "available": "2026-07-25T00:00:00Z",
+      "status": "to_see",
+      "laundry": null,
+      "lat": 37.7731412,
+      "lon": -122.4350965,
+      "notes": "From Redfin · $10500",
+      "seen_by": [],
+      "added_by": "redfin",
+      "added_at": "2026-07-16T13:13:58.888Z"
     }
   ]
 }
