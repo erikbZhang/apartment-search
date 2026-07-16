@@ -4890,6 +4890,25 @@
       "seen_by": [],
       "added_by": "craigslist",
       "added_at": "2026-07-15T19:59:57.343Z"
+    },
+    {
+      "id": "cl_7947466738",
+      "url": "https://sfbay.craigslist.org/sfc/apa/d/san-francisco-three-bedroom-noe-valley/7947466738.html",
+      "address": "THREE BEDROOM NOE VALLEY / CASTRO FLAT",
+      "neighborhood": "Noe Valley",
+      "price": 6150,
+      "bedrooms": 3,
+      "bathrooms": null,
+      "sqft": 1200,
+      "available": null,
+      "status": "to_see",
+      "laundry": null,
+      "lat": 37.7543,
+      "lon": -122.4376,
+      "notes": "From Craigslist · posted Jul 16, 12:23 AM",
+      "seen_by": [],
+      "added_by": "craigslist",
+      "added_at": "2026-07-16T01:21:38.913Z"
     }
   ]
 }
