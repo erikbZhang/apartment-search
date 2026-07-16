@@ -4846,14 +4846,16 @@
       "bathrooms": null,
       "sqft": 0,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.7902,
       "lon": -122.4083,
       "notes": "From Craigslist · posted Jul 15, 4:31 PM",
       "seen_by": [],
       "added_by": "craigslist",
-      "added_at": "2026-07-15T17:02:13.372Z"
+      "added_at": "2026-07-15T17:02:13.372Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-07-16T17:00:16.662Z"
     },
     {
       "id": "cl_7947356343",
@@ -4865,14 +4867,16 @@
       "bathrooms": null,
       "sqft": 0,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.7902,
       "lon": -122.4083,
       "notes": "From Craigslist · posted Jul 15, 4:31 PM",
       "seen_by": [],
       "added_by": "craigslist",
-      "added_at": "2026-07-15T19:59:57.343Z"
+      "added_at": "2026-07-15T19:59:57.343Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-07-16T17:00:16.662Z"
     },
     {
       "id": "cl_7947407204",
@@ -4930,6 +4934,44 @@
       "seen_by": [],
       "added_by": "redfin",
       "added_at": "2026-07-16T13:13:58.888Z"
+    },
+    {
+      "id": "cl_7947565351",
+      "url": "https://sfbay.craigslist.org/sfc/apa/d/san-francisco-this-bedroom-bathroom/7947565351.html",
+      "address": "👀This 3-bedroom, 2-bathroom home on Fillmore St👀",
+      "neighborhood": "Marina",
+      "price": 5490,
+      "bedrooms": 3,
+      "bathrooms": null,
+      "sqft": 2008,
+      "available": null,
+      "status": "to_see",
+      "laundry": null,
+      "lat": 37.7999,
+      "lon": -122.4342,
+      "notes": "From Craigslist · posted Jul 16, 4:56 PM",
+      "seen_by": [],
+      "added_by": "craigslist",
+      "added_at": "2026-07-16T17:00:16.662Z"
+    },
+    {
+      "id": "cl_7947568976",
+      "url": "https://sfbay.craigslist.org/sfc/apa/d/san-francisco-open-thu-800pm-830pm-4th/7947568976.html",
+      "address": "OPEN THU 8:00pm-8:30pm 4th Floor 2-3BR/1BA ( 660 Bush Street, #408)",
+      "neighborhood": "Nob Hill",
+      "price": 5800,
+      "bedrooms": 3,
+      "bathrooms": null,
+      "sqft": 0,
+      "available": null,
+      "status": "to_see",
+      "laundry": null,
+      "lat": 37.7902,
+      "lon": -122.4083,
+      "notes": "From Craigslist · posted Jul 16, 4:36 PM",
+      "seen_by": [],
+      "added_by": "craigslist",
+      "added_at": "2026-07-16T17:00:16.662Z"
     }
   ]
 }
