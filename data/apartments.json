@@ -3570,14 +3570,16 @@
       "bathrooms": 2,
       "sqft": null,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.7911849,
       "lon": -122.4177921,
       "notes": "From Redfin · $8995 · SCHEDULE A SHOWING ONLINE AT: showmojo.com/lrt/a9192e404f ---- Experience comfortable city living in this spacious 3-bedroom, 2-bathroom apa",
       "seen_by": [],
       "added_by": "redfin",
-      "added_at": "2026-07-02T15:03:14.321Z"
+      "added_at": "2026-07-02T15:03:14.321Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-07-17T12:58:26.204Z"
     },
     {
       "id": "cl_7944722980",
@@ -4993,6 +4995,25 @@
       "seen_by": [],
       "added_by": "rentcast",
       "added_at": "2026-07-17T10:58:18.084Z"
+    },
+    {
+      "id": "rf_c1d63c85-2390-40ae-b458-dc5f40ee14ae",
+      "url": "https://www.redfin.com/CA/San-Francisco/1531-California-St-94109/home/194962349",
+      "address": "1531 California St",
+      "neighborhood": "Nob Hill",
+      "price": 6300,
+      "bedrooms": 3,
+      "bathrooms": 1,
+      "sqft": 1154,
+      "available": "2026-08-01T00:00:00Z",
+      "status": "to_see",
+      "laundry": null,
+      "lat": 37.790604,
+      "lon": -122.4195721,
+      "notes": "From Redfin · $6300 · This spacious and well-located three-bedroom flat features a living room, formal dining room, remodeled kitchen, and split bath. Beautiful h",
+      "seen_by": [],
+      "added_by": "redfin",
+      "added_at": "2026-07-17T12:58:26.204Z"
     }
   ]
 }
