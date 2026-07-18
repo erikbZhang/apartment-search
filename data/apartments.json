@@ -5016,14 +5016,16 @@
       "bathrooms": 1,
       "sqft": 1154,
       "available": "2026-08-01T00:00:00Z",
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.790604,
       "lon": -122.4195721,
       "notes": "From Redfin · $6300 · This spacious and well-located three-bedroom flat features a living room, formal dining room, remodeled kitchen, and split bath. Beautiful h",
       "seen_by": [],
       "added_by": "redfin",
-      "added_at": "2026-07-17T12:58:26.204Z"
+      "added_at": "2026-07-17T12:58:26.204Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-07-18T10:07:23.042Z"
     },
     {
       "id": "cl_7947785194",
@@ -5100,6 +5102,25 @@
       "seen_by": [],
       "added_by": "craigslist",
       "added_at": "2026-07-18T04:36:14.699Z"
+    },
+    {
+      "id": "cl_7947931796",
+      "url": "https://sfbay.craigslist.org/sfc/apa/d/san-francisco-flexible-bedroom-seamless/7947931796.html",
+      "address": "Flexible 3+ Bedroom Seamless Indoor/Outdoor Connection Private Deck",
+      "neighborhood": "Pacific Heights",
+      "price": 5200,
+      "bedrooms": 3,
+      "bathrooms": null,
+      "sqft": 2187,
+      "available": null,
+      "status": "to_see",
+      "laundry": null,
+      "lat": 37.7886,
+      "lon": -122.4388,
+      "notes": "From Craigslist · posted Jul 18, 9:00 AM",
+      "seen_by": [],
+      "added_by": "craigslist",
+      "added_at": "2026-07-18T10:07:23.042Z"
     }
   ]
 }
