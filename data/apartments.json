@@ -2797,14 +2797,16 @@
       "bathrooms": null,
       "sqft": 1600,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.742,
       "lon": -122.4263,
       "notes": "From Craigslist · posted Jun 26, 3:55 PM",
       "seen_by": [],
       "added_by": "craigslist",
-      "added_at": "2026-06-26T16:10:31.398Z"
+      "added_at": "2026-06-26T16:10:31.398Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-07-18T23:40:15.944Z"
     },
     {
       "id": "cl_7943438082",
@@ -5146,6 +5148,25 @@
       "added_at": "2026-07-18T11:42:14.178Z",
       "prev_status": "to_see",
       "off_market_at": "2026-07-18T20:39:54.912Z"
+    },
+    {
+      "id": "cl_7948078996",
+      "url": "https://sfbay.craigslist.org/sfc/apa/d/san-francisco-3br-2bapkg-house/7948078996.html",
+      "address": "3BR/2Ba,Pkg,-HOUSE! BigKitchen+DiningRm,DW,W&D,Deck,Great Yard!!",
+      "neighborhood": "Noe Valley",
+      "price": 7500,
+      "bedrooms": 3,
+      "bathrooms": null,
+      "sqft": 1600,
+      "available": null,
+      "status": "to_see",
+      "laundry": null,
+      "lat": 37.7417,
+      "lon": -122.4273,
+      "notes": "From Craigslist · posted Jul 18, 11:30 PM",
+      "seen_by": [],
+      "added_by": "craigslist",
+      "added_at": "2026-07-18T23:40:15.944Z"
     }
   ]
 }
