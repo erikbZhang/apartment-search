@@ -5121,6 +5121,25 @@
       "seen_by": [],
       "added_by": "craigslist",
       "added_at": "2026-07-18T10:07:23.042Z"
+    },
+    {
+      "id": "cl_7947937103",
+      "url": "https://sfbay.craigslist.org/sfc/apa/d/san-francisco-rear-deck-lush-views-3bd/7947937103.html",
+      "address": "Rear Deck & Lush Views 3+BD Cow Hollow Home",
+      "neighborhood": "Marina",
+      "price": 5100,
+      "bedrooms": 3,
+      "bathrooms": null,
+      "sqft": 2008,
+      "available": null,
+      "status": "to_see",
+      "laundry": null,
+      "lat": 37.7964,
+      "lon": -122.4354,
+      "notes": "From Craigslist · posted Jul 18, 10:58 AM",
+      "seen_by": [],
+      "added_by": "craigslist",
+      "added_at": "2026-07-18T11:42:14.178Z"
     }
   ]
 }
