@@ -4444,14 +4444,16 @@
       "bathrooms": 2.5,
       "sqft": null,
       "available": "2026-07-15T00:00:00Z",
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.7823758,
       "lon": -122.4261617,
       "notes": "From Redfin · $5695 · Spacious 3-Bedroom + Den Residence ! 1,590 Sq. Ft. Experience refined city living in this beautifully appointed 1,590-square-foot condominiu",
       "seen_by": [],
       "added_by": "redfin",
-      "added_at": "2026-07-10T13:52:19.277Z"
+      "added_at": "2026-07-10T13:52:19.277Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-07-18T04:36:14.699Z"
     },
     {
       "id": "cl_7946327557",
@@ -4814,14 +4816,16 @@
       "bathrooms": null,
       "sqft": 1200,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.7715,
       "lon": -122.4277,
       "notes": "From Craigslist · posted Jul 15, 2:56 AM",
       "seen_by": [],
       "added_by": "craigslist",
-      "added_at": "2026-07-15T04:37:59.594Z"
+      "added_at": "2026-07-15T04:37:59.594Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-07-18T04:36:14.699Z"
     },
     {
       "id": "rf_feabf43c-acbf-4267-b80a-2b0d6a91ded1",
@@ -5077,6 +5081,25 @@
       "seen_by": [],
       "added_by": "craigslist",
       "added_at": "2026-07-18T01:16:51.470Z"
+    },
+    {
+      "id": "cl_7947912638",
+      "url": "https://sfbay.craigslist.org/sfc/apa/d/san-francisco-spacious-4bed-2ba-shared/7947912638.html",
+      "address": "Spacious 4Bed/2Ba w/ Shared Garden, W/D in Apt & Amazing Location!!",
+      "neighborhood": "Hayes Valley",
+      "price": 11450,
+      "bedrooms": 4,
+      "bathrooms": null,
+      "sqft": 1200,
+      "available": null,
+      "status": "to_see",
+      "laundry": null,
+      "lat": 37.7715,
+      "lon": -122.4277,
+      "notes": "From Craigslist · posted Jul 18, 3:26 AM",
+      "seen_by": [],
+      "added_by": "craigslist",
+      "added_at": "2026-07-18T04:36:14.699Z"
     }
   ]
 }
