@@ -5167,6 +5167,44 @@
       "seen_by": [],
       "added_by": "craigslist",
       "added_at": "2026-07-18T23:40:15.944Z"
+    },
+    {
+      "id": "cl_7948089474",
+      "url": "https://sfbay.craigslist.org/sfc/apa/d/san-francisco-3br-2bapkg-house/7948089474.html",
+      "address": "3BR/2Ba,Pkg,-HOUSE-LgKitchen+DinRm,DW,W&D,Deck,Great Yard!!",
+      "neighborhood": "Noe Valley",
+      "price": 7500,
+      "bedrooms": 3,
+      "bathrooms": null,
+      "sqft": 1600,
+      "available": null,
+      "status": "to_see",
+      "laundry": null,
+      "lat": 37.7417,
+      "lon": -122.4273,
+      "notes": "From Craigslist · posted Jul 19, 12:41 AM",
+      "seen_by": [],
+      "added_by": "craigslist",
+      "added_at": "2026-07-19T01:23:02.295Z"
+    },
+    {
+      "id": "cl_7948080387",
+      "url": "https://sfbay.craigslist.org/sfc/apa/d/san-francisco-3br-2bapkg-house/7948080387.html",
+      "address": "3BR/2Ba,Pkg,-HOUSE! BigKitchen+DiningRm,DW,W&D,Deck,Great Yard!!",
+      "neighborhood": "Noe Valley",
+      "price": 7500,
+      "bedrooms": 3,
+      "bathrooms": null,
+      "sqft": 1600,
+      "available": null,
+      "status": "to_see",
+      "laundry": null,
+      "lat": 37.7417,
+      "lon": -122.4273,
+      "notes": "From Craigslist · posted Jul 18, 11:40 PM",
+      "seen_by": [],
+      "added_by": "craigslist",
+      "added_at": "2026-07-19T01:23:02.295Z"
     }
   ]
 }
