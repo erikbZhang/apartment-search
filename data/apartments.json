@@ -4530,14 +4530,16 @@
       "bathrooms": 2,
       "sqft": null,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.7823758,
       "lon": -122.4261617,
       "notes": "From Redfin · $5695 · Spacious 3-Bedroom + Den Residence 1,590 Sq. Ft. Experience refined city living in this beautifully appointed 1,590-square-foot condominium,",
       "seen_by": [],
       "added_by": "redfin",
-      "added_at": "2026-07-11T12:48:43.340Z"
+      "added_at": "2026-07-11T12:48:43.340Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-07-19T16:41:42.663Z"
     },
     {
       "id": "rf_23dcf6e9-9183-4df0-a463-6ba193176ffa",
@@ -5161,14 +5163,16 @@
       "bathrooms": null,
       "sqft": 1600,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.7417,
       "lon": -122.4273,
       "notes": "From Craigslist · posted Jul 18, 11:30 PM",
       "seen_by": [],
       "added_by": "craigslist",
-      "added_at": "2026-07-18T23:40:15.944Z"
+      "added_at": "2026-07-18T23:40:15.944Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-07-19T16:41:42.663Z"
     },
     {
       "id": "cl_7948089474",
@@ -5199,14 +5203,16 @@
       "bathrooms": null,
       "sqft": 1600,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.7417,
       "lon": -122.4273,
       "notes": "From Craigslist · posted Jul 18, 11:40 PM",
       "seen_by": [],
       "added_by": "craigslist",
-      "added_at": "2026-07-19T01:23:02.295Z"
+      "added_at": "2026-07-19T01:23:02.295Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-07-19T16:41:42.663Z"
     },
     {
       "id": "cl_7948155692",
