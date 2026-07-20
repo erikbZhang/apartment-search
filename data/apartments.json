@@ -5047,14 +5047,16 @@
       "bathrooms": null,
       "sqft": 0,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.7902,
       "lon": -122.4083,
       "notes": "From Craigslist · posted Jul 17, 4:46 PM",
       "seen_by": [],
       "added_by": "craigslist",
-      "added_at": "2026-07-17T17:55:23.064Z"
+      "added_at": "2026-07-17T17:55:23.064Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-07-20T17:16:01.361Z"
     },
     {
       "id": "cl_7947785194",
@@ -5066,14 +5068,16 @@
       "bathrooms": null,
       "sqft": 0,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.7902,
       "lon": -122.4083,
       "notes": "From Craigslist · posted Jul 17, 4:46 PM",
       "seen_by": [],
       "added_by": "craigslist",
-      "added_at": "2026-07-18T01:16:51.470Z"
+      "added_at": "2026-07-18T01:16:51.470Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-07-20T17:16:01.361Z"
     },
     {
       "id": "cl_7947883834",
@@ -5226,14 +5230,35 @@
       "bathrooms": null,
       "sqft": 0,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.7902,
       "lon": -122.4083,
       "notes": "From Craigslist · posted Jul 19, 3:39 PM",
       "seen_by": [],
       "added_by": "craigslist",
-      "added_at": "2026-07-19T15:43:33.239Z"
+      "added_at": "2026-07-19T15:43:33.239Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-07-20T17:16:01.361Z"
+    },
+    {
+      "id": "cl_7948351557",
+      "url": "https://sfbay.craigslist.org/sfc/apa/d/san-francisco-4th-floor-3br-1ba-660/7948351557.html",
+      "address": "4th Floor 2-3BR/1BA ( 660 Bush Street, #408)",
+      "neighborhood": "Nob Hill",
+      "price": 5800,
+      "bedrooms": 3,
+      "bathrooms": null,
+      "sqft": 0,
+      "available": null,
+      "status": "to_see",
+      "laundry": null,
+      "lat": 37.7902,
+      "lon": -122.4083,
+      "notes": "From Craigslist · posted Jul 20, 4:32 PM",
+      "seen_by": [],
+      "added_by": "craigslist",
+      "added_at": "2026-07-20T17:16:01.361Z"
     }
   ]
 }
