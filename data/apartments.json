@@ -5280,6 +5280,25 @@
       "seen_by": [],
       "added_by": "craigslist",
       "added_at": "2026-07-21T01:22:43.900Z"
+    },
+    {
+      "id": "cl_7948479488",
+      "url": "https://sfbay.craigslist.org/sfc/apa/d/san-francisco-russian-hill-3br-35ba/7948479488.html",
+      "address": "Russian Hill 3BR / 3.5BA  with 2+ Car Garage & Three Decks",
+      "neighborhood": "Russian Hill",
+      "price": 4807,
+      "bedrooms": 3,
+      "bathrooms": null,
+      "sqft": 2760,
+      "available": null,
+      "status": "to_see",
+      "laundry": null,
+      "lat": 37.7976,
+      "lon": -122.4163,
+      "notes": "From Craigslist · posted Jul 21, 2:09 AM",
+      "seen_by": [],
+      "added_by": "craigslist",
+      "added_at": "2026-07-21T04:56:08.871Z"
     }
   ]
 }
