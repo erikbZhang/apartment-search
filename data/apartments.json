@@ -5343,6 +5343,44 @@
       "seen_by": [],
       "added_by": "craigslist",
       "added_at": "2026-07-21T21:52:23.967Z"
+    },
+    {
+      "id": "cl_7948712665",
+      "url": "https://sfbay.craigslist.org/sfc/apa/d/san-francisco-top-floor-luxury-four-bed/7948712665.html",
+      "address": "Top Floor Luxury Four 3-Bed Hayes Valley Apt",
+      "neighborhood": "Hayes Valley",
+      "price": 1400,
+      "bedrooms": 3,
+      "bathrooms": null,
+      "sqft": 0,
+      "available": null,
+      "status": "to_see",
+      "laundry": null,
+      "lat": 37.7296,
+      "lon": -122.4557,
+      "notes": "From Craigslist · posted Jul 22, 4:28 AM",
+      "seen_by": [],
+      "added_by": "craigslist",
+      "added_at": "2026-07-22T04:55:48.972Z"
+    },
+    {
+      "id": "cl_7948703610",
+      "url": "https://sfbay.craigslist.org/sfc/apa/d/san-francisco-top-floor-luxury-four-bed/7948703610.html",
+      "address": "Top Floor Luxury Four 3-Bed Hayes Valley Apt",
+      "neighborhood": "Hayes Valley",
+      "price": 1400,
+      "bedrooms": 3,
+      "bathrooms": null,
+      "sqft": 0,
+      "available": null,
+      "status": "to_see",
+      "laundry": null,
+      "lat": 37.7758,
+      "lon": -122.422,
+      "notes": "From Craigslist · posted Jul 22, 2:48 AM",
+      "seen_by": [],
+      "added_by": "craigslist",
+      "added_at": "2026-07-22T04:55:48.972Z"
     }
   ]
 }
