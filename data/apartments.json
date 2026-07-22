@@ -5465,6 +5465,25 @@
       "seen_by": [],
       "added_by": "craigslist",
       "added_at": "2026-07-22T18:00:10.980Z"
+    },
+    {
+      "id": "cl_7948795632",
+      "url": "https://sfbay.craigslist.org/sfc/apa/d/san-francisco-open-thurs-740pm-800pm/7948795632.html",
+      "address": "OPEN THURS 7:40pm-8:00pm. 4th Floor 2-3BR/1BA ( 660 Bush Street, #408)",
+      "neighborhood": "Nob Hill",
+      "price": 5800,
+      "bedrooms": 3,
+      "bathrooms": null,
+      "sqft": 0,
+      "available": null,
+      "status": "to_see",
+      "laundry": null,
+      "lat": 37.7902,
+      "lon": -122.4083,
+      "notes": "From Craigslist · posted Jul 22, 4:45 PM",
+      "seen_by": [],
+      "added_by": "craigslist",
+      "added_at": "2026-07-22T19:22:25.732Z"
     }
   ]
 }
