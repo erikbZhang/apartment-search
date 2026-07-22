@@ -5110,14 +5110,16 @@
       "bathrooms": null,
       "sqft": 1200,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.7715,
       "lon": -122.4277,
       "notes": "From Craigslist · posted Jul 18, 3:26 AM",
       "seen_by": [],
       "added_by": "craigslist",
-      "added_at": "2026-07-18T04:36:14.699Z"
+      "added_at": "2026-07-18T04:36:14.699Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-07-22T18:00:10.980Z"
     },
     {
       "id": "cl_7947931796",
@@ -5316,14 +5318,16 @@
       "bathrooms": null,
       "sqft": 0,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.7902,
       "lon": -122.4083,
       "notes": "From Craigslist · posted Jul 21, 4:53 PM",
       "seen_by": [],
       "added_by": "craigslist",
-      "added_at": "2026-07-21T18:06:55.725Z"
+      "added_at": "2026-07-21T18:06:55.725Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-07-22T18:00:10.980Z"
     },
     {
       "id": "cl_7948648913",
@@ -5354,14 +5358,16 @@
       "bathrooms": null,
       "sqft": 0,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.7296,
       "lon": -122.4557,
       "notes": "From Craigslist · posted Jul 22, 4:28 AM",
       "seen_by": [],
       "added_by": "craigslist",
-      "added_at": "2026-07-22T04:55:48.972Z"
+      "added_at": "2026-07-22T04:55:48.972Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-07-22T18:00:10.980Z"
     },
     {
       "id": "cl_7948703610",
@@ -5421,6 +5427,44 @@
       "seen_by": [],
       "added_by": "redfin",
       "added_at": "2026-07-22T12:19:41.953Z"
+    },
+    {
+      "id": "cl_7948799387",
+      "url": "https://sfbay.craigslist.org/sfc/apa/d/san-francisco-spacious-4bed-2ba-shared/7948799387.html",
+      "address": "Spacious 4Bed/2Ba w/ Shared Garden, W/D in Apt & Amazing Location!!",
+      "neighborhood": "Hayes Valley",
+      "price": 11450,
+      "bedrooms": 4,
+      "bathrooms": null,
+      "sqft": 1200,
+      "available": null,
+      "status": "to_see",
+      "laundry": null,
+      "lat": 37.7715,
+      "lon": -122.4277,
+      "notes": "From Craigslist · posted Jul 22, 4:58 PM",
+      "seen_by": [],
+      "added_by": "craigslist",
+      "added_at": "2026-07-22T18:00:10.980Z"
+    },
+    {
+      "id": "cl_7948795632",
+      "url": "https://sfbay.craigslist.org/sfc/apa/d/san-francisco-4th-floor-3br-1ba-660/7948795632.html",
+      "address": "4th Floor 2-3BR/1BA ( 660 Bush Street, #408)",
+      "neighborhood": "Nob Hill",
+      "price": 5800,
+      "bedrooms": 3,
+      "bathrooms": null,
+      "sqft": 0,
+      "available": null,
+      "status": "to_see",
+      "laundry": null,
+      "lat": 37.7902,
+      "lon": -122.4083,
+      "notes": "From Craigslist · posted Jul 22, 4:45 PM",
+      "seen_by": [],
+      "added_by": "craigslist",
+      "added_at": "2026-07-22T18:00:10.980Z"
     }
   ]
 }
