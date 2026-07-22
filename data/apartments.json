@@ -5402,6 +5402,25 @@
       "seen_by": [],
       "added_by": "rentcast",
       "added_at": "2026-07-22T11:21:06.834Z"
+    },
+    {
+      "id": "rf_b5831f72-d086-4fb5-bfa1-c85956dded71",
+      "url": "https://www.redfin.com/CA/San-Francisco/1433-Clay-St-94109/apartment/1059070",
+      "address": "1433 Clay St",
+      "neighborhood": "Nob Hill",
+      "price": 9495,
+      "bedrooms": 3,
+      "bathrooms": 2,
+      "sqft": null,
+      "available": null,
+      "status": "to_see",
+      "laundry": null,
+      "lat": 37.7927389,
+      "lon": -122.4167137,
+      "notes": "From Redfin · $9495 · SCHEDULE A SHOWING ONLINE AT: showmojo.com/lrt/34a4c5602a ---- Welcome to 1433 Clay Street, Unit 15 - a bright and generously sized 3-bedroo",
+      "seen_by": [],
+      "added_by": "redfin",
+      "added_at": "2026-07-22T12:19:41.953Z"
     }
   ]
 }
