@@ -2295,14 +2295,16 @@
       "bathrooms": null,
       "sqft": 2200,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.7917,
       "lon": -122.4186,
       "notes": "From Craigslist · posted Jun 22, 10:08 PM",
       "seen_by": [],
       "added_by": "craigslist",
-      "added_at": "2026-06-22T22:29:41.462Z"
+      "added_at": "2026-06-22T22:29:41.462Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-07-23T08:07:38.193Z"
     },
     {
       "id": "rf_66d7c02f-e674-4d24-95a8-0c25317faea5",
@@ -5486,6 +5488,44 @@
       "seen_by": [],
       "added_by": "craigslist",
       "added_at": "2026-07-22T19:22:25.732Z"
+    },
+    {
+      "id": "cl_7948939508",
+      "url": "https://sfbay.craigslist.org/sfc/apa/d/san-francisco-elegant-victorian-3br-3ba/7948939508.html",
+      "address": "Elegant Victorian 3BR/3BA Home in Lower Pacific Heights",
+      "neighborhood": "Pacific Heights",
+      "price": 5240,
+      "bedrooms": 3,
+      "bathrooms": null,
+      "sqft": 2281,
+      "available": null,
+      "status": "to_see",
+      "laundry": null,
+      "lat": 37.7857,
+      "lon": -122.4364,
+      "notes": "From Craigslist · posted Jul 23, 7:58 AM",
+      "seen_by": [],
+      "added_by": "craigslist",
+      "added_at": "2026-07-23T08:07:38.193Z"
+    },
+    {
+      "id": "cl_7948933597",
+      "url": "https://sfbay.craigslist.org/sfc/apa/d/san-francisco-spacious-3br-with-private/7948933597.html",
+      "address": "Spacious 3BR with Private Deck & Stunning Views in Noe Valley",
+      "neighborhood": "Noe Valley",
+      "price": 6995,
+      "bedrooms": 3,
+      "bathrooms": null,
+      "sqft": 0,
+      "available": null,
+      "status": "to_see",
+      "laundry": null,
+      "lat": 37.7454,
+      "lon": -122.4335,
+      "notes": "From Craigslist · posted Jul 23, 5:56 AM",
+      "seen_by": [],
+      "added_by": "craigslist",
+      "added_at": "2026-07-23T08:07:38.193Z"
     }
   ]
 }
