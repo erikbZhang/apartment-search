@@ -5537,14 +5537,35 @@
       "bathrooms": null,
       "sqft": 0,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.7289,
       "lon": -122.3719,
       "notes": "From Craigslist · posted Jul 23, 11:57 AM",
       "seen_by": [],
       "added_by": "craigslist",
-      "added_at": "2026-07-23T12:19:50.139Z"
+      "added_at": "2026-07-23T12:19:50.139Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-07-23T14:58:57.941Z"
+    },
+    {
+      "id": "rf_0bb052c1-eb69-4d47-90d4-fd19b92dde5a",
+      "url": "https://www.redfin.com/CA/San-Francisco/1340-Taylor-St-94108/apartment/546458",
+      "address": "1340 Taylor St",
+      "neighborhood": "Nob Hill",
+      "price": 5725,
+      "bedrooms": 4,
+      "bathrooms": 1,
+      "sqft": 601,
+      "available": null,
+      "status": "to_see",
+      "laundry": null,
+      "lat": 37.7948591,
+      "lon": -122.4128418,
+      "notes": "From Redfin · $5725–$20985 · Experience elevated city living in this beautifully designed Nob Hill residence, where classic architecture meets modern convenience. This p",
+      "seen_by": [],
+      "added_by": "redfin",
+      "added_at": "2026-07-23T14:58:57.941Z"
     }
   ]
 }
