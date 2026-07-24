@@ -5595,6 +5595,25 @@
       "seen_by": [],
       "added_by": "craigslist",
       "added_at": "2026-07-23T18:05:30.375Z"
+    },
+    {
+      "id": "rf_89e58ec9-aee6-4ed2-8eaa-5be67005205d",
+      "url": "https://www.redfin.com/CA/San-Francisco/2031-Castro-St-94131/apartment/190372904",
+      "address": "2031 Castro St",
+      "neighborhood": "Noe Valley",
+      "price": 6995,
+      "bedrooms": 3,
+      "bathrooms": 2,
+      "sqft": null,
+      "available": null,
+      "status": "to_see",
+      "laundry": null,
+      "lat": 37.7451199,
+      "lon": -122.4332276,
+      "notes": "From Redfin · $6995 · SCHEDULE A SHOWING ONLINE AT: showmojo.com/lrt/8c0adda009 ---- Welcome to 2031 Castro St #21, a spacious and inviting 3-bedroom, 2-bathroom ",
+      "seen_by": [],
+      "added_by": "redfin",
+      "added_at": "2026-07-24T12:10:35.579Z"
     }
   ]
 }
