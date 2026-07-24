@@ -5097,14 +5097,16 @@
       "bathrooms": null,
       "sqft": 1,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.8029,
       "lon": -122.4198,
       "notes": "From Craigslist · posted Jul 17, 11:40 PM",
       "seen_by": [],
       "added_by": "craigslist",
-      "added_at": "2026-07-18T01:16:51.470Z"
+      "added_at": "2026-07-18T01:16:51.470Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-07-24T18:09:15.425Z"
     },
     {
       "id": "cl_7947912638",
@@ -5587,14 +5589,16 @@
       "bathrooms": null,
       "sqft": 0,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.7902,
       "lon": -122.4083,
       "notes": "From Craigslist · posted Jul 23, 5:30 PM",
       "seen_by": [],
       "added_by": "craigslist",
-      "added_at": "2026-07-23T18:05:30.375Z"
+      "added_at": "2026-07-23T18:05:30.375Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-07-24T18:09:15.425Z"
     },
     {
       "id": "rf_89e58ec9-aee6-4ed2-8eaa-5be67005205d",
@@ -5614,6 +5618,44 @@
       "seen_by": [],
       "added_by": "redfin",
       "added_at": "2026-07-24T12:10:35.579Z"
+    },
+    {
+      "id": "cl_7949228851",
+      "url": "https://sfbay.craigslist.org/sfc/apa/d/san-francisco-4th-floor-3br-1ba-660/7949228851.html",
+      "address": "4th Floor 2-3BR/1BA ( 660 Bush Street, #408)",
+      "neighborhood": "Nob Hill",
+      "price": 5800,
+      "bedrooms": 3,
+      "bathrooms": null,
+      "sqft": 0,
+      "available": null,
+      "status": "to_see",
+      "laundry": null,
+      "lat": 37.7902,
+      "lon": -122.4083,
+      "notes": "From Craigslist · posted Jul 24, 5:19 PM",
+      "seen_by": [],
+      "added_by": "craigslist",
+      "added_at": "2026-07-24T18:09:15.425Z"
+    },
+    {
+      "id": "cl_7949214614",
+      "url": "https://sfbay.craigslist.org/sfc/apa/d/san-francisco-tmlp-12-mo-ask-about-our/7949214614.html",
+      "address": "TMLP 12-mo. | Ask About Our Three Bedroom Apartments!",
+      "neighborhood": "Russian Hill",
+      "price": 9027,
+      "bedrooms": 3,
+      "bathrooms": null,
+      "sqft": 1,
+      "available": null,
+      "status": "to_see",
+      "laundry": null,
+      "lat": 37.8029,
+      "lon": -122.4198,
+      "notes": "From Craigslist · posted Jul 24, 4:26 PM",
+      "seen_by": [],
+      "added_by": "craigslist",
+      "added_at": "2026-07-24T18:09:15.425Z"
     }
   ]
 }
