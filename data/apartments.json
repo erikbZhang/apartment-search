@@ -4246,14 +4246,16 @@
       "bathrooms": 3,
       "sqft": null,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.8031019,
       "lon": -122.4200507,
       "notes": "From Redfin · $8672 · Your dream apartment in pretigious Russian Hill awaits. Step off the Cable Car and into the marble-floored lobby of this elegant high-rise a",
       "seen_by": [],
       "added_by": "redfin",
-      "added_at": "2026-07-09T11:52:57.408Z"
+      "added_at": "2026-07-09T11:52:57.408Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-07-25T14:25:19.750Z"
     },
     {
       "id": "cl_7946077447",
