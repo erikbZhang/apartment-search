@@ -5639,14 +5639,16 @@
       "bathrooms": null,
       "sqft": 0,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.7902,
       "lon": -122.4083,
       "notes": "From Craigslist · posted Jul 24, 5:19 PM",
       "seen_by": [],
       "added_by": "craigslist",
-      "added_at": "2026-07-24T18:09:15.425Z"
+      "added_at": "2026-07-24T18:09:15.425Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-07-27T17:27:14.130Z"
     },
     {
       "id": "cl_7949214614",
@@ -5757,14 +5759,16 @@
       "bathrooms": null,
       "sqft": 0,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.7902,
       "lon": -122.4083,
       "notes": "From Craigslist · posted Jul 24, 5:19 PM",
       "seen_by": [],
       "added_by": "craigslist",
-      "added_at": "2026-07-24T23:53:17.758Z"
+      "added_at": "2026-07-24T23:53:17.758Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-07-27T17:27:14.130Z"
     },
     {
       "id": "cl_7949345812",
@@ -5879,14 +5883,16 @@
       "bathrooms": null,
       "sqft": 0,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.7902,
       "lon": -122.4083,
       "notes": "From Craigslist · posted Jul 26, 2:03 PM",
       "seen_by": [],
       "added_by": "craigslist",
-      "added_at": "2026-07-26T14:22:06.773Z"
+      "added_at": "2026-07-26T14:22:06.773Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-07-27T17:27:14.130Z"
     },
     {
       "id": "cl_7949651443",
@@ -5908,6 +5914,25 @@
       "added_at": "2026-07-26T20:02:16.658Z",
       "prev_status": "to_see",
       "off_market_at": "2026-07-26T21:46:14.413Z"
+    },
+    {
+      "id": "cl_7949809398",
+      "url": "https://sfbay.craigslist.org/sfc/apa/d/san-francisco-4th-floor-3br-1ba-660/7949809398.html",
+      "address": "4th Floor 2-3BR/1BA ( 660 Bush Street, #408)",
+      "neighborhood": "Nob Hill",
+      "price": 5800,
+      "bedrooms": 3,
+      "bathrooms": null,
+      "sqft": 0,
+      "available": null,
+      "status": "to_see",
+      "laundry": null,
+      "lat": 37.7902,
+      "lon": -122.4083,
+      "notes": "From Craigslist · posted Jul 27, 4:26 PM",
+      "seen_by": [],
+      "added_by": "craigslist",
+      "added_at": "2026-07-27T17:27:14.130Z"
     }
   ]
 }
