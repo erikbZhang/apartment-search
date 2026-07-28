@@ -4580,14 +4580,16 @@
       "bathrooms": 2,
       "sqft": null,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.8018156,
       "lon": -122.4250406,
       "notes": "From Redfin · $8495 · SCHEDULE A SHOWING ONLINE AT: showmojo.com/lrt/0a21c0e01a ---- * Bright & Efficient 3BR in the Marina - Prime Location, Pets OK! Welcome to ",
       "seen_by": [],
       "added_by": "redfin",
-      "added_at": "2026-07-11T12:48:43.340Z"
+      "added_at": "2026-07-11T12:48:43.340Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-07-28T17:15:59.080Z"
     },
     {
       "id": "cl_7946524069",
