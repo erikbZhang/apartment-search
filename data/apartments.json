@@ -5805,14 +5805,16 @@
       "bathrooms": null,
       "sqft": 1200,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.7715,
       "lon": -122.4277,
       "notes": "From Craigslist · posted Jul 25, 3:05 AM",
       "seen_by": [],
       "added_by": "craigslist",
-      "added_at": "2026-07-25T04:53:13.151Z"
+      "added_at": "2026-07-25T04:53:13.151Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-07-29T01:22:06.680Z"
     },
     {
       "id": "cl_7949554953",
@@ -6019,6 +6021,44 @@
       "added_at": "2026-07-28T20:55:56.978Z",
       "prev_status": "to_see",
       "off_market_at": "2026-07-28T21:55:31.962Z"
+    },
+    {
+      "id": "cl_7950144508",
+      "url": "https://sfbay.craigslist.org/sfc/apa/d/san-francisco-live-in-the-best-location/7950144508.html",
+      "address": "Live In the Best Location in SF!! Near Everything! Beautiful 4Bed/2Ba!",
+      "neighborhood": "Hayes Valley",
+      "price": 11350,
+      "bedrooms": 4,
+      "bathrooms": null,
+      "sqft": 1200,
+      "available": null,
+      "status": "to_see",
+      "laundry": null,
+      "lat": 37.7715,
+      "lon": -122.4277,
+      "notes": "From Craigslist · posted Jul 29, 1:02 AM",
+      "seen_by": [],
+      "added_by": "craigslist",
+      "added_at": "2026-07-29T01:22:06.680Z"
+    },
+    {
+      "id": "rf_60a935bb-59de-40f2-80c3-77088bb24fd2",
+      "url": "https://www.redfin.com/CA/San-Francisco/1369-Hyde-St-94109/apartment/548972",
+      "address": "1369 Hyde St",
+      "neighborhood": "Nob Hill",
+      "price": 5295,
+      "bedrooms": 3,
+      "bathrooms": 1,
+      "sqft": 1058,
+      "available": null,
+      "status": "to_see",
+      "laundry": null,
+      "lat": 37.7934058,
+      "lon": -122.4182519,
+      "notes": "From Redfin · $5295 · 1369 Hyde, also known as the Keystone Apartments, is situated just blocks from historic Grace Cathedral and dog-friendly Huntington Park in ",
+      "seen_by": [],
+      "added_by": "redfin",
+      "added_at": "2026-07-29T01:22:06.680Z"
     }
   ]
 }
