@@ -6107,6 +6107,25 @@
       "seen_by": [],
       "added_by": "craigslist",
       "added_at": "2026-07-29T21:44:52.445Z"
+    },
+    {
+      "id": "cl_7950387913",
+      "url": "https://sfbay.craigslist.org/sfc/apa/d/san-francisco-3br-3ba-north-beach/7950387913.html",
+      "address": "3BR 3BA North Beach Apartment",
+      "neighborhood": "North Beach",
+      "price": 7200,
+      "bedrooms": 3,
+      "bathrooms": null,
+      "sqft": 1350,
+      "available": null,
+      "status": "to_see",
+      "laundry": null,
+      "lat": 37.7983,
+      "lon": -122.4109,
+      "notes": "From Craigslist · posted Jul 30, 7:24 AM",
+      "seen_by": [],
+      "added_by": "craigslist",
+      "added_at": "2026-07-30T07:25:10.686Z"
     }
   ]
 }
