@@ -6126,6 +6126,25 @@
       "seen_by": [],
       "added_by": "craigslist",
       "added_at": "2026-07-30T07:25:10.686Z"
+    },
+    {
+      "id": "rc_2031-Castro-St,-Apt-22,-San-Francisco,-CA-94131",
+      "url": "https://www.google.com/search?q=2031%20Castro%20St%2C%20Apt%2022%2C%20San%20Francisco%2C%20CA%2094131%20for%20rent",
+      "address": "2031 Castro St, Apt 22, San Francisco, CA 94131",
+      "neighborhood": "Noe Valley",
+      "price": 6995,
+      "bedrooms": 3,
+      "bathrooms": 2,
+      "sqft": null,
+      "available": "2026-07-30",
+      "status": "to_see",
+      "laundry": null,
+      "lat": 37.745155,
+      "lon": -122.432915,
+      "notes": "From RentCast · $6995 · 1d on market",
+      "seen_by": [],
+      "added_by": "rentcast",
+      "added_at": "2026-07-30T11:21:48.460Z"
     }
   ]
 }
