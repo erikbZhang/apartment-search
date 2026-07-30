@@ -6061,14 +6061,16 @@
       "bathrooms": 1,
       "sqft": 1058,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.7934058,
       "lon": -122.4182519,
       "notes": "From Redfin · $5295 · 1369 Hyde, also known as the Keystone Apartments, is situated just blocks from historic Grace Cathedral and dog-friendly Huntington Park in ",
       "seen_by": [],
       "added_by": "redfin",
-      "added_at": "2026-07-29T01:22:06.680Z"
+      "added_at": "2026-07-29T01:22:06.680Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-07-30T18:07:48.219Z"
     },
     {
       "id": "cl_7950244014",
@@ -6080,14 +6082,16 @@
       "bathrooms": null,
       "sqft": 0,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.7902,
       "lon": -122.4083,
       "notes": "From Craigslist · posted Jul 29, 4:37 PM",
       "seen_by": [],
       "added_by": "craigslist",
-      "added_at": "2026-07-29T17:01:44.831Z"
+      "added_at": "2026-07-29T17:01:44.831Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-07-30T18:07:48.219Z"
     },
     {
       "id": "cl_7950244014",
@@ -6099,14 +6103,16 @@
       "bathrooms": null,
       "sqft": 0,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.7902,
       "lon": -122.4083,
       "notes": "From Craigslist · posted Jul 29, 4:37 PM",
       "seen_by": [],
       "added_by": "craigslist",
-      "added_at": "2026-07-29T21:44:52.445Z"
+      "added_at": "2026-07-29T21:44:52.445Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-07-30T18:07:48.219Z"
     },
     {
       "id": "cl_7950387913",
@@ -6145,6 +6151,25 @@
       "seen_by": [],
       "added_by": "rentcast",
       "added_at": "2026-07-30T11:21:48.460Z"
+    },
+    {
+      "id": "cl_7950478321",
+      "url": "https://sfbay.craigslist.org/sfc/apa/d/san-francisco-open-thu-745pm-800pm-4th/7950478321.html",
+      "address": "OPEN THU 7:45pm-8:00pm 4th Floor 2-3BR/1BA ( 660 Bush Street, #408)",
+      "neighborhood": "Nob Hill",
+      "price": 5800,
+      "bedrooms": 3,
+      "bathrooms": null,
+      "sqft": 0,
+      "available": null,
+      "status": "to_see",
+      "laundry": null,
+      "lat": 37.7902,
+      "lon": -122.4083,
+      "notes": "From Craigslist · posted Jul 30, 6:04 PM",
+      "seen_by": [],
+      "added_by": "craigslist",
+      "added_at": "2026-07-30T18:07:48.219Z"
     }
   ]
 }
