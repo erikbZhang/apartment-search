@@ -6170,6 +6170,25 @@
       "seen_by": [],
       "added_by": "craigslist",
       "added_at": "2026-07-30T18:07:48.219Z"
+    },
+    {
+      "id": "cl_7950647331",
+      "url": "https://sfbay.craigslist.org/sfc/apa/d/san-francisco-beautiful-3br-single/7950647331.html",
+      "address": "Beautiful 3BR Single-Family Home | Noe Valley | Attached Garage",
+      "neighborhood": "Noe Valley",
+      "price": 5200,
+      "bedrooms": 3,
+      "bathrooms": null,
+      "sqft": 1800,
+      "available": null,
+      "status": "to_see",
+      "laundry": null,
+      "lat": 37.745,
+      "lon": -122.4383,
+      "notes": "From Craigslist · posted Jul 31, 3:32 PM",
+      "seen_by": [],
+      "added_by": "craigslist",
+      "added_at": "2026-07-31T15:52:00.496Z"
     }
   ]
 }
