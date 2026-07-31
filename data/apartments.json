@@ -6254,6 +6254,25 @@
       "added_at": "2026-07-31T19:03:50.430Z",
       "prev_status": "to_see",
       "off_market_at": "2026-07-31T20:50:58.947Z"
+    },
+    {
+      "id": "cl_7950763613",
+      "url": "https://sfbay.craigslist.org/sfc/apa/d/san-francisco-prime-noe-valley-location/7950763613.html",
+      "address": "Prime Noe Valley Location ///Incredible Views",
+      "neighborhood": "Noe Valley",
+      "price": 2300,
+      "bedrooms": 3,
+      "bathrooms": null,
+      "sqft": 1010,
+      "available": null,
+      "status": "to_see",
+      "laundry": null,
+      "lat": 37.7454,
+      "lon": -122.4335,
+      "notes": "From Craigslist · posted Jul 31, 11:29 PM",
+      "seen_by": [],
+      "added_by": "craigslist",
+      "added_at": "2026-07-31T23:50:52.987Z"
     }
   ]
 }
