@@ -6469,6 +6469,25 @@
       "seen_by": [],
       "added_by": "craigslist",
       "added_at": "2026-08-01T11:11:01.651Z"
+    },
+    {
+      "id": "rf_35726921-0d78-4960-80d0-8c1961799156",
+      "url": "https://www.redfin.com/CA/San-Francisco/17-Kronquist-Ct-94131/home/800314",
+      "address": "17 Kronquist Ct",
+      "neighborhood": "Noe Valley",
+      "price": 8500,
+      "bedrooms": 3,
+      "bathrooms": 2.5,
+      "sqft": 1800,
+      "available": null,
+      "status": "to_see",
+      "laundry": null,
+      "lat": 37.7468996,
+      "lon": -122.434864,
+      "notes": "From Redfin · $8500 · Welcome to 17 Kronquist! Located in coveted Noe Valley, this contemporary, single family residence features 3 bedrooms and 2.5 bathrooms A t",
+      "seen_by": [],
+      "added_by": "redfin",
+      "added_at": "2026-08-01T12:51:15.845Z"
     }
   ]
 }
