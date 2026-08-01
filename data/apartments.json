@@ -6042,14 +6042,16 @@
       "bathrooms": null,
       "sqft": 1200,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.7715,
       "lon": -122.4277,
       "notes": "From Craigslist · posted Jul 29, 1:02 AM",
       "seen_by": [],
       "added_by": "craigslist",
-      "added_at": "2026-07-29T01:22:06.680Z"
+      "added_at": "2026-07-29T01:22:06.680Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-08-01T20:03:13.390Z"
     },
     {
       "id": "rf_60a935bb-59de-40f2-80c3-77088bb24fd2",
@@ -6500,6 +6502,25 @@
       "seen_by": [],
       "added_by": "redfin",
       "added_at": "2026-08-01T12:51:15.845Z"
+    },
+    {
+      "id": "cl_7950935314",
+      "url": "https://sfbay.craigslist.org/sfc/apa/d/san-francisco-huge-4bed-2ba-shared/7950935314.html",
+      "address": "Huge 4Bed/2Ba w/ Shared Garden & W/D in Unit!! Unbeatable SF Location!",
+      "neighborhood": "Hayes Valley",
+      "price": 11350,
+      "bedrooms": 4,
+      "bathrooms": null,
+      "sqft": 1200,
+      "available": null,
+      "status": "to_see",
+      "laundry": "in_unit",
+      "lat": 37.7715,
+      "lon": -122.4277,
+      "notes": "From Craigslist · posted Aug 1, 7:38 PM",
+      "seen_by": [],
+      "added_by": "craigslist",
+      "added_at": "2026-08-01T20:03:13.390Z"
     }
   ]
 }
