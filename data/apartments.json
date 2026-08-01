@@ -6265,14 +6265,16 @@
       "bathrooms": null,
       "sqft": 1010,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.7454,
       "lon": -122.4335,
       "notes": "From Craigslist · posted Jul 31, 11:29 PM",
       "seen_by": [],
       "added_by": "craigslist",
-      "added_at": "2026-07-31T23:50:52.987Z"
+      "added_at": "2026-07-31T23:50:52.987Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-08-01T05:15:07.989Z"
     },
     {
       "id": "cl_7950773318",
@@ -6284,14 +6286,16 @@
       "bathrooms": null,
       "sqft": 1200,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.8002,
       "lon": -122.4091,
       "notes": "From Craigslist · posted Aug 1, 12:25 AM",
       "seen_by": [],
       "added_by": "craigslist",
-      "added_at": "2026-08-01T01:29:48.192Z"
+      "added_at": "2026-08-01T01:29:48.192Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-08-01T05:15:07.989Z"
     },
     {
       "id": "cl_7950776324",
@@ -6303,14 +6307,16 @@
       "bathrooms": null,
       "sqft": 0,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.7466,
       "lon": -122.435,
       "notes": "From Craigslist · posted Aug 1, 12:48 AM",
       "seen_by": [],
       "added_by": "craigslist",
-      "added_at": "2026-08-01T01:29:48.192Z"
+      "added_at": "2026-08-01T01:29:48.192Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-08-01T05:15:07.989Z"
     },
     {
       "id": "cl_7950672061",
@@ -6330,6 +6336,25 @@
       "seen_by": [],
       "added_by": "craigslist",
       "added_at": "2026-08-01T01:29:48.192Z"
+    },
+    {
+      "id": "cl_7950786813",
+      "url": "https://sfbay.craigslist.org/sfc/apa/d/san-francisco-grand-victorian-3br-home/7950786813.html",
+      "address": "Grand Victorian 3BR Home | Lower Pacific Heights | 3BA",
+      "neighborhood": "Pacific Heights",
+      "price": 6100,
+      "bedrooms": 3,
+      "bathrooms": null,
+      "sqft": 2281,
+      "available": null,
+      "status": "to_see",
+      "laundry": null,
+      "lat": 37.7856,
+      "lon": -122.4358,
+      "notes": "From Craigslist · posted Aug 1, 2:05 AM",
+      "seen_by": [],
+      "added_by": "craigslist",
+      "added_at": "2026-08-01T05:15:07.989Z"
     }
   ]
 }
