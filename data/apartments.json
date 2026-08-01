@@ -6355,6 +6355,44 @@
       "seen_by": [],
       "added_by": "craigslist",
       "added_at": "2026-08-01T05:15:07.989Z"
+    },
+    {
+      "id": "cl_7950807246",
+      "url": "https://sfbay.craigslist.org/sfc/apa/d/san-francisco-north-beachrussian-hill/7950807246.html",
+      "address": "North Beach–Russian Hill 3BR | Sunny, Spacious & Updated",
+      "neighborhood": "North Beach",
+      "price": 5900,
+      "bedrooms": 3,
+      "bathrooms": null,
+      "sqft": 1200,
+      "available": null,
+      "status": "to_see",
+      "laundry": null,
+      "lat": 37.8002,
+      "lon": -122.4091,
+      "notes": "From Craigslist · posted Aug 1, 5:32 AM",
+      "seen_by": [],
+      "added_by": "craigslist",
+      "added_at": "2026-08-01T07:58:48.393Z"
+    },
+    {
+      "id": "cl_7950815287",
+      "url": "https://sfbay.craigslist.org/sfc/apa/d/san-francisco-fully-remodeled-bed-bath/7950815287.html",
+      "address": "Fully remodeled, 3 bed, 1 bath, classic Noe Valley Edwardian Apartment",
+      "neighborhood": "Noe Valley",
+      "price": 1675,
+      "bedrooms": 3,
+      "bathrooms": null,
+      "sqft": 0,
+      "available": null,
+      "status": "to_see",
+      "laundry": null,
+      "lat": 37.7497,
+      "lon": -122.4295,
+      "notes": "From Craigslist · posted Aug 1, 6:55 AM",
+      "seen_by": [],
+      "added_by": "craigslist",
+      "added_at": "2026-08-01T07:58:48.393Z"
     }
   ]
 }
