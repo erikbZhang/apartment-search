@@ -6431,6 +6431,44 @@
       "seen_by": [],
       "added_by": "rentcast",
       "added_at": "2026-08-01T10:50:07.614Z"
+    },
+    {
+      "id": "cl_7950829372",
+      "url": "https://sfbay.craigslist.org/sfc/apa/d/san-francisco-elegant-3br-15ba-retreat/7950829372.html",
+      "address": "Elegant 3BR/1.5BA Retreat – Attached Garage in Russian Hill",
+      "neighborhood": "Russian Hill",
+      "price": 3125,
+      "bedrooms": 3,
+      "bathrooms": null,
+      "sqft": 1200,
+      "available": null,
+      "status": "to_see",
+      "laundry": null,
+      "lat": 37.8016,
+      "lon": -122.4153,
+      "notes": "From Craigslist · posted Aug 1, 10:12 AM",
+      "seen_by": [],
+      "added_by": "craigslist",
+      "added_at": "2026-08-01T11:11:01.651Z"
+    },
+    {
+      "id": "cl_7950830103",
+      "url": "https://sfbay.craigslist.org/sfc/apa/d/san-francisco-grand-victorian-3br-home/7950830103.html",
+      "address": "Grand Victorian 3BR Home | Lower Pacific Heights | 3BA",
+      "neighborhood": "Pacific Heights",
+      "price": 1800,
+      "bedrooms": 3,
+      "bathrooms": null,
+      "sqft": 0,
+      "available": null,
+      "status": "to_see",
+      "laundry": null,
+      "lat": 37.7857,
+      "lon": -122.4364,
+      "notes": "From Craigslist · posted Aug 1, 10:22 AM",
+      "seen_by": [],
+      "added_by": "craigslist",
+      "added_at": "2026-08-01T11:11:01.651Z"
     }
   ]
 }
