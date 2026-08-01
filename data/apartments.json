@@ -6393,6 +6393,25 @@
       "seen_by": [],
       "added_by": "craigslist",
       "added_at": "2026-08-01T07:58:48.393Z"
+    },
+    {
+      "id": "cl_7950821485",
+      "url": "https://sfbay.craigslist.org/sfc/apa/d/san-francisco-fully-remodeled-bed-bath/7950821485.html",
+      "address": "Fully remodeled, 3 bed, 1 bath, classic Noe Valley Edwardian Apartmen",
+      "neighborhood": "Noe Valley",
+      "price": 1775,
+      "bedrooms": 3,
+      "bathrooms": null,
+      "sqft": 0,
+      "available": null,
+      "status": "to_see",
+      "laundry": null,
+      "lat": 37.7497,
+      "lon": -122.4295,
+      "notes": "From Craigslist · posted Aug 1, 8:17 AM",
+      "seen_by": [],
+      "added_by": "craigslist",
+      "added_at": "2026-08-01T09:56:14.450Z"
     }
   ]
 }
