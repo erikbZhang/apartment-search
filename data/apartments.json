@@ -6559,6 +6559,25 @@
       "seen_by": [],
       "added_by": "craigslist",
       "added_at": "2026-08-02T14:21:29.674Z"
+    },
+    {
+      "id": "rf_92773eb8-9567-4077-acf3-7463f9e01da9",
+      "url": "https://www.redfin.com/CA/San-Francisco/Webster-Tower-and-Terrace/apartment/190372485",
+      "address": "1489 Webster St",
+      "neighborhood": "Western Addition",
+      "price": 5595,
+      "bedrooms": 3,
+      "bathrooms": 1,
+      "sqft": 880,
+      "available": null,
+      "status": "to_see",
+      "laundry": null,
+      "lat": 37.7838328,
+      "lon": -122.4318461,
+      "notes": "From Redfin · $5595–$6500 · Please inquire about availabilities: Showing Spacious, Newly Remodeled Apartments in the Heart of San Francisco! Discover your next home in ",
+      "seen_by": [],
+      "added_by": "redfin",
+      "added_at": "2026-08-02T16:43:32.265Z"
     }
   ]
 }
