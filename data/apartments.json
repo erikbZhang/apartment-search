@@ -6582,6 +6582,25 @@
       "seen_by": [],
       "added_by": "redfin",
       "added_at": "2026-08-02T16:43:32.265Z"
+    },
+    {
+      "id": "cl_7951145532",
+      "url": "https://sfbay.craigslist.org/sfc/apa/d/san-francisco-experience-elevated/7951145532.html",
+      "address": "Experience elevated living in this stunning top-floor townhouse",
+      "neighborhood": "Nob Hill",
+      "price": 1690,
+      "bedrooms": 3,
+      "bathrooms": null,
+      "sqft": 0,
+      "available": null,
+      "status": "to_see",
+      "laundry": null,
+      "lat": 37.7933,
+      "lon": -122.4138,
+      "notes": "From Craigslist · posted Aug 2, 10:37 PM",
+      "seen_by": [],
+      "added_by": "craigslist",
+      "added_at": "2026-08-02T22:43:03.243Z"
     }
   ]
 }
