@@ -6738,6 +6738,25 @@
       "seen_by": [],
       "added_by": "rentcast",
       "added_at": "2026-08-03T12:36:46.690Z"
+    },
+    {
+      "id": "cl_7951231958",
+      "url": "https://sfbay.craigslist.org/sfc/apa/d/san-francisco-contemporary-stunning-3br/7951231958.html",
+      "address": "Contemporary, Stunning 3BR/2.5BA Noe Valley Home w/Tranquil Garden!",
+      "neighborhood": "Noe Valley",
+      "price": 8500,
+      "bedrooms": 3,
+      "bathrooms": null,
+      "sqft": 1800,
+      "available": null,
+      "status": "to_see",
+      "laundry": null,
+      "lat": 37.7468,
+      "lon": -122.4347,
+      "notes": "From Craigslist · posted Aug 3, 2:26 PM",
+      "seen_by": [],
+      "added_by": "craigslist",
+      "added_at": "2026-08-03T15:35:24.368Z"
     }
   ]
 }
