@@ -6536,14 +6536,16 @@
       "bathrooms": null,
       "sqft": 1000,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.7521,
       "lon": -122.4354,
       "notes": "From Craigslist · posted Aug 2, 12:47 AM",
       "seen_by": [],
       "added_by": "craigslist",
-      "added_at": "2026-08-02T01:27:38.574Z"
+      "added_at": "2026-08-02T01:27:38.574Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-08-03T05:27:41.111Z"
     },
     {
       "id": "cl_7951040292",
@@ -6603,6 +6605,25 @@
       "added_at": "2026-08-02T22:43:03.243Z",
       "prev_status": "to_see",
       "off_market_at": "2026-08-02T23:47:56.417Z"
+    },
+    {
+      "id": "cl_7951184214",
+      "url": "https://sfbay.craigslist.org/sfc/apa/d/san-francisco-bed-bath/7951184214.html",
+      "address": "3 bed 3 bath",
+      "neighborhood": "Pacific Heights",
+      "price": 7000,
+      "bedrooms": 3,
+      "bathrooms": null,
+      "sqft": 0,
+      "available": null,
+      "status": "to_see",
+      "laundry": null,
+      "lat": 37.7856,
+      "lon": -122.4358,
+      "notes": "From Craigslist · posted Aug 3, 4:17 AM",
+      "seen_by": [],
+      "added_by": "craigslist",
+      "added_at": "2026-08-03T05:27:41.111Z"
     }
   ]
 }
