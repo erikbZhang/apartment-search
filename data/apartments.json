@@ -6719,6 +6719,25 @@
       "seen_by": [],
       "added_by": "craigslist",
       "added_at": "2026-08-03T12:15:50.114Z"
+    },
+    {
+      "id": "rc_1489-Webster-St,-San-Francisco,-CA-94115",
+      "url": "https://www.google.com/search?q=1489%20Webster%20St%2C%20San%20Francisco%2C%20CA%2094115%20for%20rent",
+      "address": "1489 Webster St, San Francisco, CA 94115",
+      "neighborhood": "Western Addition",
+      "price": 5595,
+      "bedrooms": 3,
+      "bathrooms": 1,
+      "sqft": 880,
+      "available": "2025-01-03",
+      "status": "to_see",
+      "laundry": null,
+      "lat": 37.783894,
+      "lon": -122.432007,
+      "notes": "From RentCast · $5595 · 578d on market",
+      "seen_by": [],
+      "added_by": "rentcast",
+      "added_at": "2026-08-03T12:36:46.690Z"
     }
   ]
 }
