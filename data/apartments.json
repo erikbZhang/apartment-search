@@ -911,14 +911,16 @@
       "bathrooms": 1,
       "sqft": 510,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.782658,
       "lon": -122.43318,
       "notes": "From Redfin · $3619–$7424 · You. Are. Here.  We are currently offering virtual, live video, and in-person tours of our apartment community. Call us today for more infor",
       "seen_by": [],
       "added_by": "redfin",
-      "added_at": "2026-06-10T21:49:51.967Z"
+      "added_at": "2026-06-10T21:49:51.967Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-08-03T20:52:19.783Z"
     },
     {
       "id": "cl_7940217737",
@@ -6790,6 +6792,25 @@
       "seen_by": [],
       "added_by": "craigslist",
       "added_at": "2026-08-03T17:45:50.690Z"
+    },
+    {
+      "id": "cl_7951267620",
+      "url": "https://sfbay.craigslist.org/sfc/apa/d/san-francisco-open-tues-745pm-800pm-4th/7951267620.html",
+      "address": "OPEN TUES 7:45pm-8:00pm. 4th Floor 2-3BR/1BA ( 660 Bush Street, #408)",
+      "neighborhood": "Nob Hill",
+      "price": 5800,
+      "bedrooms": 3,
+      "bathrooms": null,
+      "sqft": 0,
+      "available": null,
+      "status": "to_see",
+      "laundry": null,
+      "lat": 37.7902,
+      "lon": -122.4083,
+      "notes": "From Craigslist · posted Aug 3, 4:45 PM",
+      "seen_by": [],
+      "added_by": "craigslist",
+      "added_at": "2026-08-03T20:52:19.783Z"
     }
   ]
 }
