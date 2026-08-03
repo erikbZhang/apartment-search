@@ -6557,14 +6557,16 @@
       "bathrooms": null,
       "sqft": 0,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.7902,
       "lon": -122.4083,
       "notes": "From Craigslist · posted Aug 2, 1:22 PM",
       "seen_by": [],
       "added_by": "craigslist",
-      "added_at": "2026-08-02T14:21:29.674Z"
+      "added_at": "2026-08-02T14:21:29.674Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-08-03T17:45:50.690Z"
     },
     {
       "id": "rf_92773eb8-9567-4077-acf3-7463f9e01da9",
@@ -6635,14 +6637,16 @@
       "bathrooms": null,
       "sqft": 1200,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.7497,
       "lon": -122.4295,
       "notes": "From Craigslist · posted Aug 3, 6:43 AM",
       "seen_by": [],
       "added_by": "craigslist",
-      "added_at": "2026-08-03T08:57:50.485Z"
+      "added_at": "2026-08-03T08:57:50.485Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-08-03T17:45:50.690Z"
     },
     {
       "id": "cl_7951199092",
@@ -6654,14 +6658,16 @@
       "bathrooms": null,
       "sqft": 2000,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.7987,
       "lon": -122.4122,
       "notes": "From Craigslist · posted Aug 3, 8:54 AM",
       "seen_by": [],
       "added_by": "craigslist",
-      "added_at": "2026-08-03T08:57:50.485Z"
+      "added_at": "2026-08-03T08:57:50.485Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-08-03T17:45:50.690Z"
     },
     {
       "id": "cl_7951196358",
@@ -6673,14 +6679,16 @@
       "bathrooms": null,
       "sqft": 0,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.7497,
       "lon": -122.4292,
       "notes": "From Craigslist · posted Aug 3, 7:27 AM",
       "seen_by": [],
       "added_by": "craigslist",
-      "added_at": "2026-08-03T08:57:50.485Z"
+      "added_at": "2026-08-03T08:57:50.485Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-08-03T17:45:50.690Z"
     },
     {
       "id": "cl_7951197492",
@@ -6692,14 +6700,16 @@
       "bathrooms": null,
       "sqft": 0,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.8029,
       "lon": -122.4128,
       "notes": "From Craigslist · posted Aug 3, 7:58 AM",
       "seen_by": [],
       "added_by": "craigslist",
-      "added_at": "2026-08-03T08:57:50.485Z"
+      "added_at": "2026-08-03T08:57:50.485Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-08-03T17:45:50.690Z"
     },
     {
       "id": "cl_7951202089",
@@ -6711,14 +6721,16 @@
       "bathrooms": null,
       "sqft": 0,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.7331,
       "lon": -122.4095,
       "notes": "From Craigslist · posted Aug 3, 10:15 AM",
       "seen_by": [],
       "added_by": "craigslist",
-      "added_at": "2026-08-03T12:15:50.114Z"
+      "added_at": "2026-08-03T12:15:50.114Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-08-03T17:45:50.690Z"
     },
     {
       "id": "rc_1489-Webster-St,-San-Francisco,-CA-94115",
@@ -6757,6 +6769,25 @@
       "seen_by": [],
       "added_by": "craigslist",
       "added_at": "2026-08-03T15:35:24.368Z"
+    },
+    {
+      "id": "cl_7951267620",
+      "url": "https://sfbay.craigslist.org/sfc/apa/d/san-francisco-4th-floor-3br-1ba-660/7951267620.html",
+      "address": "4th Floor 2-3BR/1BA ( 660 Bush Street, #408)",
+      "neighborhood": "Nob Hill",
+      "price": 5800,
+      "bedrooms": 3,
+      "bathrooms": null,
+      "sqft": 0,
+      "available": null,
+      "status": "to_see",
+      "laundry": null,
+      "lat": 37.7902,
+      "lon": -122.4083,
+      "notes": "From Craigslist · posted Aug 3, 4:45 PM",
+      "seen_by": [],
+      "added_by": "craigslist",
+      "added_at": "2026-08-03T17:45:50.690Z"
     }
   ]
 }
