@@ -6895,6 +6895,25 @@
       "seen_by": [],
       "added_by": "craigslist",
       "added_at": "2026-08-05T07:30:19.963Z"
+    },
+    {
+      "id": "cl_7951626468",
+      "url": "https://sfbay.craigslist.org/sfc/apa/d/san-francisco-bright-bedroom-apartment/7951626468.html",
+      "address": "Bright 2-Bedroom Apartment with Garage in Nob hill",
+      "neighborhood": "Nob Hill",
+      "price": 3978,
+      "bedrooms": 3,
+      "bathrooms": null,
+      "sqft": 957,
+      "available": null,
+      "status": "to_see",
+      "laundry": null,
+      "lat": 37.7944,
+      "lon": -122.4196,
+      "notes": "From Craigslist · posted Aug 5, 8:00 AM",
+      "seen_by": [],
+      "added_by": "craigslist",
+      "added_at": "2026-08-05T10:22:05.390Z"
     }
   ]
 }
