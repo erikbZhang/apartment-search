@@ -6876,6 +6876,25 @@
       "seen_by": [],
       "added_by": "craigslist",
       "added_at": "2026-08-05T01:21:52.840Z"
+    },
+    {
+      "id": "cl_7951624119",
+      "url": "https://sfbay.craigslist.org/sfc/apa/d/san-francisco-spacious-bedroom/7951624119.html",
+      "address": "Spacious 4-Bedroom Apartment with Yard & Parking in Cow Hollow",
+      "neighborhood": "Cow Hollow",
+      "price": 3500,
+      "bedrooms": 4,
+      "bathrooms": null,
+      "sqft": 0,
+      "available": null,
+      "status": "to_see",
+      "laundry": null,
+      "lat": 37.7985,
+      "lon": -122.4408,
+      "notes": "From Craigslist · posted Aug 5, 6:42 AM",
+      "seen_by": [],
+      "added_by": "craigslist",
+      "added_at": "2026-08-05T07:30:19.963Z"
     }
   ]
 }
