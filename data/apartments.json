@@ -6523,14 +6523,16 @@
       "bathrooms": null,
       "sqft": 1200,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": "in_unit",
       "lat": 37.7715,
       "lon": -122.4277,
       "notes": "From Craigslist · posted Aug 1, 7:38 PM",
       "seen_by": [],
       "added_by": "craigslist",
-      "added_at": "2026-08-01T20:03:13.390Z"
+      "added_at": "2026-08-01T20:03:13.390Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-08-05T01:21:52.840Z"
     },
     {
       "id": "cl_7950990140",
@@ -6836,6 +6838,44 @@
       "seen_by": [],
       "added_by": "craigslist",
       "added_at": "2026-08-04T18:20:45.350Z"
+    },
+    {
+      "id": "cl_7951594955",
+      "url": "https://sfbay.craigslist.org/sfc/apa/d/san-francisco-big-duboce-triangle-4bed/7951594955.html",
+      "address": "BIG Duboce Triangle 4Bed/2Ba w/ Shared Garden!! High Ceilings! W/D!!",
+      "neighborhood": "Hayes Valley",
+      "price": 11350,
+      "bedrooms": 4,
+      "bathrooms": null,
+      "sqft": 1200,
+      "available": null,
+      "status": "to_see",
+      "laundry": null,
+      "lat": 37.7715,
+      "lon": -122.4277,
+      "notes": "From Craigslist · posted Aug 5, 1:01 AM",
+      "seen_by": [],
+      "added_by": "craigslist",
+      "added_at": "2026-08-05T01:21:52.840Z"
+    },
+    {
+      "id": "cl_7951584354",
+      "url": "https://sfbay.craigslist.org/sfc/apa/d/san-francisco-russian-hill-updated/7951584354.html",
+      "address": "Russian Hill Updated 3BR+Office/2BA Edwardian Top-Floor Flat w/Garage",
+      "neighborhood": "Russian Hill",
+      "price": 9000,
+      "bedrooms": 4,
+      "bathrooms": null,
+      "sqft": 0,
+      "available": null,
+      "status": "to_see",
+      "laundry": null,
+      "lat": 37.7973,
+      "lon": -122.4187,
+      "notes": "From Craigslist · posted Aug 4, 11:57 PM",
+      "seen_by": [],
+      "added_by": "craigslist",
+      "added_at": "2026-08-05T01:21:52.840Z"
     }
   ]
 }
