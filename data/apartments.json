@@ -6960,6 +6960,25 @@
       "seen_by": [],
       "added_by": "redfin",
       "added_at": "2026-08-05T17:16:08.336Z"
+    },
+    {
+      "id": "cl_7951824911",
+      "url": "https://sfbay.craigslist.org/sfc/apa/d/san-francisco/7951824911.html",
+      "address": "Spacious|OpenKitch&LivRm|FullFlrFlat|1/2Blk2RitzHotel|2Blk2UnionSqPlaz",
+      "neighborhood": "Nob Hill",
+      "price": 11800,
+      "bedrooms": 4,
+      "bathrooms": null,
+      "sqft": 1350,
+      "available": null,
+      "status": "to_see",
+      "laundry": null,
+      "lat": 37.7911,
+      "lon": -122.409,
+      "notes": "From Craigslist · posted Aug 6, 3:26 AM",
+      "seen_by": [],
+      "added_by": "craigslist",
+      "added_at": "2026-08-06T04:52:39.096Z"
     }
   ]
 }
