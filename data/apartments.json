@@ -5441,14 +5441,16 @@
       "bathrooms": 2,
       "sqft": null,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.7927389,
       "lon": -122.4167137,
       "notes": "From Redfin · $9495 · SCHEDULE A SHOWING ONLINE AT: showmojo.com/lrt/34a4c5602a ---- Welcome to 1433 Clay Street, Unit 15 - a bright and generously sized 3-bedroo",
       "seen_by": [],
       "added_by": "redfin",
-      "added_at": "2026-07-22T12:19:41.953Z"
+      "added_at": "2026-07-22T12:19:41.953Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-08-06T12:48:45.626Z"
     },
     {
       "id": "cl_7948799387",
