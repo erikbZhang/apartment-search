@@ -6130,14 +6130,16 @@
       "bathrooms": null,
       "sqft": 1350,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.7983,
       "lon": -122.4109,
       "notes": "From Craigslist · posted Jul 30, 7:24 AM",
       "seen_by": [],
       "added_by": "craigslist",
-      "added_at": "2026-07-30T07:25:10.686Z"
+      "added_at": "2026-07-30T07:25:10.686Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-08-06T07:30:30.888Z"
     },
     {
       "id": "rc_2031-Castro-St,-Apt-22,-San-Francisco,-CA-94131",
