@@ -7052,6 +7052,25 @@
       "seen_by": [],
       "added_by": "craigslist",
       "added_at": "2026-08-07T16:38:54.207Z"
+    },
+    {
+      "id": "rf_8c35743c-082c-4e8e-94c9-7a71149c2422",
+      "url": "https://www.redfin.com/CA/San-Francisco/1816-Union-St-94123/apartment/204430588",
+      "address": "1816 Union St",
+      "neighborhood": "Marina",
+      "price": 7900,
+      "bedrooms": 3,
+      "bathrooms": 1.5,
+      "sqft": 1100,
+      "available": null,
+      "status": "to_see",
+      "laundry": null,
+      "lat": 37.798057,
+      "lon": -122.4293224,
+      "notes": "From Redfin · $7900 · Offered at $7,900, this beautifully updated 3-bedroom, 1.5-bathroom middle unit in the heart of San Francisco's Cow Hollow District offers a",
+      "seen_by": [],
+      "added_by": "redfin",
+      "added_at": "2026-08-07T17:38:23.061Z"
     }
   ]
 }
