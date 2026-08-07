@@ -6510,14 +6510,16 @@
       "bathrooms": 2.5,
       "sqft": 1800,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.7468996,
       "lon": -122.434864,
       "notes": "From Redfin · $8500 · Welcome to 17 Kronquist! Located in coveted Noe Valley, this contemporary, single family residence features 3 bedrooms and 2.5 bathrooms A t",
       "seen_by": [],
       "added_by": "redfin",
-      "added_at": "2026-08-01T12:51:15.845Z"
+      "added_at": "2026-08-01T12:51:15.845Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-08-07T09:47:30.361Z"
     },
     {
       "id": "cl_7950935314",
