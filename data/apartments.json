@@ -7071,6 +7071,25 @@
       "seen_by": [],
       "added_by": "redfin",
       "added_at": "2026-08-07T17:38:23.061Z"
+    },
+    {
+      "id": "cl_7952179321",
+      "url": "https://sfbay.craigslist.org/sfc/apa/d/san-francisco-discover-this-spacious/7952179321.html",
+      "address": "Discover This Spacious 3-bedroom, 2.5-bathroom floor plan",
+      "neighborhood": "Russian Hill",
+      "price": 1540,
+      "bedrooms": 3,
+      "bathrooms": null,
+      "sqft": 0,
+      "available": null,
+      "status": "to_see",
+      "laundry": null,
+      "lat": 37.7978,
+      "lon": -122.4151,
+      "notes": "From Craigslist · posted Aug 7, 8:25 PM",
+      "seen_by": [],
+      "added_by": "craigslist",
+      "added_at": "2026-08-07T20:26:39.134Z"
     }
   ]
 }
