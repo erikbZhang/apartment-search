@@ -5588,14 +5588,16 @@
       "bathrooms": 1,
       "sqft": 601,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.7948591,
       "lon": -122.4128418,
       "notes": "From Redfin · $5725–$20985 · Experience elevated city living in this beautifully designed Nob Hill residence, where classic architecture meets modern convenience. This p",
       "seen_by": [],
       "added_by": "redfin",
-      "added_at": "2026-07-23T14:58:57.941Z"
+      "added_at": "2026-07-23T14:58:57.941Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-08-07T12:35:51.356Z"
     },
     {
       "id": "cl_7949021621",
