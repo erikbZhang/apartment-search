@@ -7006,6 +7006,25 @@
       "seen_by": [],
       "added_by": "craigslist",
       "added_at": "2026-08-06T23:47:19.146Z"
+    },
+    {
+      "id": "rf_83a27521-faf5-4c0c-80e7-644dae3dae2a",
+      "url": "https://www.redfin.com/CA/San-Francisco/72-Fortuna-Ave-94115/home/1798671",
+      "address": "72 Fortuna Ave",
+      "neighborhood": "Western Addition",
+      "price": 11900,
+      "bedrooms": 4,
+      "bathrooms": 3,
+      "sqft": 2362,
+      "available": "2026-09-01T00:00:00Z",
+      "status": "to_see",
+      "laundry": null,
+      "lat": 37.7810265,
+      "lon": -122.4426274,
+      "notes": "From Redfin · $11900 · Enjoy sweeping views of the San Francisco skyline from this spacious Anza Vista residence. With 2,362 square feet, the home is designed to s",
+      "seen_by": [],
+      "added_by": "redfin",
+      "added_at": "2026-08-07T04:26:07.152Z"
     }
   ]
 }
