@@ -7115,6 +7115,25 @@
       "seen_by": [],
       "added_by": "craigslist",
       "added_at": "2026-08-08T00:43:10.616Z"
+    },
+    {
+      "id": "cl_7952462561",
+      "url": "https://sfbay.craigslist.org/sfc/apa/d/san-francisco-stunning-1909-remodeled/7952462561.html",
+      "address": "Stunning 1909 Remodeled 3-bedroom, 3-bath Russian Hill Home",
+      "neighborhood": "Russian Hill",
+      "price": 5000,
+      "bedrooms": 3,
+      "bathrooms": null,
+      "sqft": 2760,
+      "available": null,
+      "status": "to_see",
+      "laundry": null,
+      "lat": 37.7976,
+      "lon": -122.4163,
+      "notes": "From Craigslist · posted Aug 9, 11:21 AM",
+      "seen_by": [],
+      "added_by": "craigslist",
+      "added_at": "2026-08-09T12:23:09.701Z"
     }
   ]
 }
