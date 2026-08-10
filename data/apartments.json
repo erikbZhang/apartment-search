@@ -7288,14 +7288,35 @@
       "bathrooms": null,
       "sqft": 1655,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.7991,
       "lon": -122.4201,
       "notes": "From Craigslist · posted Aug 10, 1:30 AM",
       "seen_by": [],
       "added_by": "craigslist",
-      "added_at": "2026-08-10T03:04:25.652Z"
+      "added_at": "2026-08-10T03:04:25.652Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-08-10T05:14:09.741Z"
+    },
+    {
+      "id": "cl_7952619037",
+      "url": "https://sfbay.craigslist.org/sfc/apa/d/san-francisco-pacific-heights-bed-bath/7952619037.html",
+      "address": "Pacific Heights 3 bed 2 bath  Jackson St unit",
+      "neighborhood": "Pacific Heights",
+      "price": 3975,
+      "bedrooms": 3,
+      "bathrooms": null,
+      "sqft": 0,
+      "available": null,
+      "status": "to_see",
+      "laundry": null,
+      "lat": 37.7912,
+      "lon": -122.4443,
+      "notes": "From Craigslist · posted Aug 10, 4:45 AM",
+      "seen_by": [],
+      "added_by": "craigslist",
+      "added_at": "2026-08-10T05:14:09.741Z"
     }
   ]
 }
