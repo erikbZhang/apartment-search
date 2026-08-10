@@ -7363,6 +7363,25 @@
       "seen_by": [],
       "added_by": "craigslist",
       "added_at": "2026-08-10T17:41:27.634Z"
+    },
+    {
+      "id": "cl_7952725845",
+      "url": "https://sfbay.craigslist.org/sfc/apa/d/san-francisco-bright-top-floor-redone/7952725845.html",
+      "address": "Bright Top Floor Redone Historic Home on Pacific Heights’ Best Block",
+      "neighborhood": "Pacific Heights",
+      "price": 8500,
+      "bedrooms": 3,
+      "bathrooms": null,
+      "sqft": 1600,
+      "available": null,
+      "status": "to_see",
+      "laundry": null,
+      "lat": 37.7885,
+      "lon": -122.4371,
+      "notes": "From Craigslist · posted Aug 10, 6:16 PM",
+      "seen_by": [],
+      "added_by": "craigslist",
+      "added_at": "2026-08-10T18:39:23.980Z"
     }
   ]
 }
