@@ -7233,14 +7233,16 @@
       "bathrooms": null,
       "sqft": 0,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.7902,
       "lon": -122.4083,
       "notes": "From Craigslist · posted Aug 9, 2:09 PM",
       "seen_by": [],
       "added_by": "craigslist",
-      "added_at": "2026-08-09T14:22:35.576Z"
+      "added_at": "2026-08-09T14:22:35.576Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-08-10T17:41:27.634Z"
     },
     {
       "id": "cl_7952507578",
@@ -7342,6 +7344,25 @@
       "seen_by": [],
       "added_by": "rentcast",
       "added_at": "2026-08-10T10:37:23.608Z"
+    },
+    {
+      "id": "cl_7952702887",
+      "url": "https://sfbay.craigslist.org/sfc/apa/d/san-francisco-4th-floor-3br-1ba-660/7952702887.html",
+      "address": "4th Floor 2-3BR/1BA ( 660 Bush Street, #408)",
+      "neighborhood": "Nob Hill",
+      "price": 5800,
+      "bedrooms": 3,
+      "bathrooms": null,
+      "sqft": 0,
+      "available": null,
+      "status": "to_see",
+      "laundry": null,
+      "lat": 37.7902,
+      "lon": -122.4083,
+      "notes": "From Craigslist · posted Aug 10, 4:52 PM",
+      "seen_by": [],
+      "added_by": "craigslist",
+      "added_at": "2026-08-10T17:41:27.634Z"
     }
   ]
 }
