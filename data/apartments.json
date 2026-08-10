@@ -7256,6 +7256,25 @@
       "seen_by": [],
       "added_by": "craigslist",
       "added_at": "2026-08-09T17:20:17.552Z"
+    },
+    {
+      "id": "cl_7952590357",
+      "url": "https://sfbay.craigslist.org/sfc/apa/d/san-francisco-top-floor-edwardian/7952590357.html",
+      "address": "Top-floor Edwardian, 3-Bedroom, 2-Bathroom flat",
+      "neighborhood": "Pacific Heights",
+      "price": 5300,
+      "bedrooms": 3,
+      "bathrooms": null,
+      "sqft": 2187,
+      "available": null,
+      "status": "to_see",
+      "laundry": null,
+      "lat": 37.7886,
+      "lon": -122.4388,
+      "notes": "From Craigslist · posted Aug 10, 12:27 AM",
+      "seen_by": [],
+      "added_by": "craigslist",
+      "added_at": "2026-08-10T00:48:23.143Z"
     }
   ]
 }
