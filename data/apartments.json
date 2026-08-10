@@ -7193,14 +7193,16 @@
       "bathrooms": null,
       "sqft": 1643,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.7471,
       "lon": -122.4229,
       "notes": "From Craigslist · posted Aug 9, 12:58 PM",
       "seen_by": [],
       "added_by": "craigslist",
-      "added_at": "2026-08-09T13:39:44.839Z"
+      "added_at": "2026-08-09T13:39:44.839Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-08-10T15:47:22.465Z"
     },
     {
       "id": "rf_f7a151b5-e646-40a7-ae53-228d3a08f29e",
@@ -7311,14 +7313,16 @@
       "bathrooms": null,
       "sqft": 0,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.7912,
       "lon": -122.4443,
       "notes": "From Craigslist · posted Aug 10, 4:45 AM",
       "seen_by": [],
       "added_by": "craigslist",
-      "added_at": "2026-08-10T05:14:09.741Z"
+      "added_at": "2026-08-10T05:14:09.741Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-08-10T15:47:22.465Z"
     },
     {
       "id": "rc_105-Webster-St,-Unit-1,-San-Francisco,-CA-94117",
