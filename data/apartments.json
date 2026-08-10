@@ -7267,14 +7267,35 @@
       "bathrooms": null,
       "sqft": 2187,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.7886,
       "lon": -122.4388,
       "notes": "From Craigslist · posted Aug 10, 12:27 AM",
       "seen_by": [],
       "added_by": "craigslist",
-      "added_at": "2026-08-10T00:48:23.143Z"
+      "added_at": "2026-08-10T00:48:23.143Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-08-10T03:04:25.652Z"
+    },
+    {
+      "id": "cl_7952600292",
+      "url": "https://sfbay.craigslist.org/sfc/apa/d/san-francisco-spacious-two-story-br-ba/7952600292.html",
+      "address": "Spacious Two-Story 3-BR/2-BA Home Near Union Street",
+      "neighborhood": "Russian Hill",
+      "price": 5500,
+      "bedrooms": 3,
+      "bathrooms": null,
+      "sqft": 1655,
+      "available": null,
+      "status": "to_see",
+      "laundry": null,
+      "lat": 37.7991,
+      "lon": -122.4201,
+      "notes": "From Craigslist · posted Aug 10, 1:30 AM",
+      "seen_by": [],
+      "added_by": "craigslist",
+      "added_at": "2026-08-10T03:04:25.652Z"
     }
   ]
 }
