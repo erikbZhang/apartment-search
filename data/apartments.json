@@ -7317,6 +7317,25 @@
       "seen_by": [],
       "added_by": "craigslist",
       "added_at": "2026-08-10T05:14:09.741Z"
+    },
+    {
+      "id": "rc_105-Webster-St,-Unit-1,-San-Francisco,-CA-94117",
+      "url": "https://www.google.com/search?q=105%20Webster%20St%2C%20Unit%201%2C%20San%20Francisco%2C%20CA%2094117%20for%20rent",
+      "address": "105 Webster St, Unit 1, San Francisco, CA 94117",
+      "neighborhood": "Western Addition",
+      "price": 11995,
+      "bedrooms": 4,
+      "bathrooms": 2,
+      "sqft": 1700,
+      "available": "2026-08-10",
+      "status": "to_see",
+      "laundry": null,
+      "lat": 37.771484,
+      "lon": -122.428932,
+      "notes": "From RentCast · $11995 · 1d on market",
+      "seen_by": [],
+      "added_by": "rentcast",
+      "added_at": "2026-08-10T10:37:23.608Z"
     }
   ]
 }
