@@ -7357,14 +7357,16 @@
       "bathrooms": null,
       "sqft": 0,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.7902,
       "lon": -122.4083,
       "notes": "From Craigslist · posted Aug 10, 4:52 PM",
       "seen_by": [],
       "added_by": "craigslist",
-      "added_at": "2026-08-10T17:41:27.634Z"
+      "added_at": "2026-08-10T17:41:27.634Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-08-11T16:43:50.193Z"
     },
     {
       "id": "cl_7952725845",
@@ -7395,14 +7397,16 @@
       "bathrooms": null,
       "sqft": 0,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.7902,
       "lon": -122.4083,
       "notes": "From Craigslist · posted Aug 10, 4:52 PM",
       "seen_by": [],
       "added_by": "craigslist",
-      "added_at": "2026-08-10T21:29:56.688Z"
+      "added_at": "2026-08-10T21:29:56.688Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-08-11T16:43:50.193Z"
     },
     {
       "id": "cl_7952846958",
@@ -7422,6 +7426,44 @@
       "seen_by": [],
       "added_by": "craigslist",
       "added_at": "2026-08-11T09:47:54.763Z"
+    },
+    {
+      "id": "cl_7952911343",
+      "url": "https://sfbay.craigslist.org/sfc/apa/d/san-francisco-open-tue-740pm-800pm-4th/7952911343.html",
+      "address": "OPEN TUE 7:40pm-8:00pm 4th Floor 2-3BR/1BA ( 660 Bush Street, #408)",
+      "neighborhood": "Nob Hill",
+      "price": 5800,
+      "bedrooms": 3,
+      "bathrooms": null,
+      "sqft": 0,
+      "available": null,
+      "status": "to_see",
+      "laundry": null,
+      "lat": 37.7902,
+      "lon": -122.4083,
+      "notes": "From Craigslist · posted Aug 11, 4:35 PM",
+      "seen_by": [],
+      "added_by": "craigslist",
+      "added_at": "2026-08-11T16:43:50.193Z"
+    },
+    {
+      "id": "cl_7952903975",
+      "url": "https://sfbay.craigslist.org/sfc/apa/d/san-francisco-sunny-victorian-for/7952903975.html",
+      "address": "🏠 Sunny Victorian for Friends or Families 🏠",
+      "neighborhood": "Noe Valley",
+      "price": 5850,
+      "bedrooms": 3,
+      "bathrooms": null,
+      "sqft": 0,
+      "available": null,
+      "status": "to_see",
+      "laundry": null,
+      "lat": 37.7587,
+      "lon": -122.433,
+      "notes": "From Craigslist · posted Aug 11, 4:42 PM",
+      "seen_by": [],
+      "added_by": "craigslist",
+      "added_at": "2026-08-11T16:43:50.193Z"
     }
   ]
 }
