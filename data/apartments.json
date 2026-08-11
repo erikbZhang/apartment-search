@@ -7466,6 +7466,25 @@
       "seen_by": [],
       "added_by": "craigslist",
       "added_at": "2026-08-11T16:43:50.193Z"
+    },
+    {
+      "id": "cl_7953003858",
+      "url": "https://sfbay.craigslist.org/sfc/apa/d/san-francisco-best-location-in-big-4bed/7953003858.html",
+      "address": "Best Location in BIG 4Bed/2Ba w/ Shared Garden! W/D in Apt! Ready Now!",
+      "neighborhood": "Hayes Valley",
+      "price": 10900,
+      "bedrooms": 4,
+      "bathrooms": null,
+      "sqft": 1200,
+      "available": null,
+      "status": "to_see",
+      "laundry": null,
+      "lat": 37.7715,
+      "lon": -122.4277,
+      "notes": "From Craigslist · posted Aug 11, 11:02 PM",
+      "seen_by": [],
+      "added_by": "craigslist",
+      "added_at": "2026-08-11T23:27:34.797Z"
     }
   ]
 }
