@@ -7401,6 +7401,25 @@
       "seen_by": [],
       "added_by": "craigslist",
       "added_at": "2026-08-10T21:29:56.688Z"
+    },
+    {
+      "id": "cl_7952846958",
+      "url": "https://sfbay.craigslist.org/sfc/apa/d/san-francisco-tastefully-designed-3bd/7952846958.html",
+      "address": "Tastefully designed 3BD/2BA townhome.",
+      "neighborhood": "Pacific Heights",
+      "price": 6900,
+      "bedrooms": 3,
+      "bathrooms": null,
+      "sqft": 1388,
+      "available": null,
+      "status": "to_see",
+      "laundry": null,
+      "lat": 37.7884,
+      "lon": -122.4452,
+      "notes": "From Craigslist · posted Aug 11, 9:05 AM",
+      "seen_by": [],
+      "added_by": "craigslist",
+      "added_at": "2026-08-11T09:47:54.763Z"
     }
   ]
 }
