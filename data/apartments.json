@@ -7588,6 +7588,25 @@
       "seen_by": [],
       "added_by": "craigslist",
       "added_at": "2026-08-12T18:44:12.153Z"
+    },
+    {
+      "id": "cl_7953195281",
+      "url": "https://sfbay.craigslist.org/sfc/apa/d/san-francisco-tmlp-12-mo-renovated/7953195281.html",
+      "address": "TMLP 12-mo. | Renovated Apartments Available, Ask Us About Them!",
+      "neighborhood": "Russian Hill",
+      "price": 9227,
+      "bedrooms": 3,
+      "bathrooms": null,
+      "sqft": 1,
+      "available": null,
+      "status": "to_see",
+      "laundry": null,
+      "lat": 37.8029,
+      "lon": -122.4198,
+      "notes": "From Craigslist · posted Aug 12, 9:29 PM",
+      "seen_by": [],
+      "added_by": "craigslist",
+      "added_at": "2026-08-12T21:33:00.705Z"
     }
   ]
 }
