@@ -7485,6 +7485,25 @@
       "seen_by": [],
       "added_by": "craigslist",
       "added_at": "2026-08-11T23:27:34.797Z"
+    },
+    {
+      "id": "cl_7953012119",
+      "url": "https://sfbay.craigslist.org/sfc/apa/d/san-francisco-tmlp-12-mo-lets-get-you/7953012119.html",
+      "address": "TMLP 12-mo. | Let's Get You Scheduled for a Tour!",
+      "neighborhood": "Russian Hill",
+      "price": 9227,
+      "bedrooms": 3,
+      "bathrooms": null,
+      "sqft": 1,
+      "available": null,
+      "status": "to_see",
+      "laundry": null,
+      "lat": 37.8029,
+      "lon": -122.4198,
+      "notes": "From Craigslist · posted Aug 11, 11:49 PM",
+      "seen_by": [],
+      "added_by": "craigslist",
+      "added_at": "2026-08-12T00:54:50.122Z"
     }
   ]
 }
