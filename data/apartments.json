@@ -7788,6 +7788,25 @@
       "seen_by": [],
       "added_by": "craigslist",
       "added_at": "2026-08-14T00:55:44.685Z"
+    },
+    {
+      "id": "rf_00010c64-a130-46d7-bfff-c1fffbb2f9f0",
+      "url": "https://www.redfin.com/CA/San-Francisco/1865-Clay-St-94109/unit-5/home/110051574",
+      "address": "1865 Clay St #5",
+      "neighborhood": "Pacific Heights",
+      "price": 9500,
+      "bedrooms": 3,
+      "bathrooms": 2,
+      "sqft": 1670,
+      "available": "2026-09-15T00:00:00Z",
+      "status": "to_see",
+      "laundry": null,
+      "lat": 37.7917907,
+      "lon": -122.4238426,
+      "notes": "From Redfin · $9500 · An impressive top-floor three-bedroom, two-bathroom flat, 1,670 sq ft residence (per tax records) offers gracious period architecture throug",
+      "seen_by": [],
+      "added_by": "redfin",
+      "added_at": "2026-08-14T03:19:15.811Z"
     }
   ]
 }
