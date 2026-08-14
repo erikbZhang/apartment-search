@@ -7218,14 +7218,16 @@
       "bathrooms": 2,
       "sqft": 1700,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.771485,
       "lon": -122.42893,
       "notes": "From Redfin · $11995 · SCHEDULE A SHOWING ONLINE AT: showmojo.com/lrt/ecc6766071 ---- Remodeled Top-Floor 4BR/2BA Corner Apartment in Lower Haight Be the first to ",
       "seen_by": [],
       "added_by": "redfin",
-      "added_at": "2026-08-09T13:39:44.839Z"
+      "added_at": "2026-08-09T13:39:44.839Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-08-14T09:50:04.736Z"
     },
     {
       "id": "cl_7952477312",
