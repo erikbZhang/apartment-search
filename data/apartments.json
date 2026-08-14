@@ -7744,14 +7744,16 @@
       "bathrooms": null,
       "sqft": 0,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.7902,
       "lon": -122.4083,
       "notes": "From Craigslist · posted Aug 13, 4:53 PM",
       "seen_by": [],
       "added_by": "craigslist",
-      "added_at": "2026-08-13T17:47:28.157Z"
+      "added_at": "2026-08-13T17:47:28.157Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-08-14T17:42:58.007Z"
     },
     {
       "id": "cl_7953391975",
@@ -7809,6 +7811,25 @@
       "seen_by": [],
       "added_by": "redfin",
       "added_at": "2026-08-14T03:19:15.811Z"
+    },
+    {
+      "id": "cl_7953546007",
+      "url": "https://sfbay.craigslist.org/sfc/apa/d/san-francisco-top-floor-bedroom-bath/7953546007.html",
+      "address": "Top Floor 3 Bedroom/1 Bath flat in Hayes Valley- W/D in unit",
+      "neighborhood": "Hayes Valley",
+      "price": 7495,
+      "bedrooms": 3,
+      "bathrooms": null,
+      "sqft": 0,
+      "available": null,
+      "status": "to_see",
+      "laundry": "in_unit",
+      "lat": 37.7764,
+      "lon": -122.4279,
+      "notes": "From Craigslist · posted Aug 14, 5:27 PM",
+      "seen_by": [],
+      "added_by": "craigslist",
+      "added_at": "2026-08-14T17:42:58.007Z"
     }
   ]
 }
