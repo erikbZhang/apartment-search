@@ -7872,6 +7872,25 @@
       "seen_by": [],
       "added_by": "rentcast",
       "added_at": "2026-08-15T09:42:53.114Z"
+    },
+    {
+      "id": "rf_82bc6e4e-e81e-4102-a721-c06b550434c2",
+      "url": "https://www.redfin.com/CA/San-Francisco/6-Doric-Aly-94133/apartment/177790046",
+      "address": "6 Doric Aly",
+      "neighborhood": "Nob Hill",
+      "price": 1150,
+      "bedrooms": 3,
+      "bathrooms": 2,
+      "sqft": 1000,
+      "available": "2026-09-01T00:00:00Z",
+      "status": "to_see",
+      "laundry": null,
+      "lat": 37.7951828,
+      "lon": -122.4109349,
+      "notes": "From Redfin · $1150 · _ Sharing with 2 nice young ladies - Convenient in transportation - Close to North Beach - Close to Shopping area and Restaurant - Close to ",
+      "seen_by": [],
+      "added_by": "redfin",
+      "added_at": "2026-08-15T13:21:09.278Z"
     }
   ]
 }
