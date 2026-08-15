@@ -7487,14 +7487,16 @@
       "bathrooms": null,
       "sqft": 1200,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.7715,
       "lon": -122.4277,
       "notes": "From Craigslist · posted Aug 11, 11:02 PM",
       "seen_by": [],
       "added_by": "craigslist",
-      "added_at": "2026-08-11T23:27:34.797Z"
+      "added_at": "2026-08-11T23:27:34.797Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-08-15T02:06:20.656Z"
     },
     {
       "id": "cl_7953012119",
@@ -7832,6 +7834,25 @@
       "seen_by": [],
       "added_by": "craigslist",
       "added_at": "2026-08-14T17:42:58.007Z"
+    },
+    {
+      "id": "cl_7953656790",
+      "url": "https://sfbay.craigslist.org/sfc/apa/d/san-francisco-big-4bed-2bath-in-duboce/7953656790.html",
+      "address": "BIG 4Bed/2Bath in Duboce Triangle!! Shared Garden, W/D & Big Bedrooms!",
+      "neighborhood": "Hayes Valley",
+      "price": 10900,
+      "bedrooms": 4,
+      "bathrooms": null,
+      "sqft": 1200,
+      "available": null,
+      "status": "to_see",
+      "laundry": null,
+      "lat": 37.7715,
+      "lon": -122.4277,
+      "notes": "From Craigslist · posted Aug 15, 1:25 AM",
+      "seen_by": [],
+      "added_by": "craigslist",
+      "added_at": "2026-08-15T02:06:20.656Z"
     }
   ]
 }
