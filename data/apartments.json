@@ -7508,14 +7508,16 @@
       "bathrooms": null,
       "sqft": 1,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.8029,
       "lon": -122.4198,
       "notes": "From Craigslist · posted Aug 11, 11:49 PM",
       "seen_by": [],
       "added_by": "craigslist",
-      "added_at": "2026-08-12T00:54:50.122Z"
+      "added_at": "2026-08-12T00:54:50.122Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-08-15T19:12:47.689Z"
     },
     {
       "id": "cl_7953071629",
@@ -7548,14 +7550,16 @@
       "bathrooms": null,
       "sqft": 1,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.8029,
       "lon": -122.4198,
       "notes": "From Craigslist · posted Aug 12, 4:08 PM",
       "seen_by": [],
       "added_by": "craigslist",
-      "added_at": "2026-08-12T16:43:45.925Z"
+      "added_at": "2026-08-12T16:43:45.925Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-08-15T19:12:47.689Z"
     },
     {
       "id": "cl_7953140801",
@@ -7588,14 +7592,16 @@
       "bathrooms": null,
       "sqft": 1,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.8029,
       "lon": -122.4198,
       "notes": "From Craigslist · posted Aug 12, 6:42 PM",
       "seen_by": [],
       "added_by": "craigslist",
-      "added_at": "2026-08-12T18:44:12.153Z"
+      "added_at": "2026-08-12T18:44:12.153Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-08-15T19:12:47.689Z"
     },
     {
       "id": "cl_7953195281",
@@ -7607,14 +7613,16 @@
       "bathrooms": null,
       "sqft": 1,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.8029,
       "lon": -122.4198,
       "notes": "From Craigslist · posted Aug 12, 9:29 PM",
       "seen_by": [],
       "added_by": "craigslist",
-      "added_at": "2026-08-12T21:33:00.705Z"
+      "added_at": "2026-08-12T21:33:00.705Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-08-15T19:12:47.689Z"
     },
     {
       "id": "cl_7953262928",
@@ -7729,14 +7737,16 @@
       "bathrooms": null,
       "sqft": 1,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.8029,
       "lon": -122.4198,
       "notes": "From Craigslist · posted Aug 13, 4:09 PM",
       "seen_by": [],
       "added_by": "craigslist",
-      "added_at": "2026-08-13T16:42:07.750Z"
+      "added_at": "2026-08-13T16:42:07.750Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-08-15T19:12:47.689Z"
     },
     {
       "id": "cl_7953338873",
@@ -7891,6 +7901,44 @@
       "seen_by": [],
       "added_by": "redfin",
       "added_at": "2026-08-15T13:21:09.278Z"
+    },
+    {
+      "id": "cl_7953646286",
+      "url": "https://sfbay.craigslist.org/sfc/apa/d/san-francisco-newly-remodeled-top-floor/7953646286.html",
+      "address": "Newly Remodeled Top-Floor Victorian Flat | Prime Cow Hollow",
+      "neighborhood": "Marina",
+      "price": 8295,
+      "bedrooms": 3,
+      "bathrooms": null,
+      "sqft": 1400,
+      "available": null,
+      "status": "to_see",
+      "laundry": null,
+      "lat": 37.7979,
+      "lon": -122.4367,
+      "notes": "From Craigslist · posted Aug 15, 6:21 PM",
+      "seen_by": [],
+      "added_by": "craigslist",
+      "added_at": "2026-08-15T19:12:47.689Z"
+    },
+    {
+      "id": "cl_7953778496",
+      "url": "https://sfbay.craigslist.org/sfc/apa/d/san-francisco-tmlp-12-mo-we-have-three/7953778496.html",
+      "address": "TMLP 12-mo. | We Have a Three Bedroom Apartment Available Soon!",
+      "neighborhood": "Russian Hill",
+      "price": 9227,
+      "bedrooms": 3,
+      "bathrooms": null,
+      "sqft": 1,
+      "available": null,
+      "status": "to_see",
+      "laundry": null,
+      "lat": 37.8029,
+      "lon": -122.4198,
+      "notes": "From Craigslist · posted Aug 15, 6:52 PM",
+      "seen_by": [],
+      "added_by": "craigslist",
+      "added_at": "2026-08-15T19:12:47.689Z"
     }
   ]
 }
