@@ -7939,6 +7939,25 @@
       "seen_by": [],
       "added_by": "craigslist",
       "added_at": "2026-08-15T19:12:47.689Z"
+    },
+    {
+      "id": "cl_7953787500",
+      "url": "https://sfbay.craigslist.org/sfc/apa/d/san-francisco-beautiful-3br-2ba-in/7953787500.html",
+      "address": "Beautiful 3BR/2BA in Pacific Heights – Art Deco Building",
+      "neighborhood": "Pacific Heights",
+      "price": 3795,
+      "bedrooms": 3,
+      "bathrooms": null,
+      "sqft": 1280,
+      "available": null,
+      "status": "to_see",
+      "laundry": null,
+      "lat": 37.7951,
+      "lon": -122.4282,
+      "notes": "From Craigslist · posted Aug 15, 7:34 PM",
+      "seen_by": [],
+      "added_by": "craigslist",
+      "added_at": "2026-08-15T20:08:57.448Z"
     }
   ]
 }
