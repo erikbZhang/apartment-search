@@ -7033,14 +7033,16 @@
       "bathrooms": 3,
       "sqft": 2362,
       "available": "2026-09-01T00:00:00Z",
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.7810265,
       "lon": -122.4426274,
       "notes": "From Redfin · $11900 · Enjoy sweeping views of the San Francisco skyline from this spacious Anza Vista residence. With 2,362 square feet, the home is designed to s",
       "seen_by": [],
       "added_by": "redfin",
-      "added_at": "2026-08-07T04:26:07.152Z"
+      "added_at": "2026-08-07T04:26:07.152Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-08-15T00:31:54.419Z"
     },
     {
       "id": "cl_7952118755",
