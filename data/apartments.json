@@ -7853,6 +7853,25 @@
       "seen_by": [],
       "added_by": "craigslist",
       "added_at": "2026-08-15T02:06:20.656Z"
+    },
+    {
+      "id": "rc_6-Doric-Aly,-San-Francisco,-CA-94133",
+      "url": "https://www.google.com/search?q=6%20Doric%20Aly%2C%20San%20Francisco%2C%20CA%2094133%20for%20rent",
+      "address": "6 Doric Aly, San Francisco, CA 94133",
+      "neighborhood": "Nob Hill",
+      "price": 1150,
+      "bedrooms": 3,
+      "bathrooms": 2,
+      "sqft": 1000,
+      "available": "2022-12-12",
+      "status": "to_see",
+      "laundry": null,
+      "lat": 37.795109,
+      "lon": -122.411209,
+      "notes": "From RentCast · $1150 · 1343d on market",
+      "seen_by": [],
+      "added_by": "rentcast",
+      "added_at": "2026-08-15T09:42:53.114Z"
     }
   ]
 }
