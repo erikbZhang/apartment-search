@@ -7964,6 +7964,25 @@
       "added_at": "2026-08-15T20:08:57.448Z",
       "prev_status": "to_see",
       "off_market_at": "2026-08-15T21:10:18.476Z"
+    },
+    {
+      "id": "rc_1433-Clay-St,-Unit-15A,-San-Francisco,-CA-94109",
+      "url": "https://www.google.com/search?q=1433%20Clay%20St%2C%20Unit%2015A%2C%20San%20Francisco%2C%20CA%2094109%20for%20rent",
+      "address": "1433 Clay St, Unit 15A, San Francisco, CA 94109",
+      "neighborhood": "Nob Hill",
+      "price": 8995,
+      "bedrooms": 3,
+      "bathrooms": 2,
+      "sqft": null,
+      "available": "2026-08-16",
+      "status": "to_see",
+      "laundry": null,
+      "lat": 37.792681,
+      "lon": -122.416682,
+      "notes": "From RentCast · $8995 · 1d on market",
+      "seen_by": [],
+      "added_by": "rentcast",
+      "added_at": "2026-08-16T09:44:16.946Z"
     }
   ]
 }
