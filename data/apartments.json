@@ -7857,14 +7857,16 @@
       "bathrooms": null,
       "sqft": 1200,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.7715,
       "lon": -122.4277,
       "notes": "From Craigslist · posted Aug 15, 1:25 AM",
       "seen_by": [],
       "added_by": "craigslist",
-      "added_at": "2026-08-15T02:06:20.656Z"
+      "added_at": "2026-08-15T02:06:20.656Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-08-16T05:17:11.954Z"
     },
     {
       "id": "rc_6-Doric-Aly,-San-Francisco,-CA-94133",
