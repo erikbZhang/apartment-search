@@ -8002,6 +8002,25 @@
       "seen_by": [],
       "added_by": "craigslist",
       "added_at": "2026-08-17T02:11:54.291Z"
+    },
+    {
+      "id": "cl_7954042474",
+      "url": "https://sfbay.craigslist.org/sfc/apa/d/san-francisco-luxury-3br-victorian-flat/7954042474.html",
+      "address": "Luxury 3BR Victorian Flat in Hayes Valley",
+      "neighborhood": "Hayes Valley",
+      "price": 3485,
+      "bedrooms": 3,
+      "bathrooms": null,
+      "sqft": 1440,
+      "available": null,
+      "status": "to_see",
+      "laundry": null,
+      "lat": 37.777,
+      "lon": -122.4291,
+      "notes": "From Craigslist · posted Aug 17, 6:53 AM",
+      "seen_by": [],
+      "added_by": "craigslist",
+      "added_at": "2026-08-17T07:41:26.609Z"
     }
   ]
 }
