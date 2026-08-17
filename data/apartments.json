@@ -8040,6 +8040,25 @@
       "seen_by": [],
       "added_by": "craigslist",
       "added_at": "2026-08-17T08:28:36.534Z"
+    },
+    {
+      "id": "rc_1560-Noe-St,-San-Francisco,-CA-94131",
+      "url": "https://www.google.com/search?q=1560%20Noe%20St%2C%20San%20Francisco%2C%20CA%2094131%20for%20rent",
+      "address": "1560 Noe St, San Francisco, CA 94131",
+      "neighborhood": "Noe Valley",
+      "price": 5300,
+      "bedrooms": 3,
+      "bathrooms": 1,
+      "sqft": 1350,
+      "available": "2026-08-17",
+      "status": "to_see",
+      "laundry": null,
+      "lat": 37.74406,
+      "lon": -122.4313,
+      "notes": "From RentCast · $5300 · 1d on market",
+      "seen_by": [],
+      "added_by": "rentcast",
+      "added_at": "2026-08-17T09:59:12.474Z"
     }
   ]
 }
