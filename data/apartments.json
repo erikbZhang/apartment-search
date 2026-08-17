@@ -8021,6 +8021,25 @@
       "seen_by": [],
       "added_by": "craigslist",
       "added_at": "2026-08-17T07:41:26.609Z"
+    },
+    {
+      "id": "cl_7954045434",
+      "url": "https://sfbay.craigslist.org/sfc/apa/d/san-francisco-stunning-3br-sfh-sf/7954045434.html",
+      "address": "Stunning 3BR SFH | 2,100 SF | Designer Remodel | Lower Pacific Heights",
+      "neighborhood": "Pacific Heights",
+      "price": 6390,
+      "bedrooms": 3,
+      "bathrooms": null,
+      "sqft": 2118,
+      "available": null,
+      "status": "to_see",
+      "laundry": null,
+      "lat": 37.7866,
+      "lon": -122.4364,
+      "notes": "From Craigslist · posted Aug 17, 8:08 AM",
+      "seen_by": [],
+      "added_by": "craigslist",
+      "added_at": "2026-08-17T08:28:36.534Z"
     }
   ]
 }
