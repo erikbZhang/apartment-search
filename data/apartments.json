@@ -8117,6 +8117,25 @@
       "seen_by": [],
       "added_by": "redfin",
       "added_at": "2026-08-18T13:33:21.772Z"
+    },
+    {
+      "id": "cl_7954332629",
+      "url": "https://sfbay.craigslist.org/sfc/apa/d/san-francisco-tmlp-12-mo-three-bedroom/7954332629.html",
+      "address": "TMLP 12-mo. | Three Bedroom Apartment with Beautiful Views Available!",
+      "neighborhood": "Russian Hill",
+      "price": 9227,
+      "bedrooms": 3,
+      "bathrooms": null,
+      "sqft": 1,
+      "available": null,
+      "status": "to_see",
+      "laundry": null,
+      "lat": 37.8029,
+      "lon": -122.4198,
+      "notes": "From Craigslist · posted Aug 18, 4:21 PM",
+      "seen_by": [],
+      "added_by": "craigslist",
+      "added_at": "2026-08-18T17:15:57.606Z"
     }
   ]
 }
