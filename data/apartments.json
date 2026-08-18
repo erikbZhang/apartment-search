@@ -8092,6 +8092,25 @@
       "added_at": "2026-08-17T10:19:10.176Z",
       "prev_status": "to_see",
       "off_market_at": "2026-08-17T15:13:51.111Z"
+    },
+    {
+      "id": "rf_fee35d93-984f-4d69-ab6c-ec81b0693cc9",
+      "url": "https://www.redfin.com/CA/San-Francisco/1560-Noe-St-94131/home/204624388",
+      "address": "1560 Noe St",
+      "neighborhood": "Noe Valley",
+      "price": 5300,
+      "bedrooms": 3,
+      "bathrooms": 1,
+      "sqft": 1350,
+      "available": "2026-09-01T00:00:00Z",
+      "status": "to_see",
+      "laundry": null,
+      "lat": 37.7439508,
+      "lon": -122.4313597,
+      "notes": "From Redfin · $5300 · Realtor Gustavo Lopez DRE#01849175 Really cute updated Flat in Arts and Crafts classic building in Noe Valley close to everything. Silicon V",
+      "seen_by": [],
+      "added_by": "redfin",
+      "added_at": "2026-08-18T13:33:21.772Z"
     }
   ]
 }
