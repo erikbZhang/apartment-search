@@ -7075,14 +7075,16 @@
       "bathrooms": 1.5,
       "sqft": 1100,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.798057,
       "lon": -122.4293224,
       "notes": "From Redfin · $7900 · Offered at $7,900, this beautifully updated 3-bedroom, 1.5-bathroom middle unit in the heart of San Francisco's Cow Hollow District offers a",
       "seen_by": [],
       "added_by": "redfin",
-      "added_at": "2026-08-07T17:38:23.061Z"
+      "added_at": "2026-08-07T17:38:23.061Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-08-18T02:07:45.058Z"
     },
     {
       "id": "cl_7952179321",
