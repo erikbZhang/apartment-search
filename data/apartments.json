@@ -8206,14 +8206,16 @@
       "bathrooms": null,
       "sqft": 0,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.797,
       "lon": -122.4139,
       "notes": "From Craigslist · posted Aug 19, 5:26 AM",
       "seen_by": [],
       "added_by": "craigslist",
-      "added_at": "2026-08-19T06:22:28.196Z"
+      "added_at": "2026-08-19T06:22:28.196Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-08-19T18:15:55.535Z"
     },
     {
       "id": "cl_7954481879",
