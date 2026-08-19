@@ -8212,6 +8212,25 @@
       "seen_by": [],
       "added_by": "craigslist",
       "added_at": "2026-08-19T06:22:28.196Z"
+    },
+    {
+      "id": "cl_7954481879",
+      "url": "https://sfbay.craigslist.org/sfc/apa/d/san-francisco-updated-bedroom-25-bath/7954481879.html",
+      "address": "Updated 3-bedroom, 2.5-bath second floor unit in Marina District",
+      "neighborhood": "Marina",
+      "price": 1679,
+      "bedrooms": 3,
+      "bathrooms": null,
+      "sqft": 0,
+      "available": null,
+      "status": "to_see",
+      "laundry": null,
+      "lat": 37.8037,
+      "lon": -122.441,
+      "notes": "From Craigslist · posted Aug 19, 7:18 AM",
+      "seen_by": [],
+      "added_by": "craigslist",
+      "added_at": "2026-08-19T07:28:48.826Z"
     }
   ]
 }
