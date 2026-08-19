@@ -8193,6 +8193,25 @@
       "seen_by": [],
       "added_by": "craigslist",
       "added_at": "2026-08-19T03:36:01.385Z"
+    },
+    {
+      "id": "cl_7954475987",
+      "url": "https://sfbay.craigslist.org/sfc/apa/d/san-francisco-3br-russian-hill-home/7954475987.html",
+      "address": "3BR Russian Hill Home with Iconic Views",
+      "neighborhood": "Russian Hill",
+      "price": 2500,
+      "bedrooms": 3,
+      "bathrooms": null,
+      "sqft": 0,
+      "available": null,
+      "status": "to_see",
+      "laundry": null,
+      "lat": 37.797,
+      "lon": -122.4139,
+      "notes": "From Craigslist · posted Aug 19, 5:26 AM",
+      "seen_by": [],
+      "added_by": "craigslist",
+      "added_at": "2026-08-19T06:22:28.196Z"
     }
   ]
 }
