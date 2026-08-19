@@ -8155,6 +8155,25 @@
       "seen_by": [],
       "added_by": "craigslist",
       "added_at": "2026-08-18T22:09:47.220Z"
+    },
+    {
+      "id": "cl_7954437379",
+      "url": "https://sfbay.craigslist.org/sfc/apa/d/san-francisco-big-rooms-2bd-that-can-be/7954437379.html",
+      "address": "BIG ROOMS 2Bd that can be used as 3Bdrm - Shared Garden - Video link",
+      "neighborhood": "Hayes Valley",
+      "price": 4800,
+      "bedrooms": 3,
+      "bathrooms": null,
+      "sqft": 0,
+      "available": null,
+      "status": "to_see",
+      "laundry": null,
+      "lat": 37.7745,
+      "lon": -122.4278,
+      "notes": "From Craigslist · posted Aug 18, 11:39 PM",
+      "seen_by": [],
+      "added_by": "craigslist",
+      "added_at": "2026-08-19T00:31:48.798Z"
     }
   ]
 }
