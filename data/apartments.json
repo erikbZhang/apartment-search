@@ -8323,6 +8323,25 @@
       "added_at": "2026-08-19T13:35:08.510Z",
       "prev_status": "to_see",
       "off_market_at": "2026-08-19T17:15:43.487Z"
+    },
+    {
+      "id": "cl_7954704825",
+      "url": "https://sfbay.craigslist.org/sfc/apa/d/san-francisco-modern-noe-valley-sfh/7954704825.html",
+      "address": "Modern Noe Valley SFH w/ Skyline Views & Landscaping",
+      "neighborhood": "Noe Valley",
+      "price": 6000,
+      "bedrooms": 3,
+      "bathrooms": null,
+      "sqft": 1475,
+      "available": null,
+      "status": "to_see",
+      "laundry": null,
+      "lat": 37.7477,
+      "lon": -122.436,
+      "notes": "From Craigslist · posted Aug 20, 10:53 AM",
+      "seen_by": [],
+      "added_by": "craigslist",
+      "added_at": "2026-08-20T11:15:23.664Z"
     }
   ]
 }
