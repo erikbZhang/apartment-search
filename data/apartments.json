@@ -8334,14 +8334,35 @@
       "bathrooms": null,
       "sqft": 1475,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.7477,
       "lon": -122.436,
       "notes": "From Craigslist · posted Aug 20, 10:53 AM",
       "seen_by": [],
       "added_by": "craigslist",
-      "added_at": "2026-08-20T11:15:23.664Z"
+      "added_at": "2026-08-20T11:15:23.664Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-08-20T12:21:32.368Z"
+    },
+    {
+      "id": "cl_7954710014",
+      "url": "https://sfbay.craigslist.org/sfc/apa/d/san-francisco-spacious-updated-noe/7954710014.html",
+      "address": "Spacious Updated Noe Valley Home w/ View Deck & 2-Car Garage",
+      "neighborhood": "Noe Valley",
+      "price": 6500,
+      "bedrooms": 3,
+      "bathrooms": null,
+      "sqft": 1745,
+      "available": null,
+      "status": "to_see",
+      "laundry": null,
+      "lat": 37.7478,
+      "lon": -122.4315,
+      "notes": "From Craigslist · posted Aug 20, 11:55 AM",
+      "seen_by": [],
+      "added_by": "craigslist",
+      "added_at": "2026-08-20T12:21:32.368Z"
     }
   ]
 }
