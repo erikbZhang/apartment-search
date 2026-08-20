@@ -8132,14 +8132,16 @@
       "bathrooms": null,
       "sqft": 1,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.8029,
       "lon": -122.4198,
       "notes": "From Craigslist · posted Aug 18, 4:21 PM",
       "seen_by": [],
       "added_by": "craigslist",
-      "added_at": "2026-08-18T17:15:57.606Z"
+      "added_at": "2026-08-18T17:15:57.606Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-08-20T17:17:45.316Z"
     },
     {
       "id": "cl_7954410306",
@@ -8355,14 +8357,35 @@
       "bathrooms": null,
       "sqft": 1745,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.7478,
       "lon": -122.4315,
       "notes": "From Craigslist · posted Aug 20, 11:55 AM",
       "seen_by": [],
       "added_by": "craigslist",
-      "added_at": "2026-08-20T12:21:32.368Z"
+      "added_at": "2026-08-20T12:21:32.368Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-08-20T17:17:45.316Z"
+    },
+    {
+      "id": "cl_7954764204",
+      "url": "https://sfbay.craigslist.org/sfc/apa/d/san-francisco-tmlp-12-mo-we-have-three/7954764204.html",
+      "address": "TMLP 12-mo. | We Have Three Bedrooms Apartments Coming Soon!",
+      "neighborhood": "Russian Hill",
+      "price": 9227,
+      "bedrooms": 3,
+      "bathrooms": null,
+      "sqft": 1,
+      "available": null,
+      "status": "to_see",
+      "laundry": null,
+      "lat": 37.8029,
+      "lon": -122.4198,
+      "notes": "From Craigslist · posted Aug 20, 4:37 PM",
+      "seen_by": [],
+      "added_by": "craigslist",
+      "added_at": "2026-08-20T17:17:45.316Z"
     }
   ]
 }
