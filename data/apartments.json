@@ -8386,6 +8386,25 @@
       "seen_by": [],
       "added_by": "craigslist",
       "added_at": "2026-08-20T17:17:45.316Z"
+    },
+    {
+      "id": "cl_7954844300",
+      "url": "https://sfbay.craigslist.org/sfc/apa/d/san-francisco-california-st-no-parking/7954844300.html",
+      "address": "California St. No Parking Outdoor 3BD",
+      "neighborhood": "Nob Hill",
+      "price": 3000,
+      "bedrooms": 3,
+      "bathrooms": null,
+      "sqft": 1430,
+      "available": null,
+      "status": "to_see",
+      "laundry": null,
+      "lat": 37.7838,
+      "lon": -122.416,
+      "notes": "From Craigslist · posted Aug 20, 9:51 PM",
+      "seen_by": [],
+      "added_by": "craigslist",
+      "added_at": "2026-08-20T22:14:22.577Z"
     }
   ]
 }
