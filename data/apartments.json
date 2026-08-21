@@ -8468,6 +8468,25 @@
       "seen_by": [],
       "added_by": "craigslist",
       "added_at": "2026-08-21T02:15:51.418Z"
+    },
+    {
+      "id": "cl_7954888561",
+      "url": "https://sfbay.craigslist.org/sfc/apa/d/san-francisco-1623-hyde-street-luxury/7954888561.html",
+      "address": "1623 Hyde Street – Luxury 3BR / 2.5BA with Golden Gate Bridge Views",
+      "neighborhood": "Nob Hill",
+      "price": 6780,
+      "bedrooms": 3,
+      "bathrooms": null,
+      "sqft": 0,
+      "available": null,
+      "status": "to_see",
+      "laundry": null,
+      "lat": 37.7956,
+      "lon": -122.4183,
+      "notes": "From Craigslist · posted Aug 21, 2:53 AM",
+      "seen_by": [],
+      "added_by": "craigslist",
+      "added_at": "2026-08-21T03:39:58.683Z"
     }
   ]
 }
