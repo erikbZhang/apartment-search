@@ -8485,14 +8485,35 @@
       "bathrooms": null,
       "sqft": 0,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.7956,
       "lon": -122.4183,
       "notes": "From Craigslist · posted Aug 21, 2:53 AM",
       "seen_by": [],
       "added_by": "craigslist",
-      "added_at": "2026-08-21T03:39:58.683Z"
+      "added_at": "2026-08-21T03:39:58.683Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-08-21T13:36:02.222Z"
+    },
+    {
+      "id": "cl_7954922259",
+      "url": "https://sfbay.craigslist.org/sfc/apa/d/san-francisco-updated-3br-twin-peaks/7954922259.html",
+      "address": "Updated 3BR Twin Peaks Home with Ocean Views, Deck & EV Garage",
+      "neighborhood": "Marina",
+      "price": 6540,
+      "bedrooms": 3,
+      "bathrooms": null,
+      "sqft": 1756,
+      "available": null,
+      "status": "to_see",
+      "laundry": null,
+      "lat": 37.753,
+      "lon": -122.45,
+      "notes": "From Craigslist · posted Aug 21, 12:39 PM",
+      "seen_by": [],
+      "added_by": "craigslist",
+      "added_at": "2026-08-21T13:36:02.222Z"
     }
   ]
 }
