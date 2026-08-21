@@ -8113,14 +8113,16 @@
       "bathrooms": 1,
       "sqft": 1350,
       "available": "2026-09-01T00:00:00Z",
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.7439508,
       "lon": -122.4313597,
       "notes": "From Redfin · $5300 · Realtor Gustavo Lopez DRE#01849175 Really cute updated Flat in Arts and Crafts classic building in Noe Valley close to everything. Silicon V",
       "seen_by": [],
       "added_by": "redfin",
-      "added_at": "2026-08-18T13:33:21.772Z"
+      "added_at": "2026-08-18T13:33:21.772Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-08-21T00:34:01.376Z"
     },
     {
       "id": "cl_7954332629",
@@ -8426,6 +8428,25 @@
       "seen_by": [],
       "added_by": "craigslist",
       "added_at": "2026-08-20T23:14:09.498Z"
+    },
+    {
+      "id": "rf_4c83098c-c16a-49ea-9274-8886af4b2963",
+      "url": "https://www.redfin.com/CA/San-Francisco/1030-Bush-St-94109/unit-3/home/1287538",
+      "address": "1030 Bush St #3",
+      "neighborhood": "Nob Hill",
+      "price": 1500,
+      "bedrooms": 3,
+      "bathrooms": 2,
+      "sqft": null,
+      "available": null,
+      "status": "to_see",
+      "laundry": null,
+      "lat": 37.7896739,
+      "lon": -122.414335,
+      "notes": "From Redfin · $1500 · Welcome to this beautiful and spacious 3-bedroom, 2-bathroom home, offering a comfortable layout with plenty of room for everyday living. En",
+      "seen_by": [],
+      "added_by": "redfin",
+      "added_at": "2026-08-21T00:34:01.376Z"
     }
   ]
 }
