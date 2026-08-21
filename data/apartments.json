@@ -8537,6 +8537,25 @@
       "seen_by": [],
       "added_by": "craigslist",
       "added_at": "2026-08-21T17:17:34.110Z"
+    },
+    {
+      "id": "cl_7954990833",
+      "url": "https://sfbay.craigslist.org/sfc/apa/d/san-francisco-condo-in-north-beach/7954990833.html",
+      "address": "Condo in North Beach",
+      "neighborhood": "North Beach",
+      "price": 8950,
+      "bedrooms": 3,
+      "bathrooms": null,
+      "sqft": 1250,
+      "available": null,
+      "status": "to_see",
+      "laundry": null,
+      "lat": 37.8033,
+      "lon": -122.4144,
+      "notes": "From Craigslist · posted Aug 21, 5:47 PM",
+      "seen_by": [],
+      "added_by": "craigslist",
+      "added_at": "2026-08-21T18:19:15.357Z"
     }
   ]
 }
