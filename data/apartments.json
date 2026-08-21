@@ -6974,14 +6974,16 @@
       "bathrooms": 2,
       "sqft": null,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.7970524,
       "lon": -122.4188845,
       "notes": "From Redfin · $9000 · Spacious top-floor Edwardian flat in the heart of Russian Hill, offering 3 bedrooms plus a dedicated office, 2 updated bathrooms, and garage",
       "seen_by": [],
       "added_by": "redfin",
-      "added_at": "2026-08-05T17:16:08.336Z"
+      "added_at": "2026-08-05T17:16:08.336Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-08-21T02:15:51.418Z"
     },
     {
       "id": "cl_7951824911",
@@ -8447,6 +8449,25 @@
       "seen_by": [],
       "added_by": "redfin",
       "added_at": "2026-08-21T00:34:01.376Z"
+    },
+    {
+      "id": "cl_7954881097",
+      "url": "https://sfbay.craigslist.org/sfc/apa/d/san-francisco-updated-bed25-bath-full/7954881097.html",
+      "address": "Updated 3 bed,2.5 bath full-floor Condo in Marina District",
+      "neighborhood": "Marina",
+      "price": 2169,
+      "bedrooms": 3,
+      "bathrooms": null,
+      "sqft": 0,
+      "available": null,
+      "status": "to_see",
+      "laundry": null,
+      "lat": 37.8037,
+      "lon": -122.441,
+      "notes": "From Craigslist · posted Aug 21, 1:39 AM",
+      "seen_by": [],
+      "added_by": "craigslist",
+      "added_at": "2026-08-21T02:15:51.418Z"
     }
   ]
 }
