@@ -8558,6 +8558,44 @@
       "seen_by": [],
       "added_by": "craigslist",
       "added_at": "2026-08-21T18:19:15.357Z"
+    },
+    {
+      "id": "cl_7955238617",
+      "url": "https://sfbay.craigslist.org/sfc/apa/d/san-francisco-spacious-3br-2ba-in-san/7955238617.html",
+      "address": "Spacious 3BR 2BA in San Francisco Marina",
+      "neighborhood": "Marina",
+      "price": 3580,
+      "bedrooms": 3,
+      "bathrooms": null,
+      "sqft": 0,
+      "available": null,
+      "status": "to_see",
+      "laundry": null,
+      "lat": 37.8046,
+      "lon": -122.4444,
+      "notes": "From Craigslist · posted Aug 22, 9:01 PM",
+      "seen_by": [],
+      "added_by": "craigslist",
+      "added_at": "2026-08-22T21:10:12.477Z"
+    },
+    {
+      "id": "cl_7955234421",
+      "url": "https://sfbay.craigslist.org/sfc/apa/d/san-francisco-spacious-3br-2ba-nob-hill/7955234421.html",
+      "address": "Spacious 3BR 2BA Nob Hill Apartment",
+      "neighborhood": "Nob Hill",
+      "price": 3795,
+      "bedrooms": 3,
+      "bathrooms": null,
+      "sqft": 0,
+      "available": null,
+      "status": "to_see",
+      "laundry": null,
+      "lat": 37.793,
+      "lon": -122.4165,
+      "notes": "From Craigslist · posted Aug 22, 8:38 PM",
+      "seen_by": [],
+      "added_by": "craigslist",
+      "added_at": "2026-08-22T21:10:12.477Z"
     }
   ]
 }
