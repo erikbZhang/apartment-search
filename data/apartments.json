@@ -8203,14 +8203,16 @@
       "bathrooms": null,
       "sqft": 1980,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.8002,
       "lon": -122.4091,
       "notes": "From Craigslist · posted Aug 19, 2:25 AM",
       "seen_by": [],
       "added_by": "craigslist",
-      "added_at": "2026-08-19T03:36:01.385Z"
+      "added_at": "2026-08-19T03:36:01.385Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-08-23T00:34:36.846Z"
     },
     {
       "id": "cl_7954475987",
@@ -8653,6 +8655,25 @@
       "seen_by": [],
       "added_by": "craigslist",
       "added_at": "2026-08-22T22:14:11.858Z"
+    },
+    {
+      "id": "cl_7955274993",
+      "url": "https://sfbay.craigslist.org/sfc/apa/d/san-francisco-updated-bed25-bath-full/7955274993.html",
+      "address": "Updated 3 bed,2.5 bath full-floor Condo Heart Of Marina District",
+      "neighborhood": "Marina",
+      "price": 2169,
+      "bedrooms": 3,
+      "bathrooms": null,
+      "sqft": 0,
+      "available": null,
+      "status": "to_see",
+      "laundry": null,
+      "lat": 37.8011,
+      "lon": -122.4431,
+      "notes": "From Craigslist · posted Aug 23, 12:33 AM",
+      "seen_by": [],
+      "added_by": "craigslist",
+      "added_at": "2026-08-23T00:34:36.846Z"
     }
   ]
 }
