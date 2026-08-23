@@ -8714,6 +8714,25 @@
       "seen_by": [],
       "added_by": "craigslist",
       "added_at": "2026-08-23T06:19:54.901Z"
+    },
+    {
+      "id": "cl_7955326505",
+      "url": "https://sfbay.craigslist.org/sfc/apa/d/san-francisco-noe-valley-3br-2ba-home/7955326505.html",
+      "address": "🎉Noe Valley 3BR/2BA Home",
+      "neighborhood": "Noe Valley",
+      "price": 1000,
+      "bedrooms": 3,
+      "bathrooms": null,
+      "sqft": 0,
+      "available": null,
+      "status": "to_see",
+      "laundry": null,
+      "lat": 37.7587,
+      "lon": -122.433,
+      "notes": "From Craigslist · posted Aug 23, 1:20 PM",
+      "seen_by": [],
+      "added_by": "craigslist",
+      "added_at": "2026-08-23T13:23:35.598Z"
     }
   ]
 }
