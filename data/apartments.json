@@ -8394,14 +8394,16 @@
       "bathrooms": null,
       "sqft": 1,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.8029,
       "lon": -122.4198,
       "notes": "From Craigslist · posted Aug 20, 4:37 PM",
       "seen_by": [],
       "added_by": "craigslist",
-      "added_at": "2026-08-20T17:17:45.316Z"
+      "added_at": "2026-08-20T17:17:45.316Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-08-25T16:22:16.225Z"
     },
     {
       "id": "cl_7954844300",
@@ -8535,14 +8537,16 @@
       "bathrooms": null,
       "sqft": 1,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.8029,
       "lon": -122.4198,
       "notes": "From Craigslist · posted Aug 21, 4:19 PM",
       "seen_by": [],
       "added_by": "craigslist",
-      "added_at": "2026-08-21T17:17:34.110Z"
+      "added_at": "2026-08-21T17:17:34.110Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-08-25T16:22:16.225Z"
     },
     {
       "id": "cl_7954990833",
@@ -8850,6 +8854,25 @@
       "seen_by": [],
       "added_by": "redfin",
       "added_at": "2026-08-25T09:22:46.946Z"
+    },
+    {
+      "id": "cl_7955776705",
+      "url": "https://sfbay.craigslist.org/sfc/apa/d/san-francisco-tmlp-12-mo-three-bedroom/7955776705.html",
+      "address": "TMLP 12-mo. | Three Bedroom with Amazing Views, Available Soon!",
+      "neighborhood": "Russian Hill",
+      "price": 9227,
+      "bedrooms": 3,
+      "bathrooms": null,
+      "sqft": 1,
+      "available": null,
+      "status": "to_see",
+      "laundry": null,
+      "lat": 37.8029,
+      "lon": -122.4198,
+      "notes": "From Craigslist · posted Aug 25, 4:16 PM",
+      "seen_by": [],
+      "added_by": "craigslist",
+      "added_at": "2026-08-25T16:22:16.225Z"
     }
   ]
 }
