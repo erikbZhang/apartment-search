@@ -8789,6 +8789,25 @@
       "seen_by": [],
       "added_by": "craigslist",
       "added_at": "2026-08-24T21:17:20.086Z"
+    },
+    {
+      "id": "cl_7955702138",
+      "url": "https://sfbay.craigslist.org/sfc/apa/d/san-francisco-for-rent-vintage-3bd-2ba/7955702138.html",
+      "address": "For Rent: Vintage 3BD/2BA + Prime Pacific Heights Location!",
+      "neighborhood": "Pacific Heights",
+      "price": 1800,
+      "bedrooms": 3,
+      "bathrooms": null,
+      "sqft": 0,
+      "available": null,
+      "status": "to_see",
+      "laundry": null,
+      "lat": 37.7875,
+      "lon": -122.4446,
+      "notes": "From Craigslist · posted Aug 25, 4:58 AM",
+      "seen_by": [],
+      "added_by": "craigslist",
+      "added_at": "2026-08-25T05:21:23.742Z"
     }
   ]
 }
