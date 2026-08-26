@@ -8934,6 +8934,44 @@
       "seen_by": [],
       "added_by": "craigslist",
       "added_at": "2026-08-26T02:16:56.290Z"
+    },
+    {
+      "id": "cl_7955921584",
+      "url": "https://sfbay.craigslist.org/sfc/apa/d/san-francisco-newly-this-updated/7955921584.html",
+      "address": "@#@Newly This Updated 3-bedroom, 2.5-bath second floor unit in Marina✅",
+      "neighborhood": "Marina",
+      "price": 2169,
+      "bedrooms": 3,
+      "bathrooms": null,
+      "sqft": 0,
+      "available": null,
+      "status": "to_see",
+      "laundry": null,
+      "lat": 37.7997,
+      "lon": -122.4344,
+      "notes": "From Craigslist · posted Aug 26, 6:01 AM",
+      "seen_by": [],
+      "added_by": "craigslist",
+      "added_at": "2026-08-26T06:25:48.792Z"
+    },
+    {
+      "id": "cl_7955918719",
+      "url": "https://sfbay.craigslist.org/sfc/apa/d/san-francisco-spacious-three-bedroom/7955918719.html",
+      "address": "Spacious Three-Bedroom Apartment In San Francisco Marina",
+      "neighborhood": "Marina",
+      "price": 3070,
+      "bedrooms": 3,
+      "bathrooms": null,
+      "sqft": 0,
+      "available": null,
+      "status": "to_see",
+      "laundry": null,
+      "lat": 37.8007,
+      "lon": -122.4446,
+      "notes": "From Craigslist · posted Aug 26, 5:25 AM",
+      "seen_by": [],
+      "added_by": "craigslist",
+      "added_at": "2026-08-26T06:25:48.792Z"
     }
   ]
 }
