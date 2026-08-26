@@ -8896,6 +8896,25 @@
       "seen_by": [],
       "added_by": "craigslist",
       "added_at": "2026-08-25T22:13:29.298Z"
+    },
+    {
+      "id": "cl_7955884545",
+      "url": "https://sfbay.craigslist.org/sfc/apa/d/san-francisco-charming-and-spacious-flat/7955884545.html",
+      "address": "CHARMING AND SPACIOUS FLAT",
+      "neighborhood": "Noe Valley",
+      "price": 6375,
+      "bedrooms": 3,
+      "bathrooms": null,
+      "sqft": 1450,
+      "available": null,
+      "status": "to_see",
+      "laundry": null,
+      "lat": 37.7455,
+      "lon": -122.424,
+      "notes": "From Craigslist · posted Aug 25, 11:47 PM",
+      "seen_by": [],
+      "added_by": "craigslist",
+      "added_at": "2026-08-26T00:33:38.693Z"
     }
   ]
 }
