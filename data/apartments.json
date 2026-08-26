@@ -8976,6 +8976,44 @@
       "seen_by": [],
       "added_by": "craigslist",
       "added_at": "2026-08-26T06:25:48.792Z"
+    },
+    {
+      "id": "cl_7956021273",
+      "url": "https://sfbay.craigslist.org/sfc/apa/d/san-francisco-super-nice-flat-in-noe/7956021273.html",
+      "address": "Super nice Flat in Noe Valley- AMSI",
+      "neighborhood": "Noe Valley",
+      "price": 5300,
+      "bedrooms": 3,
+      "bathrooms": null,
+      "sqft": 0,
+      "available": null,
+      "status": "to_see",
+      "laundry": null,
+      "lat": 37.745,
+      "lon": -122.4383,
+      "notes": "From Craigslist · posted Aug 26, 6:20 PM",
+      "seen_by": [],
+      "added_by": "craigslist",
+      "added_at": "2026-08-26T18:45:52.723Z"
+    },
+    {
+      "id": "cl_7956019594",
+      "url": "https://sfbay.craigslist.org/sfc/apa/d/san-francisco-tmlp-12-mo-we-have-three/7956019594.html",
+      "address": "TMLP 12-mo. | We Have a Three Bedroom Apartment Available Soon!",
+      "neighborhood": "Russian Hill",
+      "price": 9227,
+      "bedrooms": 3,
+      "bathrooms": null,
+      "sqft": 1,
+      "available": null,
+      "status": "to_see",
+      "laundry": null,
+      "lat": 37.8029,
+      "lon": -122.4198,
+      "notes": "From Craigslist · posted Aug 26, 6:13 PM",
+      "seen_by": [],
+      "added_by": "craigslist",
+      "added_at": "2026-08-26T18:45:52.723Z"
     }
   ]
 }
