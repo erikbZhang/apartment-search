@@ -9054,6 +9054,25 @@
       "seen_by": [],
       "added_by": "redfin",
       "added_at": "2026-08-27T13:14:20.482Z"
+    },
+    {
+      "id": "rc_2390-Francisco-St,-Apt-103,-San-Francisco,-CA-94123",
+      "url": "https://www.google.com/search?q=2390%20Francisco%20St%2C%20Apt%20103%2C%20San%20Francisco%2C%20CA%2094123%20for%20rent",
+      "address": "2390 Francisco St, Apt 103, San Francisco, CA 94123",
+      "neighborhood": "Marina",
+      "price": 8995,
+      "bedrooms": 3,
+      "bathrooms": 1.5,
+      "sqft": null,
+      "available": "2026-08-27",
+      "status": "to_see",
+      "laundry": null,
+      "lat": 37.800892,
+      "lon": -122.444458,
+      "notes": "From RentCast · $8995 · 1d on market",
+      "seen_by": [],
+      "added_by": "rentcast",
+      "added_at": "2026-08-27T19:52:02.236Z"
     }
   ]
 }
