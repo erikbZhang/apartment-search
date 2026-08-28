@@ -8894,14 +8894,16 @@
       "bathrooms": null,
       "sqft": 1,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.8029,
       "lon": -122.4198,
       "notes": "From Craigslist · posted Aug 25, 9:31 PM",
       "seen_by": [],
       "added_by": "craigslist",
-      "added_at": "2026-08-25T22:13:29.298Z"
+      "added_at": "2026-08-25T22:13:29.298Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-08-28T19:42:11.947Z"
     },
     {
       "id": "cl_7955884545",
@@ -9012,14 +9014,16 @@
       "bathrooms": null,
       "sqft": 1,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.8029,
       "lon": -122.4198,
       "notes": "From Craigslist · posted Aug 26, 6:13 PM",
       "seen_by": [],
       "added_by": "craigslist",
-      "added_at": "2026-08-26T18:45:52.723Z"
+      "added_at": "2026-08-26T18:45:52.723Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-08-28T19:42:11.947Z"
     },
     {
       "id": "cl_7956066340",
@@ -9136,6 +9140,44 @@
       "seen_by": [],
       "added_by": "craigslist",
       "added_at": "2026-08-27T23:18:01.022Z"
+    },
+    {
+      "id": "cl_7956497891",
+      "url": "https://sfbay.craigslist.org/sfc/apa/d/san-francisco-tmlp-12-mo-ask-about-our/7956497891.html",
+      "address": "TMLP 12-mo. | Ask About Our Three Bedroom Apartments!",
+      "neighborhood": "Russian Hill",
+      "price": 9227,
+      "bedrooms": 3,
+      "bathrooms": null,
+      "sqft": 1,
+      "available": null,
+      "status": "to_see",
+      "laundry": null,
+      "lat": 37.8029,
+      "lon": -122.4198,
+      "notes": "From Craigslist · posted Aug 28, 4:09 PM",
+      "seen_by": [],
+      "added_by": "craigslist",
+      "added_at": "2026-08-28T19:42:11.947Z"
+    },
+    {
+      "id": "rf_97478d8b-edc9-4965-88b0-779fe78b477f",
+      "url": "https://www.redfin.com/CA/San-Francisco/1390-Jackson-St-94109/unit-302/home/205224967",
+      "address": "1390 Jackson St Apt 302",
+      "neighborhood": "Nob Hill",
+      "price": 8495,
+      "bedrooms": 3,
+      "bathrooms": 1.5,
+      "sqft": 1500,
+      "available": "2026-09-01T00:00:00Z",
+      "status": "to_see",
+      "laundry": null,
+      "lat": 37.7947612,
+      "lon": -122.4178518,
+      "notes": "From Redfin · $8495",
+      "seen_by": [],
+      "added_by": "redfin",
+      "added_at": "2026-08-28T19:42:11.947Z"
     }
   ]
 }
