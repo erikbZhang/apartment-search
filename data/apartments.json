@@ -9035,14 +9035,16 @@
       "bathrooms": null,
       "sqft": 1,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.8029,
       "lon": -122.4198,
       "notes": "From Craigslist · posted Aug 26, 9:28 PM",
       "seen_by": [],
       "added_by": "craigslist",
-      "added_at": "2026-08-27T02:20:36.860Z"
+      "added_at": "2026-08-27T02:20:36.860Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-08-29T02:32:17.894Z"
     },
     {
       "id": "rf_8847755d-f1ca-455d-9e31-2912ab032b75",
@@ -9178,6 +9180,44 @@
       "seen_by": [],
       "added_by": "redfin",
       "added_at": "2026-08-28T19:42:11.947Z"
+    },
+    {
+      "id": "cl_7956872603",
+      "url": "https://sfbay.craigslist.org/sfc/apa/d/san-francisco-tmlp-12-mo-three-bedroom/7956872603.html",
+      "address": "TMLP 12-mo. | Three Bedroom Apartment with Beautiful Views Available!",
+      "neighborhood": "Russian Hill",
+      "price": 9227,
+      "bedrooms": 3,
+      "bathrooms": null,
+      "sqft": 1,
+      "available": null,
+      "status": "to_see",
+      "laundry": null,
+      "lat": 37.8029,
+      "lon": -122.4198,
+      "notes": "From Craigslist · posted Aug 29, 2:16 AM",
+      "seen_by": [],
+      "added_by": "craigslist",
+      "added_at": "2026-08-29T02:32:17.894Z"
+    },
+    {
+      "id": "cl_7956742961",
+      "url": "https://sfbay.craigslist.org/sfc/apa/d/san-francisco-tmlp-12-mo-renovated/7956742961.html",
+      "address": "TMLP 12-mo. | Renovated Apartments Available, Ask Us About Them!",
+      "neighborhood": "Russian Hill",
+      "price": 9227,
+      "bedrooms": 3,
+      "bathrooms": null,
+      "sqft": 1,
+      "available": null,
+      "status": "to_see",
+      "laundry": null,
+      "lat": 37.8029,
+      "lon": -122.4198,
+      "notes": "From Craigslist · posted Aug 28, 9:34 PM",
+      "seen_by": [],
+      "added_by": "craigslist",
+      "added_at": "2026-08-29T02:32:17.894Z"
     }
   ]
 }
