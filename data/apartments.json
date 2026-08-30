@@ -9056,14 +9056,16 @@
       "bathrooms": 1.5,
       "sqft": null,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.8009105,
       "lon": -122.4444203,
       "notes": "From Redfin · $8995 · SCHEDULE A SHOWING ONLINE AT: showmojo.com/lrt/e8d3d3507f ---- Enjoy comfortable city living at 2390 Francisco St #103, a spacious 3-bedroom",
       "seen_by": [],
       "added_by": "redfin",
-      "added_at": "2026-08-27T13:14:20.482Z"
+      "added_at": "2026-08-27T13:14:20.482Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-08-30T17:01:27.538Z"
     },
     {
       "id": "rc_2390-Francisco-St,-Apt-103,-San-Francisco,-CA-94123",
