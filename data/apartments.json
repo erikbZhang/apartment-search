@@ -9167,14 +9167,16 @@
       "bathrooms": null,
       "sqft": 1,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.8029,
       "lon": -122.4198,
       "notes": "From Craigslist · posted Aug 28, 4:09 PM",
       "seen_by": [],
       "added_by": "craigslist",
-      "added_at": "2026-08-28T19:42:11.947Z"
+      "added_at": "2026-08-28T19:42:11.947Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-09-01T23:37:47.184Z"
     },
     {
       "id": "rf_97478d8b-edc9-4965-88b0-779fe78b477f",
@@ -9205,14 +9207,16 @@
       "bathrooms": null,
       "sqft": 1,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.8029,
       "lon": -122.4198,
       "notes": "From Craigslist · posted Aug 29, 2:16 AM",
       "seen_by": [],
       "added_by": "craigslist",
-      "added_at": "2026-08-29T02:32:17.894Z"
+      "added_at": "2026-08-29T02:32:17.894Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-09-01T23:37:47.184Z"
     },
     {
       "id": "cl_7956742961",
@@ -9224,14 +9228,16 @@
       "bathrooms": null,
       "sqft": 1,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.8029,
       "lon": -122.4198,
       "notes": "From Craigslist · posted Aug 28, 9:34 PM",
       "seen_by": [],
       "added_by": "craigslist",
-      "added_at": "2026-08-29T02:32:17.894Z"
+      "added_at": "2026-08-29T02:32:17.894Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-09-01T23:37:47.184Z"
     },
     {
       "id": "cl_7957201898",
@@ -9243,14 +9249,16 @@
       "bathrooms": null,
       "sqft": 1,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.8029,
       "lon": -122.4198,
       "notes": "From Craigslist · posted Aug 29, 6:40 PM",
       "seen_by": [],
       "added_by": "craigslist",
-      "added_at": "2026-08-29T20:20:59.553Z"
+      "added_at": "2026-08-29T20:20:59.553Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-09-01T23:37:47.184Z"
     },
     {
       "id": "cl_7957309484",
@@ -9272,6 +9280,25 @@
       "added_at": "2026-08-29T22:52:38.422Z",
       "prev_status": "to_see",
       "off_market_at": "2026-09-01T21:29:19.332Z"
+    },
+    {
+      "id": "cl_7959100077",
+      "url": "https://sfbay.craigslist.org/sfc/apa/d/san-francisco-tmlp-12-mo-ask-about-our/7959100077.html",
+      "address": "TMLP 12-mo. | Ask About Our Three Bedroom Apartments!",
+      "neighborhood": "Russian Hill",
+      "price": 9227,
+      "bedrooms": 3,
+      "bathrooms": null,
+      "sqft": 1,
+      "available": null,
+      "status": "to_see",
+      "laundry": null,
+      "lat": 37.8029,
+      "lon": -122.4198,
+      "notes": "From Craigslist · posted Sep 1, 9:39 PM",
+      "seen_by": [],
+      "added_by": "craigslist",
+      "added_at": "2026-09-01T23:37:47.184Z"
     }
   ]
 }
