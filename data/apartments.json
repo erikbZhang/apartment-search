@@ -8856,14 +8856,16 @@
       "bathrooms": 2,
       "sqft": 4518,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.7877402,
       "lon": -122.4446536,
       "notes": "From Redfin · $3675 · Vintage 3BD/2BA + Prime Pacific Heights Location! Garden ! Ground Floor 3BD/2BA apartment, features include: * Victorian era building. * 3 F",
       "seen_by": [],
       "added_by": "redfin",
-      "added_at": "2026-08-25T09:22:46.946Z"
+      "added_at": "2026-08-25T09:22:46.946Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-09-01T18:55:44.254Z"
     },
     {
       "id": "cl_7955776705",
