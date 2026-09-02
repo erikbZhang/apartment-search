@@ -7837,14 +7837,16 @@
       "bathrooms": 2,
       "sqft": 1670,
       "available": "2026-09-15T00:00:00Z",
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.7917907,
       "lon": -122.4238426,
       "notes": "From Redfin · $9500 · An impressive top-floor three-bedroom, two-bathroom flat, 1,670 sq ft residence (per tax records) offers gracious period architecture throug",
       "seen_by": [],
       "added_by": "redfin",
-      "added_at": "2026-08-14T03:19:15.811Z"
+      "added_at": "2026-08-14T03:19:15.811Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-09-02T15:28:20.691Z"
     },
     {
       "id": "cl_7953546007",
@@ -9322,6 +9324,25 @@
       "seen_by": [],
       "added_by": "craigslist",
       "added_at": "2026-09-02T11:48:16.860Z"
+    },
+    {
+      "id": "rf_20ab435f-70ee-4052-938c-e1b29deece8c",
+      "url": "https://www.redfin.com/CA/San-Francisco/2654-Union-St-94123/home/1323469",
+      "address": "2654 Union St",
+      "neighborhood": "Marina",
+      "price": 3267,
+      "bedrooms": 3,
+      "bathrooms": 2,
+      "sqft": 2000,
+      "available": null,
+      "status": "to_see",
+      "laundry": null,
+      "lat": 37.796295,
+      "lon": -122.4431664,
+      "notes": "From Redfin · $3267 · Located in sought-after Cow Hollow neighborhood. Close to the vibrant heart of the Northern edge of San Francisco along the waterfront. Shop",
+      "seen_by": [],
+      "added_by": "redfin",
+      "added_at": "2026-09-02T15:28:20.691Z"
     }
   ]
 }
