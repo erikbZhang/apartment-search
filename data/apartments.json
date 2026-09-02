@@ -9303,6 +9303,25 @@
       "seen_by": [],
       "added_by": "craigslist",
       "added_at": "2026-09-01T23:37:47.184Z"
+    },
+    {
+      "id": "cl_7959296976",
+      "url": "https://sfbay.craigslist.org/sfc/apa/d/san-francisco-remodeled-3br-2ba-in/7959296976.html",
+      "address": "Remodeled 3br/2ba in prime Noe Valley location",
+      "neighborhood": "Noe Valley",
+      "price": 9300,
+      "bedrooms": 3,
+      "bathrooms": null,
+      "sqft": 1500,
+      "available": null,
+      "status": "to_see",
+      "laundry": null,
+      "lat": 37.7509,
+      "lon": -122.4293,
+      "notes": "From Craigslist · posted Sep 2, 7:26 AM",
+      "seen_by": [],
+      "added_by": "craigslist",
+      "added_at": "2026-09-02T11:48:16.860Z"
     }
   ]
 }
