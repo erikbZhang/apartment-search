@@ -9368,6 +9368,25 @@
       "seen_by": [],
       "added_by": "craigslist",
       "added_at": "2026-09-03T21:27:48.137Z"
+    },
+    {
+      "id": "cl_7960967385",
+      "url": "https://sfbay.craigslist.org/sfc/apa/d/san-francisco-luxury-3br-condo-with/7960967385.html",
+      "address": "Luxury 3BR Condo with Parking in the Marina!",
+      "neighborhood": "Marina",
+      "price": 8495,
+      "bedrooms": 3,
+      "bathrooms": null,
+      "sqft": 1650,
+      "available": null,
+      "status": "to_see",
+      "laundry": null,
+      "lat": 37.8025,
+      "lon": -122.4265,
+      "notes": "From Craigslist · posted Sep 4, 11:06 PM",
+      "seen_by": [],
+      "added_by": "craigslist",
+      "added_at": "2026-09-04T23:29:56.985Z"
     }
   ]
 }
