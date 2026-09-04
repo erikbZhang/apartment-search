@@ -9112,14 +9112,16 @@
       "bathrooms": null,
       "sqft": 1500,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.7946,
       "lon": -122.4179,
       "notes": "From Craigslist · posted Aug 27, 7:55 PM",
       "seen_by": [],
       "added_by": "craigslist",
-      "added_at": "2026-08-27T23:18:01.022Z"
+      "added_at": "2026-08-27T23:18:01.022Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-09-04T06:38:52.661Z"
     },
     {
       "id": "cl_7956216974",
@@ -9337,14 +9339,16 @@
       "bathrooms": 2,
       "sqft": 2000,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.796295,
       "lon": -122.4431664,
       "notes": "From Redfin · $3267 · Located in sought-after Cow Hollow neighborhood. Close to the vibrant heart of the Northern edge of San Francisco along the waterfront. Shop",
       "seen_by": [],
       "added_by": "redfin",
-      "added_at": "2026-09-02T15:28:20.691Z"
+      "added_at": "2026-09-02T15:28:20.691Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-09-04T06:38:52.661Z"
     },
     {
       "id": "cl_7960325661",
