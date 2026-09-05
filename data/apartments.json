@@ -9387,6 +9387,25 @@
       "seen_by": [],
       "added_by": "craigslist",
       "added_at": "2026-09-04T23:29:56.985Z"
+    },
+    {
+      "id": "cl_7961190153",
+      "url": "https://sfbay.craigslist.org/sfc/apa/d/san-francisco-bright-updated-bed25-bath/7961190153.html",
+      "address": "Bright & Updated 3 bed,2.5 bath full-floor Condo in Marina District",
+      "neighborhood": "Marina",
+      "price": 2169,
+      "bedrooms": 3,
+      "bathrooms": null,
+      "sqft": 0,
+      "available": null,
+      "status": "to_see",
+      "laundry": null,
+      "lat": 37.8,
+      "lon": -122.4349,
+      "notes": "From Craigslist · posted Sep 5, 2:18 PM",
+      "seen_by": [],
+      "added_by": "craigslist",
+      "added_at": "2026-09-05T16:20:42.659Z"
     }
   ]
 }
