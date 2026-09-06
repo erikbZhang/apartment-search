@@ -9196,14 +9196,16 @@
       "bathrooms": 1.5,
       "sqft": 1500,
       "available": "2026-09-01T00:00:00Z",
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.7947612,
       "lon": -122.4178518,
       "notes": "From Redfin · $8495",
       "seen_by": [],
       "added_by": "redfin",
-      "added_at": "2026-08-28T19:42:11.947Z"
+      "added_at": "2026-08-28T19:42:11.947Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-09-06T16:31:47.540Z"
     },
     {
       "id": "cl_7956872603",
