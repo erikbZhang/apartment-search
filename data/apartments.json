@@ -9431,6 +9431,25 @@
       "added_at": "2026-09-06T18:42:25.703Z",
       "prev_status": "to_see",
       "off_market_at": "2026-09-06T20:54:34.135Z"
+    },
+    {
+      "id": "cl_7962077229",
+      "url": "https://sfbay.craigslist.org/sfc/apa/d/san-francisco-luxury-living-at-2000/7962077229.html",
+      "address": "Luxury Living at 2000 Post in Pacific Heights$$",
+      "neighborhood": "Pacific Heights",
+      "price": 1120,
+      "bedrooms": 3,
+      "bathrooms": null,
+      "sqft": 0,
+      "available": null,
+      "status": "to_see",
+      "laundry": null,
+      "lat": 37.7849,
+      "lon": -122.4347,
+      "notes": "From Craigslist · posted Sep 7, 4:04 AM",
+      "seen_by": [],
+      "added_by": "craigslist",
+      "added_at": "2026-09-07T05:22:53.163Z"
     }
   ]
 }
