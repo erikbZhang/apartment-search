@@ -9463,14 +9463,16 @@
       "bathrooms": null,
       "sqft": 0,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.8036,
       "lon": -122.4221,
       "notes": "From Craigslist · posted Sep 7, 5:56 AM",
       "seen_by": [],
       "added_by": "craigslist",
-      "added_at": "2026-09-07T10:53:57.383Z"
+      "added_at": "2026-09-07T10:53:57.383Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-09-07T16:10:05.567Z"
     },
     {
       "id": "rc_3044-Franklin-St,-Apt-202,-San-Francisco,-CA-94123",
@@ -9490,6 +9492,25 @@
       "seen_by": [],
       "added_by": "rentcast",
       "added_at": "2026-09-07T15:04:46.695Z"
+    },
+    {
+      "id": "rf_e3ec6b4b-3e14-45d0-8cb9-f59972305c16",
+      "url": "https://www.redfin.com/CA/San-Francisco/3044-Franklin-St-94123/home/205402060",
+      "address": "3044 Franklin St",
+      "neighborhood": "Marina",
+      "price": 8495,
+      "bedrooms": 3,
+      "bathrooms": 2,
+      "sqft": null,
+      "available": null,
+      "status": "to_see",
+      "laundry": null,
+      "lat": 37.8027265,
+      "lon": -122.4261979,
+      "notes": "From Redfin · $8495 · 3044 Franklin Street, #202 3 Bedrooms ! 2 Bathrooms ! Approximately 1,650 SF ! Parking Included *Spectacular second-floor luxury condominium",
+      "seen_by": [],
+      "added_by": "redfin",
+      "added_at": "2026-09-07T16:10:05.567Z"
     }
   ]
 }
