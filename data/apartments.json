@@ -9442,14 +9442,35 @@
       "bathrooms": null,
       "sqft": 0,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.7849,
       "lon": -122.4347,
       "notes": "From Craigslist · posted Sep 7, 4:04 AM",
       "seen_by": [],
       "added_by": "craigslist",
-      "added_at": "2026-09-07T05:22:53.163Z"
+      "added_at": "2026-09-07T05:22:53.163Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-09-07T10:53:57.383Z"
+    },
+    {
+      "id": "cl_7962097143",
+      "url": "https://sfbay.craigslist.org/sfc/apa/d/san-francisco-beautiful-spacious/7962097143.html",
+      "address": "Beautiful & Spacious 3-Bedroom, 2.5-Bath House in Russian Hill $1300/M",
+      "neighborhood": "Russian Hill",
+      "price": 1425,
+      "bedrooms": 3,
+      "bathrooms": null,
+      "sqft": 0,
+      "available": null,
+      "status": "to_see",
+      "laundry": null,
+      "lat": 37.8036,
+      "lon": -122.4221,
+      "notes": "From Craigslist · posted Sep 7, 5:56 AM",
+      "seen_by": [],
+      "added_by": "craigslist",
+      "added_at": "2026-09-07T10:53:57.383Z"
     }
   ]
 }
