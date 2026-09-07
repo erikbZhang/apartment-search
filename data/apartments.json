@@ -9471,6 +9471,25 @@
       "seen_by": [],
       "added_by": "craigslist",
       "added_at": "2026-09-07T10:53:57.383Z"
+    },
+    {
+      "id": "rc_3044-Franklin-St,-Apt-202,-San-Francisco,-CA-94123",
+      "url": "https://www.google.com/search?q=3044%20Franklin%20St%2C%20Apt%20202%2C%20San%20Francisco%2C%20CA%2094123%20for%20rent",
+      "address": "3044 Franklin St, Apt 202, San Francisco, CA 94123",
+      "neighborhood": "Marina",
+      "price": 8495,
+      "bedrooms": 3,
+      "bathrooms": 2,
+      "sqft": 1650,
+      "available": "2026-09-07",
+      "status": "to_see",
+      "laundry": null,
+      "lat": 37.802717,
+      "lon": -122.426147,
+      "notes": "From RentCast · $8495 · 1d on market",
+      "seen_by": [],
+      "added_by": "rentcast",
+      "added_at": "2026-09-07T15:04:46.695Z"
     }
   ]
 }
