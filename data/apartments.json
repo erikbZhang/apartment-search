@@ -9522,14 +9522,16 @@
       "bathrooms": null,
       "sqft": 1809,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.7771,
       "lon": -122.4253,
       "notes": "From Craigslist · posted Sep 8, 3:01 AM",
       "seen_by": [],
       "added_by": "craigslist",
-      "added_at": "2026-09-08T06:39:02.777Z"
+      "added_at": "2026-09-08T06:39:02.777Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-09-08T19:03:47.799Z"
     },
     {
       "id": "cl_7962657588",
@@ -9562,14 +9564,16 @@
       "bathrooms": null,
       "sqft": 1594,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.7482,
       "lon": -122.4293,
       "notes": "From Craigslist · posted Sep 8, 6:53 AM",
       "seen_by": [],
       "added_by": "craigslist",
-      "added_at": "2026-09-08T11:50:21.160Z"
+      "added_at": "2026-09-08T11:50:21.160Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-09-08T19:03:47.799Z"
     },
     {
       "id": "cl_7962666504",
@@ -9581,14 +9585,16 @@
       "bathrooms": null,
       "sqft": 0,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.797,
       "lon": -122.4139,
       "notes": "From Craigslist · posted Sep 8, 6:49 AM",
       "seen_by": [],
       "added_by": "craigslist",
-      "added_at": "2026-09-08T11:50:21.160Z"
+      "added_at": "2026-09-08T11:50:21.160Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-09-08T19:03:47.799Z"
     },
     {
       "id": "cl_7962690960",
@@ -9600,14 +9606,16 @@
       "bathrooms": null,
       "sqft": 0,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.8001,
       "lon": -122.4098,
       "notes": "From Craigslist · posted Sep 8, 10:12 AM",
       "seen_by": [],
       "added_by": "craigslist",
-      "added_at": "2026-09-08T11:50:21.160Z"
+      "added_at": "2026-09-08T11:50:21.160Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-09-08T19:03:47.799Z"
     }
   ]
 }
