@@ -9511,6 +9511,44 @@
       "seen_by": [],
       "added_by": "redfin",
       "added_at": "2026-09-07T16:10:05.567Z"
+    },
+    {
+      "id": "cl_7962619332",
+      "url": "https://sfbay.craigslist.org/sfc/apa/d/san-francisco-bright-3bd-edwardian-25/7962619332.html",
+      "address": "Bright 3BD Edwardian w/ 2.5 Bedrooms on One Level",
+      "neighborhood": "Hayes Valley",
+      "price": 5600,
+      "bedrooms": 3,
+      "bathrooms": null,
+      "sqft": 1809,
+      "available": null,
+      "status": "to_see",
+      "laundry": null,
+      "lat": 37.7771,
+      "lon": -122.4253,
+      "notes": "From Craigslist · posted Sep 8, 3:01 AM",
+      "seen_by": [],
+      "added_by": "craigslist",
+      "added_at": "2026-09-08T06:39:02.777Z"
+    },
+    {
+      "id": "cl_7962657588",
+      "url": "https://sfbay.craigslist.org/sfc/apa/d/san-francisco-stunning-three-bedroom/7962657588.html",
+      "address": "Stunning Three-Bedroom Home on Russian Hill’s Iconic Broadway Steps @@",
+      "neighborhood": "Russian Hill",
+      "price": 1280,
+      "bedrooms": 3,
+      "bathrooms": null,
+      "sqft": 0,
+      "available": null,
+      "status": "to_see",
+      "laundry": null,
+      "lat": 37.797,
+      "lon": -122.4139,
+      "notes": "From Craigslist · posted Sep 8, 6:05 AM",
+      "seen_by": [],
+      "added_by": "craigslist",
+      "added_at": "2026-09-08T06:39:02.777Z"
     }
   ]
 }
