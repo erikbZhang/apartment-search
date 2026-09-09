@@ -9627,14 +9627,35 @@
       "bathrooms": null,
       "sqft": 0,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.7455,
       "lon": -122.4241,
       "notes": "From Craigslist · posted Sep 9, 12:14 AM",
       "seen_by": [],
       "added_by": "craigslist",
-      "added_at": "2026-09-09T00:47:46.762Z"
+      "added_at": "2026-09-09T00:47:46.762Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-09-09T05:27:58.419Z"
+    },
+    {
+      "id": "cl_7963261020",
+      "url": "https://sfbay.craigslist.org/sfc/apa/d/san-francisco-bedroom-bath-noe-valley-2/7963261020.html",
+      "address": "4-Bedroom/2-Bath Noe Valley w/ 2-Car Garage Patio & Huge Yard",
+      "neighborhood": "Noe Valley",
+      "price": 5700,
+      "bedrooms": 4,
+      "bathrooms": null,
+      "sqft": 1785,
+      "available": null,
+      "status": "to_see",
+      "laundry": null,
+      "lat": 37.7476,
+      "lon": -122.4284,
+      "notes": "From Craigslist · posted Sep 9, 4:09 AM",
+      "seen_by": [],
+      "added_by": "craigslist",
+      "added_at": "2026-09-09T05:27:58.419Z"
     }
   ]
 }
