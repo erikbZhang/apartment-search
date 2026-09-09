@@ -9616,6 +9616,25 @@
       "added_at": "2026-09-08T11:50:21.160Z",
       "prev_status": "to_see",
       "off_market_at": "2026-09-08T19:03:47.799Z"
+    },
+    {
+      "id": "cl_7963177662",
+      "url": "https://sfbay.craigslist.org/sfc/apa/d/san-francisco-top-floor-noe-valley/7963177662.html",
+      "address": "Top Floor - Noe Valley - Luxury Remodel + 3BR + 2Bath",
+      "neighborhood": "Noe Valley",
+      "price": 3255,
+      "bedrooms": 3,
+      "bathrooms": null,
+      "sqft": 0,
+      "available": null,
+      "status": "to_see",
+      "laundry": null,
+      "lat": 37.7455,
+      "lon": -122.4241,
+      "notes": "From Craigslist · posted Sep 9, 12:14 AM",
+      "seen_by": [],
+      "added_by": "craigslist",
+      "added_at": "2026-09-09T00:47:46.762Z"
     }
   ]
 }
