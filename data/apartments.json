@@ -9656,6 +9656,44 @@
       "seen_by": [],
       "added_by": "craigslist",
       "added_at": "2026-09-09T05:27:58.419Z"
+    },
+    {
+      "id": "cl_7963304802",
+      "url": "https://sfbay.craigslist.org/sfc/apa/d/san-francisco-nob-hill-bridge-view/7963304802.html",
+      "address": "Nob Hill 2-Bridge View 3-Bedroom, Flat w/ Garage Pkg & In-Unit W/D",
+      "neighborhood": "Nob Hill",
+      "price": 5700,
+      "bedrooms": 3,
+      "bathrooms": null,
+      "sqft": 1334,
+      "available": null,
+      "status": "to_see",
+      "laundry": "in_unit",
+      "lat": 37.7946,
+      "lon": -122.4175,
+      "notes": "From Craigslist · posted Sep 9, 8:41 AM",
+      "seen_by": [],
+      "added_by": "craigslist",
+      "added_at": "2026-09-09T10:15:26.459Z"
+    },
+    {
+      "id": "cl_7963293264",
+      "url": "https://sfbay.craigslist.org/sfc/apa/d/san-francisco-updated-spacious-amazing/7963293264.html",
+      "address": "Updated Spacious Amazing View 3BR/2BA Laundry In Unit Balcony Pets OK",
+      "neighborhood": "Russian Hill",
+      "price": 1600,
+      "bedrooms": 3,
+      "bathrooms": null,
+      "sqft": 0,
+      "available": null,
+      "status": "to_see",
+      "laundry": "in_unit",
+      "lat": 37.8014,
+      "lon": -122.4195,
+      "notes": "From Craigslist · posted Sep 9, 7:25 AM",
+      "seen_by": [],
+      "added_by": "craigslist",
+      "added_at": "2026-09-09T10:15:26.459Z"
     }
   ]
 }
