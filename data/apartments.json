@@ -9721,6 +9721,44 @@
       "seen_by": [],
       "added_by": "rentcast",
       "added_at": "2026-09-10T13:38:39.193Z"
+    },
+    {
+      "id": "rf_3dd188e4-7a70-490d-a816-622a1730500b",
+      "url": "https://www.redfin.com/CA/San-Francisco/635-Fulton-St-94102/home/201660927",
+      "address": "635 Fulton St",
+      "neighborhood": "Western Addition",
+      "price": 8495,
+      "bedrooms": 3,
+      "bathrooms": 2,
+      "sqft": 1085,
+      "available": "2026-09-23T00:00:00Z",
+      "status": "to_see",
+      "laundry": null,
+      "lat": 37.7781368,
+      "lon": -122.42729,
+      "notes": "From Redfin · $8495 · SCHEDULE A SHOWING ONLINE AT: showmojo.com/lrt/e930ee608e ---- Want to be a part of History!! Look up the Englander Residence and come live ",
+      "seen_by": [],
+      "added_by": "redfin",
+      "added_at": "2026-09-10T15:22:55.794Z"
+    },
+    {
+      "id": "rf_5a8d0c6d-39c0-4b4e-bad8-78d7974ede71",
+      "url": "https://www.redfin.com/CA/San-Francisco/42-Allen-St-94109/unit-48/home/205467291",
+      "address": "42 Allen St Unit 48",
+      "neighborhood": "Russian Hill",
+      "price": 6600,
+      "bedrooms": 3,
+      "bathrooms": 1,
+      "sqft": 880,
+      "available": null,
+      "status": "to_see",
+      "laundry": null,
+      "lat": 37.799494,
+      "lon": -122.4198592,
+      "notes": "From Redfin · $6600",
+      "seen_by": [],
+      "added_by": "redfin",
+      "added_at": "2026-09-10T15:22:55.794Z"
     }
   ]
 }
