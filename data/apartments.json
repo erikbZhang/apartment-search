@@ -9702,6 +9702,25 @@
       "added_at": "2026-09-09T10:15:26.459Z",
       "prev_status": "to_see",
       "off_market_at": "2026-09-09T18:05:43.969Z"
+    },
+    {
+      "id": "rc_635-Fulton-St,-Apt-9,-San-Francisco,-CA-94102",
+      "url": "https://www.google.com/search?q=635%20Fulton%20St%2C%20Apt%209%2C%20San%20Francisco%2C%20CA%2094102%20for%20rent",
+      "address": "635 Fulton St, Apt 9, San Francisco, CA 94102",
+      "neighborhood": "Western Addition",
+      "price": 8495,
+      "bedrooms": 3,
+      "bathrooms": 2,
+      "sqft": 1085,
+      "available": "2026-09-10",
+      "status": "to_see",
+      "laundry": null,
+      "lat": 37.777985,
+      "lon": -122.427277,
+      "notes": "From RentCast · $8495 · 1d on market",
+      "seen_by": [],
+      "added_by": "rentcast",
+      "added_at": "2026-09-10T13:38:39.193Z"
     }
   ]
 }
