@@ -9759,6 +9759,25 @@
       "seen_by": [],
       "added_by": "redfin",
       "added_at": "2026-09-10T15:22:55.794Z"
+    },
+    {
+      "id": "cl_7964365920",
+      "url": "https://sfbay.craigslist.org/sfc/apa/d/san-francisco-fantastic-bedroom/7964365920.html",
+      "address": "Fantastic 3 bedroom - remodeled  kitchen and bath",
+      "neighborhood": "Nob Hill",
+      "price": 7495,
+      "bedrooms": 3,
+      "bathrooms": null,
+      "sqft": 0,
+      "available": null,
+      "status": "to_see",
+      "laundry": null,
+      "lat": 37.8002,
+      "lon": -122.4091,
+      "notes": "From Craigslist · posted Sep 10, 11:43 PM",
+      "seen_by": [],
+      "added_by": "craigslist",
+      "added_at": "2026-09-11T01:47:28.115Z"
     }
   ]
 }
