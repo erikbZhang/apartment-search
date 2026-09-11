@@ -9778,6 +9778,25 @@
       "seen_by": [],
       "added_by": "craigslist",
       "added_at": "2026-09-11T01:47:28.115Z"
+    },
+    {
+      "id": "cl_7964525577",
+      "url": "https://sfbay.craigslist.org/sfc/apa/d/san-francisco-dolores-street-bed-bath/7964525577.html",
+      "address": "Dolores Street 3-Bed, 1-Bath Built-Ins, Yard, Storage nr Dolores Park",
+      "neighborhood": "Noe Valley",
+      "price": 5270,
+      "bedrooms": 3,
+      "bathrooms": null,
+      "sqft": 1435,
+      "available": null,
+      "status": "to_see",
+      "laundry": null,
+      "lat": 37.7503,
+      "lon": -122.425,
+      "notes": "From Craigslist · posted Sep 11, 12:37 PM",
+      "seen_by": [],
+      "added_by": "craigslist",
+      "added_at": "2026-09-11T15:23:50.092Z"
     }
   ]
 }
