@@ -9799,6 +9799,25 @@
       "added_at": "2026-09-11T15:23:50.092Z",
       "prev_status": "to_see",
       "off_market_at": "2026-09-11T18:49:11.025Z"
+    },
+    {
+      "id": "rf_17c832fd-a3d0-48b0-aa7c-0ccaaab3cadf",
+      "url": "https://www.redfin.com/CA/San-Francisco/1927-Greenwich-St-94123/unit-1933/home/205523877",
+      "address": "1927 Greenwich St Unit 1933",
+      "neighborhood": "Marina",
+      "price": 7995,
+      "bedrooms": 3,
+      "bathrooms": 1,
+      "sqft": null,
+      "available": null,
+      "status": "to_see",
+      "laundry": null,
+      "lat": 37.7991785,
+      "lon": -122.4318406,
+      "notes": "From Redfin · $7995",
+      "seen_by": [],
+      "added_by": "redfin",
+      "added_at": "2026-09-12T14:31:36.634Z"
     }
   ]
 }
