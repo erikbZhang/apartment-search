@@ -9837,6 +9837,25 @@
       "seen_by": [],
       "added_by": "craigslist",
       "added_at": "2026-09-13T01:44:51.179Z"
+    },
+    {
+      "id": "cl_7965546681",
+      "url": "https://sfbay.craigslist.org/sfc/apa/d/san-francisco-quiet-neighborhood-cozy/7965546681.html",
+      "address": "★ QUIET NEIGHBORHOOD ★ Cozy 1 Bedroom w/ Off-Street Parking",
+      "neighborhood": "Russian Hill",
+      "price": 5480,
+      "bedrooms": 3,
+      "bathrooms": null,
+      "sqft": 1280,
+      "available": null,
+      "status": "to_see",
+      "laundry": null,
+      "lat": 37.8036,
+      "lon": -122.4221,
+      "notes": "From Craigslist · posted Sep 13, 1:45 AM",
+      "seen_by": [],
+      "added_by": "craigslist",
+      "added_at": "2026-09-13T06:53:57.263Z"
     }
   ]
 }
