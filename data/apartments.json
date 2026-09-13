@@ -9860,6 +9860,25 @@
       "added_at": "2026-09-13T06:53:57.263Z",
       "prev_status": "to_see",
       "off_market_at": "2026-09-13T16:42:39.539Z"
+    },
+    {
+      "id": "cl_7965938649",
+      "url": "https://sfbay.craigslist.org/sfc/apa/d/san-francisco-updated-top-floor-cow/7965938649.html",
+      "address": "Updated Top Floor Cow Hollow 3BR!",
+      "neighborhood": "Marina",
+      "price": 7995,
+      "bedrooms": 3,
+      "bathrooms": null,
+      "sqft": 0,
+      "available": null,
+      "status": "to_see",
+      "laundry": null,
+      "lat": 37.7995,
+      "lon": -122.4315,
+      "notes": "From Craigslist · posted Sep 13, 10:00 PM",
+      "seen_by": [],
+      "added_by": "craigslist",
+      "added_at": "2026-09-13T23:43:34.850Z"
     }
   ]
 }
