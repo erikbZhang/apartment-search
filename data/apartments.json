@@ -9818,6 +9818,25 @@
       "seen_by": [],
       "added_by": "redfin",
       "added_at": "2026-09-12T14:31:36.634Z"
+    },
+    {
+      "id": "cl_7965538911",
+      "url": "https://sfbay.craigslist.org/sfc/apa/d/san-francisco-cozy-brick-and-beam/7965538911.html",
+      "address": "Cozy Brick-and-Beam Hideaway Full of Old-World Charm",
+      "neighborhood": "Russian Hill",
+      "price": 2890,
+      "bedrooms": 3,
+      "bathrooms": null,
+      "sqft": 880,
+      "available": null,
+      "status": "to_see",
+      "laundry": null,
+      "lat": 37.7994,
+      "lon": -122.4195,
+      "notes": "From Craigslist · posted Sep 13, 1:17 AM",
+      "seen_by": [],
+      "added_by": "craigslist",
+      "added_at": "2026-09-13T01:44:51.179Z"
     }
   ]
 }
