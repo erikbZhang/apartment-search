@@ -9715,14 +9715,16 @@
       "bathrooms": 2,
       "sqft": 1085,
       "available": "2026-09-10",
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.777985,
       "lon": -122.427277,
       "notes": "From RentCast · $8495 · 1d on market",
       "seen_by": [],
       "added_by": "rentcast",
-      "added_at": "2026-09-10T13:38:39.193Z"
+      "added_at": "2026-09-10T13:38:39.193Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-09-14T15:54:25.565Z"
     },
     {
       "id": "rf_3dd188e4-7a70-490d-a816-622a1730500b",
