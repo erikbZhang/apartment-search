@@ -6602,14 +6602,16 @@
       "bathrooms": 1,
       "sqft": 880,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.7838328,
       "lon": -122.4318461,
       "notes": "From Redfin · $5595–$6500 · Please inquire about availabilities: Showing Spacious, Newly Remodeled Apartments in the Heart of San Francisco! Discover your next home in ",
       "seen_by": [],
       "added_by": "redfin",
-      "added_at": "2026-08-02T16:43:32.265Z"
+      "added_at": "2026-08-02T16:43:32.265Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-09-15T17:21:55.825Z"
     },
     {
       "id": "cl_7951145532",
@@ -9736,14 +9738,16 @@
       "bathrooms": 2,
       "sqft": 1085,
       "available": "2026-09-23T00:00:00Z",
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.7781368,
       "lon": -122.42729,
       "notes": "From Redfin · $8495 · SCHEDULE A SHOWING ONLINE AT: showmojo.com/lrt/e930ee608e ---- Want to be a part of History!! Look up the Englander Residence and come live ",
       "seen_by": [],
       "added_by": "redfin",
-      "added_at": "2026-09-10T15:22:55.794Z"
+      "added_at": "2026-09-10T15:22:55.794Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-09-15T17:21:55.825Z"
     },
     {
       "id": "rf_5a8d0c6d-39c0-4b4e-bad8-78d7974ede71",
