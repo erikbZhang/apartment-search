@@ -9778,14 +9778,16 @@
       "bathrooms": null,
       "sqft": 0,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.8002,
       "lon": -122.4091,
       "notes": "From Craigslist · posted Sep 10, 11:43 PM",
       "seen_by": [],
       "added_by": "craigslist",
-      "added_at": "2026-09-11T01:47:28.115Z"
+      "added_at": "2026-09-11T01:47:28.115Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-09-16T02:02:20.215Z"
     },
     {
       "id": "cl_7964525577",
@@ -9887,6 +9889,25 @@
       "seen_by": [],
       "added_by": "craigslist",
       "added_at": "2026-09-13T23:43:34.850Z"
+    },
+    {
+      "id": "cl_7967254176",
+      "url": "https://sfbay.craigslist.org/sfc/apa/d/san-francisco-fantastic-bedroom/7967254176.html",
+      "address": "Fantastic 3 bedroom - remodeled  kitchen and bath",
+      "neighborhood": "Nob Hill",
+      "price": 7495,
+      "bedrooms": 3,
+      "bathrooms": null,
+      "sqft": 0,
+      "available": null,
+      "status": "to_see",
+      "laundry": null,
+      "lat": 37.8002,
+      "lon": -122.4091,
+      "notes": "From Craigslist · posted Sep 16, 1:47 AM",
+      "seen_by": [],
+      "added_by": "craigslist",
+      "added_at": "2026-09-16T02:02:20.215Z"
     }
   ]
 }
