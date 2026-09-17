@@ -7925,14 +7925,16 @@
       "bathrooms": 2,
       "sqft": 1000,
       "available": "2026-09-01T00:00:00Z",
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.7951828,
       "lon": -122.4109349,
       "notes": "From Redfin · $1150 · _ Sharing with 2 nice young ladies - Convenient in transportation - Close to North Beach - Close to Shopping area and Restaurant - Close to ",
       "seen_by": [],
       "added_by": "redfin",
-      "added_at": "2026-08-15T13:21:09.278Z"
+      "added_at": "2026-08-15T13:21:09.278Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-09-17T13:51:39.078Z"
     },
     {
       "id": "cl_7953646286",
