@@ -10013,6 +10013,25 @@
       "seen_by": [],
       "added_by": "rentcast",
       "added_at": "2026-09-18T13:37:49.469Z"
+    },
+    {
+      "id": "cl_7968899340",
+      "url": "https://sfbay.craigslist.org/sfc/apa/d/san-francisco-must-see-masterpiece-on/7968899340.html",
+      "address": "Must See Masterpiece on Tree Lined 20th Street | One Car Pkg | W/D",
+      "neighborhood": "Noe Valley",
+      "price": 8750,
+      "bedrooms": 3,
+      "bathrooms": null,
+      "sqft": 1453,
+      "available": null,
+      "status": "to_see",
+      "laundry": null,
+      "lat": 37.7578,
+      "lon": -122.4334,
+      "notes": "From Craigslist · posted Sep 18, 9:20 PM",
+      "seen_by": [],
+      "added_by": "craigslist",
+      "added_at": "2026-09-18T23:42:34.246Z"
     }
   ]
 }
