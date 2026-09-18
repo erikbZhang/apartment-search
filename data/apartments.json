@@ -9921,14 +9921,16 @@
       "bathrooms": 1,
       "sqft": 1400,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.7511303,
       "lon": -122.433249,
       "notes": "From Redfin · $5495 · Property Representative: Ray Amouzandeh<br><br>Experience the charm of Noe Valley, where 24th Street meets Castro. This welcoming community ",
       "seen_by": [],
       "added_by": "redfin",
-      "added_at": "2026-09-16T13:06:07.419Z"
+      "added_at": "2026-09-16T13:06:07.419Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-09-18T11:56:44.323Z"
     },
     {
       "id": "cl_7967816751",
