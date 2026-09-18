@@ -9950,6 +9950,44 @@
       "added_at": "2026-09-17T02:06:26.924Z",
       "prev_status": "to_see",
       "off_market_at": "2026-09-17T17:47:39.859Z"
+    },
+    {
+      "id": "cl_7968488532",
+      "url": "https://sfbay.craigslist.org/sfc/apa/d/san-francisco-632-filbert-street-large/7968488532.html",
+      "address": "632 A Filbert Street - Large 4 Room Unit - Newly Remodeled",
+      "neighborhood": "North Beach",
+      "price": 7000,
+      "bedrooms": 4,
+      "bathrooms": null,
+      "sqft": 0,
+      "available": null,
+      "status": "to_see",
+      "laundry": null,
+      "lat": 37.8008,
+      "lon": -122.409,
+      "notes": "From Craigslist · posted Sep 18, 5:09 AM",
+      "seen_by": [],
+      "added_by": "craigslist",
+      "added_at": "2026-09-18T06:48:19.913Z"
+    },
+    {
+      "id": "cl_7968465054",
+      "url": "https://sfbay.craigslist.org/sfc/apa/d/san-francisco-classic-spacious-fully/7968465054.html",
+      "address": "Classic & Spacious Fully Updated Nob Hill Edwardian 3BR | In-Unit Laun",
+      "neighborhood": "Nob Hill",
+      "price": 8995,
+      "bedrooms": 3,
+      "bathrooms": null,
+      "sqft": 0,
+      "available": null,
+      "status": "to_see",
+      "laundry": "in_unit",
+      "lat": 37.7929,
+      "lon": -122.4079,
+      "notes": "From Craigslist · posted Sep 18, 3:14 AM",
+      "seen_by": [],
+      "added_by": "craigslist",
+      "added_at": "2026-09-18T06:48:19.913Z"
     }
   ]
 }
