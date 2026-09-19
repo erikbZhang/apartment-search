@@ -10207,6 +10207,44 @@
       "seen_by": [],
       "added_by": "rentcast",
       "added_at": "2026-09-19T13:11:39.085Z"
+    },
+    {
+      "id": "cl_7969198113",
+      "url": "https://sfbay.craigslist.org/sfc/apa/d/san-francisco-marina-district-golden/7969198113.html",
+      "address": "Marina District 94123 Golden Gate Views & City Lifestyle",
+      "neighborhood": "Marina",
+      "price": 4780,
+      "bedrooms": 3,
+      "bathrooms": null,
+      "sqft": 500,
+      "available": null,
+      "status": "to_see",
+      "laundry": null,
+      "lat": 37.7999,
+      "lon": -122.4342,
+      "notes": "From Craigslist · posted Sep 19, 2:11 PM",
+      "seen_by": [],
+      "added_by": "craigslist",
+      "added_at": "2026-09-19T16:08:05.236Z"
+    },
+    {
+      "id": "rf_a75ca52a-c39a-4a4e-b8d5-a864ef834585",
+      "url": "https://www.redfin.com/CA/San-Francisco/1572-Church-St-94131/home/40143045",
+      "address": "1572 Church St",
+      "neighborhood": "Noe Valley",
+      "price": 7295,
+      "bedrooms": 3,
+      "bathrooms": 1,
+      "sqft": 1080,
+      "available": null,
+      "status": "to_see",
+      "laundry": null,
+      "lat": 37.7456409,
+      "lon": -122.4271141,
+      "notes": "From Redfin · $7295 · SCHEDULE A SHOWING ONLINE AT: showmojo.com/lrt/35fff83095 ---- Welcome to 1572 Church Street! Classic San Francisco charm meets everyday com",
+      "seen_by": [],
+      "added_by": "redfin",
+      "added_at": "2026-09-19T16:08:05.236Z"
     }
   ]
 }
