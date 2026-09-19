@@ -10259,6 +10259,25 @@
       "seen_by": [],
       "added_by": "redfin",
       "added_at": "2026-09-19T16:08:05.236Z"
+    },
+    {
+      "id": "rf_41e8880e-93ac-4923-9ac4-b53975b08ba0",
+      "url": "https://www.redfin.com/CA/San-Francisco/400-Duboce-Ave-94117/home/178659458",
+      "address": "400 Duboce Ave",
+      "neighborhood": "Western Addition",
+      "price": 5340,
+      "bedrooms": 3,
+      "bathrooms": 1,
+      "sqft": 451,
+      "available": null,
+      "status": "to_see",
+      "laundry": null,
+      "lat": 37.7696523,
+      "lon": -122.4295781,
+      "notes": "From Redfin · $5340–$7840 · Discover 400 Duboce Apartments, a modern residential community in San Francisco's Duboce Triangle, designed for both comfort and convenience",
+      "seen_by": [],
+      "added_by": "redfin",
+      "added_at": "2026-09-19T21:51:44.063Z"
     }
   ]
 }
