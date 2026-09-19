@@ -9494,14 +9494,16 @@
       "bathrooms": 2,
       "sqft": 1650,
       "available": "2026-09-07",
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.802717,
       "lon": -122.426147,
       "notes": "From RentCast · $8495 · 1d on market",
       "seen_by": [],
       "added_by": "rentcast",
-      "added_at": "2026-09-07T15:04:46.695Z"
+      "added_at": "2026-09-07T15:04:46.695Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-09-19T13:11:39.085Z"
     },
     {
       "id": "rf_e3ec6b4b-3e14-45d0-8cb9-f59972305c16",
@@ -10186,6 +10188,25 @@
       "seen_by": [],
       "added_by": "redfin",
       "added_at": "2026-09-19T12:06:31.648Z"
+    },
+    {
+      "id": "rc_1572-Church-St,-San-Francisco,-CA-94131",
+      "url": "https://www.google.com/search?q=1572%20Church%20St%2C%20San%20Francisco%2C%20CA%2094131%20for%20rent",
+      "address": "1572 Church St, San Francisco, CA 94131",
+      "neighborhood": "Noe Valley",
+      "price": 7295,
+      "bedrooms": 3,
+      "bathrooms": 1,
+      "sqft": 1080,
+      "available": "2026-09-19",
+      "status": "to_see",
+      "laundry": null,
+      "lat": 37.745646,
+      "lon": -122.427173,
+      "notes": "From RentCast · $7295 · 1d on market",
+      "seen_by": [],
+      "added_by": "rentcast",
+      "added_at": "2026-09-19T13:11:39.085Z"
     }
   ]
 }
