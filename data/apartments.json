@@ -9891,14 +9891,16 @@
       "bathrooms": null,
       "sqft": 0,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.7995,
       "lon": -122.4315,
       "notes": "From Craigslist · posted Sep 13, 10:00 PM",
       "seen_by": [],
       "added_by": "craigslist",
-      "added_at": "2026-09-13T23:43:34.850Z"
+      "added_at": "2026-09-13T23:43:34.850Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-09-20T19:08:28.418Z"
     },
     {
       "id": "cl_7967254176",
@@ -9910,14 +9912,16 @@
       "bathrooms": null,
       "sqft": 0,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.8002,
       "lon": -122.4091,
       "notes": "From Craigslist · posted Sep 16, 1:47 AM",
       "seen_by": [],
       "added_by": "craigslist",
-      "added_at": "2026-09-16T02:02:20.215Z"
+      "added_at": "2026-09-16T02:02:20.215Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-09-20T19:08:28.418Z"
     },
     {
       "id": "rf_77055009-cb63-4da9-af14-32ed1c16a446",
@@ -10299,6 +10303,44 @@
       "seen_by": [],
       "added_by": "rentcast",
       "added_at": "2026-09-20T13:35:43.927Z"
+    },
+    {
+      "id": "cl_7969874457",
+      "url": "https://sfbay.craigslist.org/sfc/apa/d/san-francisco-fantastic-bedroom/7969874457.html",
+      "address": "Fantastic 3 bedroom - remodeled  kitchen and bath",
+      "neighborhood": "Nob Hill",
+      "price": 7495,
+      "bedrooms": 3,
+      "bathrooms": null,
+      "sqft": 0,
+      "available": null,
+      "status": "to_see",
+      "laundry": null,
+      "lat": 37.8002,
+      "lon": -122.4091,
+      "notes": "From Craigslist · posted Sep 20, 6:24 PM",
+      "seen_by": [],
+      "added_by": "craigslist",
+      "added_at": "2026-09-20T19:08:28.418Z"
+    },
+    {
+      "id": "cl_7969877196",
+      "url": "https://sfbay.craigslist.org/sfc/apa/d/san-francisco-fantastic-bedroom-bath/7969877196.html",
+      "address": "Fantastic 4 bedroom - 3 bath",
+      "neighborhood": "Hayes Valley",
+      "price": 9995,
+      "bedrooms": 4,
+      "bathrooms": null,
+      "sqft": 0,
+      "available": null,
+      "status": "to_see",
+      "laundry": null,
+      "lat": 37.7774,
+      "lon": -122.4227,
+      "notes": "From Craigslist · posted Sep 20, 6:29 PM",
+      "seen_by": [],
+      "added_by": "craigslist",
+      "added_at": "2026-09-20T19:08:28.418Z"
     }
   ]
 }
