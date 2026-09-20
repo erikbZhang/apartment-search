@@ -10278,6 +10278,25 @@
       "seen_by": [],
       "added_by": "redfin",
       "added_at": "2026-09-19T21:51:44.063Z"
+    },
+    {
+      "id": "rc_838-Greenwich-St,-San-Francisco,-CA-94133",
+      "url": "https://www.google.com/search?q=838%20Greenwich%20St%2C%20San%20Francisco%2C%20CA%2094133%20for%20rent",
+      "address": "838 Greenwich St, San Francisco, CA 94133",
+      "neighborhood": "Russian Hill",
+      "price": 10995,
+      "bedrooms": 4,
+      "bathrooms": 2,
+      "sqft": null,
+      "available": "2026-09-20",
+      "status": "to_see",
+      "laundry": null,
+      "lat": 37.80199,
+      "lon": -122.41355,
+      "notes": "From RentCast · $10995 · 1d on market",
+      "seen_by": [],
+      "added_by": "rentcast",
+      "added_at": "2026-09-20T13:35:43.927Z"
     }
   ]
 }
