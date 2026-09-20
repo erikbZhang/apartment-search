@@ -9515,14 +9515,16 @@
       "bathrooms": 2,
       "sqft": null,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.8027265,
       "lon": -122.4261979,
       "notes": "From Redfin · $8495 · 3044 Franklin Street, #202 3 Bedrooms ! 2 Bathrooms ! Approximately 1,650 SF ! Parking Included *Spectacular second-floor luxury condominium",
       "seen_by": [],
       "added_by": "redfin",
-      "added_at": "2026-09-07T16:10:05.567Z"
+      "added_at": "2026-09-07T16:10:05.567Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-09-20T16:35:10.022Z"
     },
     {
       "id": "cl_7962619332",
