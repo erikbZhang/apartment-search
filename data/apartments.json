@@ -10206,14 +10206,16 @@
       "bathrooms": 2,
       "sqft": null,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.8019949,
       "lon": -122.4135009,
       "notes": "From Redfin · $10995 · SCHEDULE A SHOWING ONLINE AT: showmojo.com/lrt/23587bd0a8 ---- Spacious 4BR/2BA Remodeled Apartment in Prime Russian Hill Location! Nestled ",
       "seen_by": [],
       "added_by": "redfin",
-      "added_at": "2026-09-19T12:06:31.648Z"
+      "added_at": "2026-09-19T12:06:31.648Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-09-22T17:47:35.936Z"
     },
     {
       "id": "rc_1572-Church-St,-San-Francisco,-CA-94131",
