@@ -10353,6 +10353,44 @@
       "seen_by": [],
       "added_by": "craigslist",
       "added_at": "2026-09-20T19:08:28.418Z"
+    },
+    {
+      "id": "cl_7971196599",
+      "url": "https://sfbay.craigslist.org/sfc/apa/d/san-francisco-850-turk-street-bedroom/7971196599.html",
+      "address": "850 Turk Street – 3 Bedroom - New Construction",
+      "neighborhood": "Hayes Valley",
+      "price": 1329,
+      "bedrooms": 3,
+      "bathrooms": null,
+      "sqft": 0,
+      "available": null,
+      "status": "to_see",
+      "laundry": null,
+      "lat": 37.7816,
+      "lon": -122.4231,
+      "notes": "From Craigslist · posted Sep 22, 10:19 PM",
+      "seen_by": [],
+      "added_by": "craigslist",
+      "added_at": "2026-09-22T23:20:48.537Z"
+    },
+    {
+      "id": "sf_a0W7y00000JdZxREAV",
+      "url": "https://housing.sfgov.org/listings/a0W7y00000JdZxREAV",
+      "address": "850 Turk St.",
+      "neighborhood": "Downtown/Civic Center",
+      "price": 1329,
+      "bedrooms": 3,
+      "bathrooms": null,
+      "sqft": 777,
+      "available": "2026-10-14",
+      "status": "to_see",
+      "laundry": null,
+      "lat": 37.7817686,
+      "lon": -122.4227923,
+      "notes": "Affordable/BMR · 850 Turk Street · 3 BR · apply by 2026-10-14 · Standard Lottery",
+      "seen_by": [],
+      "added_by": "dahlia",
+      "added_at": "2026-09-22T23:20:48.537Z"
     }
   ]
 }
