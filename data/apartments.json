@@ -10364,14 +10364,16 @@
       "bathrooms": null,
       "sqft": 0,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.7816,
       "lon": -122.4231,
       "notes": "From Craigslist · posted Sep 22, 10:19 PM",
       "seen_by": [],
       "added_by": "craigslist",
-      "added_at": "2026-09-22T23:20:48.537Z"
+      "added_at": "2026-09-22T23:20:48.537Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-09-23T08:02:29.051Z"
     },
     {
       "id": "sf_a0W7y00000JdZxREAV",
@@ -10391,6 +10393,25 @@
       "seen_by": [],
       "added_by": "dahlia",
       "added_at": "2026-09-22T23:20:48.537Z"
+    },
+    {
+      "id": "rf_fa1e5360-3a8e-4450-b76d-4a03ffa745ca",
+      "url": "https://www.redfin.com/CA/San-Francisco/1474-Sacramento-St-94109/apartment/1450605",
+      "address": "1474 Sacramento St",
+      "neighborhood": "Nob Hill",
+      "price": 4595,
+      "bedrooms": 3,
+      "bathrooms": 1,
+      "sqft": 574,
+      "available": null,
+      "status": "to_see",
+      "laundry": null,
+      "lat": 37.7922138,
+      "lon": -122.4171878,
+      "notes": "From Redfin · $4595 · Unit 400 is an efficiency studio with full-size refigerator, two-burner cook top and no oven.1474 Sacramento is a beautiful Edwardian classi",
+      "seen_by": [],
+      "added_by": "redfin",
+      "added_at": "2026-09-23T08:02:29.051Z"
     }
   ]
 }
