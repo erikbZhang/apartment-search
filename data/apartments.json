@@ -10021,14 +10021,16 @@
       "bathrooms": 2,
       "sqft": 1120,
       "available": "2026-09-18",
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.777985,
       "lon": -122.427277,
       "notes": "From RentCast · $8300 · 1d on market",
       "seen_by": [],
       "added_by": "rentcast",
-      "added_at": "2026-09-18T13:37:49.469Z"
+      "added_at": "2026-09-18T13:37:49.469Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-09-24T14:14:02.856Z"
     },
     {
       "id": "cl_7968899340",
@@ -10227,14 +10229,16 @@
       "bathrooms": 1,
       "sqft": 1080,
       "available": "2026-09-19",
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.745646,
       "lon": -122.427173,
       "notes": "From RentCast · $7295 · 1d on market",
       "seen_by": [],
       "added_by": "rentcast",
-      "added_at": "2026-09-19T13:11:39.085Z"
+      "added_at": "2026-09-19T13:11:39.085Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-09-24T14:14:02.856Z"
     },
     {
       "id": "cl_7969198113",
