@@ -10454,6 +10454,25 @@
       "seen_by": [],
       "added_by": "redfin",
       "added_at": "2026-09-24T15:33:58.066Z"
+    },
+    {
+      "id": "cl_7956021273",
+      "url": "https://sfbay.craigslist.org/sfc/apa/d/san-francisco-just-rented-amsi/7956021273.html",
+      "address": "Just Rented- AMSI",
+      "neighborhood": "Noe Valley",
+      "price": 5300,
+      "bedrooms": 3,
+      "bathrooms": null,
+      "sqft": 0,
+      "available": null,
+      "status": "to_see",
+      "laundry": null,
+      "lat": 37.745,
+      "lon": -122.4383,
+      "notes": "From Craigslist · posted Aug 26, 6:20 PM",
+      "seen_by": [],
+      "added_by": "craigslist",
+      "added_at": "2026-09-24T19:34:22.571Z"
     }
   ]
 }
