@@ -10435,6 +10435,25 @@
       "seen_by": [],
       "added_by": "rentcast",
       "added_at": "2026-09-23T14:15:35.990Z"
+    },
+    {
+      "id": "rf_67f6a57a-4578-445d-9dc2-7d9141ff254b",
+      "url": "https://www.redfin.com/CA/San-Francisco/2942-Franklin-St-94123/apartment/1925886",
+      "address": "2942 Franklin St",
+      "neighborhood": "Marina",
+      "price": 8995,
+      "bedrooms": 3,
+      "bathrooms": 2,
+      "sqft": 850,
+      "available": null,
+      "status": "to_see",
+      "laundry": null,
+      "lat": 37.8017962,
+      "lon": -122.426098,
+      "notes": "From Redfin · $8995 · SCHEDULE A SHOWING ONLINE AT: showmojo.com/lrt/00193da064 ---- Discover your new home at 2942 Franklin Street, a beautifully remodeled 3-bed",
+      "seen_by": [],
+      "added_by": "redfin",
+      "added_at": "2026-09-24T15:33:58.066Z"
     }
   ]
 }
