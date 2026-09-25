@@ -10448,14 +10448,16 @@
       "bathrooms": 2,
       "sqft": 850,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.8017962,
       "lon": -122.426098,
       "notes": "From Redfin · $8995 · SCHEDULE A SHOWING ONLINE AT: showmojo.com/lrt/00193da064 ---- Discover your new home at 2942 Franklin Street, a beautifully remodeled 3-bed",
       "seen_by": [],
       "added_by": "redfin",
-      "added_at": "2026-09-24T15:33:58.066Z"
+      "added_at": "2026-09-24T15:33:58.066Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-09-25T10:42:35.586Z"
     },
     {
       "id": "cl_7956021273",
@@ -10534,6 +10536,25 @@
       "seen_by": [],
       "added_by": "craigslist",
       "added_at": "2026-09-25T05:50:48.530Z"
+    },
+    {
+      "id": "cl_7972523499",
+      "url": "https://sfbay.craigslist.org/sfc/apa/d/san-francisco-bed-bath-for-rent/7972523499.html",
+      "address": "3 Bed 3 Bath for rent",
+      "neighborhood": "Marina",
+      "price": 7000,
+      "bedrooms": 3,
+      "bathrooms": null,
+      "sqft": 2500,
+      "available": null,
+      "status": "to_see",
+      "laundry": null,
+      "lat": 37.7999,
+      "lon": -122.4342,
+      "notes": "From Craigslist · posted Sep 25, 7:52 AM",
+      "seen_by": [],
+      "added_by": "craigslist",
+      "added_at": "2026-09-25T10:42:35.586Z"
     }
   ]
 }
