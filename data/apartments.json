@@ -10349,14 +10349,16 @@
       "bathrooms": null,
       "sqft": 0,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.7774,
       "lon": -122.4227,
       "notes": "From Craigslist · posted Sep 20, 6:29 PM",
       "seen_by": [],
       "added_by": "craigslist",
-      "added_at": "2026-09-20T19:08:28.418Z"
+      "added_at": "2026-09-20T19:08:28.418Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-09-25T00:59:05.573Z"
     },
     {
       "id": "cl_7971196599",
@@ -10473,6 +10475,44 @@
       "seen_by": [],
       "added_by": "craigslist",
       "added_at": "2026-09-24T19:34:22.571Z"
+    },
+    {
+      "id": "cl_7972413651",
+      "url": "https://sfbay.craigslist.org/sfc/apa/d/completely-remodeled-3br-bath/7972413651.html",
+      "address": "Completely Remodeled  3br & 1 1/2 bath",
+      "neighborhood": "North Beach",
+      "price": 6990,
+      "bedrooms": 3,
+      "bathrooms": null,
+      "sqft": 0,
+      "available": null,
+      "status": "to_see",
+      "laundry": null,
+      "lat": 37.8015,
+      "lon": -122.4085,
+      "notes": "From Craigslist · posted Sep 24, 11:45 PM",
+      "seen_by": [],
+      "added_by": "craigslist",
+      "added_at": "2026-09-25T00:59:05.573Z"
+    },
+    {
+      "id": "cl_7972427253",
+      "url": "https://sfbay.craigslist.org/sfc/apa/d/san-francisco-fantastic-bedroom-bath/7972427253.html",
+      "address": "Fantastic 4 bedroom - 3 bath",
+      "neighborhood": "Hayes Valley",
+      "price": 9995,
+      "bedrooms": 4,
+      "bathrooms": null,
+      "sqft": 0,
+      "available": null,
+      "status": "to_see",
+      "laundry": null,
+      "lat": 37.7774,
+      "lon": -122.4227,
+      "notes": "From Craigslist · posted Sep 25, 12:14 AM",
+      "seen_by": [],
+      "added_by": "craigslist",
+      "added_at": "2026-09-25T00:59:05.573Z"
     }
   ]
 }
