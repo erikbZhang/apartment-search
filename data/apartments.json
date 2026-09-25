@@ -10486,14 +10486,16 @@
       "bathrooms": null,
       "sqft": 0,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.8015,
       "lon": -122.4085,
       "notes": "From Craigslist · posted Sep 24, 11:45 PM",
       "seen_by": [],
       "added_by": "craigslist",
-      "added_at": "2026-09-25T00:59:05.573Z"
+      "added_at": "2026-09-25T00:59:05.573Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-09-25T05:50:48.530Z"
     },
     {
       "id": "cl_7972427253",
@@ -10513,6 +10515,25 @@
       "seen_by": [],
       "added_by": "craigslist",
       "added_at": "2026-09-25T00:59:05.573Z"
+    },
+    {
+      "id": "cl_7972494474",
+      "url": "https://sfbay.craigslist.org/sfc/apa/d/san-francisco-fantastic-bedroom/7972494474.html",
+      "address": "Fantastic 3 Bedroom - Hardwood Floors- Killer View",
+      "neighborhood": "Noe Valley",
+      "price": 8995,
+      "bedrooms": 3,
+      "bathrooms": null,
+      "sqft": 0,
+      "available": null,
+      "status": "to_see",
+      "laundry": null,
+      "lat": 37.7587,
+      "lon": -122.433,
+      "notes": "From Craigslist · posted Sep 25, 3:57 AM",
+      "seen_by": [],
+      "added_by": "craigslist",
+      "added_at": "2026-09-25T05:50:48.530Z"
     }
   ]
 }
