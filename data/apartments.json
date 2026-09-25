@@ -10557,6 +10557,25 @@
       "seen_by": [],
       "added_by": "craigslist",
       "added_at": "2026-09-25T10:42:35.586Z"
+    },
+    {
+      "id": "rf_d16936a6-6cba-4724-b93b-fe0ca6549252",
+      "url": "https://www.redfin.com/CA/San-Francisco/1190-Dolores-St-94110/home/17303636",
+      "address": "1190 Dolores St",
+      "neighborhood": "Noe Valley",
+      "price": 6600,
+      "bedrooms": 3,
+      "bathrooms": 2,
+      "sqft": 1600,
+      "available": "2026-10-15T00:00:00Z",
+      "status": "to_see",
+      "laundry": null,
+      "lat": 37.750404,
+      "lon": -122.42542,
+      "notes": "From Redfin · $6600 · This beautiful 3 Bed, 2 Bath condo is conveniently located on Dolores Street @ 25th Street within a 3-unit building. The unit features plent",
+      "seen_by": [],
+      "added_by": "redfin",
+      "added_at": "2026-09-25T15:37:46.524Z"
     }
   ]
 }
