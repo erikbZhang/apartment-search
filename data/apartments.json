@@ -9017,14 +9017,16 @@
       "bathrooms": null,
       "sqft": 0,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.745,
       "lon": -122.4383,
       "notes": "From Craigslist · posted Aug 26, 6:20 PM",
       "seen_by": [],
       "added_by": "craigslist",
-      "added_at": "2026-08-26T18:45:52.723Z"
+      "added_at": "2026-08-26T18:45:52.723Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-09-26T11:53:57.230Z"
     },
     {
       "id": "cl_7956019594",
@@ -10471,14 +10473,16 @@
       "bathrooms": null,
       "sqft": 0,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.745,
       "lon": -122.4383,
       "notes": "From Craigslist · posted Aug 26, 6:20 PM",
       "seen_by": [],
       "added_by": "craigslist",
-      "added_at": "2026-09-24T19:34:22.571Z"
+      "added_at": "2026-09-24T19:34:22.571Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-09-26T11:53:57.230Z"
     },
     {
       "id": "cl_7972413651",
@@ -10576,6 +10580,25 @@
       "seen_by": [],
       "added_by": "redfin",
       "added_at": "2026-09-25T15:37:46.524Z"
+    },
+    {
+      "id": "cl_7973133627",
+      "url": "https://sfbay.craigslist.org/sfc/apa/d/san-francisco-this-fully-detached/7973133627.html",
+      "address": "This fully detached 3-Bedroom, 2.5-Bathroom Apartment",
+      "neighborhood": "Marina",
+      "price": 2169,
+      "bedrooms": 3,
+      "bathrooms": null,
+      "sqft": 0,
+      "available": null,
+      "status": "to_see",
+      "laundry": null,
+      "lat": 37.8039,
+      "lon": -122.441,
+      "notes": "From Craigslist · posted Sep 26, 10:49 AM",
+      "seen_by": [],
+      "added_by": "craigslist",
+      "added_at": "2026-09-26T11:53:57.230Z"
     }
   ]
 }
