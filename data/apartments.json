@@ -10591,14 +10591,16 @@
       "bathrooms": null,
       "sqft": 0,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.8039,
       "lon": -122.441,
       "notes": "From Craigslist · posted Sep 26, 10:49 AM",
       "seen_by": [],
       "added_by": "craigslist",
-      "added_at": "2026-09-26T11:53:57.230Z"
+      "added_at": "2026-09-26T11:53:57.230Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-09-26T15:14:52.788Z"
     },
     {
       "id": "rc_1190-Dolores-St,-San-Francisco,-CA-94110",
@@ -10618,6 +10620,25 @@
       "seen_by": [],
       "added_by": "rentcast",
       "added_at": "2026-09-26T13:45:36.163Z"
+    },
+    {
+      "id": "cl_7973219400",
+      "url": "https://sfbay.craigslist.org/sfc/apa/d/san-francisco-fabulous-quiet-location/7973219400.html",
+      "address": "Fabulous quiet location, near the water and Marina Green!!",
+      "neighborhood": "Marina",
+      "price": 2500,
+      "bedrooms": 3,
+      "bathrooms": null,
+      "sqft": 0,
+      "available": null,
+      "status": "to_see",
+      "laundry": null,
+      "lat": 37.7999,
+      "lon": -122.4342,
+      "notes": "From Craigslist · posted Sep 26, 2:46 PM",
+      "seen_by": [],
+      "added_by": "craigslist",
+      "added_at": "2026-09-26T15:14:52.788Z"
     }
   ]
 }
