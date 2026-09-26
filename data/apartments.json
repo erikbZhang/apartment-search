@@ -10639,6 +10639,25 @@
       "seen_by": [],
       "added_by": "craigslist",
       "added_at": "2026-09-26T15:14:52.788Z"
+    },
+    {
+      "id": "cl_7973375781",
+      "url": "https://sfbay.craigslist.org/sfc/apa/d/san-francisco-stylish-bedroom-bathroom/7973375781.html",
+      "address": "Stylish 3-Bedroom, 2-Bathroom Apartment in the Marina District!",
+      "neighborhood": "Marina",
+      "price": 8995,
+      "bedrooms": 3,
+      "bathrooms": null,
+      "sqft": 850,
+      "available": null,
+      "status": "to_see",
+      "laundry": null,
+      "lat": 37.8015,
+      "lon": -122.4263,
+      "notes": "From Craigslist · posted Sep 26, 6:33 PM",
+      "seen_by": [],
+      "added_by": "craigslist",
+      "added_at": "2026-09-26T18:46:42.681Z"
     }
   ]
 }
