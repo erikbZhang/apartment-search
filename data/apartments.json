@@ -10599,6 +10599,25 @@
       "seen_by": [],
       "added_by": "craigslist",
       "added_at": "2026-09-26T11:53:57.230Z"
+    },
+    {
+      "id": "rc_1190-Dolores-St,-San-Francisco,-CA-94110",
+      "url": "https://www.google.com/search?q=1190%20Dolores%20St%2C%20San%20Francisco%2C%20CA%2094110%20for%20rent",
+      "address": "1190 Dolores St, San Francisco, CA 94110",
+      "neighborhood": "Noe Valley",
+      "price": 7000,
+      "bedrooms": 3,
+      "bathrooms": 2,
+      "sqft": 1600,
+      "available": "2026-09-26",
+      "status": "to_see",
+      "laundry": null,
+      "lat": 37.750404,
+      "lon": -122.42542,
+      "notes": "From RentCast · $7000 · 1d on market",
+      "seen_by": [],
+      "added_by": "rentcast",
+      "added_at": "2026-09-26T13:45:36.163Z"
     }
   ]
 }
