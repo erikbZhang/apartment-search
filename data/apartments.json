@@ -10660,6 +10660,25 @@
       "seen_by": [],
       "added_by": "craigslist",
       "added_at": "2026-09-26T18:46:42.681Z"
+    },
+    {
+      "id": "rf_741773bc-a392-4db3-aed7-6e1c147e028f",
+      "url": "https://www.redfin.com/CA/San-Francisco/2400-Bush-St-94115/unit-2400/home/205709838",
+      "address": "2400 Bush St Unit 2400",
+      "neighborhood": "Western Addition",
+      "price": 9995,
+      "bedrooms": 4,
+      "bathrooms": 2,
+      "sqft": null,
+      "available": null,
+      "status": "to_see",
+      "laundry": null,
+      "lat": 37.7866916,
+      "lon": -122.436924,
+      "notes": "From Redfin · $9995",
+      "seen_by": [],
+      "added_by": "redfin",
+      "added_at": "2026-09-28T14:39:11.010Z"
     }
   ]
 }
