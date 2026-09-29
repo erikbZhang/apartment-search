@@ -10681,6 +10681,25 @@
       "seen_by": [],
       "added_by": "redfin",
       "added_at": "2026-09-28T14:39:11.010Z"
+    },
+    {
+      "id": "rf_43f0a1be-3824-4e3b-b065-838e55bf39f5",
+      "url": "https://www.redfin.com/CA/San-Francisco/450-Page-St-94102/unit-450/home/205965523",
+      "address": "450 Page St Unit 450",
+      "neighborhood": "Western Addition",
+      "price": 7995,
+      "bedrooms": 4,
+      "bathrooms": 1.5,
+      "sqft": null,
+      "available": "2026-10-01T00:00:00Z",
+      "status": "to_see",
+      "laundry": null,
+      "lat": 37.773601,
+      "lon": -122.428277,
+      "notes": "From Redfin · $7995",
+      "seen_by": [],
+      "added_by": "redfin",
+      "added_at": "2026-09-29T13:30:06.425Z"
     }
   ]
 }
