@@ -10700,6 +10700,25 @@
       "seen_by": [],
       "added_by": "redfin",
       "added_at": "2026-09-29T13:30:06.425Z"
+    },
+    {
+      "id": "rf_ab643a7b-6181-4367-92d7-ea23c1bfed1a",
+      "url": "https://www.redfin.com/CA/San-Francisco/1940-Ellis-St-94115/unit-1940/home/205916841",
+      "address": "1940 Ellis St Unit 1940",
+      "neighborhood": "Western Addition",
+      "price": 7500,
+      "bedrooms": 3,
+      "bathrooms": 2,
+      "sqft": 899,
+      "available": null,
+      "status": "to_see",
+      "laundry": null,
+      "lat": 37.781843,
+      "lon": -122.438166,
+      "notes": "From Redfin · $7500 · Three Bedroom 2 bath apartment for rent in Anza Vista- Large kitchen living room, 2 bedrooms with closet, hallways bathroom, and primary bed",
+      "seen_by": [],
+      "added_by": "redfin",
+      "added_at": "2026-09-29T18:57:30.812Z"
     }
   ]
 }
