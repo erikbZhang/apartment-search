@@ -10572,14 +10572,16 @@
       "bathrooms": 2,
       "sqft": 1600,
       "available": "2026-10-15T00:00:00Z",
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.750404,
       "lon": -122.42542,
       "notes": "From Redfin · $6600 · This beautiful 3 Bed, 2 Bath condo is conveniently located on Dolores Street @ 25th Street within a 3-unit building. The unit features plent",
       "seen_by": [],
       "added_by": "redfin",
-      "added_at": "2026-09-25T15:37:46.524Z"
+      "added_at": "2026-09-25T15:37:46.524Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-09-30T14:20:52.301Z"
     },
     {
       "id": "cl_7973133627",
@@ -10795,6 +10797,44 @@
       "seen_by": [],
       "added_by": "craigslist",
       "added_at": "2026-09-30T07:37:08.419Z"
+    },
+    {
+      "id": "cl_7975335306",
+      "url": "https://sfbay.craigslist.org/sfc/apa/d/san-francisco-spacious-bedroom-bonus/7975335306.html",
+      "address": "**Spacious 3-Bedroom + Bonus Room in Prime",
+      "neighborhood": "Pacific Heights",
+      "price": 1000,
+      "bedrooms": 3,
+      "bathrooms": null,
+      "sqft": 0,
+      "available": null,
+      "status": "to_see",
+      "laundry": null,
+      "lat": 37.7919,
+      "lon": -122.4318,
+      "notes": "From Craigslist · posted Sep 30, 9:21 AM",
+      "seen_by": [],
+      "added_by": "craigslist",
+      "added_at": "2026-09-30T14:20:52.301Z"
+    },
+    {
+      "id": "cl_7975326903",
+      "url": "https://sfbay.craigslist.org/sfc/apa/d/san-francisco-spacious-bedroom-bonus/7975326903.html",
+      "address": "**Spacious 3-Bedroom + Bonus Room in Prime",
+      "neighborhood": "Pacific Heights",
+      "price": 1090,
+      "bedrooms": 3,
+      "bathrooms": null,
+      "sqft": 0,
+      "available": null,
+      "status": "to_see",
+      "laundry": null,
+      "lat": 37.7919,
+      "lon": -122.4318,
+      "notes": "From Craigslist · posted Sep 30, 8:07 AM",
+      "seen_by": [],
+      "added_by": "craigslist",
+      "added_at": "2026-09-30T14:20:52.301Z"
     }
   ]
 }
