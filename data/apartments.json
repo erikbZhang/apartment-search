@@ -10887,6 +10887,25 @@
       "seen_by": [],
       "added_by": "craigslist",
       "added_at": "2026-10-01T09:31:46.251Z"
+    },
+    {
+      "id": "rf_86cdd2f1-34de-4eb8-a3ca-a063e0d3b892",
+      "url": "https://www.redfin.com/CA/San-Francisco/5003-Diamond-Heights-Blvd-94131/home/1934836",
+      "address": "5003 Diamond Heights Blvd",
+      "neighborhood": "Noe Valley",
+      "price": 9245,
+      "bedrooms": 3,
+      "bathrooms": 2.5,
+      "sqft": 2160,
+      "available": null,
+      "status": "to_see",
+      "laundry": null,
+      "lat": 37.7468879,
+      "lon": -122.4433941,
+      "notes": "From Redfin · $9245 · SCHEDULE A SHOWING ONLINE AT: showmojo.com/lrt/1719df4091 ---- Tucked into the Diamond Heights neighborhood, this bright three-story townhom",
+      "seen_by": [],
+      "added_by": "redfin",
+      "added_at": "2026-10-01T16:45:53.053Z"
     }
   ]
 }
