@@ -10858,14 +10858,35 @@
       "bathrooms": null,
       "sqft": 0,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.7929,
       "lon": -122.4079,
       "notes": "From Craigslist · posted Sep 30, 7:41 PM",
       "seen_by": [],
       "added_by": "craigslist",
-      "added_at": "2026-09-30T19:42:23.758Z"
+      "added_at": "2026-09-30T19:42:23.758Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-10-01T09:31:46.251Z"
+    },
+    {
+      "id": "cl_7975897242",
+      "url": "https://sfbay.craigslist.org/sfc/apa/d/san-francisco-rooms-available-in-4br-35b/7975897242.html",
+      "address": "2 rooms available in a 4BR/3.5B",
+      "neighborhood": "Nob Hill",
+      "price": 2250,
+      "bedrooms": 4,
+      "bathrooms": null,
+      "sqft": 1450,
+      "available": null,
+      "status": "to_see",
+      "laundry": null,
+      "lat": 37.7929,
+      "lon": -122.4079,
+      "notes": "From Craigslist · posted Oct 1, 5:31 AM",
+      "seen_by": [],
+      "added_by": "craigslist",
+      "added_at": "2026-10-01T09:31:46.251Z"
     }
   ]
 }
