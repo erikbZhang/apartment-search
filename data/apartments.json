@@ -11011,6 +11011,25 @@
       "seen_by": [],
       "added_by": "craigslist",
       "added_at": "2026-10-02T14:14:43.385Z"
+    },
+    {
+      "id": "rc_5003-Diamond-Heights-Blvd,-San-Francisco,-CA-94131",
+      "url": "https://www.google.com/search?q=5003%20Diamond%20Heights%20Blvd%2C%20San%20Francisco%2C%20CA%2094131%20for%20rent",
+      "address": "5003 Diamond Heights Blvd, San Francisco, CA 94131",
+      "neighborhood": "Noe Valley",
+      "price": 9245,
+      "bedrooms": 3,
+      "bathrooms": 2.5,
+      "sqft": 2160,
+      "available": "2026-10-02",
+      "status": "to_see",
+      "laundry": null,
+      "lat": 37.747529,
+      "lon": -122.442709,
+      "notes": "From RentCast · $9245 · 1d on market",
+      "seen_by": [],
+      "added_by": "rentcast",
+      "added_at": "2026-10-02T15:50:59.441Z"
     }
   ]
 }
