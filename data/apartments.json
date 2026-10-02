@@ -10681,14 +10681,16 @@
       "bathrooms": 2,
       "sqft": null,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.7866916,
       "lon": -122.436924,
       "notes": "From Redfin · $9995",
       "seen_by": [],
       "added_by": "redfin",
-      "added_at": "2026-09-28T14:39:11.010Z"
+      "added_at": "2026-09-28T14:39:11.010Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-10-02T14:14:43.385Z"
     },
     {
       "id": "rf_43f0a1be-3824-4e3b-b065-838e55bf39f5",
@@ -10990,6 +10992,25 @@
       "seen_by": [],
       "added_by": "craigslist",
       "added_at": "2026-10-02T07:39:17.997Z"
+    },
+    {
+      "id": "cl_7976644329",
+      "url": "https://sfbay.craigslist.org/sfc/apa/d/san-francisco-beautifully-maintained/7976644329.html",
+      "address": "Beautifully maintained 3-bedroom, 2.5-bathroom in Marina District",
+      "neighborhood": "Marina",
+      "price": 1570,
+      "bedrooms": 3,
+      "bathrooms": null,
+      "sqft": 0,
+      "available": null,
+      "status": "to_see",
+      "laundry": null,
+      "lat": 37.8046,
+      "lon": -122.436,
+      "notes": "From Craigslist · posted Oct 2, 2:11 PM",
+      "seen_by": [],
+      "added_by": "craigslist",
+      "added_at": "2026-10-02T14:14:43.385Z"
     }
   ]
 }
