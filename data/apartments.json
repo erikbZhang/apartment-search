@@ -10004,14 +10004,16 @@
       "bathrooms": null,
       "sqft": 0,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": "in_unit",
       "lat": 37.7929,
       "lon": -122.4079,
       "notes": "From Craigslist · posted Sep 18, 3:14 AM",
       "seen_by": [],
       "added_by": "craigslist",
-      "added_at": "2026-09-18T06:48:19.913Z"
+      "added_at": "2026-09-18T06:48:19.913Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-10-02T19:37:22.899Z"
     },
     {
       "id": "rc_635-Fulton-St,-Apt-10,-San-Francisco,-CA-94102",
@@ -10702,14 +10704,16 @@
       "bathrooms": 1.5,
       "sqft": null,
       "available": "2026-10-01T00:00:00Z",
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.773601,
       "lon": -122.428277,
       "notes": "From Redfin · $7995",
       "seen_by": [],
       "added_by": "redfin",
-      "added_at": "2026-09-29T13:30:06.425Z"
+      "added_at": "2026-09-29T13:30:06.425Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-10-02T19:37:22.899Z"
     },
     {
       "id": "rf_ab643a7b-6181-4367-92d7-ea23c1bfed1a",
@@ -10906,14 +10910,16 @@
       "bathrooms": 2.5,
       "sqft": 2160,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.7468879,
       "lon": -122.4433941,
       "notes": "From Redfin · $9245 · SCHEDULE A SHOWING ONLINE AT: showmojo.com/lrt/1719df4091 ---- Tucked into the Diamond Heights neighborhood, this bright three-story townhom",
       "seen_by": [],
       "added_by": "redfin",
-      "added_at": "2026-10-01T16:45:53.053Z"
+      "added_at": "2026-10-01T16:45:53.053Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-10-02T19:37:22.899Z"
     },
     {
       "id": "rf_d935fa1d-0541-4e17-9705-f2281cae8fd1",
@@ -11003,14 +11009,16 @@
       "bathrooms": null,
       "sqft": 0,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.8046,
       "lon": -122.436,
       "notes": "From Craigslist · posted Oct 2, 2:11 PM",
       "seen_by": [],
       "added_by": "craigslist",
-      "added_at": "2026-10-02T14:14:43.385Z"
+      "added_at": "2026-10-02T14:14:43.385Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-10-02T19:37:22.899Z"
     },
     {
       "id": "rc_5003-Diamond-Heights-Blvd,-San-Francisco,-CA-94131",
@@ -11030,6 +11038,25 @@
       "seen_by": [],
       "added_by": "rentcast",
       "added_at": "2026-10-02T15:50:59.441Z"
+    },
+    {
+      "id": "rf_bc5cb250-7e3b-43c8-afab-26a1bf392c28",
+      "url": "https://www.redfin.com/CA/San-Francisco/Etta/apartment/179445549",
+      "address": "1285 Sutter St",
+      "neighborhood": "Western Addition",
+      "price": 6601,
+      "bedrooms": 3,
+      "bathrooms": 2,
+      "sqft": 990,
+      "available": null,
+      "status": "to_see",
+      "laundry": null,
+      "lat": 37.7873598,
+      "lon": -122.4221495,
+      "notes": "From Redfin · $6601–$7480 · Multiple Tour Options Available Self-Guided, Virtual and Video Tours.Welcome to Etta, here at our pet-friendly apartments in San Francisco y",
+      "seen_by": [],
+      "added_by": "redfin",
+      "added_at": "2026-10-02T19:37:22.899Z"
     }
   ]
 }
