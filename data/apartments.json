@@ -11057,6 +11057,25 @@
       "seen_by": [],
       "added_by": "redfin",
       "added_at": "2026-10-02T19:37:22.899Z"
+    },
+    {
+      "id": "cl_7977113829",
+      "url": "https://sfbay.craigslist.org/sfc/apa/d/san-francisco-recently-updated-bedroom/7977113829.html",
+      "address": "Recently updated 3 Bedroom- 2.5 Bathroom ADU on Marina District",
+      "neighborhood": "Marina",
+      "price": 2169,
+      "bedrooms": 3,
+      "bathrooms": null,
+      "sqft": 0,
+      "available": null,
+      "status": "to_see",
+      "laundry": null,
+      "lat": 37.7994,
+      "lon": -122.4346,
+      "notes": "From Craigslist · posted Oct 3, 3:48 AM",
+      "seen_by": [],
+      "added_by": "craigslist",
+      "added_at": "2026-10-03T08:39:37.863Z"
     }
   ]
 }
