@@ -11120,6 +11120,44 @@
       "seen_by": [],
       "added_by": "redfin",
       "added_at": "2026-10-03T14:01:36.102Z"
+    },
+    {
+      "id": "rc_1250-Market-St,-San-Francisco,-CA-94102",
+      "url": "https://www.google.com/search?q=1250%20Market%20St%2C%20San%20Francisco%2C%20CA%2094102%20for%20rent",
+      "address": "1250 Market St, San Francisco, CA 94102",
+      "neighborhood": "Downtown/Civic Center",
+      "price": 1500,
+      "bedrooms": 3,
+      "bathrooms": 2,
+      "sqft": 1650,
+      "available": "2026-10-03",
+      "status": "to_see",
+      "laundry": null,
+      "lat": 37.778301,
+      "lon": -122.415817,
+      "notes": "From RentCast · $1500 · 1d on market",
+      "seen_by": [],
+      "added_by": "rentcast",
+      "added_at": "2026-10-03T14:19:34.833Z"
+    },
+    {
+      "id": "rc_147-Bernard-St,-San-Francisco,-CA-94109",
+      "url": "https://www.google.com/search?q=147%20Bernard%20St%2C%20San%20Francisco%2C%20CA%2094109%20for%20rent",
+      "address": "147 Bernard St, San Francisco, CA 94109",
+      "neighborhood": "Nob Hill",
+      "price": 6000,
+      "bedrooms": 3,
+      "bathrooms": 1,
+      "sqft": 850,
+      "available": "2026-10-03",
+      "status": "to_see",
+      "laundry": null,
+      "lat": 37.796093,
+      "lon": -122.41584,
+      "notes": "From RentCast · $6000 · 1d on market",
+      "seen_by": [],
+      "added_by": "rentcast",
+      "added_at": "2026-10-03T14:19:34.833Z"
     }
   ]
 }
