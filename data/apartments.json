@@ -10956,14 +10956,16 @@
       "bathrooms": null,
       "sqft": 0,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.7909,
       "lon": -122.426,
       "notes": "From Craigslist · posted Oct 2, 3:07 AM",
       "seen_by": [],
       "added_by": "craigslist",
-      "added_at": "2026-10-02T07:39:17.997Z"
+      "added_at": "2026-10-02T07:39:17.997Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-10-04T17:09:32.500Z"
     },
     {
       "id": "cl_7976472609",
@@ -11179,6 +11181,44 @@
       "seen_by": [],
       "added_by": "rentcast",
       "added_at": "2026-10-04T14:48:30.432Z"
+    },
+    {
+      "id": "cl_7977830244",
+      "url": "https://sfbay.craigslist.org/sfc/apa/d/san-francisco-bed-bath/7977830244.html",
+      "address": "3 BED 3 BATH",
+      "neighborhood": "Marina",
+      "price": 7000,
+      "bedrooms": 3,
+      "bathrooms": null,
+      "sqft": 2400,
+      "available": null,
+      "status": "to_see",
+      "laundry": null,
+      "lat": 37.7999,
+      "lon": -122.4342,
+      "notes": "From Craigslist · posted Oct 4, 4:53 PM",
+      "seen_by": [],
+      "added_by": "craigslist",
+      "added_at": "2026-10-04T17:09:32.500Z"
+    },
+    {
+      "id": "cl_7977748740",
+      "url": "https://sfbay.craigslist.org/sfc/apa/d/san-francisco-open-sun-4pm/7977748740.html",
+      "address": "OPEN SUN 4pm-4:30pm.Spacious 3-2BR,Pet Friendly,W/D(2011 Sacramento#1)",
+      "neighborhood": "Pacific Heights",
+      "price": 5950,
+      "bedrooms": 3,
+      "bathrooms": null,
+      "sqft": 0,
+      "available": null,
+      "status": "to_see",
+      "laundry": null,
+      "lat": 37.7909,
+      "lon": -122.426,
+      "notes": "From Craigslist · posted Oct 4, 1:37 PM",
+      "seen_by": [],
+      "added_by": "craigslist",
+      "added_at": "2026-10-04T17:09:32.500Z"
     }
   ]
 }
