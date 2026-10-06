@@ -11387,6 +11387,25 @@
       "seen_by": [],
       "added_by": "craigslist",
       "added_at": "2026-10-06T19:10:36.685Z"
+    },
+    {
+      "id": "cl_7979154864",
+      "url": "https://sfbay.craigslist.org/sfc/apa/d/san-francisco-great-bed-bath-apartemtn/7979154864.html",
+      "address": "Great 4 bed 1 bath apartemtn in the heart of North Beach",
+      "neighborhood": "North Beach",
+      "price": 7800,
+      "bedrooms": 4,
+      "bathrooms": null,
+      "sqft": 0,
+      "available": null,
+      "status": "to_see",
+      "laundry": null,
+      "lat": 37.8004,
+      "lon": -122.4091,
+      "notes": "From Craigslist · posted Oct 6, 9:30 PM",
+      "seen_by": [],
+      "added_by": "craigslist",
+      "added_at": "2026-10-06T23:24:29.085Z"
     }
   ]
 }
