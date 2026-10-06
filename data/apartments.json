@@ -11341,6 +11341,25 @@
       "seen_by": [],
       "added_by": "craigslist",
       "added_at": "2026-10-06T06:57:56.658Z"
+    },
+    {
+      "id": "cl_7978799676",
+      "url": "https://sfbay.craigslist.org/sfc/apa/d/san-francisco-fully-renovated-3x2-with/7978799676.html",
+      "address": "Fully renovated 3x2 with parking! Close to laundry room! in Noe Valley",
+      "neighborhood": "Noe Valley",
+      "price": 2169,
+      "bedrooms": 3,
+      "bathrooms": null,
+      "sqft": 0,
+      "available": null,
+      "status": "to_see",
+      "laundry": "shared",
+      "lat": 37.7454,
+      "lon": -122.4313,
+      "notes": "From Craigslist · posted Oct 6, 12:33 PM",
+      "seen_by": [],
+      "added_by": "craigslist",
+      "added_at": "2026-10-06T13:54:23.153Z"
     }
   ]
 }
