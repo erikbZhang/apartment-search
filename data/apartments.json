@@ -11301,6 +11301,25 @@
       "seen_by": [],
       "added_by": "redfin",
       "added_at": "2026-10-05T18:54:57.214Z"
+    },
+    {
+      "id": "cl_7972463901",
+      "url": "https://sfbay.craigslist.org/sfc/apa/d/san-francisco-id1894-noe-valley-top/7972463901.html",
+      "address": "ID#1894: Noe Valley Top Floor 3BR/2BA Condo w/Large Private Deck, Park",
+      "neighborhood": "Noe Valley",
+      "price": 9400,
+      "bedrooms": 3,
+      "bathrooms": null,
+      "sqft": 0,
+      "available": null,
+      "status": "to_see",
+      "laundry": null,
+      "lat": 37.7534,
+      "lon": -122.4253,
+      "notes": "From Craigslist · posted Sep 25, 1:54 AM",
+      "seen_by": [],
+      "added_by": "craigslist",
+      "added_at": "2026-10-06T00:26:20.879Z"
     }
   ]
 }
