@@ -10897,14 +10897,16 @@
       "bathrooms": null,
       "sqft": 1450,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.7929,
       "lon": -122.4079,
       "notes": "From Craigslist · posted Oct 1, 5:31 AM",
       "seen_by": [],
       "added_by": "craigslist",
-      "added_at": "2026-10-01T09:31:46.251Z"
+      "added_at": "2026-10-01T09:31:46.251Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-10-06T06:57:56.658Z"
     },
     {
       "id": "rf_86cdd2f1-34de-4eb8-a3ca-a063e0d3b892",
@@ -11320,6 +11322,25 @@
       "seen_by": [],
       "added_by": "craigslist",
       "added_at": "2026-10-06T00:26:20.879Z"
+    },
+    {
+      "id": "cl_7978724493",
+      "url": "https://sfbay.craigslist.org/sfc/apa/d/san-francisco-beautiful-3br-noe-valley/7978724493.html",
+      "address": "Beautiful 3BR Noe Valley Home with Flexible Bonus Space",
+      "neighborhood": "Noe Valley",
+      "price": 3260,
+      "bedrooms": 3,
+      "bathrooms": null,
+      "sqft": 2175,
+      "available": null,
+      "status": "to_see",
+      "laundry": null,
+      "lat": 37.7442,
+      "lon": -122.4328,
+      "notes": "From Craigslist · posted Oct 6, 4:22 AM",
+      "seen_by": [],
+      "added_by": "craigslist",
+      "added_at": "2026-10-06T06:57:56.658Z"
     }
   ]
 }
