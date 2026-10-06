@@ -11259,14 +11259,16 @@
       "bathrooms": null,
       "sqft": 0,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.7909,
       "lon": -122.426,
       "notes": "From Craigslist · posted Oct 5, 5:27 PM",
       "seen_by": [],
       "added_by": "craigslist",
-      "added_at": "2026-10-05T18:54:57.214Z"
+      "added_at": "2026-10-05T18:54:57.214Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-10-06T19:10:36.685Z"
     },
     {
       "id": "rf_f7fdf043-a330-4459-a13d-28c06bbc1916",
@@ -11335,14 +11337,16 @@
       "bathrooms": null,
       "sqft": 2175,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.7442,
       "lon": -122.4328,
       "notes": "From Craigslist · posted Oct 6, 4:22 AM",
       "seen_by": [],
       "added_by": "craigslist",
-      "added_at": "2026-10-06T06:57:56.658Z"
+      "added_at": "2026-10-06T06:57:56.658Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-10-06T19:10:36.685Z"
     },
     {
       "id": "cl_7978799676",
@@ -11354,14 +11358,35 @@
       "bathrooms": null,
       "sqft": 0,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": "shared",
       "lat": 37.7454,
       "lon": -122.4313,
       "notes": "From Craigslist · posted Oct 6, 12:33 PM",
       "seen_by": [],
       "added_by": "craigslist",
-      "added_at": "2026-10-06T13:54:23.153Z"
+      "added_at": "2026-10-06T13:54:23.153Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-10-06T19:10:36.685Z"
+    },
+    {
+      "id": "cl_7978963908",
+      "url": "https://sfbay.craigslist.org/sfc/apa/d/san-francisco-open-thu-600pm-630pm/7978963908.html",
+      "address": "OPEN THU 6:00pm-6:30pm 3-2BR,Pet Friendly,W/D(2011 Sacramento#1)",
+      "neighborhood": "Pacific Heights",
+      "price": 5950,
+      "bedrooms": 3,
+      "bathrooms": null,
+      "sqft": 0,
+      "available": null,
+      "status": "to_see",
+      "laundry": null,
+      "lat": 37.7909,
+      "lon": -122.426,
+      "notes": "From Craigslist · posted Oct 6, 4:59 PM",
+      "seen_by": [],
+      "added_by": "craigslist",
+      "added_at": "2026-10-06T19:10:36.685Z"
     }
   ]
 }
