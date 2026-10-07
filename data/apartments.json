@@ -11379,14 +11379,16 @@
       "bathrooms": null,
       "sqft": 0,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.7909,
       "lon": -122.426,
       "notes": "From Craigslist · posted Oct 6, 4:59 PM",
       "seen_by": [],
       "added_by": "craigslist",
-      "added_at": "2026-10-06T19:10:36.685Z"
+      "added_at": "2026-10-06T19:10:36.685Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-10-07T17:34:20.874Z"
     },
     {
       "id": "cl_7979154864",
@@ -11406,6 +11408,44 @@
       "seen_by": [],
       "added_by": "craigslist",
       "added_at": "2026-10-06T23:24:29.085Z"
+    },
+    {
+      "id": "cl_7979549403",
+      "url": "https://sfbay.craigslist.org/sfc/apa/d/san-francisco-open-thu-6pm/7979549403.html",
+      "address": "OPEN THU 6pm-6:30pm.Spacious 3-2BR,Pet Friendly,W/D(2011 Sacramento#1)",
+      "neighborhood": "Pacific Heights",
+      "price": 5950,
+      "bedrooms": 3,
+      "bathrooms": null,
+      "sqft": 0,
+      "available": null,
+      "status": "to_see",
+      "laundry": null,
+      "lat": 37.7909,
+      "lon": -122.426,
+      "notes": "From Craigslist · posted Oct 7, 5:11 PM",
+      "seen_by": [],
+      "added_by": "craigslist",
+      "added_at": "2026-10-07T17:34:20.874Z"
+    },
+    {
+      "id": "rf_ae1a61af-e0b8-498e-b41b-c5d5c1242363",
+      "url": "https://www.redfin.com/CA/San-Francisco/972-Dolores-St-94110/unit-C/home/39880272",
+      "address": "972 Dolores St Unit C",
+      "neighborhood": "Noe Valley",
+      "price": 9400,
+      "bedrooms": 3,
+      "bathrooms": 2,
+      "sqft": null,
+      "available": null,
+      "status": "to_see",
+      "laundry": null,
+      "lat": 37.753892,
+      "lon": -122.425763,
+      "notes": "From Redfin · $9400 · Spacious and light-filled 3-bedroom, 2-bath top-floor penthouse in an intimate 4-unit building, ideally located in Noe Valley. This beautifu",
+      "seen_by": [],
+      "added_by": "redfin",
+      "added_at": "2026-10-07T17:34:20.874Z"
     }
   ]
 }
