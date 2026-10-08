@@ -11446,6 +11446,25 @@
       "seen_by": [],
       "added_by": "redfin",
       "added_at": "2026-10-07T17:34:20.874Z"
+    },
+    {
+      "id": "rc_524-Waller-St,-San-Francisco,-CA-94117",
+      "url": "https://www.google.com/search?q=524%20Waller%20St%2C%20San%20Francisco%2C%20CA%2094117%20for%20rent",
+      "address": "524 Waller St, San Francisco, CA 94117",
+      "neighborhood": "Western Addition",
+      "price": 6495,
+      "bedrooms": 3,
+      "bathrooms": 1,
+      "sqft": 1000,
+      "available": "2026-10-08",
+      "status": "to_see",
+      "laundry": null,
+      "lat": 37.771088,
+      "lon": -122.432236,
+      "notes": "From RentCast · $6495 · 1d on market",
+      "seen_by": [],
+      "added_by": "rentcast",
+      "added_at": "2026-10-08T16:32:14.022Z"
     }
   ]
 }
