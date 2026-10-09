@@ -11488,14 +11488,16 @@
       "bathrooms": null,
       "sqft": 0,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.7909,
       "lon": -122.426,
       "notes": "From Craigslist · posted Oct 8, 4:51 PM",
       "seen_by": [],
       "added_by": "craigslist",
-      "added_at": "2026-10-08T17:02:22.312Z"
+      "added_at": "2026-10-08T17:02:22.312Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-10-09T16:40:27.205Z"
     },
     {
       "id": "cl_7980122283",
@@ -11564,14 +11566,35 @@
       "bathrooms": null,
       "sqft": 0,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.8013,
       "lon": -122.4384,
       "notes": "From Craigslist · posted Oct 9, 5:52 AM",
       "seen_by": [],
       "added_by": "craigslist",
-      "added_at": "2026-10-09T09:44:12.090Z"
+      "added_at": "2026-10-09T09:44:12.090Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-10-09T16:40:27.205Z"
+    },
+    {
+      "id": "cl_7980509484",
+      "url": "https://sfbay.craigslist.org/sfc/apa/d/san-francisco-convenient-hayes-valley/7980509484.html",
+      "address": "Convenient Hayes Valley location in a contemporary building",
+      "neighborhood": "Hayes Valley",
+      "price": 7995,
+      "bedrooms": 3,
+      "bathrooms": null,
+      "sqft": 1600,
+      "available": null,
+      "status": "to_see",
+      "laundry": null,
+      "lat": 37.7725,
+      "lon": -122.4244,
+      "notes": "From Craigslist · posted Oct 9, 10:58 AM",
+      "seen_by": [],
+      "added_by": "craigslist",
+      "added_at": "2026-10-09T16:40:27.205Z"
     }
   ]
 }
