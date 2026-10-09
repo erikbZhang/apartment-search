@@ -11595,6 +11595,44 @@
       "seen_by": [],
       "added_by": "craigslist",
       "added_at": "2026-10-09T16:40:27.205Z"
+    },
+    {
+      "id": "cl_7980834147",
+      "url": "https://sfbay.craigslist.org/sfc/apa/d/san-francisco-open-sun-2pm/7980834147.html",
+      "address": "OPEN SUN 2pm-2:30pm.Spacious 3-2BR,Pet Friendly,W/D(2011 Sacramento#1)",
+      "neighborhood": "Pacific Heights",
+      "price": 5950,
+      "bedrooms": 3,
+      "bathrooms": null,
+      "sqft": 0,
+      "available": null,
+      "status": "to_see",
+      "laundry": null,
+      "lat": 37.7909,
+      "lon": -122.426,
+      "notes": "From Craigslist · posted Oct 9, 8:02 PM",
+      "seen_by": [],
+      "added_by": "craigslist",
+      "added_at": "2026-10-09T21:22:30.607Z"
+    },
+    {
+      "id": "cl_7980749826",
+      "url": "https://sfbay.craigslist.org/sfc/apa/d/san-francisco-gorgeous-level-flat-in/7980749826.html",
+      "address": "Gorgeous 2-Level Flat in Noe Valley Available!",
+      "neighborhood": "Noe Valley",
+      "price": 8895,
+      "bedrooms": 3,
+      "bathrooms": null,
+      "sqft": 0,
+      "available": null,
+      "status": "to_see",
+      "laundry": null,
+      "lat": 37.7529,
+      "lon": -122.4252,
+      "notes": "From Craigslist · posted Oct 9, 6:29 PM",
+      "seen_by": [],
+      "added_by": "craigslist",
+      "added_at": "2026-10-09T21:22:30.607Z"
     }
   ]
 }
