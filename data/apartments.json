@@ -10733,14 +10733,16 @@
       "bathrooms": 2,
       "sqft": 899,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.781843,
       "lon": -122.438166,
       "notes": "From Redfin · $7500 · Three Bedroom 2 bath apartment for rent in Anza Vista- Large kitchen living room, 2 bedrooms with closet, hallways bathroom, and primary bed",
       "seen_by": [],
       "added_by": "redfin",
-      "added_at": "2026-09-29T18:57:30.812Z"
+      "added_at": "2026-09-29T18:57:30.812Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-10-10T14:02:33.998Z"
     },
     {
       "id": "cl_7975316232",
