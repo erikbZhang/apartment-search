@@ -11635,6 +11635,25 @@
       "seen_by": [],
       "added_by": "craigslist",
       "added_at": "2026-10-09T21:22:30.607Z"
+    },
+    {
+      "id": "cl_7981521789",
+      "url": "https://sfbay.craigslist.org/sfc/apa/d/san-francisco-guest-room-or-cozy/7981521789.html",
+      "address": "GUEST Room, or COZY bedroom. Prime Marina Location!",
+      "neighborhood": "Marina",
+      "price": 4530,
+      "bedrooms": 3,
+      "bathrooms": null,
+      "sqft": 865,
+      "available": null,
+      "status": "to_see",
+      "laundry": null,
+      "lat": 37.7955,
+      "lon": -122.4249,
+      "notes": "From Craigslist · posted Oct 11, 1:24 AM",
+      "seen_by": [],
+      "added_by": "craigslist",
+      "added_at": "2026-10-11T02:34:26.850Z"
     }
   ]
 }
