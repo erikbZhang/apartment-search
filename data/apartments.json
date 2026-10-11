@@ -11252,14 +11252,16 @@
       "bathrooms": null,
       "sqft": 850,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.8015,
       "lon": -122.4263,
       "notes": "From Craigslist · posted Oct 4, 9:17 PM",
       "seen_by": [],
       "added_by": "craigslist",
-      "added_at": "2026-10-04T23:40:07.603Z"
+      "added_at": "2026-10-04T23:40:07.603Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-10-11T19:58:22.099Z"
     },
     {
       "id": "cl_7978384977",
@@ -11698,6 +11700,25 @@
       "seen_by": [],
       "added_by": "craigslist",
       "added_at": "2026-10-11T16:00:07.413Z"
+    },
+    {
+      "id": "cl_7981764447",
+      "url": "https://sfbay.craigslist.org/sfc/apa/d/san-francisco-stylish-bedroom-bathroom/7981764447.html",
+      "address": "Stylish 3-Bedroom, 2-Bathroom Apartment in the Marina District!",
+      "neighborhood": "Marina",
+      "price": 8695,
+      "bedrooms": 3,
+      "bathrooms": null,
+      "sqft": 850,
+      "available": null,
+      "status": "to_see",
+      "laundry": null,
+      "lat": 37.8015,
+      "lon": -122.4263,
+      "notes": "From Craigslist · posted Oct 11, 5:21 PM",
+      "seen_by": [],
+      "added_by": "craigslist",
+      "added_at": "2026-10-11T19:58:22.099Z"
     }
   ]
 }
