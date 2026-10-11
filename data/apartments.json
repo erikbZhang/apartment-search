@@ -11210,14 +11210,16 @@
       "bathrooms": null,
       "sqft": 2400,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.7999,
       "lon": -122.4342,
       "notes": "From Craigslist · posted Oct 4, 4:53 PM",
       "seen_by": [],
       "added_by": "craigslist",
-      "added_at": "2026-10-04T17:09:32.500Z"
+      "added_at": "2026-10-04T17:09:32.500Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-10-11T09:23:51.865Z"
     },
     {
       "id": "cl_7977748740",
@@ -11654,6 +11656,25 @@
       "seen_by": [],
       "added_by": "craigslist",
       "added_at": "2026-10-11T02:34:26.850Z"
+    },
+    {
+      "id": "cl_7981550109",
+      "url": "https://sfbay.craigslist.org/sfc/apa/d/san-francisco-bright-spacious-3br-condo/7981550109.html",
+      "address": "Bright Spacious 3BR Condo With Parking In Pacific Heights",
+      "neighborhood": "Pacific Heights",
+      "price": 3600,
+      "bedrooms": 3,
+      "bathrooms": null,
+      "sqft": 1341,
+      "available": null,
+      "status": "to_see",
+      "laundry": null,
+      "lat": 37.7841,
+      "lon": -122.4411,
+      "notes": "From Craigslist · posted Oct 11, 2:41 AM",
+      "seen_by": [],
+      "added_by": "craigslist",
+      "added_at": "2026-10-11T09:23:51.865Z"
     }
   ]
 }
