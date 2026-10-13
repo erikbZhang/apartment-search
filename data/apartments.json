@@ -10525,14 +10525,16 @@
       "bathrooms": null,
       "sqft": 0,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.7774,
       "lon": -122.4227,
       "notes": "From Craigslist · posted Sep 25, 12:14 AM",
       "seen_by": [],
       "added_by": "craigslist",
-      "added_at": "2026-09-25T00:59:05.573Z"
+      "added_at": "2026-09-25T00:59:05.573Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-10-13T02:17:45.244Z"
     },
     {
       "id": "cl_7972494474",
@@ -11519,14 +11521,16 @@
       "bathrooms": null,
       "sqft": 0,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.7587,
       "lon": -122.433,
       "notes": "From Craigslist · posted Oct 8, 4:59 PM",
       "seen_by": [],
       "added_by": "craigslist",
-      "added_at": "2026-10-08T17:02:22.312Z"
+      "added_at": "2026-10-08T17:02:22.312Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-10-13T02:17:45.244Z"
     },
     {
       "id": "rf_b6ec9b82-004e-45a0-8b3a-8eee0613b332",
@@ -11746,6 +11750,44 @@
       "seen_by": [],
       "added_by": "craigslist",
       "added_at": "2026-10-12T20:01:54.591Z"
+    },
+    {
+      "id": "cl_7982248011",
+      "url": "https://sfbay.craigslist.org/sfc/apa/d/san-francisco-open-tue-5pm/7982248011.html",
+      "address": "OPEN TUE 5pm-5:30pm.Spacious 3-2BR,Pet Friendly,W/D(2011 Sacramento#1)",
+      "neighborhood": "Pacific Heights",
+      "price": 5950,
+      "bedrooms": 3,
+      "bathrooms": null,
+      "sqft": 0,
+      "available": null,
+      "status": "to_see",
+      "laundry": null,
+      "lat": 37.7909,
+      "lon": -122.426,
+      "notes": "From Craigslist · posted Oct 12, 4:29 PM",
+      "seen_by": [],
+      "added_by": "craigslist",
+      "added_at": "2026-10-13T02:17:45.244Z"
+    },
+    {
+      "id": "cl_7982599155",
+      "url": "https://sfbay.craigslist.org/sfc/apa/d/san-francisco-fantastic-bedroom/7982599155.html",
+      "address": "Fantastic 3 Bedroom - Hardwood Floors- Killer View",
+      "neighborhood": "Noe Valley",
+      "price": 8495,
+      "bedrooms": 3,
+      "bathrooms": null,
+      "sqft": 0,
+      "available": null,
+      "status": "to_see",
+      "laundry": null,
+      "lat": 37.7587,
+      "lon": -122.433,
+      "notes": "From Craigslist · posted Oct 13, 1:49 AM",
+      "seen_by": [],
+      "added_by": "craigslist",
+      "added_at": "2026-10-13T02:17:45.244Z"
     }
   ]
 }
