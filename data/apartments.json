@@ -11561,14 +11561,16 @@
       "bathrooms": 1,
       "sqft": null,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.771089,
       "lon": -122.4322294,
       "notes": "From Redfin · $6495 · SCHEDULE A SHOWING ONLINE AT: showmojo.com/lrt/958dee00a3 ---- A well-equipped two-bedroom that lives even bigger, 524 Waller Street offers ",
       "seen_by": [],
       "added_by": "redfin",
-      "added_at": "2026-10-08T17:02:22.312Z"
+      "added_at": "2026-10-08T17:02:22.312Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-10-13T09:49:32.112Z"
     },
     {
       "id": "cl_7980471801",
