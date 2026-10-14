@@ -11828,6 +11828,25 @@
       "seen_by": [],
       "added_by": "craigslist",
       "added_at": "2026-10-14T06:50:02.885Z"
+    },
+    {
+      "id": "rf_624c2772-adfe-4ace-b9bd-e54024aeea12",
+      "url": "https://www.redfin.com/CA/San-Francisco/517-519-Fell-St-94102/home/194778391",
+      "address": "517-519 Fell St",
+      "neighborhood": "Western Addition",
+      "price": 6600,
+      "bedrooms": 3,
+      "bathrooms": 2,
+      "sqft": 967,
+      "available": "2026-11-20T00:00:00Z",
+      "status": "to_see",
+      "laundry": "shared",
+      "lat": 37.7752795,
+      "lon": -122.4263757,
+      "notes": "From Redfin · $6600 · Charming 2 unit building on Fell Street. 517 Fell is the bottom unit and has 3 bedrooms plus living room with 2 bathrooms. Enjoy a modern ki",
+      "seen_by": [],
+      "added_by": "redfin",
+      "added_at": "2026-10-14T12:31:36.293Z"
     }
   ]
 }
