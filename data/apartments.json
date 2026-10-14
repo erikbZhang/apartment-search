@@ -11420,14 +11420,16 @@
       "bathrooms": null,
       "sqft": 0,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.8004,
       "lon": -122.4091,
       "notes": "From Craigslist · posted Oct 6, 9:30 PM",
       "seen_by": [],
       "added_by": "craigslist",
-      "added_at": "2026-10-06T23:24:29.085Z"
+      "added_at": "2026-10-06T23:24:29.085Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-10-14T17:39:35.913Z"
     },
     {
       "id": "cl_7979549403",
@@ -11746,14 +11748,16 @@
       "bathrooms": null,
       "sqft": 0,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.7909,
       "lon": -122.426,
       "notes": "From Craigslist · posted Oct 12, 4:29 PM",
       "seen_by": [],
       "added_by": "craigslist",
-      "added_at": "2026-10-12T20:01:54.591Z"
+      "added_at": "2026-10-12T20:01:54.591Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-10-14T17:39:35.913Z"
     },
     {
       "id": "cl_7982248011",
@@ -11765,14 +11769,16 @@
       "bathrooms": null,
       "sqft": 0,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.7909,
       "lon": -122.426,
       "notes": "From Craigslist · posted Oct 12, 4:29 PM",
       "seen_by": [],
       "added_by": "craigslist",
-      "added_at": "2026-10-13T02:17:45.244Z"
+      "added_at": "2026-10-13T02:17:45.244Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-10-14T17:39:35.913Z"
     },
     {
       "id": "cl_7982599155",
@@ -11803,14 +11809,16 @@
       "bathrooms": null,
       "sqft": 0,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.7909,
       "lon": -122.426,
       "notes": "From Craigslist · posted Oct 13, 10:45 PM",
       "seen_by": [],
       "added_by": "craigslist",
-      "added_at": "2026-10-14T01:27:29.226Z"
+      "added_at": "2026-10-14T01:27:29.226Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-10-14T17:39:35.913Z"
     },
     {
       "id": "cl_7983177633",
@@ -11841,14 +11849,35 @@
       "bathrooms": 2,
       "sqft": 967,
       "available": "2026-11-20T00:00:00Z",
-      "status": "to_see",
+      "status": "off_market",
       "laundry": "shared",
       "lat": 37.7752795,
       "lon": -122.4263757,
       "notes": "From Redfin · $6600 · Charming 2 unit building on Fell Street. 517 Fell is the bottom unit and has 3 bedrooms plus living room with 2 bathrooms. Enjoy a modern ki",
       "seen_by": [],
       "added_by": "redfin",
-      "added_at": "2026-10-14T12:31:36.293Z"
+      "added_at": "2026-10-14T12:31:36.293Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-10-14T17:39:35.913Z"
+    },
+    {
+      "id": "cl_7983430191",
+      "url": "https://sfbay.craigslist.org/sfc/apa/d/san-francisco-spacious-2brpet-friendlyw/7983430191.html",
+      "address": "Spacious 3-2BR,Pet Friendly,W/D(2011 Sacramento#1)",
+      "neighborhood": "Pacific Heights",
+      "price": 5950,
+      "bedrooms": 3,
+      "bathrooms": null,
+      "sqft": 0,
+      "available": null,
+      "status": "to_see",
+      "laundry": null,
+      "lat": 37.7909,
+      "lon": -122.426,
+      "notes": "From Craigslist · posted Oct 14, 4:37 PM",
+      "seen_by": [],
+      "added_by": "craigslist",
+      "added_at": "2026-10-14T17:39:35.913Z"
     }
   ]
 }
