@@ -11151,14 +11151,16 @@
       "bathrooms": 2,
       "sqft": 1650,
       "available": "2026-10-03",
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.778301,
       "lon": -122.415817,
       "notes": "From RentCast · $1500 · 1d on market",
       "seen_by": [],
       "added_by": "rentcast",
-      "added_at": "2026-10-03T14:19:34.833Z"
+      "added_at": "2026-10-03T14:19:34.833Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-10-14T14:32:20.385Z"
     },
     {
       "id": "rc_147-Bernard-St,-San-Francisco,-CA-94109",
