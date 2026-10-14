@@ -11809,6 +11809,25 @@
       "seen_by": [],
       "added_by": "craigslist",
       "added_at": "2026-10-14T01:27:29.226Z"
+    },
+    {
+      "id": "cl_7983177633",
+      "url": "https://sfbay.craigslist.org/sfc/apa/d/san-francisco-noe-valley-bedroom-bath/7983177633.html",
+      "address": "Noe Valley 3 bedroom 1 bath - shared yard",
+      "neighborhood": "Noe Valley",
+      "price": 8395,
+      "bedrooms": 3,
+      "bathrooms": null,
+      "sqft": 0,
+      "available": null,
+      "status": "to_see",
+      "laundry": null,
+      "lat": 37.7528,
+      "lon": -122.4365,
+      "notes": "From Craigslist · posted Oct 14, 1:29 AM",
+      "seen_by": [],
+      "added_by": "craigslist",
+      "added_at": "2026-10-14T06:50:02.885Z"
     }
   ]
 }
