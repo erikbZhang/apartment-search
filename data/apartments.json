@@ -11878,6 +11878,44 @@
       "seen_by": [],
       "added_by": "craigslist",
       "added_at": "2026-10-14T17:39:35.913Z"
+    },
+    {
+      "id": "cl_7983430191",
+      "url": "https://sfbay.craigslist.org/sfc/apa/d/san-francisco-open-sun-pm-spacious/7983430191.html",
+      "address": "OPEN SUN 12:30-1pm. Spacious 3-2BR,Pet Friendly,W/D(2011 Sacramento#1)",
+      "neighborhood": "Pacific Heights",
+      "price": 5950,
+      "bedrooms": 3,
+      "bathrooms": null,
+      "sqft": 0,
+      "available": null,
+      "status": "to_see",
+      "laundry": null,
+      "lat": 37.7909,
+      "lon": -122.426,
+      "notes": "From Craigslist · posted Oct 14, 4:37 PM",
+      "seen_by": [],
+      "added_by": "craigslist",
+      "added_at": "2026-10-15T05:22:06.727Z"
+    },
+    {
+      "id": "cl_7983732900",
+      "url": "https://sfbay.craigslist.org/sfc/apa/d/san-francisco-remodeled-3br-2ba/7983732900.html",
+      "address": "Remodeled 3BR/2BA w/ Beautiful Views, Island Kitchen & In-Unit Laundry",
+      "neighborhood": "Pacific Heights",
+      "price": 9495,
+      "bedrooms": 3,
+      "bathrooms": null,
+      "sqft": 0,
+      "available": null,
+      "status": "to_see",
+      "laundry": "in_unit",
+      "lat": 37.7931,
+      "lon": -122.4298,
+      "notes": "From Craigslist · posted Oct 15, 1:07 AM",
+      "seen_by": [],
+      "added_by": "craigslist",
+      "added_at": "2026-10-15T05:22:06.727Z"
     }
   ]
 }
