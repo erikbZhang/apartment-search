@@ -11937,6 +11937,25 @@
       "seen_by": [],
       "added_by": "rentcast",
       "added_at": "2026-10-15T14:11:33.208Z"
+    },
+    {
+      "id": "rf_84c7180f-4e85-40db-964f-670cced717cb",
+      "url": "https://www.redfin.com/CA/San-Francisco/2110-Jackson-St-94115/apartment/565961",
+      "address": "2110 Jackson St",
+      "neighborhood": "Pacific Heights",
+      "price": 9495,
+      "bedrooms": 3,
+      "bathrooms": 2,
+      "sqft": null,
+      "available": null,
+      "status": "to_see",
+      "laundry": null,
+      "lat": 37.7932968,
+      "lon": -122.430232,
+      "notes": "From Redfin · $9495 · SCHEDULE A SHOWING ONLINE AT: showmojo.com/lrt/95fa6940a3 ---- Enjoy spacious and stylish living at 2110 Jackson St #504, a beautifully remo",
+      "seen_by": [],
+      "added_by": "redfin",
+      "added_at": "2026-10-15T15:23:17.297Z"
     }
   ]
 }
