@@ -11918,6 +11918,25 @@
       "seen_by": [],
       "added_by": "craigslist",
       "added_at": "2026-10-15T05:22:06.727Z"
+    },
+    {
+      "id": "rc_2110-Jackson-St,-Apt-504,-San-Francisco,-CA-94115",
+      "url": "https://www.google.com/search?q=2110%20Jackson%20St%2C%20Apt%20504%2C%20San%20Francisco%2C%20CA%2094115%20for%20rent",
+      "address": "2110 Jackson St, Apt 504, San Francisco, CA 94115",
+      "neighborhood": "Pacific Heights",
+      "price": 9495,
+      "bedrooms": 3,
+      "bathrooms": 2,
+      "sqft": null,
+      "available": "2026-10-14",
+      "status": "to_see",
+      "laundry": null,
+      "lat": 37.793297,
+      "lon": -122.430206,
+      "notes": "From RentCast · $9495 · 2d on market",
+      "seen_by": [],
+      "added_by": "rentcast",
+      "added_at": "2026-10-15T14:11:33.208Z"
     }
   ]
 }
