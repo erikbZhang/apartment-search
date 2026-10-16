@@ -11971,14 +11971,16 @@
       "bathrooms": null,
       "sqft": 0,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.7909,
       "lon": -122.426,
       "notes": "From Craigslist · posted Oct 15, 4:40 PM",
       "seen_by": [],
       "added_by": "craigslist",
-      "added_at": "2026-10-15T19:31:29.016Z"
+      "added_at": "2026-10-15T19:31:29.016Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-10-16T19:05:42.716Z"
     },
     {
       "id": "cl_7971770589",
@@ -11998,6 +12000,25 @@
       "seen_by": [],
       "added_by": "craigslist",
       "added_at": "2026-10-15T22:44:15.043Z"
+    },
+    {
+      "id": "cl_7984611888",
+      "url": "https://sfbay.craigslist.org/sfc/apa/d/san-francisco-open-sun-pm-spacious/7984611888.html",
+      "address": "OPEN SUN 12:30-1pm. Spacious 3-2BR,Pet Friendly,W/D(2011 Sacramento#1)",
+      "neighborhood": "Pacific Heights",
+      "price": 5950,
+      "bedrooms": 3,
+      "bathrooms": null,
+      "sqft": 0,
+      "available": null,
+      "status": "to_see",
+      "laundry": null,
+      "lat": 37.7909,
+      "lon": -122.426,
+      "notes": "From Craigslist · posted Oct 16, 4:46 PM",
+      "seen_by": [],
+      "added_by": "craigslist",
+      "added_at": "2026-10-16T19:05:42.716Z"
     }
   ]
 }
