@@ -10046,14 +10046,16 @@
       "bathrooms": null,
       "sqft": 1453,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.7578,
       "lon": -122.4334,
       "notes": "From Craigslist · posted Sep 18, 9:20 PM",
       "seen_by": [],
       "added_by": "craigslist",
-      "added_at": "2026-09-18T23:42:34.246Z"
+      "added_at": "2026-09-18T23:42:34.246Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-10-16T22:17:18.640Z"
     },
     {
       "id": "cl_7969044087",
@@ -12019,6 +12021,44 @@
       "seen_by": [],
       "added_by": "craigslist",
       "added_at": "2026-10-16T19:05:42.716Z"
+    },
+    {
+      "id": "cl_7984839153",
+      "url": "https://sfbay.craigslist.org/sfc/apa/d/san-francisco-must-see-masterpiece-on/7984839153.html",
+      "address": "Must See Masterpiece on Tree Lined 20th Street | One Car Pkg | W/D",
+      "neighborhood": "Noe Valley",
+      "price": 7795,
+      "bedrooms": 3,
+      "bathrooms": null,
+      "sqft": 1453,
+      "available": null,
+      "status": "to_see",
+      "laundry": null,
+      "lat": 37.7578,
+      "lon": -122.4334,
+      "notes": "From Craigslist · posted Oct 16, 9:55 PM",
+      "seen_by": [],
+      "added_by": "craigslist",
+      "added_at": "2026-10-16T22:17:18.640Z"
+    },
+    {
+      "id": "cl_7984611888",
+      "url": "https://sfbay.craigslist.org/sfc/apa/d/san-francisco-open-sun-1235pm-100pm/7984611888.html",
+      "address": "OPEN SUN 12:35pm-1:00pm 3-2BR,Pet Friendly,W/D(2011 Sacramento#1)",
+      "neighborhood": "Pacific Heights",
+      "price": 5950,
+      "bedrooms": 3,
+      "bathrooms": null,
+      "sqft": 0,
+      "available": null,
+      "status": "to_see",
+      "laundry": null,
+      "lat": 37.7909,
+      "lon": -122.426,
+      "notes": "From Craigslist · posted Oct 16, 4:46 PM",
+      "seen_by": [],
+      "added_by": "craigslist",
+      "added_at": "2026-10-16T22:17:18.640Z"
     }
   ]
 }
