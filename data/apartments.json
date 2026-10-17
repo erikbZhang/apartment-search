@@ -12080,6 +12080,25 @@
       "seen_by": [],
       "added_by": "rentcast",
       "added_at": "2026-10-17T12:59:24.450Z"
+    },
+    {
+      "id": "rf_9924b82f-5b52-4235-8979-49e2a45a5d9c",
+      "url": "https://www.redfin.com/CA/San-Francisco/1953-Eddy-St-94115/home/206193570",
+      "address": "1953 Eddy St",
+      "neighborhood": "Western Addition",
+      "price": 6950,
+      "bedrooms": 3,
+      "bathrooms": 1,
+      "sqft": 1400,
+      "available": null,
+      "status": "to_see",
+      "laundry": null,
+      "lat": 37.7802467,
+      "lon": -122.4400665,
+      "notes": "From Redfin · $6950 · SCHEDULE A SHOWING ONLINE AT: showmojo.com/lrt/19e7e4a0a4 ---- Set inside a beautifully restored Victorian dating back to 1895, this spaciou",
+      "seen_by": [],
+      "added_by": "redfin",
+      "added_at": "2026-10-17T13:19:33.508Z"
     }
   ]
 }
