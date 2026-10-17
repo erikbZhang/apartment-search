@@ -11550,14 +11550,16 @@
       "bathrooms": 2,
       "sqft": null,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.7739636,
       "lon": -122.4355173,
       "notes": "From Redfin · $6800",
       "seen_by": [],
       "added_by": "redfin",
-      "added_at": "2026-10-08T17:02:22.312Z"
+      "added_at": "2026-10-08T17:02:22.312Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-10-17T05:09:11.043Z"
     },
     {
       "id": "rf_bb85f9fb-81ca-4e4a-8f8d-cff3689c26eb",
