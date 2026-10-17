@@ -12061,6 +12061,25 @@
       "seen_by": [],
       "added_by": "craigslist",
       "added_at": "2026-10-16T22:17:18.640Z"
+    },
+    {
+      "id": "rc_1953-Eddy-St,-San-Francisco,-CA-94115",
+      "url": "https://www.google.com/search?q=1953%20Eddy%20St%2C%20San%20Francisco%2C%20CA%2094115%20for%20rent",
+      "address": "1953 Eddy St, San Francisco, CA 94115",
+      "neighborhood": "Western Addition",
+      "price": 6950,
+      "bedrooms": 3,
+      "bathrooms": 1,
+      "sqft": 1400,
+      "available": "2026-10-16",
+      "status": "to_see",
+      "laundry": null,
+      "lat": 37.780229,
+      "lon": -122.44005,
+      "notes": "From RentCast · $6950 · 2d on market",
+      "seen_by": [],
+      "added_by": "rentcast",
+      "added_at": "2026-10-17T12:59:24.450Z"
     }
   ]
 }
