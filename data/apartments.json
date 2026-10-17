@@ -12099,6 +12099,25 @@
       "seen_by": [],
       "added_by": "redfin",
       "added_at": "2026-10-17T13:19:33.508Z"
+    },
+    {
+      "id": "cl_7985414679",
+      "url": "https://sfbay.craigslist.org/sfc/apa/d/san-francisco-penthouse-2br-2ba-rooftop/7985414679.html",
+      "address": "PENTHOUSE: 2BR/2BA – Rooftop Deck, Skyline Views, Concierge",
+      "neighborhood": "Nob Hill",
+      "price": 5890,
+      "bedrooms": 4,
+      "bathrooms": null,
+      "sqft": 1420,
+      "available": null,
+      "status": "to_see",
+      "laundry": null,
+      "lat": 37.7947,
+      "lon": -122.4131,
+      "notes": "From Craigslist · posted Oct 17, 10:36 PM",
+      "seen_by": [],
+      "added_by": "craigslist",
+      "added_at": "2026-10-17T23:34:40.738Z"
     }
   ]
 }
