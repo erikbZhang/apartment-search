@@ -11735,14 +11735,16 @@
       "bathrooms": null,
       "sqft": 850,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.8015,
       "lon": -122.4263,
       "notes": "From Craigslist · posted Oct 11, 5:21 PM",
       "seen_by": [],
       "added_by": "craigslist",
-      "added_at": "2026-10-11T19:58:22.099Z"
+      "added_at": "2026-10-11T19:58:22.099Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-10-18T17:52:09.282Z"
     },
     {
       "id": "cl_7982248011",
@@ -11918,14 +11920,16 @@
       "bathrooms": null,
       "sqft": 0,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": "in_unit",
       "lat": 37.7931,
       "lon": -122.4298,
       "notes": "From Craigslist · posted Oct 15, 1:07 AM",
       "seen_by": [],
       "added_by": "craigslist",
-      "added_at": "2026-10-15T05:22:06.727Z"
+      "added_at": "2026-10-15T05:22:06.727Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-10-18T17:52:09.282Z"
     },
     {
       "id": "rc_2110-Jackson-St,-Apt-504,-San-Francisco,-CA-94115",
@@ -12015,14 +12019,16 @@
       "bathrooms": null,
       "sqft": 0,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.7909,
       "lon": -122.426,
       "notes": "From Craigslist · posted Oct 16, 4:46 PM",
       "seen_by": [],
       "added_by": "craigslist",
-      "added_at": "2026-10-16T19:05:42.716Z"
+      "added_at": "2026-10-16T19:05:42.716Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-10-18T17:52:09.282Z"
     },
     {
       "id": "cl_7984839153",
@@ -12053,14 +12059,16 @@
       "bathrooms": null,
       "sqft": 0,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.7909,
       "lon": -122.426,
       "notes": "From Craigslist · posted Oct 16, 4:46 PM",
       "seen_by": [],
       "added_by": "craigslist",
-      "added_at": "2026-10-16T22:17:18.640Z"
+      "added_at": "2026-10-16T22:17:18.640Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-10-18T17:52:09.282Z"
     },
     {
       "id": "rc_1953-Eddy-St,-San-Francisco,-CA-94115",
@@ -12137,6 +12145,44 @@
       "seen_by": [],
       "added_by": "craigslist",
       "added_at": "2026-10-18T15:00:03.325Z"
+    },
+    {
+      "id": "cl_7985700693",
+      "url": "https://sfbay.craigslist.org/sfc/apa/d/san-francisco-stylish-bedroom-bathroom/7985700693.html",
+      "address": "Stylish 3-Bedroom, 2-Bathroom Apartment in the Marina District!",
+      "neighborhood": "Marina",
+      "price": 8495,
+      "bedrooms": 3,
+      "bathrooms": null,
+      "sqft": 850,
+      "available": null,
+      "status": "to_see",
+      "laundry": null,
+      "lat": 37.8015,
+      "lon": -122.4263,
+      "notes": "From Craigslist · posted Oct 18, 4:48 PM",
+      "seen_by": [],
+      "added_by": "craigslist",
+      "added_at": "2026-10-18T17:52:09.282Z"
+    },
+    {
+      "id": "cl_7985707275",
+      "url": "https://sfbay.craigslist.org/sfc/apa/d/san-francisco-remodeled-3br-2ba/7985707275.html",
+      "address": "Remodeled 3BR/2BA w/ Beautiful Views, Island Kitchen & In-Unit Laundry",
+      "neighborhood": "Pacific Heights",
+      "price": 9495,
+      "bedrooms": 3,
+      "bathrooms": null,
+      "sqft": 0,
+      "available": null,
+      "status": "to_see",
+      "laundry": "in_unit",
+      "lat": 37.7931,
+      "lon": -122.4298,
+      "notes": "From Craigslist · posted Oct 18, 5:14 PM",
+      "seen_by": [],
+      "added_by": "craigslist",
+      "added_at": "2026-10-18T17:52:09.282Z"
     }
   ]
 }
