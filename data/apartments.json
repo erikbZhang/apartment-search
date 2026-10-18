@@ -12118,6 +12118,25 @@
       "seen_by": [],
       "added_by": "craigslist",
       "added_at": "2026-10-17T23:34:40.738Z"
+    },
+    {
+      "id": "cl_7985601684",
+      "url": "https://sfbay.craigslist.org/sfc/apa/d/san-francisco-open-sun-1235pm-100pm/7985601684.html",
+      "address": "OPEN SUN 12:35pm-1:00pm 3-2BR,Pet Friendly,W/D(2011 Sacramento#1)",
+      "neighborhood": "Pacific Heights",
+      "price": 5950,
+      "bedrooms": 3,
+      "bathrooms": null,
+      "sqft": 0,
+      "available": null,
+      "status": "to_see",
+      "laundry": null,
+      "lat": 37.7909,
+      "lon": -122.426,
+      "notes": "From Craigslist · posted Oct 18, 1:12 PM",
+      "seen_by": [],
+      "added_by": "craigslist",
+      "added_at": "2026-10-18T15:00:03.325Z"
     }
   ]
 }
