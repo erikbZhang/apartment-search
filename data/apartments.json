@@ -12141,14 +12141,16 @@
       "bathrooms": null,
       "sqft": 0,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.7909,
       "lon": -122.426,
       "notes": "From Craigslist · posted Oct 18, 1:12 PM",
       "seen_by": [],
       "added_by": "craigslist",
-      "added_at": "2026-10-18T15:00:03.325Z"
+      "added_at": "2026-10-18T15:00:03.325Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-10-19T20:49:38.487Z"
     },
     {
       "id": "cl_7985700693",
@@ -12187,6 +12189,25 @@
       "seen_by": [],
       "added_by": "craigslist",
       "added_at": "2026-10-18T17:52:09.282Z"
+    },
+    {
+      "id": "cl_7986216630",
+      "url": "https://sfbay.craigslist.org/sfc/apa/d/san-francisco-2brpet-friendlyw-2011/7986216630.html",
+      "address": "3-2BR,Pet Friendly,W/D (2011 Sacramento#1)",
+      "neighborhood": "Pacific Heights",
+      "price": 5950,
+      "bedrooms": 3,
+      "bathrooms": null,
+      "sqft": 0,
+      "available": null,
+      "status": "to_see",
+      "laundry": null,
+      "lat": 37.7909,
+      "lon": -122.426,
+      "notes": "From Craigslist · posted Oct 19, 4:58 PM",
+      "seen_by": [],
+      "added_by": "craigslist",
+      "added_at": "2026-10-19T20:49:38.487Z"
     }
   ]
 }
