@@ -12250,6 +12250,44 @@
       "seen_by": [],
       "added_by": "craigslist",
       "added_at": "2026-10-20T03:50:41.312Z"
+    },
+    {
+      "id": "cl_7986675345",
+      "url": "https://sfbay.craigslist.org/sfc/apa/d/san-francisco-brand-new-remodeling-flat/7986675345.html",
+      "address": "Brand new remodeling flat three bedrooms three bathrooms one car",
+      "neighborhood": "Noe Valley",
+      "price": 7000,
+      "bedrooms": 3,
+      "bathrooms": null,
+      "sqft": 1500,
+      "available": null,
+      "status": "to_see",
+      "laundry": null,
+      "lat": 37.739,
+      "lon": -122.4251,
+      "notes": "From Craigslist · posted Oct 20, 1:42 PM",
+      "seen_by": [],
+      "added_by": "craigslist",
+      "added_at": "2026-10-20T14:02:38.395Z"
+    },
+    {
+      "id": "cl_7973498643",
+      "url": "https://sfbay.craigslist.org/sfc/apa/d/san-francisco-brand-new-remodeling-flat/7973498643.html",
+      "address": "Brand new remodeling flat three bedrooms three bathrooms one car",
+      "neighborhood": "Noe Valley",
+      "price": 7000,
+      "bedrooms": 3,
+      "bathrooms": null,
+      "sqft": 1500,
+      "available": null,
+      "status": "to_see",
+      "laundry": null,
+      "lat": 37.739,
+      "lon": -122.4251,
+      "notes": "From Craigslist · posted Oct 18, 12:19 AM",
+      "seen_by": [],
+      "added_by": "craigslist",
+      "added_at": "2026-10-20T14:02:38.395Z"
     }
   ]
 }
