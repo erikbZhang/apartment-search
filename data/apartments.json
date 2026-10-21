@@ -12372,6 +12372,25 @@
       "seen_by": [],
       "added_by": "craigslist",
       "added_at": "2026-10-21T05:28:45.869Z"
+    },
+    {
+      "id": "cl_7987315995",
+      "url": "https://sfbay.craigslist.org/sfc/apa/d/san-francisco-spacious-3br-2ba-in-noe/7987315995.html",
+      "address": "Spacious 3BR/2BA in Noe Valley | In-Unit Laundry | Pet Friendly!",
+      "neighborhood": "Noe Valley",
+      "price": 7195,
+      "bedrooms": 3,
+      "bathrooms": null,
+      "sqft": 0,
+      "available": null,
+      "status": "to_see",
+      "laundry": "in_unit",
+      "lat": 37.7454,
+      "lon": -122.4335,
+      "notes": "From Craigslist · posted Oct 21, 4:00 PM",
+      "seen_by": [],
+      "added_by": "craigslist",
+      "added_at": "2026-10-21T19:44:13.505Z"
     }
   ]
 }
