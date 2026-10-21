@@ -12105,14 +12105,16 @@
       "bathrooms": 1,
       "sqft": 1400,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.7802467,
       "lon": -122.4400665,
       "notes": "From Redfin · $6950 · SCHEDULE A SHOWING ONLINE AT: showmojo.com/lrt/19e7e4a0a4 ---- Set inside a beautifully restored Victorian dating back to 1895, this spaciou",
       "seen_by": [],
       "added_by": "redfin",
-      "added_at": "2026-10-17T13:19:33.508Z"
+      "added_at": "2026-10-17T13:19:33.508Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-10-21T10:44:25.516Z"
     },
     {
       "id": "cl_7985414679",
