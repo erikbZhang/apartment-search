@@ -12320,14 +12320,16 @@
       "bathrooms": null,
       "sqft": 0,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.7909,
       "lon": -122.426,
       "notes": "From Craigslist · posted Oct 20, 5:43 PM",
       "seen_by": [],
       "added_by": "craigslist",
-      "added_at": "2026-10-20T18:47:59.077Z"
+      "added_at": "2026-10-20T18:47:59.077Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-10-21T05:28:45.869Z"
     },
     {
       "id": "cl_7986966516",
@@ -12347,6 +12349,25 @@
       "seen_by": [],
       "added_by": "craigslist",
       "added_at": "2026-10-20T21:58:49.543Z"
+    },
+    {
+      "id": "cl_7987144737",
+      "url": "https://sfbay.craigslist.org/sfc/apa/d/san-francisco-cow-hollow-pac-heights-3x/7987144737.html",
+      "address": "Cow Hollow / Pac Heights | 3x2.5 2937sf w/Elevator, 3-Car Gar & Garden",
+      "neighborhood": "Pacific Heights",
+      "price": 6300,
+      "bedrooms": 3,
+      "bathrooms": null,
+      "sqft": 2937,
+      "available": null,
+      "status": "to_see",
+      "laundry": null,
+      "lat": 37.7948,
+      "lon": -122.4462,
+      "notes": "From Craigslist · posted Oct 21, 3:46 AM",
+      "seen_by": [],
+      "added_by": "craigslist",
+      "added_at": "2026-10-21T05:28:45.869Z"
     }
   ]
 }
