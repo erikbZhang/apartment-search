@@ -12393,6 +12393,25 @@
       "seen_by": [],
       "added_by": "craigslist",
       "added_at": "2026-10-21T19:44:13.505Z"
+    },
+    {
+      "id": "rf_444ae979-7f7b-4b76-93da-c27539673898",
+      "url": "https://www.redfin.com/CA/San-Francisco/218-Haight-St-94102/apartment/1523468",
+      "address": "218 Haight St",
+      "neighborhood": "Western Addition",
+      "price": 6995,
+      "bedrooms": 3,
+      "bathrooms": 1,
+      "sqft": 900,
+      "available": null,
+      "status": "to_see",
+      "laundry": null,
+      "lat": 37.7728941,
+      "lon": -122.4265091,
+      "notes": "From Redfin · $6995 · SCHEDULE A SHOWING ONLINE AT: showmojo.com/lrt/fcf2e89088 ---- Discover this beautifully remodeled 3-bedroom PLUS office, 1-bathroom apartme",
+      "seen_by": [],
+      "added_by": "redfin",
+      "added_at": "2026-10-22T12:35:40.171Z"
     }
   ]
 }
