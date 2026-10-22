@@ -12412,6 +12412,44 @@
       "seen_by": [],
       "added_by": "redfin",
       "added_at": "2026-10-22T12:35:40.171Z"
+    },
+    {
+      "id": "rc_2037-Castro-St,-Apt-22,-San-Francisco,-CA-94131",
+      "url": "https://www.google.com/search?q=2037%20Castro%20St%2C%20Apt%2022%2C%20San%20Francisco%2C%20CA%2094131%20for%20rent",
+      "address": "2037 Castro St, Apt 22, San Francisco, CA 94131",
+      "neighborhood": "Noe Valley",
+      "price": 7195,
+      "bedrooms": 3,
+      "bathrooms": 2,
+      "sqft": null,
+      "available": "2026-10-21",
+      "status": "to_see",
+      "laundry": null,
+      "lat": 37.745155,
+      "lon": -122.432915,
+      "notes": "From RentCast · $7195 · 2d on market",
+      "seen_by": [],
+      "added_by": "rentcast",
+      "added_at": "2026-10-22T14:32:08.217Z"
+    },
+    {
+      "id": "rc_218-Haight-St,-Apt-2,-San-Francisco,-CA-94102",
+      "url": "https://www.google.com/search?q=218%20Haight%20St%2C%20Apt%202%2C%20San%20Francisco%2C%20CA%2094102%20for%20rent",
+      "address": "218 Haight St, Apt 2, San Francisco, CA 94102",
+      "neighborhood": "Western Addition",
+      "price": 6995,
+      "bedrooms": 3,
+      "bathrooms": 1,
+      "sqft": 900,
+      "available": "2026-10-21",
+      "status": "to_see",
+      "laundry": null,
+      "lat": 37.772896,
+      "lon": -122.426483,
+      "notes": "From RentCast · $6995 · 2d on market",
+      "seen_by": [],
+      "added_by": "rentcast",
+      "added_at": "2026-10-22T14:32:08.217Z"
     }
   ]
 }
