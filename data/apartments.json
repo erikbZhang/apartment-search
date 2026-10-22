@@ -12450,6 +12450,44 @@
       "seen_by": [],
       "added_by": "rentcast",
       "added_at": "2026-10-22T14:32:08.217Z"
+    },
+    {
+      "id": "cl_7983550572",
+      "url": "https://sfbay.craigslist.org/sfc/apa/d/san-francisco-15-fantastic-noe-valley/7983550572.html",
+      "address": "3/1.5 fantastic Noe Valley flat",
+      "neighborhood": "Noe Valley",
+      "price": 6800,
+      "bedrooms": 3,
+      "bathrooms": null,
+      "sqft": 1350,
+      "available": null,
+      "status": "to_see",
+      "laundry": null,
+      "lat": 37.7587,
+      "lon": -122.433,
+      "notes": "From Craigslist · posted Oct 22, 3:01 PM",
+      "seen_by": [],
+      "added_by": "craigslist",
+      "added_at": "2026-10-22T17:42:57.057Z"
+    },
+    {
+      "id": "rf_edd46cc2-b918-4794-9f1f-cb02482c4fec",
+      "url": "https://www.redfin.com/CA/San-Francisco/2037-Castro-St-94131/home/200913394",
+      "address": "2037 Castro St",
+      "neighborhood": "Noe Valley",
+      "price": 7195,
+      "bedrooms": 3,
+      "bathrooms": 2,
+      "sqft": null,
+      "available": null,
+      "status": "to_see",
+      "laundry": null,
+      "lat": 37.7451867,
+      "lon": -122.4326709,
+      "notes": "From Redfin · $7195 · SCHEDULE A SHOWING ONLINE AT: showmojo.com/lrt/f15fa5b0a5 ---- Discover comfortable San Francisco living at 2037 Castro St #22, a spacious 3",
+      "seen_by": [],
+      "added_by": "redfin",
+      "added_at": "2026-10-22T17:42:57.057Z"
     }
   ]
 }
