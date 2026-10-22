@@ -12488,6 +12488,44 @@
       "seen_by": [],
       "added_by": "redfin",
       "added_at": "2026-10-22T17:42:57.057Z"
+    },
+    {
+      "id": "cl_7988222817",
+      "url": "https://sfbay.craigslist.org/sfc/apa/d/san-francisco-water-trash-covered-by/7988222817.html",
+      "address": "Water & Trash Covered by Owner $5,350/Mo Pacific Heights 3BD Home",
+      "neighborhood": "Pacific Heights",
+      "price": 5350,
+      "bedrooms": 3,
+      "bathrooms": null,
+      "sqft": 1964,
+      "available": null,
+      "status": "to_see",
+      "laundry": null,
+      "lat": 37.7913,
+      "lon": -122.4326,
+      "notes": "From Craigslist · posted Oct 22, 11:32 PM",
+      "seen_by": [],
+      "added_by": "craigslist",
+      "added_at": "2026-10-22T23:46:05.371Z"
+    },
+    {
+      "id": "cl_7988161200",
+      "url": "https://sfbay.craigslist.org/sfc/apa/d/san-francisco-60-laussat-st-spacious/7988161200.html",
+      "address": "60 Laussat St - Spacious, Quiet, Beautiful 3BR 1BA w/ Private Garage",
+      "neighborhood": "Hayes Valley",
+      "price": 6495,
+      "bedrooms": 3,
+      "bathrooms": null,
+      "sqft": 1500,
+      "available": null,
+      "status": "to_see",
+      "laundry": null,
+      "lat": 37.772,
+      "lon": -122.4275,
+      "notes": "From Craigslist · posted Oct 22, 9:11 PM",
+      "seen_by": [],
+      "added_by": "craigslist",
+      "added_at": "2026-10-22T23:46:05.371Z"
     }
   ]
 }
