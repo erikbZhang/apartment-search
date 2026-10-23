@@ -12553,6 +12553,25 @@
       "seen_by": [],
       "added_by": "craigslist",
       "added_at": "2026-10-23T02:17:45.358Z"
+    },
+    {
+      "id": "cl_7987556733",
+      "url": "https://sfbay.craigslist.org/sfc/apa/d/san-francisco-fantastic-bedroom-2bath/7987556733.html",
+      "address": "Fantastic 3 bedroom - 2bath",
+      "neighborhood": "Hayes Valley",
+      "price": 9495,
+      "bedrooms": 3,
+      "bathrooms": null,
+      "sqft": 0,
+      "available": null,
+      "status": "to_see",
+      "laundry": null,
+      "lat": 37.7774,
+      "lon": -122.4227,
+      "notes": "From Craigslist · posted Oct 21, 8:48 PM",
+      "seen_by": [],
+      "added_by": "craigslist",
+      "added_at": "2026-10-23T21:06:30.366Z"
     }
   ]
 }
