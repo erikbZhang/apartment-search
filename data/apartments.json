@@ -12692,6 +12692,25 @@
       "seen_by": [],
       "added_by": "redfin",
       "added_at": "2026-10-24T13:42:08.749Z"
+    },
+    {
+      "id": "rf_b7fc28e9-a7e6-4977-8d39-649e091d4389",
+      "url": "https://www.redfin.com/CA/San-Francisco/Franklin-Street-Apartments/apartment/1260171",
+      "address": "1800 Franklin St",
+      "neighborhood": "Pacific Heights",
+      "price": 8295,
+      "bedrooms": 3,
+      "bathrooms": 2,
+      "sqft": 1500,
+      "available": null,
+      "status": "to_see",
+      "laundry": null,
+      "lat": 37.7913673,
+      "lon": -122.4239413,
+      "notes": "From Redfin · $8295 · Grand, centrally located, and 1919 Pre-War Residence. Two blocks to Polk Street with tons of restaurants and services. One block from Whole ",
+      "seen_by": [],
+      "added_by": "redfin",
+      "added_at": "2026-10-24T19:54:55.173Z"
     }
   ]
 }
