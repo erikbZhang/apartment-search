@@ -12587,14 +12587,16 @@
       "bathrooms": null,
       "sqft": 2158,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.7924,
       "lon": -122.4353,
       "notes": "From Craigslist · posted Oct 24, 5:06 AM",
       "seen_by": [],
       "added_by": "craigslist",
-      "added_at": "2026-10-24T05:10:29.828Z"
+      "added_at": "2026-10-24T05:10:29.828Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-10-24T13:42:08.749Z"
     },
     {
       "id": "cl_7988848395",
@@ -12671,6 +12673,25 @@
       "seen_by": [],
       "added_by": "rentcast",
       "added_at": "2026-10-24T13:22:04.449Z"
+    },
+    {
+      "id": "rf_fa30c78a-3675-44b2-98a5-f59156dd7af5",
+      "url": "https://www.redfin.com/CA/San-Francisco/60-Laussat-St-94102/unit-60/home/206651419",
+      "address": "60 Laussat St Unit 60",
+      "neighborhood": "Western Addition",
+      "price": 6495,
+      "bedrooms": 3,
+      "bathrooms": 1,
+      "sqft": 1500,
+      "available": null,
+      "status": "to_see",
+      "laundry": null,
+      "lat": 37.772135,
+      "lon": -122.428163,
+      "notes": "From Redfin · $6495",
+      "seen_by": [],
+      "added_by": "redfin",
+      "added_at": "2026-10-24T13:42:08.749Z"
     }
   ]
 }
