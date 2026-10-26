@@ -12321,14 +12321,16 @@
       "bathrooms": null,
       "sqft": 2450,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.7999,
       "lon": -122.4342,
       "notes": "From Craigslist · posted Oct 20, 3:53 PM",
       "seen_by": [],
       "added_by": "craigslist",
-      "added_at": "2026-10-20T18:47:59.077Z"
+      "added_at": "2026-10-20T18:47:59.077Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-10-26T22:00:05.132Z"
     },
     {
       "id": "cl_7986841269",
@@ -12557,14 +12559,16 @@
       "bathrooms": null,
       "sqft": 0,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.7528,
       "lon": -122.4365,
       "notes": "From Craigslist · posted Oct 23, 1:36 AM",
       "seen_by": [],
       "added_by": "craigslist",
-      "added_at": "2026-10-23T02:17:45.358Z"
+      "added_at": "2026-10-23T02:17:45.358Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-10-26T22:00:05.132Z"
     },
     {
       "id": "cl_7987556733",
@@ -12637,14 +12641,16 @@
       "bathrooms": null,
       "sqft": 2790,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.7519,
       "lon": -122.4381,
       "notes": "From Craigslist · posted Oct 24, 12:22 AM",
       "seen_by": [],
       "added_by": "craigslist",
-      "added_at": "2026-10-24T05:10:29.828Z"
+      "added_at": "2026-10-24T05:10:29.828Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-10-26T22:00:05.132Z"
     },
     {
       "id": "cl_7988891106",
@@ -12765,6 +12771,25 @@
       "seen_by": [],
       "added_by": "craigslist",
       "added_at": "2026-10-26T05:31:24.388Z"
+    },
+    {
+      "id": "cl_7990285131",
+      "url": "https://sfbay.craigslist.org/sfc/apa/d/san-francisco-noe-valley-bedroom-bath/7990285131.html",
+      "address": "Noe Valley 3 bedroom 1 bath - shared yard",
+      "neighborhood": "Noe Valley",
+      "price": 7895,
+      "bedrooms": 3,
+      "bathrooms": null,
+      "sqft": 0,
+      "available": null,
+      "status": "to_see",
+      "laundry": null,
+      "lat": 37.7528,
+      "lon": -122.4365,
+      "notes": "From Craigslist · posted Oct 26, 7:16 PM",
+      "seen_by": [],
+      "added_by": "craigslist",
+      "added_at": "2026-10-26T22:00:05.132Z"
     }
   ]
 }
