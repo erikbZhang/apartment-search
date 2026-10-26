@@ -12717,14 +12717,16 @@
       "bathrooms": 2,
       "sqft": 1500,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.7913673,
       "lon": -122.4239413,
       "notes": "From Redfin · $8295 · Grand, centrally located, and 1919 Pre-War Residence. Two blocks to Polk Street with tons of restaurants and services. One block from Whole ",
       "seen_by": [],
       "added_by": "redfin",
-      "added_at": "2026-10-24T19:54:55.173Z"
+      "added_at": "2026-10-24T19:54:55.173Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-10-26T17:46:28.754Z"
     },
     {
       "id": "rf_6e10253f-3de9-4c1a-b2fb-13966a3664a1",
