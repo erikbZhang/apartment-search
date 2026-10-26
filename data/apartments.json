@@ -11972,14 +11972,16 @@
       "bathrooms": 2,
       "sqft": null,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.7932968,
       "lon": -122.430232,
       "notes": "From Redfin · $9495 · SCHEDULE A SHOWING ONLINE AT: showmojo.com/lrt/95fa6940a3 ---- Enjoy spacious and stylish living at 2110 Jackson St #504, a beautifully remo",
       "seen_by": [],
       "added_by": "redfin",
-      "added_at": "2026-10-15T15:23:17.297Z"
+      "added_at": "2026-10-15T15:23:17.297Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-10-26T05:31:24.388Z"
     },
     {
       "id": "cl_7984016427",
@@ -12742,6 +12744,25 @@
       "seen_by": [],
       "added_by": "redfin",
       "added_at": "2026-10-25T14:38:07.353Z"
+    },
+    {
+      "id": "cl_7989896487",
+      "url": "https://sfbay.craigslist.org/sfc/apa/d/san-francisco-brand-new-remodeling-flat/7989896487.html",
+      "address": "Brand new remodeling flat three bedrooms three bathrooms one car",
+      "neighborhood": "Noe Valley",
+      "price": 7500,
+      "bedrooms": 3,
+      "bathrooms": null,
+      "sqft": 1500,
+      "available": null,
+      "status": "to_see",
+      "laundry": null,
+      "lat": 37.739,
+      "lon": -122.4251,
+      "notes": "From Craigslist · posted Oct 26, 1:22 AM",
+      "seen_by": [],
+      "added_by": "craigslist",
+      "added_at": "2026-10-26T05:31:24.388Z"
     }
   ]
 }
