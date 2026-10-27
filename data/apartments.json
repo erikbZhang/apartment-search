@@ -12546,14 +12546,16 @@
       "bathrooms": null,
       "sqft": 1500,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.772,
       "lon": -122.4275,
       "notes": "From Craigslist · posted Oct 22, 9:11 PM",
       "seen_by": [],
       "added_by": "craigslist",
-      "added_at": "2026-10-22T23:46:05.371Z"
+      "added_at": "2026-10-22T23:46:05.371Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-10-27T18:26:41.512Z"
     },
     {
       "id": "cl_7988290629",
@@ -12826,14 +12828,35 @@
       "bathrooms": null,
       "sqft": 2425,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.7999,
       "lon": -122.4342,
       "notes": "From Craigslist · posted Oct 27, 7:25 AM",
       "seen_by": [],
       "added_by": "craigslist",
-      "added_at": "2026-10-27T12:52:53.583Z"
+      "added_at": "2026-10-27T12:52:53.583Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-10-27T18:26:41.512Z"
+    },
+    {
+      "id": "rf_7f990305-e2ae-4cf8-8893-9dce7b037e2a",
+      "url": "https://www.redfin.com/CA/San-Francisco/327-Clipper-St-94114/home/194782396",
+      "address": "327 Clipper St",
+      "neighborhood": "Noe Valley",
+      "price": 8900,
+      "bedrooms": 3,
+      "bathrooms": 2,
+      "sqft": null,
+      "available": null,
+      "status": "to_see",
+      "laundry": null,
+      "lat": 37.7488768,
+      "lon": -122.4323292,
+      "notes": "From Redfin · $8900 · Contemporary flat located in Noe Valley just a few blocks from 24th St. restaurants and shopping. Walking distance to public library, Alvara",
+      "seen_by": [],
+      "added_by": "redfin",
+      "added_at": "2026-10-27T18:26:41.512Z"
     }
   ]
 }
