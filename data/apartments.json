@@ -12790,6 +12790,25 @@
       "seen_by": [],
       "added_by": "craigslist",
       "added_at": "2026-10-26T22:00:05.132Z"
+    },
+    {
+      "id": "cl_7990526010",
+      "url": "https://sfbay.craigslist.org/sfc/apa/d/san-francisco-id489-noe-valley-large/7990526010.html",
+      "address": "ID#489: Noe Valley Large 3BR/2BA Top Flat w/Balcony, Parking",
+      "neighborhood": "Noe Valley",
+      "price": 8900,
+      "bedrooms": 3,
+      "bathrooms": null,
+      "sqft": 0,
+      "available": null,
+      "status": "to_see",
+      "laundry": null,
+      "lat": 37.749,
+      "lon": -122.4316,
+      "notes": "From Craigslist · posted Oct 27, 3:38 AM",
+      "seen_by": [],
+      "added_by": "craigslist",
+      "added_at": "2026-10-27T06:56:37.734Z"
     }
   ]
 }
