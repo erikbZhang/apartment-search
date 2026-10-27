@@ -12445,14 +12445,16 @@
       "bathrooms": 2,
       "sqft": null,
       "available": "2026-10-21",
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.745155,
       "lon": -122.432915,
       "notes": "From RentCast · $7195 · 2d on market",
       "seen_by": [],
       "added_by": "rentcast",
-      "added_at": "2026-10-22T14:32:08.217Z"
+      "added_at": "2026-10-22T14:32:08.217Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-10-27T15:23:16.047Z"
     },
     {
       "id": "rc_218-Haight-St,-Apt-2,-San-Francisco,-CA-94102",
@@ -12464,14 +12466,16 @@
       "bathrooms": 1,
       "sqft": 900,
       "available": "2026-10-21",
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.772896,
       "lon": -122.426483,
       "notes": "From RentCast · $6995 · 2d on market",
       "seen_by": [],
       "added_by": "rentcast",
-      "added_at": "2026-10-22T14:32:08.217Z"
+      "added_at": "2026-10-22T14:32:08.217Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-10-27T15:23:16.047Z"
     },
     {
       "id": "cl_7983550572",
