@@ -12897,6 +12897,44 @@
       "seen_by": [],
       "added_by": "rentcast",
       "added_at": "2026-10-28T16:06:19.904Z"
+    },
+    {
+      "id": "cl_7991514567",
+      "url": "https://sfbay.craigslist.org/sfc/apa/d/san-francisco-large-pristine-3br-2ba/7991514567.html",
+      "address": "Large, Pristine 3BR/2BA Noe Valley Flat, Views, Parking - PROGRESSIVE",
+      "neighborhood": "Noe Valley",
+      "price": 7995,
+      "bedrooms": 3,
+      "bathrooms": null,
+      "sqft": 0,
+      "available": null,
+      "status": "to_see",
+      "laundry": null,
+      "lat": 37.7475,
+      "lon": -122.4328,
+      "notes": "From Craigslist · posted Oct 28, 8:54 PM",
+      "seen_by": [],
+      "added_by": "craigslist",
+      "added_at": "2026-10-28T23:44:59.516Z"
+    },
+    {
+      "id": "rf_e24e8f03-64b9-49e0-b641-e27e73c4e0c6",
+      "url": "https://www.redfin.com/CA/San-Francisco/425-Fell-St-94102/unit-425/home/206724333",
+      "address": "425 Fell St Unit 425",
+      "neighborhood": "Western Addition",
+      "price": 8400,
+      "bedrooms": 4,
+      "bathrooms": 2,
+      "sqft": null,
+      "available": null,
+      "status": "to_see",
+      "laundry": null,
+      "lat": 37.7755065,
+      "lon": -122.4248495,
+      "notes": "From Redfin · $8400",
+      "seen_by": [],
+      "added_by": "redfin",
+      "added_at": "2026-10-28T23:44:59.516Z"
     }
   ]
 }
