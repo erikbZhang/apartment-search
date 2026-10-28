@@ -12426,14 +12426,16 @@
       "bathrooms": 1,
       "sqft": 900,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.7728941,
       "lon": -122.4265091,
       "notes": "From Redfin · $6995 · SCHEDULE A SHOWING ONLINE AT: showmojo.com/lrt/fcf2e89088 ---- Discover this beautifully remodeled 3-bedroom PLUS office, 1-bathroom apartme",
       "seen_by": [],
       "added_by": "redfin",
-      "added_at": "2026-10-22T12:35:40.171Z"
+      "added_at": "2026-10-22T12:35:40.171Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-10-28T01:52:07.128Z"
     },
     {
       "id": "rc_2037-Castro-St,-Apt-22,-San-Francisco,-CA-94131",
@@ -12857,6 +12859,25 @@
       "seen_by": [],
       "added_by": "redfin",
       "added_at": "2026-10-27T18:26:41.512Z"
+    },
+    {
+      "id": "rf_f33e3147-f35c-4ec1-870b-bc4c92609f63",
+      "url": "https://www.redfin.com/CA/San-Francisco/1018-Jackson-St-94133/home/1068551",
+      "address": "1018 Jackson St",
+      "neighborhood": "Nob Hill",
+      "price": 8495,
+      "bedrooms": 3,
+      "bathrooms": 1.5,
+      "sqft": null,
+      "available": null,
+      "status": "to_see",
+      "laundry": null,
+      "lat": 37.7955198,
+      "lon": -122.4119922,
+      "notes": "From Redfin · $8495 · SCHEDULE A SHOWING ONLINE AT: showmojo.com/lrt/17762d60b2 ---- Enjoy classic San Francisco charm and modern conveniences in this fully remod",
+      "seen_by": [],
+      "added_by": "redfin",
+      "added_at": "2026-10-28T01:52:07.128Z"
     }
   ]
 }
