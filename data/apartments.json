@@ -12878,6 +12878,25 @@
       "seen_by": [],
       "added_by": "redfin",
       "added_at": "2026-10-28T01:52:07.128Z"
+    },
+    {
+      "id": "rc_1018-Jackson-St,-San-Francisco,-CA-94133",
+      "url": "https://www.google.com/search?q=1018%20Jackson%20St%2C%20San%20Francisco%2C%20CA%2094133%20for%20rent",
+      "address": "1018 Jackson St, San Francisco, CA 94133",
+      "neighborhood": "Nob Hill",
+      "price": 8495,
+      "bedrooms": 3,
+      "bathrooms": 1.5,
+      "sqft": null,
+      "available": "2026-10-27",
+      "status": "to_see",
+      "laundry": null,
+      "lat": 37.795518,
+      "lon": -122.411991,
+      "notes": "From RentCast · $8495 · 2d on market",
+      "seen_by": [],
+      "added_by": "rentcast",
+      "added_at": "2026-10-28T16:06:19.904Z"
     }
   ]
 }
