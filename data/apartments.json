@@ -13049,6 +13049,25 @@
       "seen_by": [],
       "added_by": "rentcast",
       "added_at": "2026-10-29T16:11:17.759Z"
+    },
+    {
+      "id": "cl_7992064206",
+      "url": "https://sfbay.craigslist.org/sfc/apa/d/completely-remodeled-3br-bath/7992064206.html",
+      "address": "Completely Remodeled  3br & 1 1/2 bath",
+      "neighborhood": "North Beach",
+      "price": 7500,
+      "bedrooms": 3,
+      "bathrooms": null,
+      "sqft": 0,
+      "available": null,
+      "status": "to_see",
+      "laundry": null,
+      "lat": 37.8015,
+      "lon": -122.4085,
+      "notes": "From Craigslist · posted Oct 29, 8:27 PM",
+      "seen_by": [],
+      "added_by": "craigslist",
+      "added_at": "2026-10-29T22:07:30.208Z"
     }
   ]
 }
