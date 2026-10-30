@@ -13024,14 +13024,16 @@
       "bathrooms": 2,
       "sqft": 1413,
       "available": "2026-10-28",
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.802,
       "lon": -122.41356,
       "notes": "From RentCast · $10995 · 2d on market",
       "seen_by": [],
       "added_by": "rentcast",
-      "added_at": "2026-10-29T16:11:17.759Z"
+      "added_at": "2026-10-29T16:11:17.759Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-10-30T15:58:12.975Z"
     },
     {
       "id": "rc_4160-Cesar-Chavez-St,-San-Francisco,-CA-94131",
