@@ -12792,14 +12792,16 @@
       "bathrooms": null,
       "sqft": 0,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.7528,
       "lon": -122.4365,
       "notes": "From Craigslist · posted Oct 26, 7:16 PM",
       "seen_by": [],
       "added_by": "craigslist",
-      "added_at": "2026-10-26T22:00:05.132Z"
+      "added_at": "2026-10-26T22:00:05.132Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-10-30T02:13:31.653Z"
     },
     {
       "id": "cl_7990526010",
@@ -13068,6 +13070,25 @@
       "seen_by": [],
       "added_by": "craigslist",
       "added_at": "2026-10-29T22:07:30.208Z"
+    },
+    {
+      "id": "cl_7992145407",
+      "url": "https://sfbay.craigslist.org/sfc/apa/d/san-francisco-noe-valley-3br-1ba-top/7992145407.html",
+      "address": "Noe Valley 3BR/1BA Top-Floor Apartment — $7,895",
+      "neighborhood": "Noe Valley",
+      "price": 7895,
+      "bedrooms": 3,
+      "bathrooms": null,
+      "sqft": 0,
+      "available": null,
+      "status": "to_see",
+      "laundry": null,
+      "lat": 37.7528,
+      "lon": -122.4365,
+      "notes": "From Craigslist · posted Oct 29, 11:25 PM",
+      "seen_by": [],
+      "added_by": "craigslist",
+      "added_at": "2026-10-30T02:13:31.653Z"
     }
   ]
 }
