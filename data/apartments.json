@@ -13091,6 +13091,44 @@
       "seen_by": [],
       "added_by": "craigslist",
       "added_at": "2026-10-30T02:13:31.653Z"
+    },
+    {
+      "id": "cl_7992829929",
+      "url": "https://sfbay.craigslist.org/sfc/apa/d/san-francisco-italianate-victorian-sfh/7992829929.html",
+      "address": "Italianate Victorian SFH 12-Ft Ceilings, 3 Fireplaces & Garden",
+      "neighborhood": "Japantown",
+      "price": 5200,
+      "bedrooms": 3,
+      "bathrooms": null,
+      "sqft": 2890,
+      "available": null,
+      "status": "to_see",
+      "laundry": null,
+      "lat": 37.7873,
+      "lon": -122.4313,
+      "notes": "From Craigslist · posted Oct 31, 6:59 AM",
+      "seen_by": [],
+      "added_by": "craigslist",
+      "added_at": "2026-10-31T07:38:40.875Z"
+    },
+    {
+      "id": "cl_7992830382",
+      "url": "https://sfbay.craigslist.org/sfc/apa/d/san-francisco-two-main-level-bedrooms/7992830382.html",
+      "address": "Two Main-Level Bedrooms & Storage Rebuilt Victorian w/ Master Suite",
+      "neighborhood": "Pacific Heights",
+      "price": 5490,
+      "bedrooms": 3,
+      "bathrooms": null,
+      "sqft": 1964,
+      "available": null,
+      "status": "to_see",
+      "laundry": null,
+      "lat": 37.7913,
+      "lon": -122.4326,
+      "notes": "From Craigslist · posted Oct 31, 7:28 AM",
+      "seen_by": [],
+      "added_by": "craigslist",
+      "added_at": "2026-10-31T07:38:40.875Z"
     }
   ]
 }
