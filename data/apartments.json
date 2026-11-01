@@ -13137,6 +13137,25 @@
       "added_at": "2026-10-31T07:38:40.875Z",
       "prev_status": "to_see",
       "off_market_at": "2026-10-31T18:07:28.664Z"
+    },
+    {
+      "id": "cl_7993532964",
+      "url": "https://sfbay.craigslist.org/sfc/apa/d/san-francisco-remodeled-nob-hill-3br/7993532964.html",
+      "address": "Remodeled Nob Hill 3BR | Laundry & Storage | Flex 4BR (No Living Room)",
+      "neighborhood": "Nob Hill",
+      "price": 8495,
+      "bedrooms": 3,
+      "bathrooms": null,
+      "sqft": 0,
+      "available": null,
+      "status": "to_see",
+      "laundry": "shared",
+      "lat": 37.7954,
+      "lon": -122.4119,
+      "notes": "From Craigslist · posted Nov 1, 5:55 PM",
+      "seen_by": [],
+      "added_by": "craigslist",
+      "added_at": "2026-11-01T18:43:57.733Z"
     }
   ]
 }
