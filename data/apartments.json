@@ -13156,6 +13156,25 @@
       "seen_by": [],
       "added_by": "craigslist",
       "added_at": "2026-11-01T18:43:57.733Z"
+    },
+    {
+      "id": "cl_7993730124",
+      "url": "https://sfbay.craigslist.org/sfc/apa/d/san-francisco-nob-hill-remodeled-flat/7993730124.html",
+      "address": "Nob Hill - Remodeled Flat",
+      "neighborhood": "Nob Hill",
+      "price": 8895,
+      "bedrooms": 3,
+      "bathrooms": null,
+      "sqft": 0,
+      "available": null,
+      "status": "to_see",
+      "laundry": null,
+      "lat": 37.7946,
+      "lon": -122.4181,
+      "notes": "From Craigslist · posted Nov 2, 12:05 AM",
+      "seen_by": [],
+      "added_by": "craigslist",
+      "added_at": "2026-11-02T01:57:05.471Z"
     }
   ]
 }
