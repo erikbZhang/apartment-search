@@ -13175,6 +13175,25 @@
       "seen_by": [],
       "added_by": "craigslist",
       "added_at": "2026-11-02T01:57:05.471Z"
+    },
+    {
+      "id": "cl_7993808973",
+      "url": "https://sfbay.craigslist.org/sfc/apa/d/san-francisco-pacific-heights-loc-3br/7993808973.html",
+      "address": "Pacific Heights Loc 3Br/2Bth Victorian w/ Sub-Zero, Wine Cooler",
+      "neighborhood": "Pacific Heights",
+      "price": 4900,
+      "bedrooms": 3,
+      "bathrooms": null,
+      "sqft": 1964,
+      "available": null,
+      "status": "to_see",
+      "laundry": null,
+      "lat": 37.7913,
+      "lon": -122.4326,
+      "notes": "From Craigslist · posted Nov 2, 4:42 AM",
+      "seen_by": [],
+      "added_by": "craigslist",
+      "added_at": "2026-11-02T08:42:42.791Z"
     }
   ]
 }
