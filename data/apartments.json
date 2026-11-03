@@ -12971,14 +12971,16 @@
       "bathrooms": 2,
       "sqft": null,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.7476,
       "lon": -122.43274,
       "notes": "From Redfin · $7995 · Welcome to 4160 Cesar Chavez Street! This spacious, light-filled full floor flat is located in the heart of Noe Valley, yet tucked away on a",
       "seen_by": [],
       "added_by": "redfin",
-      "added_at": "2026-10-29T10:30:17.101Z"
+      "added_at": "2026-10-29T10:30:17.101Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-11-03T08:44:39.385Z"
     },
     {
       "id": "rf_13328ee3-5dbc-4d0d-9317-03fc9d669ebc",
@@ -13238,6 +13240,44 @@
       "seen_by": [],
       "added_by": "craigslist",
       "added_at": "2026-11-03T01:23:51.398Z"
+    },
+    {
+      "id": "rf_4d2491e1-4d91-4e89-b27b-f06a1f18d951",
+      "url": "https://www.redfin.com/CA/San-Francisco/2005-Pine-St-94115/home/206814312",
+      "address": "2005 Pine St",
+      "neighborhood": "Western Addition",
+      "price": 10500,
+      "bedrooms": 4,
+      "bathrooms": 0,
+      "sqft": null,
+      "available": null,
+      "status": "to_see",
+      "laundry": null,
+      "lat": 37.788282,
+      "lon": -122.429211,
+      "notes": "From Redfin · $10500 · SCHEDULE A SHOWING ONLINE AT: showmojo.com/lrt/5c65fbc0a0 ---- TOP-FLOOR 4BR/2BA SAN FRANCISCO FLAT -- SPACE, LIGHT & CLASSIC CHARACTER MORE",
+      "seen_by": [],
+      "added_by": "redfin",
+      "added_at": "2026-11-03T08:44:39.385Z"
+    },
+    {
+      "id": "rf_466f713f-4730-4314-aa88-2990d790090b",
+      "url": "https://www.redfin.com/CA/San-Francisco/1275-Washington-St-94108/unit-11/home/206798455",
+      "address": "1275 Washington St Apt 11",
+      "neighborhood": "Nob Hill",
+      "price": 6995,
+      "bedrooms": 3,
+      "bathrooms": 1,
+      "sqft": 900,
+      "available": "2026-11-05T00:00:00Z",
+      "status": "to_see",
+      "laundry": null,
+      "lat": 37.7940202,
+      "lon": -122.4141993,
+      "notes": "From Redfin · $6995",
+      "seen_by": [],
+      "added_by": "redfin",
+      "added_at": "2026-11-03T08:44:39.385Z"
     }
   ]
 }
