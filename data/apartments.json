@@ -12931,14 +12931,16 @@
       "bathrooms": 2,
       "sqft": null,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.7755065,
       "lon": -122.4248495,
       "notes": "From Redfin · $8400",
       "seen_by": [],
       "added_by": "redfin",
-      "added_at": "2026-10-28T23:44:59.516Z"
+      "added_at": "2026-10-28T23:44:59.516Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-11-03T01:23:51.398Z"
     },
     {
       "id": "rf_3d111e92-5ed5-425c-ae97-ea2ac6398ec5",
@@ -13087,14 +13089,16 @@
       "bathrooms": null,
       "sqft": 0,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.7528,
       "lon": -122.4365,
       "notes": "From Craigslist · posted Oct 29, 11:25 PM",
       "seen_by": [],
       "added_by": "craigslist",
-      "added_at": "2026-10-30T02:13:31.653Z"
+      "added_at": "2026-10-30T02:13:31.653Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-11-03T01:23:51.398Z"
     },
     {
       "id": "cl_7992829929",
@@ -13196,6 +13200,44 @@
       "added_at": "2026-11-02T08:42:42.791Z",
       "prev_status": "to_see",
       "off_market_at": "2026-11-02T18:55:45.428Z"
+    },
+    {
+      "id": "cl_7994286894",
+      "url": "https://sfbay.craigslist.org/sfc/apa/d/san-francisco-waterfront-views/7994286894.html",
+      "address": "Waterfront VIEWS/ Beautiful Parks - Prime Marina Location!",
+      "neighborhood": "Marina",
+      "price": 4200,
+      "bedrooms": 3,
+      "bathrooms": null,
+      "sqft": 860,
+      "available": null,
+      "status": "to_see",
+      "laundry": null,
+      "lat": 37.7973,
+      "lon": -122.4267,
+      "notes": "From Craigslist · posted Nov 3, 12:06 AM",
+      "seen_by": [],
+      "added_by": "craigslist",
+      "added_at": "2026-11-03T01:23:51.398Z"
+    },
+    {
+      "id": "cl_7994314557",
+      "url": "https://sfbay.craigslist.org/sfc/apa/d/san-francisco-noe-valley-3br-1ba-top/7994314557.html",
+      "address": "Noe Valley 3BR/1BA Top-Floor Apartment —",
+      "neighborhood": "Noe Valley",
+      "price": 7495,
+      "bedrooms": 3,
+      "bathrooms": null,
+      "sqft": 0,
+      "available": null,
+      "status": "to_see",
+      "laundry": null,
+      "lat": 37.7528,
+      "lon": -122.4365,
+      "notes": "From Craigslist · posted Nov 3, 1:01 AM",
+      "seen_by": [],
+      "added_by": "craigslist",
+      "added_at": "2026-11-03T01:23:51.398Z"
     }
   ]
 }
