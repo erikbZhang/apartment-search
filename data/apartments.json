@@ -12914,14 +12914,16 @@
       "bathrooms": null,
       "sqft": 0,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.7475,
       "lon": -122.4328,
       "notes": "From Craigslist · posted Oct 28, 8:54 PM",
       "seen_by": [],
       "added_by": "craigslist",
-      "added_at": "2026-10-28T23:44:59.516Z"
+      "added_at": "2026-10-28T23:44:59.516Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-11-04T18:17:54.315Z"
     },
     {
       "id": "rf_e24e8f03-64b9-49e0-b641-e27e73c4e0c6",
@@ -13284,6 +13286,44 @@
       "seen_by": [],
       "added_by": "redfin",
       "added_at": "2026-11-03T08:44:39.385Z"
+    },
+    {
+      "id": "cl_7995048486",
+      "url": "https://sfbay.craigslist.org/sfc/apa/d/san-francisco-large-pristine-3br-2ba/7995048486.html",
+      "address": "Large, Pristine 3BR/2BA Noe Valley Flat, Views, Parking - PROGRESSIVE",
+      "neighborhood": "Noe Valley",
+      "price": 7500,
+      "bedrooms": 3,
+      "bathrooms": null,
+      "sqft": 0,
+      "available": null,
+      "status": "to_see",
+      "laundry": null,
+      "lat": 37.7475,
+      "lon": -122.4328,
+      "notes": "From Craigslist · posted Nov 4, 2:42 PM",
+      "seen_by": [],
+      "added_by": "craigslist",
+      "added_at": "2026-11-04T18:17:54.315Z"
+    },
+    {
+      "id": "rf_91cae152-1f32-4664-8ef4-9f9efc32f6b3",
+      "url": "https://www.redfin.com/CA/San-Francisco/Nob-Hill-Tower/apartment/1908828",
+      "address": "1221 Jones St",
+      "neighborhood": "Nob Hill",
+      "price": 6717,
+      "bedrooms": 3,
+      "bathrooms": 2.5,
+      "sqft": 1460,
+      "available": "2026-11-07T00:00:00Z",
+      "status": "to_see",
+      "laundry": null,
+      "lat": 37.7926772,
+      "lon": -122.4146235,
+      "notes": "From Redfin · $6717–$11358 · Nob Hill Tower is an architectural gem resting on the city's hilltops in the heart of the sophisticated Nob Hill neighborhood, offering maje",
+      "seen_by": [],
+      "added_by": "redfin",
+      "added_at": "2026-11-04T18:17:54.315Z"
     }
   ]
 }
