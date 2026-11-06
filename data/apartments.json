@@ -12058,14 +12058,16 @@
       "bathrooms": null,
       "sqft": 1453,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.7578,
       "lon": -122.4334,
       "notes": "From Craigslist · posted Oct 16, 9:55 PM",
       "seen_by": [],
       "added_by": "craigslist",
-      "added_at": "2026-10-16T22:17:18.640Z"
+      "added_at": "2026-10-16T22:17:18.640Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-11-06T21:49:58.176Z"
     },
     {
       "id": "cl_7984611888",
@@ -13433,6 +13435,25 @@
       "seen_by": [],
       "added_by": "craigslist",
       "added_at": "2026-11-06T16:24:55.959Z"
+    },
+    {
+      "id": "cl_7996343790",
+      "url": "https://sfbay.craigslist.org/sfc/apa/d/san-francisco-looking-for-people-to/7996343790.html",
+      "address": "Looking for people to take over Nob Hill apartment",
+      "neighborhood": "Nob Hill",
+      "price": 8495,
+      "bedrooms": 3,
+      "bathrooms": null,
+      "sqft": 907,
+      "available": null,
+      "status": "to_see",
+      "laundry": null,
+      "lat": 37.793,
+      "lon": -122.4165,
+      "notes": "From Craigslist · posted Nov 6, 7:17 PM",
+      "seen_by": [],
+      "added_by": "craigslist",
+      "added_at": "2026-11-06T21:49:58.176Z"
     }
   ]
 }
