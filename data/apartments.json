@@ -13454,6 +13454,25 @@
       "seen_by": [],
       "added_by": "craigslist",
       "added_at": "2026-11-06T21:49:58.176Z"
+    },
+    {
+      "id": "cl_7996648425",
+      "url": "https://sfbay.craigslist.org/sfc/apa/d/san-francisco-top-floor-noe-valley-bed/7996648425.html",
+      "address": "Top Floor Noe Valley 3 bed 2 bath - Views, Out door space",
+      "neighborhood": "Noe Valley",
+      "price": 1212,
+      "bedrooms": 3,
+      "bathrooms": null,
+      "sqft": 0,
+      "available": null,
+      "status": "to_see",
+      "laundry": null,
+      "lat": 37.7817,
+      "lon": -122.3889,
+      "notes": "From Craigslist · posted Nov 7, 6:20 AM",
+      "seen_by": [],
+      "added_by": "craigslist",
+      "added_at": "2026-11-07T07:55:07.834Z"
     }
   ]
 }
