@@ -13475,6 +13475,25 @@
       "added_at": "2026-11-07T07:55:07.834Z",
       "prev_status": "to_see",
       "off_market_at": "2026-11-07T19:08:26.097Z"
+    },
+    {
+      "id": "rc_1020-Jackson-St,-San-Francisco,-CA-94133",
+      "url": "https://www.google.com/search?q=1020%20Jackson%20St%2C%20San%20Francisco%2C%20CA%2094133%20for%20rent",
+      "address": "1020 Jackson St, San Francisco, CA 94133",
+      "neighborhood": "Nob Hill",
+      "price": 8995,
+      "bedrooms": 4,
+      "bathrooms": 1.5,
+      "sqft": null,
+      "available": "2026-11-07",
+      "status": "to_see",
+      "laundry": null,
+      "lat": 37.795517,
+      "lon": -122.411987,
+      "notes": "From RentCast · $8995 · 2d on market",
+      "seen_by": [],
+      "added_by": "rentcast",
+      "added_at": "2026-11-08T15:59:53.537Z"
     }
   ]
 }
