@@ -13494,6 +13494,25 @@
       "seen_by": [],
       "added_by": "rentcast",
       "added_at": "2026-11-08T15:59:53.537Z"
+    },
+    {
+      "id": "cl_7997234331",
+      "url": "https://sfbay.craigslist.org/sfc/apa/d/san-francisco-office-15ba-open-sun-3pm/7997234331.html",
+      "address": "+Office/1.5ba OPEN SUN 3pm-3:30pm. Remodeled,Views!(1064 Jackson)",
+      "neighborhood": "Nob Hill",
+      "price": 9395,
+      "bedrooms": 3,
+      "bathrooms": null,
+      "sqft": 0,
+      "available": null,
+      "status": "to_see",
+      "laundry": null,
+      "lat": 37.7953,
+      "lon": -122.4126,
+      "notes": "From Craigslist · posted Nov 8, 2:21 PM",
+      "seen_by": [],
+      "added_by": "craigslist",
+      "added_at": "2026-11-08T16:25:34.617Z"
     }
   ]
 }
