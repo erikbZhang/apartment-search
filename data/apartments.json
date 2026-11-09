@@ -12287,14 +12287,16 @@
       "bathrooms": null,
       "sqft": 1500,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.739,
       "lon": -122.4251,
       "notes": "From Craigslist · posted Oct 20, 1:42 PM",
       "seen_by": [],
       "added_by": "craigslist",
-      "added_at": "2026-10-20T14:02:38.395Z"
+      "added_at": "2026-10-20T14:02:38.395Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-11-09T07:21:09.021Z"
     },
     {
       "id": "cl_7973498643",
@@ -12867,14 +12869,16 @@
       "bathrooms": 2,
       "sqft": null,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.7488768,
       "lon": -122.4323292,
       "notes": "From Redfin · $8900 · Contemporary flat located in Noe Valley just a few blocks from 24th St. restaurants and shopping. Walking distance to public library, Alvara",
       "seen_by": [],
       "added_by": "redfin",
-      "added_at": "2026-10-27T18:26:41.512Z"
+      "added_at": "2026-10-27T18:26:41.512Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-11-09T07:21:09.021Z"
     },
     {
       "id": "rf_f33e3147-f35c-4ec1-870b-bc4c92609f63",
