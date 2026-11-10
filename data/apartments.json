@@ -12892,14 +12892,16 @@
       "bathrooms": 1.5,
       "sqft": null,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.7955198,
       "lon": -122.4119922,
       "notes": "From Redfin · $8495 · SCHEDULE A SHOWING ONLINE AT: showmojo.com/lrt/17762d60b2 ---- Enjoy classic San Francisco charm and modern conveniences in this fully remod",
       "seen_by": [],
       "added_by": "redfin",
-      "added_at": "2026-10-28T01:52:07.128Z"
+      "added_at": "2026-10-28T01:52:07.128Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-11-10T00:55:50.325Z"
     },
     {
       "id": "rc_1018-Jackson-St,-San-Francisco,-CA-94133",
@@ -13376,14 +13378,16 @@
       "bathrooms": null,
       "sqft": 0,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.7953,
       "lon": -122.4126,
       "notes": "From Craigslist · posted Nov 5, 6:26 AM",
       "seen_by": [],
       "added_by": "craigslist",
-      "added_at": "2026-11-05T07:28:52.088Z"
+      "added_at": "2026-11-05T07:28:52.088Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-11-10T00:55:50.325Z"
     },
     {
       "id": "rf_8d9bbc83-602e-4c4a-a764-c45c306f2467",
@@ -13433,14 +13437,16 @@
       "bathrooms": null,
       "sqft": 0,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.7953,
       "lon": -122.4126,
       "notes": "From Craigslist · posted Nov 5, 6:26 AM",
       "seen_by": [],
       "added_by": "craigslist",
-      "added_at": "2026-11-06T16:24:55.959Z"
+      "added_at": "2026-11-06T16:24:55.959Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-11-10T00:55:50.325Z"
     },
     {
       "id": "cl_7996343790",
@@ -13513,14 +13519,16 @@
       "bathrooms": null,
       "sqft": 0,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.7953,
       "lon": -122.4126,
       "notes": "From Craigslist · posted Nov 8, 2:21 PM",
       "seen_by": [],
       "added_by": "craigslist",
-      "added_at": "2026-11-08T16:25:34.617Z"
+      "added_at": "2026-11-08T16:25:34.617Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-11-10T00:55:50.325Z"
     },
     {
       "id": "cl_7997490111",
@@ -13540,6 +13548,25 @@
       "seen_by": [],
       "added_by": "craigslist",
       "added_at": "2026-11-09T00:12:35.109Z"
+    },
+    {
+      "id": "cl_7997866125",
+      "url": "https://sfbay.craigslist.org/sfc/apa/d/san-francisco-office-15ba/7997866125.html",
+      "address": "+Office/1.5ba Remodeled,Views!(1064 Jackson)",
+      "neighborhood": "Nob Hill",
+      "price": 9395,
+      "bedrooms": 3,
+      "bathrooms": null,
+      "sqft": 0,
+      "available": null,
+      "status": "to_see",
+      "laundry": null,
+      "lat": 37.7953,
+      "lon": -122.4126,
+      "notes": "From Craigslist · posted Nov 9, 6:27 PM",
+      "seen_by": [],
+      "added_by": "craigslist",
+      "added_at": "2026-11-10T00:55:50.325Z"
     }
   ]
 }
