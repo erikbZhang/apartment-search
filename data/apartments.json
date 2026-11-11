@@ -13323,14 +13323,16 @@
       "bathrooms": null,
       "sqft": 0,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.7475,
       "lon": -122.4328,
       "notes": "From Craigslist · posted Nov 4, 2:42 PM",
       "seen_by": [],
       "added_by": "craigslist",
-      "added_at": "2026-11-04T18:17:54.315Z"
+      "added_at": "2026-11-04T18:17:54.315Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-11-11T16:42:52.249Z"
     },
     {
       "id": "rf_91cae152-1f32-4664-8ef4-9f9efc32f6b3",
@@ -13611,6 +13613,25 @@
       "seen_by": [],
       "added_by": "redfin",
       "added_at": "2026-11-11T08:32:42.906Z"
+    },
+    {
+      "id": "cl_7998858051",
+      "url": "https://sfbay.craigslist.org/sfc/apa/d/san-francisco-large-pristine-3br-2ba/7998858051.html",
+      "address": "Large, Pristine 3BR/2BA Noe Valley Flat, Views, Parking - PROGRESSIVE",
+      "neighborhood": "Noe Valley",
+      "price": 7500,
+      "bedrooms": 3,
+      "bathrooms": null,
+      "sqft": 0,
+      "available": null,
+      "status": "to_see",
+      "laundry": null,
+      "lat": 37.7475,
+      "lon": -122.4328,
+      "notes": "From Craigslist · posted Nov 11, 3:31 PM",
+      "seen_by": [],
+      "added_by": "craigslist",
+      "added_at": "2026-11-11T16:42:52.249Z"
     }
   ]
 }
