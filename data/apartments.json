@@ -13016,14 +13016,16 @@
       "bathrooms": 2,
       "sqft": null,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.8020115,
       "lon": -122.4135678,
       "notes": "From Redfin · $10995 · SCHEDULE A SHOWING ONLINE AT: showmojo.com/lrt/23587bd0a8 ---- *Security Deposit Special: 720 + FICO (All Applicants) - $4,500 Below 720 (An",
       "seen_by": [],
       "added_by": "redfin",
-      "added_at": "2026-10-29T10:30:17.101Z"
+      "added_at": "2026-10-29T10:30:17.101Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-11-11T08:32:42.906Z"
     },
     {
       "id": "rc_842-Greenwich-St,-San-Francisco,-CA-94133",
@@ -13590,6 +13592,25 @@
       "seen_by": [],
       "added_by": "craigslist",
       "added_at": "2026-11-10T21:31:11.146Z"
+    },
+    {
+      "id": "rf_ad04e55c-f147-4eae-a012-f8d4085cf301",
+      "url": "https://www.redfin.com/CA/San-Francisco/43-Barcelona-Ave-94115/home/206931102",
+      "address": "43 Barcelona Ave",
+      "neighborhood": "Western Addition",
+      "price": 8995,
+      "bedrooms": 3,
+      "bathrooms": 2,
+      "sqft": 1800,
+      "available": null,
+      "status": "to_see",
+      "laundry": null,
+      "lat": 37.780085,
+      "lon": -122.4447919,
+      "notes": "From Redfin · $8995 · Sweeping views and abundant natural light define this beautifully renovated 3BD/2BA top-floor residence in a three-unit Anza Vista building.",
+      "seen_by": [],
+      "added_by": "redfin",
+      "added_at": "2026-11-11T08:32:42.906Z"
     }
   ]
 }
