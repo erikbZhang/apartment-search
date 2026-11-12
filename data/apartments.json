@@ -13788,6 +13788,25 @@
       "seen_by": [],
       "added_by": "redfin",
       "added_at": "2026-11-12T13:23:35.744Z"
+    },
+    {
+      "id": "rc_1545-Franklin-St,-San-Francisco,-CA-94109",
+      "url": "https://www.google.com/search?q=1545%20Franklin%20St%2C%20San%20Francisco%2C%20CA%2094109%20for%20rent",
+      "address": "1545 Franklin St, San Francisco, CA 94109",
+      "neighborhood": "Western Addition",
+      "price": 6000,
+      "bedrooms": 4,
+      "bathrooms": 2.5,
+      "sqft": null,
+      "available": "2026-11-12",
+      "status": "to_see",
+      "laundry": null,
+      "lat": 37.788883,
+      "lon": -122.423965,
+      "notes": "From RentCast · $6000 · 1d on market",
+      "seen_by": [],
+      "added_by": "rentcast",
+      "added_at": "2026-11-12T17:37:11.682Z"
     }
   ]
 }
