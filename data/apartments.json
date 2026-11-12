@@ -12976,14 +12976,16 @@
       "bathrooms": 2,
       "sqft": 1413,
       "available": "2026-11-04T00:00:00Z",
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.8020108,
       "lon": -122.4135756,
       "notes": "From Redfin · $10995 · SCHEDULE A SHOWING ONLINE AT: showmojo.com/lrt/2a9405a06e ---- Take the virtual tour: https://real.vision/840-greenwich-st *Den could be use",
       "seen_by": [],
       "added_by": "redfin",
-      "added_at": "2026-10-29T10:30:17.101Z"
+      "added_at": "2026-10-29T10:30:17.101Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-11-12T13:23:35.744Z"
     },
     {
       "id": "rf_a7f7aaee-d689-484b-97a3-6a2f76e6d80e",
@@ -13748,6 +13750,44 @@
       "seen_by": [],
       "added_by": "redfin",
       "added_at": "2026-11-12T04:39:44.969Z"
+    },
+    {
+      "id": "cl_7997880846",
+      "url": "https://sfbay.craigslist.org/sfc/apa/d/san-francisco-sunny-russian-hill-3br/7997880846.html",
+      "address": "Sunny Russian Hill 3BR/1BA, furnished - Flexible Sublet from Dec 1",
+      "neighborhood": "Russian Hill",
+      "price": 8450,
+      "bedrooms": 3,
+      "bathrooms": null,
+      "sqft": 1100,
+      "available": null,
+      "status": "to_see",
+      "laundry": null,
+      "lat": 37.7988,
+      "lon": -122.4223,
+      "notes": "From Craigslist · posted Nov 9, 6:45 PM",
+      "seen_by": [],
+      "added_by": "craigslist",
+      "added_at": "2026-11-12T13:23:35.744Z"
+    },
+    {
+      "id": "rf_7065dcbd-8367-4e72-8df8-1e4205caae08",
+      "url": "https://www.redfin.com/CA/San-Francisco/2280-Sutter-St-94115/home/1809730",
+      "address": "2280 Sutter St",
+      "neighborhood": "Western Addition",
+      "price": 9500,
+      "bedrooms": 3,
+      "bathrooms": 2,
+      "sqft": null,
+      "available": "2026-12-01T00:00:00Z",
+      "status": "to_see",
+      "laundry": null,
+      "lat": 37.7857613,
+      "lon": -122.4378932,
+      "notes": "From Redfin · $9500 · Ready For Immediate Move In Charming and Elegant Pacific Heights Gem Fantastic light and great space - MUST SEE 2280 Sutter Street, San Fran",
+      "seen_by": [],
+      "added_by": "redfin",
+      "added_at": "2026-11-12T13:23:35.744Z"
     }
   ]
 }
