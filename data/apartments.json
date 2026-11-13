@@ -13287,14 +13287,16 @@
       "bathrooms": 0,
       "sqft": null,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.788282,
       "lon": -122.429211,
       "notes": "From Redfin · $10500 · SCHEDULE A SHOWING ONLINE AT: showmojo.com/lrt/5c65fbc0a0 ---- TOP-FLOOR 4BR/2BA SAN FRANCISCO FLAT -- SPACE, LIGHT & CLASSIC CHARACTER MORE",
       "seen_by": [],
       "added_by": "redfin",
-      "added_at": "2026-11-03T08:44:39.385Z"
+      "added_at": "2026-11-03T08:44:39.385Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-11-13T10:13:24.931Z"
     },
     {
       "id": "rf_466f713f-4730-4314-aa88-2990d790090b",
