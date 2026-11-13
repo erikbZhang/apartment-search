@@ -12249,14 +12249,16 @@
       "bathrooms": null,
       "sqft": 1425,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.7458,
       "lon": -122.4291,
       "notes": "From Craigslist · posted Oct 19, 11:33 PM",
       "seen_by": [],
       "added_by": "craigslist",
-      "added_at": "2026-10-20T00:00:02.603Z"
+      "added_at": "2026-10-20T00:00:02.603Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-11-13T23:58:56.126Z"
     },
     {
       "id": "cl_7986545376",
@@ -13832,6 +13834,25 @@
       "seen_by": [],
       "added_by": "craigslist",
       "added_at": "2026-11-13T02:13:16.545Z"
+    },
+    {
+      "id": "cl_8000277996",
+      "url": "https://sfbay.craigslist.org/sfc/apa/d/san-francisco-bedrooms-baths-private/8000277996.html",
+      "address": "3 Bedrooms • 2 Baths • Private Yard • Hardwood Floors • High Ceilings",
+      "neighborhood": "Noe Valley",
+      "price": 8250,
+      "bedrooms": 3,
+      "bathrooms": null,
+      "sqft": 1425,
+      "available": null,
+      "status": "to_see",
+      "laundry": null,
+      "lat": 37.7458,
+      "lon": -122.4291,
+      "notes": "From Craigslist · posted Nov 13, 11:25 PM",
+      "seen_by": [],
+      "added_by": "craigslist",
+      "added_at": "2026-11-13T23:58:56.126Z"
     }
   ]
 }
