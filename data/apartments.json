@@ -12501,14 +12501,16 @@
       "bathrooms": null,
       "sqft": 1350,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.7587,
       "lon": -122.433,
       "notes": "From Craigslist · posted Oct 22, 3:01 PM",
       "seen_by": [],
       "added_by": "craigslist",
-      "added_at": "2026-10-22T17:42:57.057Z"
+      "added_at": "2026-10-22T17:42:57.057Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-11-14T11:53:51.541Z"
     },
     {
       "id": "rf_edd46cc2-b918-4794-9f1f-cb02482c4fec",
@@ -13310,14 +13312,16 @@
       "bathrooms": 1,
       "sqft": 900,
       "available": "2026-11-05T00:00:00Z",
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.7940202,
       "lon": -122.4141993,
       "notes": "From Redfin · $6995",
       "seen_by": [],
       "added_by": "redfin",
-      "added_at": "2026-11-03T08:44:39.385Z"
+      "added_at": "2026-11-03T08:44:39.385Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-11-14T11:53:51.541Z"
     },
     {
       "id": "cl_7995048486",
