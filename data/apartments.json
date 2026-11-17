@@ -13865,6 +13865,25 @@
       "seen_by": [],
       "added_by": "craigslist",
       "added_at": "2026-11-13T23:58:56.126Z"
+    },
+    {
+      "id": "rf_3a9a0d34-e997-4153-9242-641ec93da685",
+      "url": "https://www.redfin.com/CA/San-Francisco/1215-Ellis-St-94109/unit-2B/home/207030556",
+      "address": "1215 Ellis St Unit 2B",
+      "neighborhood": "Western Addition",
+      "price": 7100,
+      "bedrooms": 3,
+      "bathrooms": 2,
+      "sqft": null,
+      "available": "2026-12-19T00:00:00Z",
+      "status": "to_see",
+      "laundry": null,
+      "lat": 37.7829767,
+      "lon": -122.4260825,
+      "notes": "From Redfin · $7100 · Discover comfort at 1215 Ellis St, San Francisco! Available 12/19/2026, this single unit features hardwood floors, central heating, and wash",
+      "seen_by": [],
+      "added_by": "redfin",
+      "added_at": "2026-11-17T18:50:30.700Z"
     }
   ]
 }
