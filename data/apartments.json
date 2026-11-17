@@ -13739,14 +13739,16 @@
       "bathrooms": 2.5,
       "sqft": null,
       "available": "2026-11-14T00:00:00Z",
-      "status": "to_see",
+      "status": "off_market",
       "laundry": "in_unit",
       "lat": 37.7888453,
       "lon": -122.4239615,
       "notes": "From Redfin · $6000 · Welcome to 1545 Franklin Street! Prime Lower Pac Heights location, 4 bedrooms, 2 full baths plus half bath, spacious living room, eat-in kit",
       "seen_by": [],
       "added_by": "redfin",
-      "added_at": "2026-11-12T04:39:44.969Z"
+      "added_at": "2026-11-12T04:39:44.969Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-11-17T09:50:36.699Z"
     },
     {
       "id": "rf_0449c215-1361-4f81-a30a-5d6631634b47",
