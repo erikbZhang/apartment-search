@@ -13476,14 +13476,16 @@
       "bathrooms": null,
       "sqft": 907,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.793,
       "lon": -122.4165,
       "notes": "From Craigslist · posted Nov 6, 7:17 PM",
       "seen_by": [],
       "added_by": "craigslist",
-      "added_at": "2026-11-06T21:49:58.176Z"
+      "added_at": "2026-11-06T21:49:58.176Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-11-17T01:13:24.348Z"
     },
     {
       "id": "cl_7996648425",
@@ -13598,14 +13600,16 @@
       "bathrooms": null,
       "sqft": 0,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.7528,
       "lon": -122.4365,
       "notes": "From Craigslist · posted Nov 10, 9:26 PM",
       "seen_by": [],
       "added_by": "craigslist",
-      "added_at": "2026-11-10T21:31:11.146Z"
+      "added_at": "2026-11-10T21:31:11.146Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-11-17T01:13:24.348Z"
     },
     {
       "id": "rf_ad04e55c-f147-4eae-a012-f8d4085cf301",
