@@ -13884,6 +13884,25 @@
       "seen_by": [],
       "added_by": "redfin",
       "added_at": "2026-11-17T18:50:30.700Z"
+    },
+    {
+      "id": "cl_8002282200",
+      "url": "https://sfbay.craigslist.org/sfc/apa/d/san-francisco-top-floor-large-pristine/8002282200.html",
+      "address": "TOP FLOOR Large, Pristine 3BR/2BA Noe Valley Flat, Views - PROGRESSIVE",
+      "neighborhood": "Noe Valley",
+      "price": 7500,
+      "bedrooms": 3,
+      "bathrooms": null,
+      "sqft": 0,
+      "available": null,
+      "status": "to_see",
+      "laundry": null,
+      "lat": 37.7474,
+      "lon": -122.4329,
+      "notes": "From Craigslist · posted Nov 17, 9:03 PM",
+      "seen_by": [],
+      "added_by": "craigslist",
+      "added_at": "2026-11-18T01:25:07.311Z"
     }
   ]
 }
