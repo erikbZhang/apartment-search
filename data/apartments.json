@@ -13922,6 +13922,25 @@
       "seen_by": [],
       "added_by": "redfin",
       "added_at": "2026-11-18T09:23:07.301Z"
+    },
+    {
+      "id": "rc_4162-Cesar-Chavez-St,-San-Francisco,-CA-94131",
+      "url": "https://www.google.com/search?q=4162%20Cesar%20Chavez%20St%2C%20San%20Francisco%2C%20CA%2094131%20for%20rent",
+      "address": "4162 Cesar Chavez St, San Francisco, CA 94131",
+      "neighborhood": "Noe Valley",
+      "price": 7500,
+      "bedrooms": 3,
+      "bathrooms": 2,
+      "sqft": null,
+      "available": "2026-11-18",
+      "status": "to_see",
+      "laundry": null,
+      "lat": 37.747452,
+      "lon": -122.43306,
+      "notes": "From RentCast · $7500 · 1d on market",
+      "seen_by": [],
+      "added_by": "rentcast",
+      "added_at": "2026-11-18T18:07:25.184Z"
     }
   ]
 }
