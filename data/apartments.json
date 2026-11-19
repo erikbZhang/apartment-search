@@ -13962,6 +13962,25 @@
       "seen_by": [],
       "added_by": "craigslist",
       "added_at": "2026-11-18T18:29:32.678Z"
+    },
+    {
+      "id": "cl_8002755432",
+      "url": "https://sfbay.craigslist.org/sfc/apa/d/san-francisco-luxury-flat-in-nob-hill/8002755432.html",
+      "address": "Luxury Flat in Nob Hill, EV Pkg, View Deck | Brown & Patki Inc.",
+      "neighborhood": "Nob Hill",
+      "price": 8500,
+      "bedrooms": 3,
+      "bathrooms": null,
+      "sqft": 1750,
+      "available": null,
+      "status": "to_see",
+      "laundry": null,
+      "lat": 37.7912,
+      "lon": -122.4159,
+      "notes": "From Craigslist · posted Nov 18, 6:57 PM",
+      "seen_by": [],
+      "added_by": "craigslist",
+      "added_at": "2026-11-19T00:49:42.117Z"
     }
   ]
 }
