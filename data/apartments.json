@@ -13415,14 +13415,16 @@
       "bathrooms": 2,
       "sqft": 1001,
       "available": "2027-01-01T00:00:00Z",
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.7730209,
       "lon": -122.4299883,
       "notes": "From Redfin · $8950 · Discover this spacious 3BR/2BA home in the heart of San Francisco's vibrant Lower Haight neighborhood. Fully furnished and move-in ready, th",
       "seen_by": [],
       "added_by": "redfin",
-      "added_at": "2026-11-05T07:28:52.088Z"
+      "added_at": "2026-11-05T07:28:52.088Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-11-19T17:47:49.941Z"
     },
     {
       "id": "rf_0b769648-4bbc-497e-92b3-b188375158bc",
