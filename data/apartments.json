@@ -14002,6 +14002,25 @@
       "seen_by": [],
       "added_by": "redfin",
       "added_at": "2026-11-19T08:05:48.206Z"
+    },
+    {
+      "id": "rc_1308-California-St,-San-Francisco,-CA-94109",
+      "url": "https://www.google.com/search?q=1308%20California%20St%2C%20San%20Francisco%2C%20CA%2094109%20for%20rent",
+      "address": "1308 California St, San Francisco, CA 94109",
+      "neighborhood": "Nob Hill",
+      "price": 8500,
+      "bedrooms": 3,
+      "bathrooms": 2,
+      "sqft": 1750,
+      "available": "2026-11-18",
+      "status": "to_see",
+      "laundry": null,
+      "lat": 37.791376,
+      "lon": -122.416123,
+      "notes": "From RentCast · $8500 · 2d on market",
+      "seen_by": [],
+      "added_by": "rentcast",
+      "added_at": "2026-11-19T18:19:38.299Z"
     }
   ]
 }
