@@ -13981,6 +13981,25 @@
       "seen_by": [],
       "added_by": "craigslist",
       "added_at": "2026-11-19T00:49:42.117Z"
+    },
+    {
+      "id": "rf_52860bda-3049-47ba-b349-842296c7d400",
+      "url": "https://www.redfin.com/CA/San-Francisco/1308-California-St-94109/home/1586530",
+      "address": "1308 California St",
+      "neighborhood": "Nob Hill",
+      "price": 8500,
+      "bedrooms": 3,
+      "bathrooms": 2,
+      "sqft": 1750,
+      "available": null,
+      "status": "to_see",
+      "laundry": null,
+      "lat": 37.791374,
+      "lon": -122.416141,
+      "notes": "From Redfin · $8500 · SCHEDULE A SHOWING ONLINE AT: showmojo.com/lrt/df64a100c5 ---- Luxury Flat in Nob Hill, EV Pkg, View Deck | Brown & Patki Inc. Showing times",
+      "seen_by": [],
+      "added_by": "redfin",
+      "added_at": "2026-11-19T08:05:48.206Z"
     }
   ]
 }
