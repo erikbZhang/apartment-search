@@ -14021,6 +14021,25 @@
       "seen_by": [],
       "added_by": "rentcast",
       "added_at": "2026-11-19T18:19:38.299Z"
+    },
+    {
+      "id": "cl_8003591973",
+      "url": "https://sfbay.craigslist.org/sfc/apa/d/san-francisco-beautiful-natural-light/8003591973.html",
+      "address": "Beautiful Natural Light * Generous Living Space * Exceptional Location",
+      "neighborhood": "Pac Hts",
+      "price": 8995,
+      "bedrooms": 3,
+      "bathrooms": null,
+      "sqft": 0,
+      "available": null,
+      "status": "to_see",
+      "laundry": null,
+      "lat": 37.7855,
+      "lon": -122.4379,
+      "notes": "From Craigslist · posted Nov 20, 6:11 AM",
+      "seen_by": [],
+      "added_by": "craigslist",
+      "added_at": "2026-11-20T14:30:18.717Z"
     }
   ]
 }
