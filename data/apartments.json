@@ -13882,14 +13882,16 @@
       "bathrooms": 2,
       "sqft": null,
       "available": "2026-12-19T00:00:00Z",
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.7829767,
       "lon": -122.4260825,
       "notes": "From Redfin · $7100 · Discover comfort at 1215 Ellis St, San Francisco! Available 12/19/2026, this single unit features hardwood floors, central heating, and wash",
       "seen_by": [],
       "added_by": "redfin",
-      "added_at": "2026-11-17T18:50:30.700Z"
+      "added_at": "2026-11-17T18:50:30.700Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-11-22T12:05:16.381Z"
     },
     {
       "id": "cl_8002282200",
