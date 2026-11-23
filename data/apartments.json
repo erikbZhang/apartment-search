@@ -13726,14 +13726,16 @@
       "bathrooms": null,
       "sqft": 0,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.7855,
       "lon": -122.4379,
       "notes": "From Craigslist · posted Nov 12, 3:51 AM",
       "seen_by": [],
       "added_by": "craigslist",
-      "added_at": "2026-11-12T04:39:44.969Z"
+      "added_at": "2026-11-12T04:39:44.969Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-11-23T09:56:05.894Z"
     },
     {
       "id": "rf_7b73ff18-da3e-4792-ab56-2d49db4bed29",
@@ -14084,6 +14086,25 @@
       "seen_by": [],
       "added_by": "rentcast",
       "added_at": "2026-11-20T17:51:08.554Z"
+    },
+    {
+      "id": "cl_8005052883",
+      "url": "https://sfbay.craigslist.org/sfc/apa/d/san-francisco-charming-and-elegant/8005052883.html",
+      "address": "Charming and Elegant Pacific Heights Gem 3BR/2BA W/D",
+      "neighborhood": "Pacific Heights",
+      "price": 8995,
+      "bedrooms": 3,
+      "bathrooms": null,
+      "sqft": 0,
+      "available": null,
+      "status": "to_see",
+      "laundry": null,
+      "lat": 37.7855,
+      "lon": -122.4379,
+      "notes": "From Craigslist · posted Nov 23, 3:54 AM",
+      "seen_by": [],
+      "added_by": "craigslist",
+      "added_at": "2026-11-23T09:56:05.894Z"
     }
   ]
 }
