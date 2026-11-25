@@ -14122,14 +14122,16 @@
       "bathrooms": null,
       "sqft": 0,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.7855,
       "lon": -122.4379,
       "notes": "From Craigslist · posted Nov 24, 7:04 AM",
       "seen_by": [],
       "added_by": "craigslist",
-      "added_at": "2026-11-24T16:37:44.606Z"
+      "added_at": "2026-11-24T16:37:44.606Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-11-25T10:37:57.017Z"
     },
     {
       "id": "rf_59915221-b9c0-4e4b-9a23-e41a64bd1b71",
@@ -14149,6 +14151,44 @@
       "seen_by": [],
       "added_by": "redfin",
       "added_at": "2026-11-24T16:37:44.606Z"
+    },
+    {
+      "id": "cl_8006129523",
+      "url": "https://sfbay.craigslist.org/sfc/apa/d/san-francisco-charming-and-elegant/8006129523.html",
+      "address": "Charming and Elegant Pacific Heights Gem 3BR/2BA W/D",
+      "neighborhood": "Pacific Heights",
+      "price": 8995,
+      "bedrooms": 3,
+      "bathrooms": null,
+      "sqft": 1400,
+      "available": null,
+      "status": "to_see",
+      "laundry": null,
+      "lat": 37.7855,
+      "lon": -122.4379,
+      "notes": "From Craigslist · posted Nov 25, 4:09 AM",
+      "seen_by": [],
+      "added_by": "craigslist",
+      "added_at": "2026-11-25T10:37:57.017Z"
+    },
+    {
+      "id": "rf_509759d6-ac2e-4452-9e47-2e5adba2012f",
+      "url": "https://www.redfin.com/CA/San-Francisco/1121-Green-St-94109/home/196524048",
+      "address": "1121 Green St",
+      "neighborhood": "Russian Hill",
+      "price": 12500,
+      "bedrooms": 4,
+      "bathrooms": 2,
+      "sqft": 1949,
+      "available": null,
+      "status": "to_see",
+      "laundry": null,
+      "lat": 37.7980934,
+      "lon": -122.4176182,
+      "notes": "From Redfin · $12500 · SCHEDULE A SHOWING ONLINE AT: showmojo.com/lrt/5758661048 ---- View the virtual tour here: https://real.vision/1121-green-st With four bedro",
+      "seen_by": [],
+      "added_by": "redfin",
+      "added_at": "2026-11-25T10:37:57.017Z"
     }
   ]
 }
