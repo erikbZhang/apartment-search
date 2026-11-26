@@ -14233,6 +14233,25 @@
       "seen_by": [],
       "added_by": "craigslist",
       "added_at": "2026-11-25T20:16:12.824Z"
+    },
+    {
+      "id": "rc_1121-Green-St,-San-Francisco,-CA-94109",
+      "url": "https://www.google.com/search?q=1121%20Green%20St%2C%20San%20Francisco%2C%20CA%2094109%20for%20rent",
+      "address": "1121 Green St, San Francisco, CA 94109",
+      "neighborhood": "Russian Hill",
+      "price": 12500,
+      "bedrooms": 4,
+      "bathrooms": 2,
+      "sqft": 1949,
+      "available": "2026-11-25",
+      "status": "to_see",
+      "laundry": null,
+      "lat": 37.798366,
+      "lon": -122.417743,
+      "notes": "From RentCast · $12500 · 2d on market",
+      "seen_by": [],
+      "added_by": "rentcast",
+      "added_at": "2026-11-26T19:04:13.950Z"
     }
   ]
 }
